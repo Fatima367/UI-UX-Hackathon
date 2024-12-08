@@ -295,6 +295,8 @@ export default function PopularCar() {
           </div>
         </div>
       </div>
+
+
     </div>
   );
 }
