@@ -43,6 +43,7 @@ export default function Home() {
 
    <div className="flex space-x-11 mt-[68px] mb-[72px]">
 
+
      <div className="rounded-[10px] bg-white">
 
       <div className="flex space-x-2">
