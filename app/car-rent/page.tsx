@@ -139,7 +139,7 @@ const CarRent = () => {
   </div>
 
 
-  <div className="grid grid-cols-2 md:grid-cols-3 gap-3 ml-[340px] -mt-96">
+  <div className="grid grid-cols-1 md:grid-cols-3 md:gap-3 gap-10 md:ml-[340px] md:-mt-96 ml-20">
         <div className="flex overflow-hidden flex-col p-6 bg-white rounded-xl min-w-[240px] w-[304px]
          max-md:px-5 relative border border-gray-50">
           {/* Heart Icon */}
@@ -363,7 +363,7 @@ const CarRent = () => {
   
       {/*Row 2*/}
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-20 gap-10 ml-[265px] mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-20 gap-10 md:ml-[265px] mt-10">
           <div
             className="flex overflow-hidden flex-col p-4 sm:p-6 bg-white rounded-xl min-w-[280px] 
         lg:w-[304px] max-w-[304px] mx-auto border border-gray-50 relative"
@@ -592,7 +592,7 @@ const CarRent = () => {
 
       {/*Row 3*/}
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-20 gap-10 ml-[265px] mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-20 gap-10 md:ml-[265px] mt-10">
           <div
             className="flex overflow-hidden flex-col p-4 sm:p-6 bg-white rounded-xl min-w-[280px] 
         lg:w-[304px] max-w-[304px] mx-auto border border-gray-50 relative"
