@@ -9,14 +9,23 @@ export default function Home() {
 
   <div className="flex space-x-[32px] items-start justify-between mt-8">
    
-   <div className="rounded-[10px]">
+   <div className="rounded-[10px]  object-cover w-[640px] h-[360px]">
     <Image src="/images/Ads 1.png" height={360} width={640} alt="Ad 1" />
 
-      <div className="flex flex-col space-y-[16px] z-10 ml-6">
-        <h2 className="text-[32px] font-semibold"></h2>
-      </div>
+    <div className="flex flex-col space-y-[16px] z-10 ml-6 text-white -mt-80">
+        <h2 className="text-[32px] font-semibold">The Best Platform <br /> for Car Rental</h2>
+        <p className="text-[16px] font-medium">Ease of doing a car rental safely and  <br /> reliably.
+           Of course at a low price.</p>
 
-   </div>
+           <button className="rounded space-x-2 px-5 bg-[#3563E9] text-[16px] font-medium text-white
+           h-[44px] w-[120px]">
+            Rental Car
+           </button>
+    </div>
+
+    <Image src="/images/image 7.png" height={108} width={340} alt="car-image" className="z-50
+    ml-[150px] mb-10 -mt-4" />
+       </div>
    
    <div className="rounded-[10px] object-cover w-[640px] h-[360px]">
     <Image src="/images/Ads 2.png" height={360} width={640} alt="Ad 2" />
