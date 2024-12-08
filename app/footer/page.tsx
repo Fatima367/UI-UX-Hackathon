@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="bg-white w-screen bottom-0">
-      <div className="flex p-[80px]">
+      <div className="lg:flex p-[80px] grid">
         <div className="space-y-[16px]">
           <Image src="/images/Logo.png" width={148} height={44} alt="Logo" />
           <p className="text-[16px] font-medium text-[#131313] opacity-60">
@@ -13,10 +13,10 @@ export default function Footer() {
         </div>
 
         <div
-          className="lg:flex lg:flex-row lg:space-x-[80px] justify-between items-start grid grid-cols-1
-         space-y-8 lg:space-y-0 ml-80"
+          className="lg:flex lg:flex-row lg:space-x-[80px] justify-between items-start grid grid-cols-2
+         space-y-8 lg:space-y-0 lg:ml-80"
         >
-          <div className="flex flex-col space-y-[24px]">
+          <div className="flex flex-col space-y-[24px] lg:mt-0 mt-8">
             <h2 className="text-[20px] font-semibold text-[#1A202C]">About</h2>
             <div className="space-y-[16px]">
               <p className="text-[16px] font-medium text-[#131313] opacity-60">
@@ -85,7 +85,7 @@ export default function Footer() {
         <p className="text-[16px] font-semibold text-[#1A202C]">
           ©2022 MORENT. All rights reserved
         </p>
-        <div className="space-x-[24px] flex items-center justify-center">
+        <div className="space-x-[24px] flex items-center justify-center lg:ml-0 ml-14">
           <p className="text-[16px] font-semibold text-[#1A202C]">
             Privacy Policy{" "}
           </p>
