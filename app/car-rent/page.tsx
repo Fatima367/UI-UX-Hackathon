@@ -1,147 +1,171 @@
-import { ChevronRight } from 'lucide-react';
-import Image from 'next/image';
-import React from 'react'
+import { ChevronRight } from "lucide-react";
+import Image from "next/image";
+import React from "react";
 
 const CarRent = () => {
   return (
-    <div className='w-screen min-h-screen bg-[#F6F7F9]'>
+    <div className="w-screen min-h-screen bg-[#F6F7F9]">
+      <div className="flex flex-col items-center justify-center bg-[#F6F7F9]">
+        <div className="flex">
+          {/*Left*/}
+          <div className="-ml-5 lg:flex lg:flex-col lg:visible hidden md:min-h-screen bg-white md:w-[310px]">
+            <div className="flex flex-col space-y-[16px] mr-[16px] mt-[40px] ml-8">
+              <p className="text-[#90A3BF] text-base">T Y P E</p>
+              <p className="text-[20px] font-medium">
+                Sport{" "}
+                <span className="ml-2 text-[#90A3BF] text-base">(10)</span>
+              </p>
+              <p className="text-[20px] font-medium">
+                SUV <span className="ml-2 text-[#90A3BF] text-base">(12)</span>
+              </p>
+              <p className="text-[20px] font-medium">
+                MPV <span className="ml-2 text-[#90A3BF] text-base">(16)</span>
+              </p>
+              <p className="text-[20px] font-medium">
+                Sedan{" "}
+                <span className="ml-2 text-[#90A3BF] text-base">(20)</span>
+              </p>
+              <p className="text-[20px] font-medium">
+                Cope <span className="ml-2 text-[#90A3BF] text-base">(14)</span>
+              </p>
+              <p className="text-[20px] font-medium">
+                Hatchback{" "}
+                <span className="ml-2 text-[#90A3BF] text-base">(14)</span>
+              </p>
+            </div>
 
-    <div className="flex flex-col items-center justify-center bg-[#F6F7F9]">
-    <div className="flex">
-      {/*Left*/}
-      <div className="-ml-5 lg:flex lg:flex-col lg:visible hidden md:min-h-screen bg-white md:w-[310px]">
-        <div className="flex flex-col space-y-[16px] mr-[16px] mt-[40px] ml-8">
-            <p className='text-[#90A3BF] text-base'>T Y P E</p>
-          <p className="text-[20px] font-medium">Sport <span className='ml-2 text-[#90A3BF] text-base'>(10)</span></p>
-          <p className="text-[20px] font-medium">SUV <span className='ml-2 text-[#90A3BF] text-base'>(12)</span></p>
-          <p className="text-[20px] font-medium">MPV <span className='ml-2 text-[#90A3BF] text-base'>(16)</span></p>
-          <p className="text-[20px] font-medium">Sedan <span className='ml-2 text-[#90A3BF] text-base'>(20)</span></p>
-          <p className="text-[20px] font-medium">Cope <span className='ml-2 text-[#90A3BF] text-base'>(14)</span></p>
-          <p className="text-[20px] font-medium">Hatchback <span className='ml-2 text-[#90A3BF] text-base'>(14)</span></p>
-        </div>
-        
-        <div className="flex flex-col space-y-[16px] mr-[16px] mt-[40px] ml-8">
-            <p className='text-[#90A3BF] text-base'>C A P A C I T Y</p>
-          <p className="text-[20px] font-medium">2 Person <span className='ml-2 text-[#90A3BF] text-base'>(10)</span></p>
-          <p className="text-[20px] font-medium">4 Person <span className='ml-2 text-[#90A3BF] text-base'>(14)</span></p>
-          <p className="text-[20px] font-medium">6 Person <span className='ml-2 text-[#90A3BF] text-base'>(12)</span></p>
-          <p className="text-[20px] font-medium">8 Person <span className='ml-2 text-[#90A3BF] text-base'>(16)</span></p>
-        </div>
+            <div className="flex flex-col space-y-[16px] mr-[16px] mt-[40px] ml-8">
+              <p className="text-[#90A3BF] text-base">C A P A C I T Y</p>
+              <p className="text-[20px] font-medium">
+                2 Person{" "}
+                <span className="ml-2 text-[#90A3BF] text-base">(10)</span>
+              </p>
+              <p className="text-[20px] font-medium">
+                4 Person{" "}
+                <span className="ml-2 text-[#90A3BF] text-base">(14)</span>
+              </p>
+              <p className="text-[20px] font-medium">
+                6 Person{" "}
+                <span className="ml-2 text-[#90A3BF] text-base">(12)</span>
+              </p>
+              <p className="text-[20px] font-medium">
+                8 Person{" "}
+                <span className="ml-2 text-[#90A3BF] text-base">(16)</span>
+              </p>
+            </div>
+          </div>
 
+          {/*Right*/}
+          <div
+            className="flex flex-col md:flex-row items-start justify-between gap-4 mt-[32px] p-6  
+        mx-auto mb-[36px] md:-space-x-5"
+          >
+            {/* Pick-Up Section */}
+            <div className="flex-1 items-start justify-between bg-white shadow-md p-5 rounded-lg md:px-9 md:w-[486px]">
+              <div className="flex space-x-2 items-center justify-center md:-ml-[350px]">
+                <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
+                <h3 className="text-lg font-medium">Pick-Up</h3>
+              </div>
+
+              <div className="flex sm:grid-cols-3 px-[48px] space-x-6 mt-4 -mx-14">
+                <div className="space-y-2">
+                  <label className="text-[16px] font-bold text-[#1A202C]">
+                    Locations
+                  </label>
+                  <select className="w-full border rounded-md p-2 px-2">
+                    <option className="text-[#90A3BF] font-medium text-[12px]">
+                      Select your city
+                    </option>
+                  </select>
+                </div>
+                <div className="space-y-2">
+                  <label className="text-[16px] font-bold text-[#1A202C]">
+                    Date
+                  </label>
+                  <select className="w-full border rounded-md p-2 px-2">
+                    <option className="text-[#90A3BF] font-medium text-[12px]">
+                      Select your date
+                    </option>
+                  </select>
+                </div>
+                <div className="space-y-2">
+                  <label className="text-[16px] font-bold text-[#1A202C]">
+                    Time
+                  </label>
+                  <select className="w-full border rounded-md p-2 px-2">
+                    <option className="text-[#90A3BF] font-medium text-[12px]">
+                      Select your time
+                    </option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            {/* Swap Button */}
+            <div className="md:mt-10 flex items-center justify-center z-10">
+              <button
+                className="bg-[#3563E9] p-4 shadow-lg hover:bg-blue-600
+            items-center justify-center rounded-lg md:ml-0 ml-20"
+              >
+                <Image
+                  src="/images/Swap.png"
+                  height={24}
+                  width={24}
+                  alt="Swap"
+                  className="z-10 text-white"
+                />
+              </button>
+            </div>
+
+            {/* Drop-Off Section */}
+            <div className="flex-1 items-start justify-between bg-white shadow-md p-5 rounded-lg md:px-9 md:w-[486px]">
+              <div className="flex space-x-2 items-center justify-center md:-ml-[350px]">
+                <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
+                <h3 className="text-lg font-medium">Drop-Off</h3>
+              </div>
+
+              <div className="flex sm:grid-cols-3 px-[48px] space-x-6 mt-4 -mx-14">
+                <div className="space-y-2">
+                  <label className="text-[16px] font-bold text-[#1A202C]">
+                    Locations
+                  </label>
+                  <select className="w-full border rounded-md p-2 px-2">
+                    <option className="text-[#90A3BF] font-medium text-[12px]">
+                      Select your city
+                    </option>
+                  </select>
+                </div>
+                <div className="space-y-2">
+                  <label className="text-[16px] font-bold text-[#1A202C]">
+                    Date
+                  </label>
+                  <select className="w-full border rounded-md p-2 px-2">
+                    <option className="text-[#90A3BF] font-medium text-[12px]">
+                      Select your date
+                    </option>
+                  </select>
+                </div>
+                <div className="space-y-2">
+                  <label className="text-[16px] font-bold text-[#1A202C]">
+                    Time
+                  </label>
+                  <select className="w-full border rounded-md p-2 px-2">
+                    <option className="text-[#90A3BF] font-medium text-[12px]">
+                      Select your time
+                    </option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      {/*Right*/}
-      <div
-          className="flex flex-col md:flex-row items-start justify-between gap-4 mt-[32px] p-6  
-        mx-auto mb-[36px] md:-space-x-5"
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-3 gap-10 md:ml-[340px] md:-mt-96 ml-20">
+        <div
+          className="flex overflow-hidden flex-col p-6 bg-white rounded-xl min-w-[240px] w-[304px]
+         max-md:px-5 relative border border-gray-50"
         >
-          {/* Pick-Up Section */}
-          <div className="flex-1 items-start justify-between bg-white shadow-md p-5 rounded-lg md:px-9 md:w-[486px]">
-            <div className="flex space-x-2 items-center justify-center md:-ml-[350px]">
-              <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
-              <h3 className="text-lg font-medium">Pick-Up</h3>
-            </div>
-
-            <div className="flex sm:grid-cols-3 px-[48px] space-x-6 mt-4 -mx-14">
-              <div className="space-y-2">
-                <label className="text-[16px] font-bold text-[#1A202C]">
-                  Locations
-                </label>
-                <select className="w-full border rounded-md p-2 px-2">
-                  <option className="text-[#90A3BF] font-medium text-[12px]">
-                    Select your city
-                  </option>
-                </select>
-              </div>
-              <div className="space-y-2">
-                <label className="text-[16px] font-bold text-[#1A202C]">
-                  Date
-                </label>
-                <select className="w-full border rounded-md p-2 px-2">
-                  <option className="text-[#90A3BF] font-medium text-[12px]">
-                    Select your date
-                  </option>
-                </select>
-              </div>
-              <div className="space-y-2">
-                <label className="text-[16px] font-bold text-[#1A202C]">
-                  Time
-                </label>
-                <select className="w-full border rounded-md p-2 px-2">
-                  <option className="text-[#90A3BF] font-medium text-[12px]">
-                    Select your time
-                  </option>
-                </select>
-              </div>
-            </div>
-          </div>
-
-          {/* Swap Button */}
-          <div className="md:mt-10 flex items-center justify-center z-10">
-            <button
-              className="bg-[#3563E9] p-4 shadow-lg hover:bg-blue-600
-            items-center justify-center rounded-lg md:ml-0 ml-20"
-            >
-              <Image
-                src="/images/Swap.png"
-                height={24}
-                width={24}
-                alt="Swap"
-                className="z-10 text-white"
-              />
-            </button>
-          </div>
-
-          {/* Drop-Off Section */}
-          <div className="flex-1 items-start justify-between bg-white shadow-md p-5 rounded-lg md:px-9 md:w-[486px]">
-            <div className="flex space-x-2 items-center justify-center md:-ml-[350px]">
-              <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
-              <h3 className="text-lg font-medium">Drop-Off</h3>
-            </div>
-
-            <div className="flex sm:grid-cols-3 px-[48px] space-x-6 mt-4 -mx-14">
-              <div className="space-y-2">
-                <label className="text-[16px] font-bold text-[#1A202C]">
-                  Locations
-                </label>
-                <select className="w-full border rounded-md p-2 px-2">
-                  <option className="text-[#90A3BF] font-medium text-[12px]">
-                    Select your city
-                  </option>
-                </select>
-              </div>
-              <div className="space-y-2">
-                <label className="text-[16px] font-bold text-[#1A202C]">
-                  Date
-                </label>
-                <select className="w-full border rounded-md p-2 px-2">
-                  <option className="text-[#90A3BF] font-medium text-[12px]">
-                    Select your date
-                  </option>
-                </select>
-              </div>
-              <div className="space-y-2">
-                <label className="text-[16px] font-bold text-[#1A202C]">
-                  Time
-                </label>
-                <select className="w-full border rounded-md p-2 px-2">
-                  <option className="text-[#90A3BF] font-medium text-[12px]">
-                    Select your time
-                  </option>
-                </select>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-    </div>
-  </div>
-
-
-  <div className="grid grid-cols-1 md:grid-cols-3 md:gap-3 gap-10 md:ml-[340px] md:-mt-96 ml-20">
-        <div className="flex overflow-hidden flex-col p-6 bg-white rounded-xl min-w-[240px] w-[304px]
-         max-md:px-5 relative border border-gray-50">
           {/* Heart Icon */}
           <Image
             height={24}
@@ -212,8 +236,10 @@ const CarRent = () => {
           </div>
         </div>
 
-        <div className="flex overflow-hidden flex-col p-6 bg-white rounded-xl min-w-[240px] w-[304px] 
-        max-md:px-5 relative border border-gray-50 ">
+        <div
+          className="flex overflow-hidden flex-col p-6 bg-white rounded-xl min-w-[240px] w-[304px] 
+        max-md:px-5 relative border border-gray-50 "
+        >
           {/* Heart Icon Positioning */}
           <Image
             height={24}
@@ -228,7 +254,7 @@ const CarRent = () => {
                 Nisan GT - R
               </div>
               <div className="mt-1 text-sm tracking-tight text-slate-400">
-               Sport
+                Sport
               </div>
             </div>
           </div>
@@ -273,7 +299,9 @@ const CarRent = () => {
               <div className="text-xl">
                 $80.00/ <span className="text-sm text-slate-400">day</span>
               </div>
-              <div className="mt-1 text-sm text-slate-400 line-through">$100.00</div>
+              <div className="mt-1 text-sm text-slate-400 line-through">
+                $100.00
+              </div>
             </div>
             <button
               className="gap-2 self-start px-6 py-3 mt-1 text-base font-medium tracking-tight text-center text-white bg-[#3563E9] rounded min-h-[10px] w-[130px] whitespace-nowrap"
@@ -284,14 +312,16 @@ const CarRent = () => {
           </div>
         </div>
 
-        <div className="flex overflow-hidden flex-col p-6 bg-white rounded-xl min-w-[240px] w-[304px] 
-        max-md:px-5 relative border border-gray-50 ]">
+        <div
+          className="flex overflow-hidden flex-col p-6 bg-white rounded-xl min-w-[240px] w-[304px] 
+        max-md:px-5 relative border border-gray-50 ]"
+        >
           {/* Heart Icon Positioning */}
           <Image
-                height={24}
-                width={24}
-                src="/images/Like.png"
-                alt="Favourite-Icon"
+            height={24}
+            width={24}
+            src="/images/Like.png"
+            alt="Favourite-Icon"
             className="absolute top-3 right-3 w-6 aspect-square cursor-pointer z-10"
           />
           <div className="flex gap-5 justify-between">
@@ -305,10 +335,10 @@ const CarRent = () => {
             </div>
           </div>
           <Image
-                height={68}
-                width={220}
-                src="/images/Car (1).png"
-                alt="2users-profile"
+            height={68}
+            width={220}
+            src="/images/Car (1).png"
+            alt="2users-profile"
             className="object-contain self-center mt-16 max-w-full aspect-[3.18] w-[204px] max-md:mt-10"
           />
 
@@ -355,12 +385,8 @@ const CarRent = () => {
             </button>
           </div>
         </div>
+      </div>
 
-
-  </div>
-
-
-  
       {/*Row 2*/}
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-20 gap-10 md:ml-[265px] mt-10">
@@ -585,8 +611,6 @@ const CarRent = () => {
               </button>
             </div>
           </div>
-
-          
         </div>
       </div>
 
@@ -811,13 +835,8 @@ const CarRent = () => {
               </button>
             </div>
           </div>
-
-
         </div>
       </div>
-
-
-
 
       <div className="flex items-center justify-center mt-[64px] mb-[64px]">
         <button
@@ -827,10 +846,8 @@ const CarRent = () => {
           Show more car
         </button>
       </div>
-
-  </div>
-
-  )
-}
+    </div>
+  );
+};
 
 export default CarRent;
