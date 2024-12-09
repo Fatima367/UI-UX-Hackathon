@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function RecommendationCar() {
   return (
@@ -604,12 +605,14 @@ export default function RecommendationCar() {
       </div>
 
       <div className="flex items-center justify-center my-[64px]">
+        <Link href="/car-rent">
         <button
           className="rounded space-x-2 px-5 bg-[#3563E9] text-[16px] font-semibold text-white
            h-[44px] w-[156px]"
         >
           Show more car
         </button>
+        </Link>
       </div>
     </div>
   );
