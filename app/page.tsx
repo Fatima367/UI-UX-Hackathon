@@ -86,7 +86,7 @@ export default function Home() {
 
         {/*--------------------------------------------------------------------------------------------------------*/}
 
-        {/* Booking Section */}
+        {/*--------------*/}
         <div
           className="flex flex-col md:flex-row items-start justify-between gap-4 mt-[68px] p-6  
         md:space-x-[44px] mx-auto mb-[36px]"

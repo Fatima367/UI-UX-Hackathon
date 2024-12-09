@@ -3,7 +3,8 @@ import Image from "next/image";
 export default function Navbar() {
   return (
     <nav className="box-border w-screen bg-white border border-[#C3D4E9] mt-0 md:mt-16
-      border-opacity-40 p-4 md:p-[30px] flex flex-col md:flex-row items-start justify-between h-auto relative">
+      border-opacity-40 p-4 md:p-[30px] flex flex-col md:flex-row md:items-start 
+      md:justify-between items-start justify-center h-auto relative">
 
       {/* Logo */}
       <div className="flex items-center md:ml-0 ml-20">
