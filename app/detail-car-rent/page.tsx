@@ -1,5 +1,6 @@
 "use client";
 import { Checkbox } from "@/components/ui/checkbox";
+import { ChevronDown } from "lucide-react";
 import Image from "next/image";
 import React, { MouseEvent, useState } from "react";
 
@@ -21,7 +22,7 @@ const DetailCarRent = () => {
         <div className="flex">
           {/*Left*/}
           <div
-            className="md:ml-0 lg:flex lg:flex-col lg:visible hidden lg:h-[1600px] bg-white
+            className="md:ml-0 lg:flex lg:flex-col lg:visible hidden lg:h-[2016px] bg-white
          md:w-[310px]"
           >
             <div className="flex flex-col space-y-[16px] mr-[16px] mt-[40px] ml-8">
@@ -281,11 +282,125 @@ const DetailCarRent = () => {
                   </button>
                 </div>
               </div>
-
-              <div></div>
             </div>
 
-            <div className="bg-white w-[1016px] h-[452px] mx-auto rounded-[10px]"></div>
+            {/*Reviews*/}
+            <div
+              className="bg-white w-[1016px] h-[452px] mx-auto rounded-[10px]
+            p-[24px]"
+            >
+              <div className="space-x-[12px] flex">
+                <p className="text-[20px] font-semibold text-[#1A202C]">
+                  Reviews
+                </p>
+                <button
+                  className="px-[20px] space-x-[8px] rounded text-white bg-[#3563E9]
+                    text-[14px] font-bold"
+                >
+                  13
+                </button>
+              </div>
+
+              {/*Review 1*/}
+              <div className="flex mt-[33px] items-start">
+                <Image
+                  src="/images/Image.png"
+                  height={56}
+                  width={56}
+                  alt="Profile-Image"
+                />
+
+                <div className="flex flex-col ml-[16px]">
+                  <div className="flex items-stretch justify-between">
+                    <div className="flex flex-col space-y-[8px] text-left">
+                      <p className="text-[20px] font-bold text-[#1A202C]">
+                        Alex Stanton
+                      </p>
+                      <p className="text-[14px] text-[#90A3BF] font-medium">
+                        CEO at Bukalapak
+                      </p>
+                    </div>
+
+                    <div className="flex flex-col space-y-[8px] text-right">
+                      <p className="text-[14px] text-[#90A3BF] font-medium">
+                        21 July 2022
+                      </p>
+                      <Image
+                        src="/images/Four Star.png"
+                        height={20}
+                        width={108}
+                        alt="ratings"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="mt-[12px]">
+                    <p className="text-left text-[13.5px] text-[#596780]">
+                      We are very happy with the service from the MORENT App.
+                      Morent has a low price and also a large variety of cars
+                      with good and comfortable
+                      <br />
+                      facilities. In addition, the service provided by the
+                      officers is also very friendly and very polite.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/*Review 2*/}
+              <div className="flex mt-[24px] items-start">
+                <Image
+                  src="/images/Profile.png"
+                  height={56}
+                  width={56}
+                  alt="Profile-Image"
+                />
+
+                <div className="flex flex-col ml-[16px]">
+                  <div className="flex items-stretch justify-between">
+                    <div className="flex flex-col space-y-[8px] text-left">
+                      <p className="text-[20px] font-bold text-[#1A202C]">
+                        Skylar Dias
+                      </p>
+                      <p className="text-[14px] text-[#90A3BF] font-medium">
+                        CEO at Amazon
+                      </p>
+                    </div>
+
+                    <div className="flex flex-col space-y-[8px] text-right">
+                      <p className="text-[14px] text-[#90A3BF] font-medium">
+                        20 July 2022
+                      </p>
+                      <Image
+                        src="/images/Four Star.png"
+                        height={20}
+                        width={108}
+                        alt="ratings"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="mt-[12px]">
+                    <p className="text-left text-[14px] text-[#596780]">
+                      We are greatly helped by the services of the MORENT
+                      Application. Morent has low prices and also a wide variety
+                      of cars with good and <br />
+                      comfortable facilities. In addition, the service provided
+                      by the officers is also very friendly and very polite.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className=" flex items-center justify-center mx-auto">
+                <button
+                  className="mt-[24px] rounded px-[20px] space-x-[8px] h-[44px]
+                text-[16px] font-medium text-[#90A3BF] flex items-center justify-center"
+                >
+                  Show All <ChevronDown className="h-4 w-4 ml-2" />
+                </button>
+              </div>
+            </div>
 
             {/*Recent Car Section*/}
             <div className="flex flex-col mx-auto space-y-[16px] mt-[32px]">

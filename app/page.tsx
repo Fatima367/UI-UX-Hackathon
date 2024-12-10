@@ -2,6 +2,7 @@ import { LucideArrowDownUp } from "lucide-react";
 import Image from "next/image";
 import PopularCar from "./components/popular-car";
 import RecommendationCar from "./components/recommendation-car";
+import PopularCarSection from "./components/popular-car";
 
 export default function Home() {
   return (
@@ -194,7 +195,7 @@ export default function Home() {
 
         {/* Popular Car Section */}
 
-        <PopularCar />
+        <PopularCarSection />
 
         {/*--------------------------------------------------------------------------------------------------------*/}
 
