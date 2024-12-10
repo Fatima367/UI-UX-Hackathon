@@ -301,7 +301,7 @@ export default function RecommendationCar() {
             className="flex flex-col p-6 sm:p-6 bg-white rounded-xl min-w-[280px] 
         lg:w-[304px] max-w-[304px] mx-auto relative shadow-sm"
           >
-            \{" "}
+            {" "}
             <Image
               height={24}
               width={24}

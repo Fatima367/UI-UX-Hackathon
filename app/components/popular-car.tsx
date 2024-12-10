@@ -3,16 +3,16 @@ import Image from "next/image";
 export default function PopularCarSection() {
   return (
     <div className="mx-auto">
-      <div className="flex flex-col mx-auto space-y-[20px] mt-[32px]">
-        <div className="flex items-stretch justify-between mx-[24px]">
-          <p className="text-[16px] font-semibold text-[#90A3BF]">
+      <div className="flex flex-col space-y-[20px] items-start justify-between">
+        <div className="flex items-start justify-between">
+          <p className="text-[20px] font-bold text-[#90A3BF]">
             Popular Car
           </p>
-          <p className="text-[16px] font-semibold text-[#3563E9]">View All</p>
+          <p className="text-[16px] font-semibold text-[#3563E9] ml-[1080px] mr-0">View All</p>
         </div>
 
         {/*Car Cards*/}
-        <div className="flex space-x-[32px] mx-auto">
+        <div className="md:flex md:space-x-[20px] grid space-y-5">
           <div
             className="bg-white rounded-[10px] flex flex-col
                 w-[304px] h-[388px] py-[24px] px-[24px]"
