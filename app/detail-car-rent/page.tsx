@@ -101,7 +101,7 @@ const DetailCarRent = () => {
           </div>
 
           {/*Right*/}
-          <div className="flex flex-col items-start justify-between mx-auto">
+          <div className="flex flex-col items-start justify-between mx-auto mb-[32px]">
             <div
               className="md:flex-row flex flex-col md:space-x-[32px] space-y-5 mx-[32px]
         items-center justify-center"
@@ -264,18 +264,18 @@ const DetailCarRent = () => {
                 </div>
 
                 <div className="flex mt-[64px] mx-[24px] mb-[24px] items-stretch justify-between">
-                  <div className="flex flex-col  font-bold text-slate-900">
+                  <div className="flex flex-col font-bold text-[#1A202C]">
                     <div className="text-[28px] font-bold">
                       $80.00/{" "}
-                      <span className="text-[16px] text-[#90A3BF]">day</span>
+                      <span className="text-[16px] text-[#90A3BF]">days</span>
                     </div>
                     <div className="mt-1 text-[16px] text-[#90A3BF] line-through">
                       $100.00
                     </div>
                   </div>
                   <button
-                    className="gap-2 self-start px-6 py-3 mt-1 text-base font-medium tracking-tight text-center text-white bg-[#3563E9] rounded min-h-[10px] w-[130px] whitespace-nowrap"
-                    aria-label="Rent Nisan GT - R now"
+                    className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] rounded h-[56px] w-[140px]"
                   >
                     Rent Now
                   </button>
@@ -283,6 +283,536 @@ const DetailCarRent = () => {
               </div>
 
               <div></div>
+            </div>
+
+            <div className="bg-white w-[1016px] h-[452px] mx-auto rounded-[10px]"></div>
+
+            {/*Recent Car Section*/}
+            <div className="flex flex-col mx-auto space-y-[16px] mt-[32px]">
+              <div className="flex items-stretch justify-between mx-[24px]">
+                <p className="text-[16px] font-semibold text-[#90A3BF]">
+                  Recent Car
+                </p>
+                <p className="text-[16px] font-semibold text-[#3563E9]">
+                  View All
+                </p>
+              </div>
+
+              {/*Car Cards*/}
+              <div className="flex space-x-[32px]">
+                <div className="p-[24px] bg-white rounded-[10px] flex flex-col mx-auto">
+                  <div className="flex space-x-[117px] items-start">
+                    <div className="flex flex-col text-left space-y-1">
+                      <p className="font-bold text-[20px] text-[#1A202C]">
+                        Koenigsegg
+                      </p>
+                      <p className="font-bold text-[14px] text-[#90A3BF]">
+                        Sport
+                      </p>
+                    </div>
+
+                    <Image
+                      src="/images/Like.png"
+                      height={24}
+                      width={24}
+                      alt="Favourite"
+                    />
+                  </div>
+
+                  <Image
+                    src="/images/image 7.png"
+                    width={272}
+                    height={84}
+                    alt="car-image"
+                    className="mt-[52px]"
+                  />
+
+                  <div className="flex space-x-[17px] mt-[52px] items-center justify-center">
+                    <div className="flex space-x-[7px] items-center justify-center">
+                      <Image
+                        height={24}
+                        width={24}
+                        src="/images/gas-station.png"
+                        alt="Gas-Station"
+                      />
+                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                        90L
+                      </p>
+                    </div>
+                    <div className="flex space-x-[7px] items-center justify-center">
+                      <Image
+                        height={24}
+                        width={24}
+                        src="/images/manual.png"
+                        alt="Mode"
+                      />
+                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                        Manual
+                      </p>
+                    </div>
+                    <div className="flex space-x-[7px] items-center justify-center">
+                      <Image
+                        height={24}
+                        width={24}
+                        src="/images/profile-2user.png"
+                        alt="2users-profile"
+                      />
+                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                        2 People
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    className="flex items-stretch 
+                        justify-between mt-[32px]"
+                  >
+                    <div className="flex flex-col  font-bold text-[#1A202C]">
+                      <div className="text-[20px] font-bold">
+                        $99.00/{" "}
+                        <span className="text-[14px] text-[#90A3BF]">day</span>
+                      </div>
+                    </div>
+                    <button
+                      className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] rounded min-h-[44px] w-[116px]"
+                    >
+                      Rent Now
+                    </button>
+                  </div>
+                </div>
+
+                <div className="p-[24px] bg-white rounded-[10px] flex flex-col mx-auto">
+                  <div className="flex space-x-[117px] items-start">
+                    <div className="flex flex-col text-left space-y-1">
+                      <p className="font-bold text-[20px] text-[#1A202C]">
+                        Nissan GT - R
+                      </p>
+                      <p className="font-bold text-[14px] text-[#90A3BF]">
+                        Sport
+                      </p>
+                    </div>
+
+                    <Image
+                      src="/images/Like2.png"
+                      height={24}
+                      width={24}
+                      alt="Favourite"
+                    />
+                  </div>
+
+                  <Image
+                    src="/images/image 8.png"
+                    width={228}
+                    height={72}
+                    alt="car-image"
+                    className="mt-[58px] mx-auto"
+                  />
+
+                  <div className="flex space-x-[17px] mt-[52px] items-center justify-center">
+                    <div className="flex space-x-[7px] items-center justify-center">
+                      <Image
+                        height={24}
+                        width={24}
+                        src="/images/gas-station.png"
+                        alt="Gas-Station"
+                      />
+                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                        80L
+                      </p>
+                    </div>
+                    <div className="flex space-x-[7px] items-center justify-center">
+                      <Image
+                        height={24}
+                        width={24}
+                        src="/images/manual.png"
+                        alt="Mode"
+                      />
+                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                        Manual
+                      </p>
+                    </div>
+                    <div className="flex space-x-[7px] items-center justify-center">
+                      <Image
+                        height={24}
+                        width={24}
+                        src="/images/profile-2user.png"
+                        alt="2users-profile"
+                      />
+                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                        2 People
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    className="flex items-stretch 
+                        justify-between mt-[32px]"
+                  >
+                    <div className="flex flex-col  font-bold text-[#1A202C]">
+                      <div className="text-[20px] font-bold">
+                        $80.00/{" "}
+                        <span className="text-[16px] text-[#90A3BF]">day</span>
+                      </div>
+                      <div className="mt-1 text-[16px] text-[#90A3BF] line-through">
+                        $100.00
+                      </div>
+                    </div>
+                    <button
+                      className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] rounded min-h-[44px] w-[116px]"
+                    >
+                      Rent Now
+                    </button>
+                  </div>
+                </div>
+
+                <div className="p-[24px] bg-white rounded-[10px] flex flex-col mx-auto">
+                  <div className="flex space-x-[117px] items-start">
+                    <div className="flex flex-col text-left space-y-1">
+                      <p className="font-bold text-[20px] text-[#1A202C]">
+                        Rolls-Royce
+                      </p>
+                      <p className="font-bold text-[14px] text-[#90A3BF]">
+                        Sport
+                      </p>
+                    </div>
+
+                    <Image
+                      src="/images/Like2.png"
+                      height={24}
+                      width={24}
+                      alt="Favourite"
+                    />
+                  </div>
+
+                  <Image
+                    src="/images/Car (1).png"
+                    width={244}
+                    height={76}
+                    alt="car-image"
+                    className="mt-[56px] mx-auto"
+                  />
+
+                  <div className="flex space-x-[17px] mt-[52px] items-center justify-center">
+                    <div className="flex space-x-[7px] items-center justify-center">
+                      <Image
+                        height={24}
+                        width={24}
+                        src="/images/gas-station.png"
+                        alt="Gas-Station"
+                      />
+                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                        70L
+                      </p>
+                    </div>
+                    <div className="flex space-x-[7px] items-center justify-center">
+                      <Image
+                        height={24}
+                        width={24}
+                        src="/images/manual.png"
+                        alt="Mode"
+                      />
+                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                        Manual
+                      </p>
+                    </div>
+                    <div className="flex space-x-[7px] items-center justify-center">
+                      <Image
+                        height={24}
+                        width={24}
+                        src="/images/profile-2user.png"
+                        alt="2users-profile"
+                      />
+                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                        4 People
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    className="flex items-stretch 
+                        justify-between mt-[32px]"
+                  >
+                    <div className="flex flex-col  font-bold text-[#1A202C]">
+                      <div className="text-[20px] font-bold">
+                        $97.00/{" "}
+                        <span className="text-[16px] text-[#90A3BF]">day</span>
+                      </div>
+                    </div>
+                    <button
+                      className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] rounded min-h-[44px] w-[116px]"
+                    >
+                      Rent Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/*Recommended Car Section*/}
+            <div className="flex flex-col mx-auto space-y-[16px] mt-[32px]">
+              <div className="flex items-stretch justify-between mx-[24px]">
+                <p className="text-[16px] font-semibold text-[#90A3BF]">
+                  Recomendation Car
+                </p>
+                <p className="text-[16px] font-semibold text-[#3563E9]">
+                  View All
+                </p>
+              </div>
+
+              {/*Car Cards*/}
+              <div className="flex space-x-[32px]">
+                <div className="p-[24px] bg-white rounded-[10px] flex flex-col mx-auto">
+                  <div className="flex space-x-[117px] items-start">
+                    <div className="flex flex-col text-left space-y-1">
+                      <p className="font-bold text-[20px] text-[#1A202C]">
+                        All New Rush
+                      </p>
+                      <p className="font-bold text-[14px] text-[#90A3BF]">
+                        SUV
+                      </p>
+                    </div>
+
+                    <Image
+                      src="/images/Like2.png"
+                      height={24}
+                      width={24}
+                      alt="Favourite"
+                    />
+                  </div>
+
+                  <Image
+                    src="/images/Car3.png"
+                    width={252}
+                    height={112}
+                    alt="car-image"
+                    className="mt-[38px]"
+                  />
+
+                  <div className="flex space-x-[17px] mt-[38px] items-center justify-center">
+                    <div className="flex space-x-[7px] items-center justify-center">
+                      <Image
+                        height={24}
+                        width={24}
+                        src="/images/gas-station.png"
+                        alt="Gas-Station"
+                      />
+                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                        70L
+                      </p>
+                    </div>
+                    <div className="flex space-x-[7px] items-center justify-center">
+                      <Image
+                        height={24}
+                        width={24}
+                        src="/images/manual.png"
+                        alt="Mode"
+                      />
+                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                        Manual
+                      </p>
+                    </div>
+                    <div className="flex space-x-[7px] items-center justify-center">
+                      <Image
+                        height={24}
+                        width={24}
+                        src="/images/profile-2user.png"
+                        alt="2users-profile"
+                      />
+                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                        6 People
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    className="flex items-stretch 
+        justify-between mt-[32px]"
+                  >
+                    <div className="flex flex-col  font-bold text-[#1A202C]">
+                      <div className="text-[20px] font-bold">
+                        $72.00/{" "}
+                        <span className="text-[14px] text-[#90A3BF]">day</span>
+                      </div>
+                      <div className="mt-1 text-[16px] text-[#90A3BF] line-through">
+                        $80.00
+                      </div>
+                    </div>
+                    <button
+                      className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
+     text-white bg-[#3563E9] rounded min-h-[44px] w-[116px]"
+                    >
+                      Rent Now
+                    </button>
+                  </div>
+                </div>
+
+                <div className="p-[24px] bg-white rounded-[10px] flex flex-col mx-auto">
+                  <div className="flex space-x-[117px] items-start">
+                    <div className="flex flex-col text-left space-y-1">
+                      <p className="font-bold text-[20px] text-[#1A202C]">
+                        CR -V
+                      </p>
+                      <p className="font-bold text-[14px] text-[#90A3BF]">
+                        SUV
+                      </p>
+                    </div>
+
+                    <Image
+                      src="/images/Like.png"
+                      height={24}
+                      width={24}
+                      alt="Favourite"
+                    />
+                  </div>
+
+                  <Image
+                    src="/images/Car4.png"
+                    width={254}
+                    height={102}
+                    alt="car-image"
+                    className="mt-[43px] mx-auto"
+                  />
+
+                  <div className="flex space-x-[17px] mt-[43px] items-center justify-center">
+                    <div className="flex space-x-[7px] items-center justify-center">
+                      <Image
+                        height={24}
+                        width={24}
+                        src="/images/gas-station.png"
+                        alt="Gas-Station"
+                      />
+                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                        80L
+                      </p>
+                    </div>
+                    <div className="flex space-x-[7px] items-center justify-center">
+                      <Image
+                        height={24}
+                        width={24}
+                        src="/images/manual.png"
+                        alt="Mode"
+                      />
+                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                        Manual
+                      </p>
+                    </div>
+                    <div className="flex space-x-[7px] items-center justify-center">
+                      <Image
+                        height={24}
+                        width={24}
+                        src="/images/profile-2user.png"
+                        alt="2users-profile"
+                      />
+                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                        6 People
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    className="flex items-stretch 
+        justify-between mt-[32px]"
+                  >
+                    <div className="flex flex-col  font-bold text-[#1A202C]">
+                      <div className="text-[20px] font-bold">
+                        $80.00/{" "}
+                        <span className="text-[16px] text-[#90A3BF]">day</span>
+                      </div>
+                    </div>
+                    <button
+                      className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
+     text-white bg-[#3563E9] rounded min-h-[44px] w-[116px]"
+                    >
+                      Rent Now
+                    </button>
+                  </div>
+                </div>
+
+                <div className="p-[24px] bg-white rounded-[10px] flex flex-col mx-auto">
+                  <div className="flex space-x-[117px] items-start">
+                    <div className="flex flex-col text-left space-y-1">
+                      <p className="font-bold text-[20px] text-[#1A202C]">
+                        All New Terios
+                      </p>
+                      <p className="font-bold text-[14px] text-[#90A3BF]">
+                        SUV
+                      </p>
+                    </div>
+
+                    <Image
+                      src="/images/Like2.png"
+                      height={24}
+                      width={24}
+                      alt="Favourite"
+                    />
+                  </div>
+
+                  <Image
+                    src="/images/Car5.png"
+                    width={252}
+                    height={112}
+                    alt="car-image"
+                    className="mt-[38px] mx-auto"
+                  />
+
+                  <div className="flex space-x-[17px] mt-[38px] items-center justify-center">
+                    <div className="flex space-x-[7px] items-center justify-center">
+                      <Image
+                        height={24}
+                        width={24}
+                        src="/images/gas-station.png"
+                        alt="Gas-Station"
+                      />
+                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                        90L
+                      </p>
+                    </div>
+                    <div className="flex space-x-[7px] items-center justify-center">
+                      <Image
+                        height={24}
+                        width={24}
+                        src="/images/manual.png"
+                        alt="Mode"
+                      />
+                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                        Manual
+                      </p>
+                    </div>
+                    <div className="flex space-x-[7px] items-center justify-center">
+                      <Image
+                        height={24}
+                        width={24}
+                        src="/images/profile-2user.png"
+                        alt="2users-profile"
+                      />
+                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                        6 People
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    className="flex items-stretch 
+        justify-between mt-[32px]"
+                  >
+                    <div className="flex flex-col  font-bold text-[#1A202C]">
+                      <div className="text-[20px] font-bold">
+                        $74.00/{" "}
+                        <span className="text-[16px] text-[#90A3BF]">day</span>
+                      </div>
+                    </div>
+                    <button
+                      className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
+     text-white bg-[#3563E9] rounded min-h-[44px] w-[116px]"
+                    >
+                      Rent Now
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
