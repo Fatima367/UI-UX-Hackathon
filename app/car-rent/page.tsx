@@ -103,7 +103,7 @@ const CarRent = () => {
               className="flex flex-col md:flex-row items-start justify-between gap-4 mt-1 p-6  
             mb-[36px] md:-space-x-5 mx-auto"
             >
-              {/* Pick-Up Section */}
+              {/* Pick-Up */}
               <div className="flex-1 items-start justify-between bg-white shadow-md p-5 rounded-lg md:px-9 md:w-[486px]">
                 <div className="flex space-x-2 items-center justify-center md:-ml-[350px]">
                   <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
@@ -160,7 +160,7 @@ const CarRent = () => {
                 </button>
               </div>
 
-              {/* Drop-Off Section */}
+              {/* Drop-Off */}
               <div className="flex-1 items-start justify-between bg-white shadow-md p-5 rounded-lg md:px-9 md:w-[486px]">
                 <div className="flex space-x-2 items-center justify-center md:-ml-[350px]">
                   <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
@@ -207,7 +207,6 @@ const CarRent = () => {
                 className="flex overflow-hidden flex-col p-6 bg-white rounded-xl min-w-[240px] w-[304px]
          max-md:px-5 relative border border-gray-50"
               >
-                {/* Heart Icon */}
                 <Image
                   height={24}
                   width={24}
@@ -282,7 +281,6 @@ const CarRent = () => {
                 className="flex overflow-hidden flex-col p-6 bg-white rounded-xl min-w-[240px] w-[304px] 
         max-md:px-5 relative border border-gray-50 "
               >
-                {/* Heart Icon Positioning */}
                 <Image
                   height={24}
                   width={24}
@@ -359,7 +357,6 @@ const CarRent = () => {
                 className="flex overflow-hidden flex-col p-6 bg-white rounded-xl min-w-[240px] w-[304px] 
         max-md:px-5 relative border border-gray-50 ]"
               >
-                {/* Heart Icon Positioning */}
                 <Image
                   height={24}
                   width={24}
@@ -438,7 +435,6 @@ const CarRent = () => {
                   className="flex overflow-hidden flex-col p-4 sm:p-6 bg-white rounded-xl min-w-[280px] 
         lg:w-[304px] max-w-[304px] mx-auto border border-gray-50 relative"
                 >
-                  {/* Heart Icon */}
                   <Image
                     height={24}
                     width={24}
@@ -515,7 +511,6 @@ const CarRent = () => {
                   className="flex overflow-hidden flex-col p-4 sm:p-6 bg-white rounded-xl min-w-[240px] 
         lg:w-[304px] max-w-[304px] mx-auto border border-gray-50 relative"
                 >
-                  {/* Heart Icon */}
                   <Image
                     height={24}
                     width={24}
@@ -589,7 +584,6 @@ const CarRent = () => {
                   className="flex overflow-hidden flex-col p-4 sm:p-6 bg-white rounded-xl min-w-[240px] 
         lg:w-[304px] max-w-[304px] mx-auto border border-gray-50 relative"
                 >
-                  {/* Heart Icon */}
                   <Image
                     height={24}
                     width={24}
@@ -668,7 +662,6 @@ const CarRent = () => {
                   className="flex overflow-hidden flex-col p-4 sm:p-6 bg-white rounded-xl min-w-[280px] 
         lg:w-[304px] max-w-[304px] mx-auto border border-gray-50 relative"
                 >
-                  {/* Heart Icon */}
                   <Image
                     height={24}
                     width={24}
@@ -745,7 +738,6 @@ const CarRent = () => {
                   className="flex overflow-hidden flex-col p-4 sm:p-6 bg-white rounded-xl min-w-[280px] 
         lg:w-[304px] max-w-[304px] mx-auto border border-gray-50 relative"
                 >
-                  {/* Heart Icon */}
                   <Image
                     height={24}
                     width={24}
@@ -819,7 +811,6 @@ const CarRent = () => {
                   className="flex overflow-hidden flex-col p-4 sm:p-6 bg-white rounded-xl min-w-[280px] 
         lg:w-[304px] max-w-[304px] mx-auto border border-gray-50 relative"
                 >
-                  {/* Heart Icon */}
                   <Image
                     height={24}
                     width={24}

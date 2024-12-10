@@ -3,19 +3,20 @@ import Link from "next/link";
 
 export default function RecommendationCar() {
   return (
-    <div className="p-6 mx-auto">
-      <h2 className="text-xl font-bold text-slate-400 mt-6 ml-4 text-left mb-8">
-        Recomendation Car{" "}
-      </h2>
+    <div className="p-[24px] mx-auto flex flex-col items-start justify-between">
+      <div className="flex items-start">
+        <h2 className="text-xl font-bold text-[#90A3BF] mt-6 text-left mb-8">
+          Recomendation Car{" "}
+        </h2>
+      </div>
 
       {/*Row 1*/}
-      <div className="container mx-auto px-4">
+      <div className="">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:gap-20 mb-8 gap-10">
           <div
-            className="flex overflow-hidden flex-col p-4 sm:p-6 bg-white rounded-xl min-w-[280px] 
-        lg:w-[304px] max-w-[304px] mx-auto border border-gray-50 relative"
+            className="flex flex-col sm:p-6 bg-white rounded-xl min-w-[280px] 
+        lg:w-[304px] max-w-[304px] mx-auto relative shadow-sm p-6"
           >
-            {/* Heart Icon */}
             <Image
               height={24}
               width={24}
@@ -25,12 +26,10 @@ export default function RecommendationCar() {
             />
             <div className="flex gap-5 justify-between">
               <div className="flex flex-col">
-                <div className="text-xl tracking-tight text-gray-900 font-bold">
+                <div className="text-xl text-gray-900 font-bold">
                   All New Rush
                 </div>
-                <div className="mt-1 text-sm tracking-tight text-slate-400">
-                  Suv
-                </div>
+                <div className="mt-1 text-sm text-slate-400">Suv</div>
               </div>
             </div>
             <Image
@@ -41,7 +40,7 @@ export default function RecommendationCar() {
               className="object-contain self-center mt-16 max-md:mt-10"
             />
             <div className="flex gap-4 items-start mt-16 text-sm font-medium leading-5 text-slate-400 max-md:mt-10">
-              <div className="flex gap-1.5 items-start tracking-tight whitespace-nowrap">
+              <div className="flex gap-1.5 items-start">
                 <Image
                   height={24}
                   width={24}
@@ -79,7 +78,7 @@ export default function RecommendationCar() {
                 </div>
               </div>
               <button
-                className="gap-2 self-start px-6 py-3 mt-1 text-base font-medium tracking-tight text-center text-white bg-[#3563E9] rounded min-h-[10px] w-[130px] whitespace-nowrap"
+                className="gap-2 self-start px-6 py-3 mt-1 text-base font-medium text-center text-white bg-[#3563E9] rounded min-h-[10px] w-[130px]"
                 aria-label="Rent All New Rush now"
               >
                 Rent Now
@@ -88,10 +87,9 @@ export default function RecommendationCar() {
           </div>
 
           <div
-            className="flex overflow-hidden flex-col p-4 sm:p-6 bg-white rounded-xl min-w-[240px] 
-        lg:w-[304px] max-w-[304px] mx-auto border border-gray-50 relative"
+            className="flex flex-col p-6 sm:p-6 bg-white rounded-xl min-w-[280px] 
+        lg:w-[304px] max-w-[304px] mx-auto relative shadow-sm"
           >
-            {/* Heart Icon */}
             <Image
               height={24}
               width={24}
@@ -101,12 +99,8 @@ export default function RecommendationCar() {
             />
             <div className="flex gap-5 justify-between">
               <div className="flex flex-col">
-                <div className="text-xl tracking-tight text-gray-900 font-bold">
-                  CR-V
-                </div>
-                <div className="mt-1 text-sm tracking-tight text-slate-400">
-                  Suv
-                </div>
+                <div className="text-xl text-gray-900 font-bold">CR-V</div>
+                <div className="mt-1 text-sm text-slate-400">Suv</div>
               </div>
             </div>
             <Image
@@ -117,7 +111,7 @@ export default function RecommendationCar() {
               className="object-contain self-center mt-16 max-md:mt-10"
             />
             <div className="flex gap-4 items-start mt-16 text-sm font-medium leading-5 text-slate-400 max-md:mt-10">
-              <div className="flex gap-1.5 items-start tracking-tight whitespace-nowrap">
+              <div className="flex gap-1.5 items-start">
                 <Image
                   height={24}
                   width={24}
@@ -126,7 +120,7 @@ export default function RecommendationCar() {
                 />
                 <div className="w-7">80L</div>
               </div>
-              <div className="flex gap-1 items-start whitespace-nowrap">
+              <div className="flex gap-1 items-start">
                 <Image
                   height={24}
                   width={24}
@@ -152,7 +146,7 @@ export default function RecommendationCar() {
                 </div>
               </div>
               <button
-                className="gap-2 self-start px-6 py-3 mt-1 text-base font-medium tracking-tight text-center text-white bg-[#3563E9] rounded min-h-[10px] w-[130px] whitespace-nowrap"
+                className="gap-2 self-start px-6 py-3 mt-1 text-base font-medium text-center text-white bg-[#3563E9] rounded min-h-[10px] w-[130px]"
                 aria-label="Rent CR-V now"
               >
                 Rent Now
@@ -161,10 +155,9 @@ export default function RecommendationCar() {
           </div>
 
           <div
-            className="flex overflow-hidden flex-col p-4 sm:p-6 bg-white rounded-xl min-w-[240px] 
-        lg:w-[304px] max-w-[304px] mx-auto border border-gray-50 relative"
+            className="flex flex-col p-4 sm:p-6 bg-white rounded-xl min-w-[280px] 
+        lg:w-[304px] max-w-[304px] mx-auto relative shadow-sm"
           >
-            {/* Heart Icon */}
             <Image
               height={24}
               width={24}
@@ -174,12 +167,10 @@ export default function RecommendationCar() {
             />
             <div className="flex gap-5 justify-between">
               <div className="flex flex-col">
-                <div className="text-xl tracking-tight text-gray-900 font-bold">
+                <div className="text-xl text-gray-900 font-bold">
                   All New Terios
                 </div>
-                <div className="mt-1 text-sm tracking-tight text-slate-400">
-                  Suv
-                </div>
+                <div className="mt-1 text-sm text-slate-400">Suv</div>
               </div>
             </div>
             <Image
@@ -190,7 +181,7 @@ export default function RecommendationCar() {
               className="object-contain self-center mt-16 max-md:mt-10"
             />
             <div className="flex gap-4 items-start mt-16 text-sm font-medium leading-5 text-slate-400 max-md:mt-10">
-              <div className="flex gap-1.5 items-start tracking-tight whitespace-nowrap">
+              <div className="flex gap-1.5 items-start">
                 <Image
                   height={24}
                   width={24}
@@ -199,7 +190,7 @@ export default function RecommendationCar() {
                 />
                 <div className="w-7">90L</div>
               </div>
-              <div className="flex gap-1 items-start whitespace-nowrap">
+              <div className="flex gap-1 items-start">
                 <Image
                   height={24}
                   width={24}
@@ -225,7 +216,7 @@ export default function RecommendationCar() {
                 </div>
               </div>
               <button
-                className="gap-2 self-start px-6 py-3 mt-1 text-base font-medium tracking-tight text-center text-white bg-[#3563E9] rounded min-h-[10px] w-[130px] whitespace-nowrap"
+                className="gap-2 self-start px-6 py-3 mt-1 text-base font-medium text-center text-white bg-[#3563E9] rounded min-h-[10px] w-[130px]"
                 aria-label="Rent All New Terios now"
               >
                 Rent Now
@@ -234,10 +225,9 @@ export default function RecommendationCar() {
           </div>
 
           <div
-            className="flex overflow-hidden flex-col p-4 sm:p-6 bg-white rounded-xl min-w-[240px] 
-        lg:w-[304px] max-w-[304px] mx-auto border border-gray-50 relative"
+            className="flex flex-col p-4 sm:p-6 bg-white rounded-xl min-w-[280px] 
+        lg:w-[304px] max-w-[304px] mx-auto relative shadow-sm"
           >
-            {/* Heart Icon */}
             <Image
               height={24}
               width={24}
@@ -247,12 +237,8 @@ export default function RecommendationCar() {
             />
             <div className="flex gap-5 justify-between">
               <div className="flex flex-col">
-                <div className="text-xl tracking-tight text-gray-900 font-bold">
-                  CR -V
-                </div>
-                <div className="mt-1 text-sm tracking-tight text-slate-400">
-                  Suv
-                </div>
+                <div className="text-xl text-gray-900 font-bold">CR -V</div>
+                <div className="mt-1 text-sm text-slate-400">Suv</div>
               </div>
             </div>
             <Image
@@ -263,7 +249,7 @@ export default function RecommendationCar() {
               className="object-contain self-center mt-16 max-md:mt-10"
             />
             <div className="flex gap-4 items-start mt-16 text-sm font-medium leading-5 text-slate-400 max-md:mt-10">
-              <div className="flex gap-1.5 items-start tracking-tight whitespace-nowrap">
+              <div className="flex gap-1.5 items-start">
                 <Image
                   height={24}
                   width={24}
@@ -272,7 +258,7 @@ export default function RecommendationCar() {
                 />
                 <div className="w-7">80L</div>
               </div>
-              <div className="flex gap-1 items-start whitespace-nowrap">
+              <div className="flex gap-1 items-start">
                 <Image
                   height={24}
                   width={24}
@@ -298,7 +284,7 @@ export default function RecommendationCar() {
                 </div>
               </div>
               <button
-                className="gap-2 self-start px-6 py-3 mt-1 text-base font-medium tracking-tight text-center text-white bg-[#3563E9] rounded min-h-[10px] w-[130px] whitespace-nowrap"
+                className="gap-2 self-start px-6 py-3 mt-1 text-base font-medium text-center text-white bg-[#3563E9] rounded min-h-[10px] w-[130px]"
                 aria-label="Rent Nissan GT - R now"
               >
                 Rent Now
@@ -309,13 +295,13 @@ export default function RecommendationCar() {
       </div>
 
       {/*Row 2*/}
-      <div className="container mx-auto px-4">
+      <div className="mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:gap-20 gap-10">
           <div
-            className="flex overflow-hidden flex-col p-4 sm:p-6 bg-white rounded-xl min-w-[280px] 
-        lg:w-[304px] max-w-[304px] mx-auto border border-gray-50 relative"
+            className="flex flex-col p-6 sm:p-6 bg-white rounded-xl min-w-[280px] 
+        lg:w-[304px] max-w-[304px] mx-auto relative shadow-sm"
           >
-            {/* Heart Icon */}
+            \{" "}
             <Image
               height={24}
               width={24}
@@ -324,10 +310,10 @@ export default function RecommendationCar() {
               className="absolute top-3 right-3 w-6 aspect-square cursor-pointer z-10"
             />
             <div className="flex flex-col">
-              <div className="text-lg md:text-xl tracking-tight text-gray-900 font-bold">
+              <div className="text-lg md:text-xl text-gray-900 font-bold">
                 MG ZX Exclusive
               </div>
-              <div className="mt-1 text-sm md:text-base tracking-tight text-slate-400">
+              <div className="mt-1 text-sm md:text-base text-slate-400">
                 Hatchback
               </div>
             </div>
@@ -339,7 +325,7 @@ export default function RecommendationCar() {
               className="object-contain self-center mt-10 sm:mt-16"
             />
             <div className="flex gap-4 items-start mt-8 sm:mt-16 text-xs sm:text-sm font-medium leading-5 text-slate-400">
-              <div className="flex gap-1.5 items-start tracking-tight whitespace-nowrap">
+              <div className="flex gap-1.5 items-start">
                 <Image
                   height={24}
                   width={24}
@@ -348,7 +334,7 @@ export default function RecommendationCar() {
                 />
                 <div className="w-7">70L</div>
               </div>
-              <div className="flex gap-1 items-start whitespace-nowrap">
+              <div className="flex gap-1 items-start">
                 <Image
                   height={24}
                   width={24}
@@ -378,7 +364,7 @@ export default function RecommendationCar() {
                 </div>
               </div>
               <button
-                className="px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base font-medium text-white bg-[#3563E9] rounded min-h-[10px] w-[100px] sm:w-[130px] whitespace-nowrap"
+                className="px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base font-medium text-white bg-[#3563E9] rounded min-h-[10px] w-[100px] sm:w-[130px]"
                 aria-label="Rent MG ZX Exclusive now"
               >
                 Rent Now
@@ -387,10 +373,9 @@ export default function RecommendationCar() {
           </div>
 
           <div
-            className="flex overflow-hidden flex-col p-4 sm:p-6 bg-white rounded-xl min-w-[280px] 
-        lg:w-[304px] max-w-[304px] mx-auto border border-gray-50 relative"
+            className="flex flex-col p-6 sm:p-6 bg-white rounded-xl min-w-[280px] 
+        lg:w-[304px] max-w-[304px] mx-auto relative shadow-sm"
           >
-            {/* Heart Icon */}
             <Image
               height={24}
               width={24}
@@ -399,10 +384,10 @@ export default function RecommendationCar() {
               className="absolute top-3 right-3 w-6 aspect-square cursor-pointer z-10"
             />
             <div className="flex flex-col">
-              <div className="text-lg md:text-xl tracking-tight text-gray-900 font-bold">
+              <div className="text-lg md:text-xl text-gray-900 font-bold">
                 New MG ZS
               </div>
-              <div className="mt-1 text-sm md:text-base tracking-tight text-slate-400">
+              <div className="mt-1 text-sm md:text-base text-slate-400">
                 SUV
               </div>
             </div>
@@ -414,7 +399,7 @@ export default function RecommendationCar() {
               className="object-contain self-center mt-10 sm:mt-16"
             />
             <div className="flex gap-4 items-start mt-8 sm:mt-16 text-xs sm:text-sm font-medium leading-5 text-slate-400">
-              <div className="flex gap-1.5 items-start tracking-tight whitespace-nowrap">
+              <div className="flex gap-1.5 items-start">
                 <Image
                   height={24}
                   width={24}
@@ -423,7 +408,7 @@ export default function RecommendationCar() {
                 />
                 <div className="w-7">80L</div>
               </div>
-              <div className="flex gap-1 items-start whitespace-nowrap">
+              <div className="flex gap-1 items-start">
                 <Image
                   height={24}
                   width={24}
@@ -450,7 +435,7 @@ export default function RecommendationCar() {
                 </div>
               </div>
               <button
-                className="px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base font-medium text-white bg-[#3563E9] rounded min-h-[10px] w-[100px] sm:w-[130px] whitespace-nowrap"
+                className="px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base font-medium text-white bg-[#3563E9] rounded min-h-[10px] w-[100px] sm:w-[130px]"
                 aria-label="Rent New MG ZS now"
               >
                 Rent Now
@@ -459,10 +444,9 @@ export default function RecommendationCar() {
           </div>
 
           <div
-            className="flex overflow-hidden flex-col p-4 sm:p-6 bg-white rounded-xl min-w-[280px] 
-        lg:w-[304px] max-w-[304px] mx-auto border border-gray-50 relative"
+            className="flex flex-col p-6 sm:p-6 bg-white rounded-xl min-w-[280px] 
+        lg:w-[304px] max-w-[304px] mx-auto relative shadow-sm"
           >
-            {/* Heart Icon */}
             <Image
               height={24}
               width={24}
@@ -471,10 +455,10 @@ export default function RecommendationCar() {
               className="absolute top-3 right-3 w-6 aspect-square cursor-pointer z-10"
             />
             <div className="flex flex-col">
-              <div className="text-lg md:text-xl tracking-tight text-gray-900 font-bold">
+              <div className="text-lg md:text-xl text-gray-900 font-bold">
                 MG ZX Excite
               </div>
-              <div className="mt-1 text-sm md:text-base tracking-tight text-slate-400">
+              <div className="mt-1 text-sm md:text-base text-slate-400">
                 SUV
               </div>
             </div>
@@ -486,7 +470,7 @@ export default function RecommendationCar() {
               className="object-contain self-center mt-10 sm:mt-16"
             />
             <div className="flex gap-4 items-start mt-8 sm:mt-16 text-xs sm:text-sm font-medium leading-5 text-slate-400">
-              <div className="flex gap-1.5 items-start tracking-tight whitespace-nowrap">
+              <div className="flex gap-1.5 items-start">
                 <Image
                   height={24}
                   width={24}
@@ -495,7 +479,7 @@ export default function RecommendationCar() {
                 />
                 <div className="w-7">90L</div>
               </div>
-              <div className="flex gap-1 items-start whitespace-nowrap">
+              <div className="flex gap-1 items-start">
                 <Image
                   height={24}
                   width={24}
@@ -522,7 +506,7 @@ export default function RecommendationCar() {
                 </div>
               </div>
               <button
-                className="px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base font-medium text-white bg-[#3563E9] rounded min-h-[10px] w-[100px] sm:w-[130px] whitespace-nowrap"
+                className="px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base font-medium text-white bg-[#3563E9] rounded min-h-[10px] w-[100px] sm:w-[130px]"
                 aria-label="Rent MG ZX Excite now"
               >
                 Rent Now
@@ -531,10 +515,9 @@ export default function RecommendationCar() {
           </div>
 
           <div
-            className="flex overflow-hidden flex-col p-4 sm:p-6 bg-white rounded-xl min-w-[280px] 
-        lg:w-[304px] max-w-[304px] mx-auto border border-gray-50 relative"
+            className="flex flex-col p-6 sm:p-6 bg-white rounded-xl min-w-[280px] 
+        lg:w-[304px] max-w-[304px] mx-auto relative shadow-sm"
           >
-            {/* Heart Icon */}
             <Image
               height={24}
               width={24}
@@ -543,10 +526,10 @@ export default function RecommendationCar() {
               className="absolute top-3 right-3 w-6 aspect-square cursor-pointer z-10"
             />
             <div className="flex flex-col">
-              <div className="text-lg md:text-xl tracking-tight text-gray-900 font-bold">
+              <div className="text-lg md:text-xl text-gray-900 font-bold">
                 MG ZS EV
               </div>
-              <div className="mt-1 text-sm md:text-base tracking-tight text-slate-400">
+              <div className="mt-1 text-sm md:text-base text-slate-400">
                 Electric SUV
               </div>
             </div>
@@ -558,7 +541,7 @@ export default function RecommendationCar() {
               className="object-contain self-center mt-10 sm:mt-16"
             />
             <div className="flex gap-4 items-start mt-8 sm:mt-16 text-xs sm:text-sm font-medium leading-5 text-slate-400">
-              <div className="flex gap-1.5 items-start tracking-tight whitespace-nowrap">
+              <div className="flex gap-1.5 items-start">
                 <Image
                   height={24}
                   width={24}
@@ -567,7 +550,7 @@ export default function RecommendationCar() {
                 />
                 <div className="w-7">80L</div>
               </div>
-              <div className="flex gap-1 items-start whitespace-nowrap">
+              <div className="flex gap-1 items-start">
                 <Image
                   height={24}
                   width={24}
@@ -594,7 +577,7 @@ export default function RecommendationCar() {
                 </div>
               </div>
               <button
-                className="px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base font-medium text-white bg-[#3563E9] rounded min-h-[10px] w-[100px] sm:w-[130px] whitespace-nowrap"
+                className="px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base font-medium text-white bg-[#3563E9] rounded min-h-[10px] w-[100px] sm:w-[130px]"
                 aria-label="Rent MG ZS EV now"
               >
                 Rent Now
@@ -604,14 +587,14 @@ export default function RecommendationCar() {
         </div>
       </div>
 
-      <div className="flex items-center justify-center my-[64px]">
+      <div className="flex items-center justify-center my-[64px] mx-auto">
         <Link href="/car-rent">
-        <button
-          className="rounded space-x-2 px-5 bg-[#3563E9] text-[16px] font-semibold text-white
+          <button
+            className="rounded space-x-2 px-5 bg-[#3563E9] text-[16px] font-semibold text-white
            h-[44px] w-[156px]"
-        >
-          Show more car
-        </button>
+          >
+            Show more car
+          </button>
         </Link>
       </div>
     </div>
