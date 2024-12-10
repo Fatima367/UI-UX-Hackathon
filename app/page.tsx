@@ -1,6 +1,4 @@
-import { LucideArrowDownUp } from "lucide-react";
 import Image from "next/image";
-import PopularCar from "./components/popular-car";
 import RecommendationCar from "./components/recommendation-car";
 import PopularCarSection from "./components/popular-car";
 
@@ -92,7 +90,7 @@ export default function Home() {
           className="flex flex-col md:flex-row items-start justify-between gap-4 mt-[68px] p-6  
         md:space-x-[44px] mx-auto mb-[36px]"
         >
-          {/* Pick-Up Section */}
+          {/* Pick-Up */}
           <div className="flex-1 items-start justify-between bg-white shadow-md p-7 rounded-lg">
             <div className="flex space-x-2 items-center justify-center md:-ml-[390px]">
               <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
@@ -149,7 +147,7 @@ export default function Home() {
             </button>
           </div>
 
-          {/* Drop-Off Section */}
+          {/* Drop-Off */}
           <div className="flex-1 items-start justify-between bg-white shadow-md p-7 rounded-lg">
             <div className="flex space-x-2 items-center justify-center md:-ml-[380px]">
               <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
