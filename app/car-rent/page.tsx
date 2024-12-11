@@ -100,55 +100,74 @@ const CarRent = () => {
           {/*Right*/}
           <div className="flex flex-col items-start justify-between mx-auto">
             <div
-              className="flex flex-col md:flex-row items-start justify-between gap-4 mt-1 p-6  
-            mb-[36px] md:-space-x-5 mx-auto"
+              className="flex flex-col md:flex-row md:items-center md:justify-center gap-4 mt-2 p-4 
+          mb-[36px] items-start justify-center mx-auto md:ml-5"
             >
               {/* Pick-Up */}
-              <div className="flex-1 items-start justify-between bg-white shadow-md p-5 rounded-lg md:px-9 md:w-[486px]">
-                <div className="flex space-x-2 items-center justify-center md:-ml-[350px]">
-                  <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
-                  <h3 className="text-lg font-medium">Pick-Up</h3>
-                </div>
+              <div
+                className="md:flex-1 items-start justify-between bg-white shadow-md 
+          p-7 rounded-lg flex flex-col"
+              >
+                <div className="flex-1 items-start justify-between">
+                  <div className="flex space-x-2 items-center justify-start">
+                    <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
+                    <h3 className="text-[16px] font-medium text-[#1A202C]">
+                      Pick-Up
+                    </h3>
+                  </div>
 
-                <div className="flex sm:grid-cols-3 px-[48px] space-x-6 mt-4 -mx-14">
-                  <div className="space-y-2">
-                    <label className="text-[16px] font-bold text-[#1A202C]">
-                      Locations
-                    </label>
-                    <select className="w-full border rounded-md p-2 px-2">
-                      <option className="text-[#90A3BF] font-medium text-[12px]">
-                        Select your city
-                      </option>
-                    </select>
-                  </div>
-                  <div className="space-y-2">
-                    <label className="text-[16px] font-bold text-[#1A202C]">
-                      Date
-                    </label>
-                    <select className="w-full border rounded-md p-2 px-2">
-                      <option className="text-[#90A3BF] font-medium text-[12px]">
-                        Select your date
-                      </option>
-                    </select>
-                  </div>
-                  <div className="space-y-2">
-                    <label className="text-[16px] font-bold text-[#1A202C]">
-                      Time
-                    </label>
-                    <select className="w-full border rounded-md p-2 px-2">
-                      <option className="text-[#90A3BF] font-medium text-[12px]">
-                        Select your time
-                      </option>
-                    </select>
+                  <div className="md:space-x-3 space-x-3 flex mt-4 mx-auto">
+                    <div className="space-y-2 flex flex-col">
+                      <label className="text-[16px] font-bold text-[#1A202C]">
+                        Locations
+                      </label>
+                      <select
+                        className="w-24 md:w-[126px] border-0 text-[#90A3BF] font-medium
+                   text-[12px] bg-transparent md:p-0 p-4 md:rounded-none rounded-md"
+                      >
+                        <option>Kota Semarang</option>
+                      </select>
+                    </div>
+                    <div className="mx-[24px] w-[1px] bg-[#C3D4E9] opacity-40">
+                      {" "}
+                    </div>
+                    <div className="space-y-2 flex-col flex">
+                      <label className="text-[16px] font-bold text-[#1A202C]">
+                        Date
+                      </label>
+                      <select
+                        className="w-24 md:w-[126px] border-0 text-[#90A3BF] font-medium
+                   text-[12px] bg-transparent md:p-0 p-4 md:rounded-none rounded-md"
+                      >
+                        <option>20 July 2022</option>
+                      </select>
+                    </div>
+                    <div className="mx-[24px] w-[1px] bg-[#C3D4E9] opacity-40">
+                      {" "}
+                    </div>
+                    <div className="space-y-2 flex-col flex">
+                      <label className="text-[16px] font-bold text-[#1A202C]">
+                        Time
+                      </label>
+                      <select
+                        className="w-24 md:w-[126px] border-0 text-[#90A3BF] font-medium
+                   text-[12px] bg-transparent md:p-0 p-4 md:rounded-none rounded-md"
+                      >
+                        <option>07.00</option>
+                      </select>
+                    </div>
                   </div>
                 </div>
               </div>
 
               {/* Swap Button */}
-              <div className="md:mt-10 flex items-center justify-center z-10">
+              <div
+                className=" flex items-center justify-center md:my-0 md:-mx-6
+          -my-8 z-10"
+              >
                 <button
                   className="bg-[#3563E9] p-4 shadow-lg hover:bg-blue-600
-            items-center justify-center rounded-lg md:ml-0 ml-20"
+            items-center justify-center rounded-lg md:ml-0 ml-44"
                 >
                   <Image
                     src="/images/Swap.png"
@@ -161,48 +180,64 @@ const CarRent = () => {
               </div>
 
               {/* Drop-Off */}
-              <div className="flex-1 items-start justify-between bg-white shadow-md p-5 rounded-lg md:px-9 md:w-[486px]">
-                <div className="flex space-x-2 items-center justify-center md:-ml-[350px]">
-                  <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
-                  <h3 className="text-lg font-medium">Drop-Off</h3>
-                </div>
+              <div
+                className="md:flex-1 items-start justify-between bg-white shadow-md
+           p-7 rounded-lg flex flex-col"
+              >
+                <div className="flex-1 items-start justify-between">
+                  <div className="flex space-x-2 items-center justify-start">
+                    <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#5CAFFC] ring-opacity-30"></div>
+                    <h3 className="text-[16px] font-medium text-[#1A202C]">
+                      Drop-Off
+                    </h3>
+                  </div>
 
-                <div className="flex sm:grid-cols-3 px-[48px] space-x-6 mt-4 -mx-14">
-                  <div className="space-y-2">
-                    <label className="text-[16px] font-bold text-[#1A202C]">
-                      Locations
-                    </label>
-                    <select className="w-full border rounded-md p-2 px-2">
-                      <option className="text-[#90A3BF] font-medium text-[12px]">
-                        Select your city
-                      </option>
-                    </select>
-                  </div>
-                  <div className="space-y-2">
-                    <label className="text-[16px] font-bold text-[#1A202C]">
-                      Date
-                    </label>
-                    <select className="w-full border rounded-md p-2 px-2">
-                      <option className="text-[#90A3BF] font-medium text-[12px]">
-                        Select your date
-                      </option>
-                    </select>
-                  </div>
-                  <div className="space-y-2">
-                    <label className="text-[16px] font-bold text-[#1A202C]">
-                      Time
-                    </label>
-                    <select className="w-full border rounded-md p-2 px-2">
-                      <option className="text-[#90A3BF] font-medium text-[12px]">
-                        Select your time
-                      </option>
-                    </select>
+                  <div className="md:space-x-3 space-x-3 flex mt-4 mx-auto">
+                    <div className="space-y-2 flex flex-col">
+                      <label className="text-[16px] font-bold text-[#1A202C]">
+                        Locations
+                      </label>
+                      <select
+                        className="w-24 md:w-[126px] border-0 text-[#90A3BF] font-medium 
+                  text-[12px] bg-transparent md:p-0 p-4 md:rounded-none rounded-md"
+                      >
+                        <option>Kota Semarang</option>
+                      </select>
+                    </div>
+                    <div className="mx-[24px] w-[1px] bg-[#C3D4E9] opacity-40">
+                      {" "}
+                    </div>
+                    <div className="space-y-2 flex-col flex">
+                      <label className="text-[16px] font-bold text-[#1A202C]">
+                        Date
+                      </label>
+                      <select
+                        className="w-24 md:w-[126px] border-0 text-[#90A3BF] font-medium 
+                    text-[12px] bg-transparent md:p-0 p-4 md:rounded-none rounded-md"
+                      >
+                        <option>21 July 2022</option>
+                      </select>
+                    </div>
+                    <div className="mx-[24px] w-[1px] bg-[#C3D4E9] opacity-40">
+                      {" "}
+                    </div>
+                    <div className="space-y-2 flex-col flex">
+                      <label className="text-[16px] font-bold text-[#1A202C]">
+                        Time
+                      </label>
+                      <select
+                        className="w-24 md:w-[126px] border-0 text-[#90A3BF] font-medium 
+                    text-[12px] bg-transparent md:p-0 p-4 md:rounded-none rounded-md"
+                      >
+                        <option>01.00</option>
+                      </select>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 md:gap-12 gap-10 ml-10 -mt-5">
+            <div className="hidden md:flex md:gap-12 gap-10 ml-10 ">
               <div
                 className="flex overflow-hidden flex-col p-6 bg-white rounded-xl min-w-[240px] w-[304px]
          max-md:px-5 relative border border-gray-50"
@@ -430,7 +465,7 @@ const CarRent = () => {
 
             {/*Row 2*/}
             <div className="container mx-auto px-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-7 gap-10 md:ml-5 mt-5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8 gap-10 md:ml-5 mt-5">
                 <div
                   className="flex overflow-hidden flex-col p-4 sm:p-6 bg-white rounded-xl min-w-[280px] 
         lg:w-[304px] max-w-[304px] mx-auto border border-gray-50 relative"
@@ -657,7 +692,7 @@ const CarRent = () => {
 
             {/*Row 3*/}
             <div className="container mx-auto px-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-5 gap-10 md:ml-5 mt-5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-7 gap-10 md:ml-5 mt-5">
                 <div
                   className="flex overflow-hidden flex-col p-4 sm:p-6 bg-white rounded-xl min-w-[280px] 
         lg:w-[304px] max-w-[304px] mx-auto border border-gray-50 relative"
