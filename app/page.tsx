@@ -15,7 +15,8 @@ export default function Home() {
           className="flex md:flex-row md:space-x-[32px] items-center justify-center mt-8 flex-col md:space-y-0 
         space-y-6 mx-auto"
         >
-          <div className="rounded-[10px] object-cover md:w-[620px] md:h-[320px] w-[340px] h-[400px] bg-blue-400">
+          <div className="rounded-[10px] object-cover md:mx-0 mx-auto
+          md:w-[620px] md:h-[320px] w-[340px] h-[400px] bg-blue-400">
             <Image
               src="/images/Ads 1.png"
               height={360}
