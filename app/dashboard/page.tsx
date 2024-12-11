@@ -141,8 +141,8 @@ const Dashboard = () => {
         </div>
 
         {/*Right*/}
-        <div className="flex items-start justify-between mx-auto space-x-8 mt-8">
-          <div className="bg-white p-6 rounded-[10px]">
+        <div className="md:flex grid items-start justify-between md:mx-auto md:space-x-8 mx-6 mt-8">
+          <div className="bg-white p-6 rounded-[10px] md:w-auto w-[350px]">
             <p className="text-[20px] font-bold text-[#1A202C]">
               Details Rental
             </p>
@@ -152,7 +152,7 @@ const Dashboard = () => {
               height={272}
               width={486}
               alt="map"
-              className="mt-6 mb-[38px]"
+              className="mt-6 mb-[38px] md:w-[486px] w-[295px]"
             />
 
             <div className="flex">
@@ -162,7 +162,7 @@ const Dashboard = () => {
                   height={72}
                   width={132}
                   alt="car"
-                  className="rounded-[8px]"
+                  className="rounded-[8px] md:w-[132px] md:h-[72px] w-[116px] h-16"
                 />
 
                 <Image
@@ -170,11 +170,14 @@ const Dashboard = () => {
                   height={36}
                   width={116}
                   alt="car"
-                  className="z-50 rounded-none mx-auto absolute"
+                  className="z-50 rounded-none mx-auto absolute  md:w-[116px] md:h-[36px] w-[102px] h-8"
                 />
               </div>
 
-              <div className="flex mt-[38px] ml-4 items-start justify-between space-x-[126px]">
+              <div
+                className="flex mt-[38px] ml-4 items-start justify-between 
+              md:space-x-[126px]"
+              >
                 <div className="flex flex-col items-start space-y-2">
                   <h2 className="text-[24px] font-bold text-[#1A202C]">
                     Nissan GT - R
@@ -183,7 +186,10 @@ const Dashboard = () => {
                     Sport
                   </p>
                 </div>
-                <p className="text-[14px] text-[#3D5278] font-medium text-right ">
+                <p
+                  className="text-[14px] text-[#3D5278] font-medium text-right md:mt-0
+                mt-20"
+                >
                   #9761
                 </p>
               </div>
@@ -197,12 +203,15 @@ const Dashboard = () => {
                 </h3>
               </div>
 
-              <div className="flex sm:grid-cols-3 mt-4 mx-auto">
+              <div className="grid space-y-2 md:flex mt-4 mx-auto">
                 <div className="space-y-2 flex flex-col">
                   <label className="text-[16px] font-bold text-[#1A202C]">
                     Locations
                   </label>
-                  <select className="w-[126px] border-0 text-[#90A3BF] font-medium text-[12px]">
+                  <select
+                    className="md:w-[126px] w-full border-0 text-[#90A3BF] font-medium
+                   text-[12px] md:bg-transparent bg-[#F6F7F9] md:p-0 p-4 md:rounded-none rounded-md"
+                  >
                     <option>Kota Semarang</option>
                   </select>
                 </div>
@@ -213,7 +222,10 @@ const Dashboard = () => {
                   <label className="text-[16px] font-bold text-[#1A202C]">
                     Date
                   </label>
-                  <select className="w-[126px] border-0 text-[#90A3BF] font-medium text-[12px]">
+                  <select
+                    className="md:w-[126px] w-full border-0 text-[#90A3BF] font-medium
+                   text-[12px]  md:bg-transparent bg-[#F6F7F9] md:p-0 p-4 md:rounded-none rounded-md"
+                  >
                     <option>20 July 2022</option>
                   </select>
                 </div>
@@ -224,7 +236,10 @@ const Dashboard = () => {
                   <label className="text-[16px] font-bold text-[#1A202C]">
                     Time
                   </label>
-                  <select className="w-[126px] border-0 text-[#90A3BF] font-medium text-[12px]">
+                  <select
+                    className="md:w-[126px] w-full border-0 text-[#90A3BF] font-medium
+                   text-[12px] md:bg-transparent bg-[#F6F7F9] md:p-0 p-4 md:rounded-none rounded-md"
+                  >
                     <option>07.00</option>
                   </select>
                 </div>
@@ -239,12 +254,15 @@ const Dashboard = () => {
                 </h3>
               </div>
 
-              <div className="flex sm:grid-cols-3 mt-4 mx-auto">
+              <div className="grid space-y-2 md:flex mt-4 mx-auto">
                 <div className="space-y-2 flex flex-col">
                   <label className="text-[16px] font-bold text-[#1A202C]">
                     Locations
                   </label>
-                  <select className="w-[126px] border-0 text-[#90A3BF] font-medium text-[12px]">
+                  <select
+                    className="md:w-[126px] w-full border-0 text-[#90A3BF] font-medium 
+                  text-[12px] md:bg-transparent bg-[#F6F7F9] md:p-0 p-4 md:rounded-none rounded-md"
+                  >
                     <option>Kota Semarang</option>
                   </select>
                 </div>
@@ -255,7 +273,10 @@ const Dashboard = () => {
                   <label className="text-[16px] font-bold text-[#1A202C]">
                     Date
                   </label>
-                  <select className="w-[126px] border-0 text-[#90A3BF] font-medium text-[12px]">
+                  <select
+                    className="md:w-[126px] w-full border-0 text-[#90A3BF] font-medium 
+                  text-[12px] md:bg-transparent bg-[#F6F7F9] md:p-0 p-4 md:rounded-none rounded-md"
+                  >
                     <option>21 July 2022</option>
                   </select>
                 </div>
@@ -266,7 +287,10 @@ const Dashboard = () => {
                   <label className="text-[16px] font-bold text-[#1A202C]">
                     Time
                   </label>
-                  <select className="w-[126px] border-0 text-[#90A3BF] font-medium text-[12px]">
+                  <select
+                    className="md:w-[126px] w-full border-0 text-[#90A3BF] font-medium 
+                  text-[12px] md:bg-transparent bg-[#F6F7F9] md:p-0 p-4 md:rounded-none rounded-md"
+                  >
                     <option>01.00</option>
                   </select>
                 </div>
@@ -290,9 +314,9 @@ const Dashboard = () => {
             </div>
           </div>
 
-          <div className="flex flex-col space-y-8">
-            <div className="bg-white p-6 rounded-[10px]">
-              <div className="flex items-center justify-between space-x-[260px] ">
+          <div className="flex flex-col space-y-8 md:mt-0 mt-5">
+            <div className="bg-white p-6 rounded-[10px] md:w-auto w-[350px]">
+              <div className="flex items-center justify-between md:space-x-[260px] ">
                 <p className="text-[20px] font-bold text-[#1A202C]">
                   Top 5 Car Rental
                 </p>
@@ -304,8 +328,8 @@ const Dashboard = () => {
                 />
               </div>
 
-              <div className="flex mt-8 space-x-6 mb-6">
-                <div>
+              <div className="grid md:flex mt-8 space-x-6 mb-6">
+                <div className=" md:mx-0 mx-10">
                   <Image
                     src="/images/Chartpie.png"
                     height={220}
@@ -323,7 +347,7 @@ const Dashboard = () => {
                   </div>
                 </div>
 
-                <div className="flex flex-col space-y-[25px]">
+                <div className="flex flex-col space-y-[25px] md:mt-0 mt-28">
                   <div className="flex items-start justify-between space-x-9">
                     <div className="flex items-center justify-center">
                       <Image
@@ -412,8 +436,8 @@ const Dashboard = () => {
               </div>
             </div>
 
-            <div className="bg-white p-6 rounded-[10px]">
-              <div className="flex items-center justify-between space-x-[216px]">
+            <div className="bg-white p-6 rounded-[10px] md:w-auto w-[350px]">
+              <div className="flex items-center justify-between md:space-x-[216px]">
                 <p className="text-[20px] font-bold text-[#1A202C]">
                   Recent Transaction
                 </p>
@@ -422,7 +446,7 @@ const Dashboard = () => {
                 </p>
               </div>
 
-              <div className="flex mt-8">
+              <div className="flex mt-8 md:-ml-0 -ml-4">
                 <Image
                   src="/images/Car (2).png"
                   width={114}
@@ -436,13 +460,13 @@ const Dashboard = () => {
                   </p>
                   <p className="text-[12px] text-[#90A3BF]">Sport Car</p>
                 </div>
-                <div className="flex flex-col space-y-2 text-right ml-[140px]">
+                <div className="flex flex-col space-y-2 text-right md:ml-[140px] ml-2">
                   <p className="text-[12px] text-[#90A3BF]">20 July</p>
                   <p className="text-[16px] font-bold text-[#1A202C]">$80.00</p>
                 </div>
               </div>
 
-              <div className="flex mt-8">
+              <div className="flex mt-8 md:-ml-0 -ml-4">
                 <Image
                   src="/images/image 7.png"
                   width={116}
@@ -456,13 +480,13 @@ const Dashboard = () => {
                   </p>
                   <p className="text-[12px] text-[#90A3BF]">Sport Car</p>
                 </div>
-                <div className="flex flex-col space-y-2 text-right ml-[140px]">
+                <div className="flex flex-col space-y-2 text-right md:ml-[140px] ml-2">
                   <p className="text-[12px] text-[#90A3BF]">19 July</p>
                   <p className="text-[16px] font-bold text-[#1A202C]">$99.00</p>
                 </div>
               </div>
 
-              <div className="flex mt-8">
+              <div className="flex mt-8 md:-ml-0 -ml-4">
                 <Image
                   src="/images/Car (1).png"
                   width={116}
@@ -476,13 +500,13 @@ const Dashboard = () => {
                   </p>
                   <p className="text-[12px] text-[#90A3BF]">Sport Car</p>
                 </div>
-                <div className="flex flex-col space-y-2 text-right ml-[140px]">
+                <div className="flex flex-col space-y-2 text-right md:ml-[140px] ml-2">
                   <p className="text-[12px] text-[#90A3BF]">18 July</p>
                   <p className="text-[16px] font-bold text-[#1A202C]">$96.00</p>
                 </div>
               </div>
 
-              <div className="flex mt-8">
+              <div className="flex mt-8 md:-ml-0 -ml-4">
                 <Image
                   src="/images/Car4.png"
                   width={110}
@@ -494,7 +518,7 @@ const Dashboard = () => {
                   <p className="text-[16px] font-bold text-[#1A202C]">CR - V</p>
                   <p className="text-[12px] text-[#90A3BF]">SUV</p>
                 </div>
-                <div className="flex flex-col space-y-2 text-right ml-[180px]">
+                <div className="flex flex-col space-y-2 text-right md:ml-[180px] ml-14">
                   <p className="text-[12px] text-[#90A3BF]">17 July</p>
                   <p className="text-[16px] font-bold text-[#1A202C]">$80.00</p>
                 </div>
