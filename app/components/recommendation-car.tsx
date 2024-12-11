@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function RecommendationCar() {
   return (
-    <div className="p-[24px] mx-auto flex flex-col items-start justify-between">
+    <div className="p-[24px] flex flex-col items-start justify-between">
       <div className="flex items-start">
         <h2 className="text-xl font-bold text-[#90A3BF] mt-6 text-left mb-8">
           Recomendation Car{" "}
@@ -11,8 +11,8 @@ export default function RecommendationCar() {
       </div>
 
       {/*Row 1*/}
-      <div className="">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:gap-20 mb-8 gap-10">
+      <div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5 mb-8 gap-10">
           <div
             className="flex flex-col sm:p-6 bg-white rounded-xl min-w-[280px] 
         lg:w-[304px] max-w-[304px] mx-auto relative shadow-sm p-6"
@@ -295,8 +295,8 @@ export default function RecommendationCar() {
       </div>
 
       {/*Row 2*/}
-      <div className="mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:gap-20 gap-10">
+      <div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5 mb-8 gap-10">
           <div
             className="flex flex-col p-6 sm:p-6 bg-white rounded-xl min-w-[280px] 
         lg:w-[304px] max-w-[304px] mx-auto relative shadow-sm"

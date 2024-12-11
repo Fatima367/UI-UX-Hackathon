@@ -80,12 +80,12 @@ export default function Footer() {
 
       <div
         className="flex flex-row items-stretch 
-            justify-between p-[25px] mx-[70px]"
+            justify-between p-[25px] md:mx-[70px] mx-10"
       >
         <p className="text-[16px] font-semibold text-[#1A202C]">
           ©2022 MORENT. All rights reserved
         </p>
-        <div className="space-x-[24px] flex items-center justify-center lg:ml-0 ml-14">
+        <div className="space-x-[24px] flex items-center justify-center lg:ml-0 ml-10">
           <p className="text-[16px] font-semibold text-[#1A202C]">
             Privacy Policy{" "}
           </p>

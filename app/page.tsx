@@ -4,15 +4,18 @@ import PopularCarSection from "./components/popular-car";
 
 export default function Home() {
   return (
-    <main className="bg-[#F6F7F9] w-screen font-PlusJakartaSans">
-      <div className="flex flex-col items-start justify-between px-[64px]">
+    <main
+      className="bg-[#F6F7F9] w-screen font-PlusJakartaSans flex items-start 
+    justify-between mx-auto"
+    >
+      <div className="flex flex-col items-start justify-between px-5 md:px-[34px]">
         {/*Hero Section*/}
 
         <div
-          className="flex md:flex-row md:space-x-[32px] items-start justify-between mt-8 flex-col md:space-y-0 
-        space-y-6"
+          className="flex md:flex-row md:space-x-[32px] items-center justify-center mt-8 flex-col md:space-y-0 
+        space-y-6 mx-auto"
         >
-          <div className="rounded-[10px] object-cover md:w-[640px] md:h-[360px] w-[350px] h-[400px] bg-blue-400">
+          <div className="rounded-[10px] object-cover md:w-[620px] md:h-[320px] w-[340px] h-[400px] bg-blue-400">
             <Image
               src="/images/Ads 1.png"
               height={360}
@@ -43,11 +46,14 @@ export default function Home() {
               width={340}
               alt="car-image"
               className="z-50
-              md:ml-[150px] mb-10 md:-mt-4 mt-6"
+              md:ml-[150px] mb-8 md:-mt-2 mt-6"
             />
           </div>
 
-          <div className="rounded-[10px] object-cover md:w-[640px] md:h-[360px] w-[350px] h-[400px] bg-blue-600">
+          <div
+            className="rounded-[10px] object-cover md:w-[620px] md:h-[320px] 
+          w-[340px] h-[400px] bg-blue-600 md:block hidden"
+          >
             <Image
               src="/images/Ads 2.png"
               height={360}
@@ -87,17 +93,20 @@ export default function Home() {
 
         {/*--------------*/}
         <div
-          className="flex flex-col md:flex-row items-start justify-between gap-4 mt-[68px] p-6  
-        md:space-x-[44px] mx-auto mb-[36px]"
+          className="flex flex-col md:flex-row md:items-center md:justify-center gap-4 mt-[68px] p-6  
+        md:space-x-[34px] mb-[36px] items-start justify-center mx-auto"
         >
           {/* Pick-Up */}
-          <div className="flex-1 items-start justify-between bg-white shadow-md p-7 rounded-lg">
-            <div className="flex space-x-2 items-center justify-center md:-ml-[390px]">
+          <div
+            className="md:flex-1 items-start justify-between bg-white shadow-md 
+          p-7 rounded-lg flex flex-col"
+          >
+            <div className="flex space-x-2 items-center justify-center">
               <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
               <h3 className="text-lg font-medium">Pick-Up</h3>
             </div>
 
-            <div className="flex sm:grid-cols-3 px-[48px] space-x-6 mt-4 -mx-14">
+            <div className="md:flex grid-cols-3 px-[48px] md:space-x-6 mt-4 -mx-14 space-y-4">
               <div className="space-y-2">
                 <label className="text-[16px] font-bold text-[#1A202C]">
                   Locations
@@ -132,9 +141,9 @@ export default function Home() {
           </div>
 
           {/* Swap Button */}
-          <div className="md:mt-10 flex items-center justify-center">
+          <div className=" flex items-center justify-center md:ml-0 ml-8">
             <button
-              className="bg-[#3563E9] p-4 shadow-md hover:bg-blue-600
+              className="bg-[#3563E9] p-4 shadow-lg hover:bg-blue-600
             items-center justify-center rounded-lg md:ml-0 ml-20"
             >
               <Image
@@ -148,13 +157,16 @@ export default function Home() {
           </div>
 
           {/* Drop-Off */}
-          <div className="flex-1 items-start justify-between bg-white shadow-md p-7 rounded-lg">
-            <div className="flex space-x-2 items-center justify-center md:-ml-[380px]">
+          <div
+            className="md:flex-1 items-start justify-between bg-white shadow-md
+           p-7 rounded-lg flex flex-col"
+          >
+            <div className="flex space-x-2 items-center justify-center">
               <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
               <h3 className="text-lg font-medium">Drop-Off</h3>
             </div>
 
-            <div className="flex sm:grid-cols-3 px-[48px] space-x-6 mt-4 -mx-14">
+            <div className="md:flex grid-cols-3 px-[48px] md:space-x-6 mt-4 -mx-14 space-y-4">
               <div className="space-y-2">
                 <label className="text-[16px] font-bold text-[#1A202C]">
                   Locations
@@ -192,15 +204,16 @@ export default function Home() {
         {/*--------------------------------------------------------------------------------------------------------*/}
 
         {/* Popular Car Section */}
-
-        <PopularCarSection />
+        <div className="flex items-center justify-center mx-auto">
+          <PopularCarSection />
+        </div>
 
         {/*--------------------------------------------------------------------------------------------------------*/}
 
         {/* Recommendation Car Section */}
-
-        <RecommendationCar />
-
+        <div className="flex items-center justify-center mx-auto">
+          <RecommendationCar />
+        </div>
         {/*--------------------------------------------------------------------------------------------------------*/}
       </div>
     </main>

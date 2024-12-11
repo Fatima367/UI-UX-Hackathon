@@ -2,17 +2,21 @@ import Image from "next/image";
 
 export default function PopularCarSection() {
   return (
-    <div className="mx-auto">
+    <div className="flex">
       <div className="flex flex-col space-y-[20px] items-start justify-between">
-        <div className="flex items-start justify-between">
-          <p className="text-[20px] font-bold text-[#90A3BF]">
-            Popular Car
+        <div className="md:flex items-start justify-between flex">
+          <p className="text-[20px] font-bold text-[#90A3BF]">Popular Car</p>
+          <p
+            className="text-[16px] font-semibold text-[#3563E9] md:ml-[1080px] 
+          mr-0 ml-32"
+          >
+            View All
           </p>
-          <p className="text-[16px] font-semibold text-[#3563E9] ml-[1080px] mr-0">View All</p>
         </div>
 
         {/*Car Cards*/}
-        <div className="md:flex md:space-x-[20px] grid space-y-5">
+        <div className="grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5 mb-8
+        flex justify-start gap-4 overflow-x-auto">
           <div
             className="bg-white rounded-[10px] flex flex-col
                 w-[304px] h-[388px] py-[24px] px-[24px]"
