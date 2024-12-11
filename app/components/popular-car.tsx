@@ -15,8 +15,10 @@ export default function PopularCarSection() {
         </div>
 
         {/*Car Cards*/}
-        <div className="grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5 mb-8
-        flex justify-start gap-4 overflow-x-auto">
+        <div
+          className="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5 mb-8 gap-[330px]
+        overflow-x-auto w-[300px] md:w-auto md:overflow-hidden"
+        >
           <div
             className="bg-white rounded-[10px] flex flex-col
                 w-[304px] h-[388px] py-[24px] px-[24px]"
