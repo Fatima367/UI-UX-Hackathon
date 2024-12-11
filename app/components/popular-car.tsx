@@ -4,7 +4,7 @@ export default function PopularCarSection() {
   return (
     <div className="flex">
       <div className="flex flex-col space-y-[20px] items-start justify-between">
-        <div className="md:flex items-start justify-between flex">
+        <div className="flex items-stretch justify-between ">
           <p className="text-[20px] font-bold text-[#90A3BF]">Popular Car</p>
           <p
             className="text-[16px] font-semibold text-[#3563E9] md:ml-[1080px] 
