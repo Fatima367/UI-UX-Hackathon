@@ -1,23 +1,27 @@
-"use client"
+"use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function PopularCarSection() {
-
-  const [fav, setFav] = useState("/images/Like.png")
-  const [fav2, setFav2] = useState("/images/Like2.png")
-
+  const [isFav1, setIsFav1] = useState(false); // Card 1
+  const [isFav2, setIsFav2] = useState(true); // Card 2
+  const [isFav3, setIsFav3] = useState(false); // Card 3
+  const [isFav4, setIsFav4] = useState(true); // Card 4
   return (
     <div className="flex">
       <div className="flex flex-col space-y-[20px] items-start justify-between">
         <div className="flex items-stretch justify-between ">
           <p className="text-[20px] font-bold text-[#90A3BF]">Popular Car</p>
-          <p
-            className="text-[16px] font-semibold text-[#3563E9] md:ml-[1080px] 
+
+          <Link href="/car-rent">
+            <p
+              className="text-[16px] font-semibold text-[#3563E9] md:ml-[1080px] 
           mr-0 ml-32"
-          >
-            View All
-          </p>
+            >
+              View All
+            </p>
+          </Link>
         </div>
 
         {/*Car Cards*/}
@@ -38,13 +42,12 @@ export default function PopularCarSection() {
               </div>
 
               <Image
-                src={fav}
+                src={isFav1 ? "/images/Like2.png" : "/images/Like.png"}
                 height={24}
                 width={24}
                 alt="Favourite"
                 className="cursor-pointer"
-                onClick={()=>{fav? setFav(fav2) : setFav2(fav) }}
-                
+                onClick={() => setIsFav1(!isFav1)}
               />
             </div>
 
@@ -98,12 +101,15 @@ export default function PopularCarSection() {
                   <span className="text-[14px] text-[#90A3BF]">day</span>
                 </div>
               </div>
-              <button
-                className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] rounded min-h-[44px] w-[116px]"
-              >
-                Rent Now
-              </button>
+
+              <Link href="/car-rent">
+                <button
+                  className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[44px] w-[116px]"
+                >
+                  Rent Now
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -120,10 +126,12 @@ export default function PopularCarSection() {
               </div>
 
               <Image
-                src="/images/Like2.png"
+                src={isFav2 ? "/images/Like2.png" : "/images/Like.png"}
                 height={24}
                 width={24}
                 alt="Favourite"
+                className="cursor-pointer"
+                onClick={() => setIsFav2(!isFav2)}
               />
             </div>
 
@@ -180,12 +188,15 @@ export default function PopularCarSection() {
                   $100.00
                 </div>
               </div>
-              <button
-                className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] rounded min-h-[44px] w-[116px]"
-              >
-                Rent Now
-              </button>
+
+              <Link href="/car-rent">
+                <button
+                  className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[44px] w-[116px]"
+                >
+                  Rent Now
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -202,10 +213,12 @@ export default function PopularCarSection() {
               </div>
 
               <Image
-                src="/images/Like.png"
+                src={isFav3 ? "/images/Like2.png" : "/images/Like.png"}
                 height={24}
                 width={24}
                 alt="Favourite"
+                className="cursor-pointer"
+                onClick={() => setIsFav3(!isFav3)}
               />
             </div>
 
@@ -259,12 +272,15 @@ export default function PopularCarSection() {
                   <span className="text-[14px] text-[#90A3BF]">day</span>
                 </div>
               </div>
-              <button
-                className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] rounded min-h-[44px] w-[116px]"
-              >
-                Rent Now
-              </button>
+
+              <Link href="/car-rent">
+                <button
+                  className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[44px] w-[116px]"
+                >
+                  Rent Now
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -281,10 +297,12 @@ export default function PopularCarSection() {
               </div>
 
               <Image
-                src="/images/Like2.png"
+                src={isFav4 ? "/images/Like2.png" : "/images/Like.png"}
                 height={24}
                 width={24}
                 alt="Favourite"
+                className="cursor-pointer"
+                onClick={() => setIsFav4(!isFav4)}
               />
             </div>
 
@@ -341,12 +359,15 @@ export default function PopularCarSection() {
                   $100.00
                 </div>
               </div>
-              <button
-                className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] rounded min-h-[44px] w-[116px]"
-              >
-                Rent Now
-              </button>
+
+              <Link href="/car-rent">
+                <button
+                  className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[44px] w-[116px]"
+                >
+                  Rent Now
+                </button>
+              </Link>
             </div>
           </div>
         </div>
