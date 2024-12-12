@@ -1,6 +1,7 @@
 "use client";
 import { Checkbox } from "@/components/ui/checkbox";
 import Image from "next/image";
+import Link from "next/link";
 import React, { MouseEvent, useState } from "react";
 
 const CarRent = () => {
@@ -166,7 +167,7 @@ const CarRent = () => {
           -my-8 z-10"
               >
                 <button
-                  className="bg-[#3563E9] p-4 shadow-lg hover:bg-blue-600
+                  className="bg-[#3563E9] p-4 shadow-lg hover:bg-blue-400
             items-center justify-center rounded-lg md:ml-0 ml-44"
                 >
                   <Image
@@ -174,7 +175,7 @@ const CarRent = () => {
                     height={24}
                     width={24}
                     alt="Swap"
-                    className="z-10 text-white"
+                    className="z-10 text-white font-bold"
                   />
                 </button>
               </div>
@@ -302,13 +303,15 @@ const CarRent = () => {
                       <span className="text-sm text-slate-400">day</span>
                     </div>
                   </div>
+
+                  <Link href="/detail-car-rent">
                   <button
-                    className="gap-2 self-start px-6 py-3 mt-1 text-base font-medium tracking-tight text-center text-white
-               bg-[#3563E9] rounded min-h-[10px] w-[130px] whitespace-nowrap"
-                    aria-label="Rent Koenlgsegg now"
+                    className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center text-white
+               bg-[#3563E9] rounded min-h-[10px] w-[130px] hover:bg-blue-800"
                   >
                     Rent Now
                   </button>
+                  </Link>
                 </div>
               </div>
 
@@ -379,12 +382,15 @@ const CarRent = () => {
                       $100.00
                     </div>
                   </div>
+
+                  <Link href="/detail-car-rent">
                   <button
-                    className="gap-2 self-start px-6 py-3 mt-1 text-base font-medium tracking-tight text-center text-white bg-[#3563E9] rounded min-h-[10px] w-[130px] whitespace-nowrap"
-                    aria-label="Rent Nisan GT - R now"
+                    className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center text-white
+               bg-[#3563E9] rounded min-h-[10px] w-[130px] hover:bg-blue-800"
                   >
                     Rent Now
                   </button>
+                  </Link>
                 </div>
               </div>
 
@@ -453,12 +459,15 @@ const CarRent = () => {
                       <span className="text-sm text-slate-400">day</span>
                     </div>
                   </div>
+
+                  <Link href="/detail-car-rent">
                   <button
-                    className="gap-2 self-start px-6 py-3 mt-1 text-base font-medium tracking-tight text-center text-white bg-[#3563E9] rounded min-h-[10px] w-[130px] whitespace-nowrap"
-                    aria-label="Rent Rolls - Royce now"
+                    className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center text-white
+               bg-[#3563E9] rounded min-h-[10px] w-[130px] hover:bg-blue-800"
                   >
                     Rent Now
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -533,12 +542,15 @@ const CarRent = () => {
                         $80.00
                       </div>
                     </div>
-                    <button
-                      className="gap-2 self-start px-6 py-3 mt-1 text-base font-medium tracking-tight text-center text-white bg-[#3563E9] rounded min-h-[10px] w-[130px] whitespace-nowrap"
-                      aria-label="Rent All New Rush now"
-                    >
-                      Rent Now
-                    </button>
+
+                    <Link href="/detail-car-rent">
+                  <button
+                    className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center text-white
+               bg-[#3563E9] rounded min-h-[10px] w-[130px] hover:bg-blue-800"
+                  >
+                    Rent Now
+                  </button>
+                  </Link>
                   </div>
                 </div>
 
@@ -606,12 +618,15 @@ const CarRent = () => {
                         <span className="text-sm text-slate-400">day</span>
                       </div>
                     </div>
-                    <button
-                      className="gap-2 self-start px-6 py-3 mt-1 text-base font-medium tracking-tight text-center text-white bg-[#3563E9] rounded min-h-[10px] w-[130px] whitespace-nowrap"
-                      aria-label="Rent CR-V now"
-                    >
-                      Rent Now
-                    </button>
+
+                    <Link href="/detail-car-rent">
+                  <button
+                    className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center text-white
+               bg-[#3563E9] rounded min-h-[10px] w-[130px] hover:bg-blue-800"
+                  >
+                    Rent Now
+                  </button>
+                  </Link>
                   </div>
                 </div>
 
@@ -679,12 +694,15 @@ const CarRent = () => {
                         <span className="text-sm text-slate-400">day</span>
                       </div>
                     </div>
-                    <button
-                      className="gap-2 self-start px-6 py-3 mt-1 text-base font-medium tracking-tight text-center text-white bg-[#3563E9] rounded min-h-[10px] w-[130px] whitespace-nowrap"
-                      aria-label="Rent All New Terios now"
-                    >
-                      Rent Now
-                    </button>
+
+                    <Link href="/detail-car-rent">
+                  <button
+                    className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center text-white
+               bg-[#3563E9] rounded min-h-[10px] w-[130px] hover:bg-blue-800"
+                  >
+                    Rent Now
+                  </button>
+                  </Link>
                   </div>
                 </div>
               </div>
@@ -760,12 +778,15 @@ const CarRent = () => {
                         $80.00
                       </div>
                     </div>
-                    <button
-                      className="px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base font-medium text-white bg-[#3563E9] rounded min-h-[10px] w-[100px] sm:w-[130px] whitespace-nowrap"
-                      aria-label="Rent MG ZX Exclusive now"
-                    >
-                      Rent Now
-                    </button>
+
+                    <Link href="/detail-car-rent">
+                  <button
+                    className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center text-white
+               bg-[#3563E9] rounded min-h-[10px] w-[130px] hover:bg-blue-800"
+                  >
+                    Rent Now
+                  </button>
+                  </Link>
                   </div>
                 </div>
 
@@ -833,12 +854,15 @@ const CarRent = () => {
                         </span>
                       </div>
                     </div>
-                    <button
-                      className="px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base font-medium text-white bg-[#3563E9] rounded min-h-[10px] w-[100px] sm:w-[130px] whitespace-nowrap"
-                      aria-label="Rent New MG ZS now"
-                    >
-                      Rent Now
-                    </button>
+
+                    <Link href="/detail-car-rent">
+                  <button
+                    className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center text-white
+               bg-[#3563E9] rounded min-h-[10px] w-[130px] hover:bg-blue-800"
+                  >
+                    Rent Now
+                  </button>
+                  </Link>
                   </div>
                 </div>
 
@@ -906,24 +930,29 @@ const CarRent = () => {
                         </span>
                       </div>
                     </div>
-                    <button
-                      className="px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base font-medium text-white bg-[#3563E9] rounded min-h-[10px] w-[100px] sm:w-[130px] whitespace-nowrap"
-                      aria-label="Rent MG ZX Excite now"
-                    >
-                      Rent Now
-                    </button>
+
+                    <Link href="/detail-car-rent">
+                  <button
+                    className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center text-white
+               bg-[#3563E9] rounded min-h-[10px] w-[130px] hover:bg-blue-800"
+                  >
+                    Rent Now
+                  </button>
+                  </Link>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="flex items-center justify-center mt-[64px] mb-[64px] md:ml-[480px] mx-auto">
+              <Link href="/car-rent">
               <button
                 className="rounded space-x-2 px-5 bg-[#3563E9] text-[16px] font-semibold text-white
-           h-[44px] w-[156px] mb-16"
+           h-[44px] w-[156px] mb-16 hover:bg-blue-800"
               >
                 Show more car
               </button>
+              </Link>
             </div>
           </div>
         </div>

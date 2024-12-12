@@ -1,6 +1,12 @@
+"use client"
 import Image from "next/image";
+import { useState } from "react";
 
 export default function PopularCarSection() {
+
+  const [fav, setFav] = useState("/images/Like.png")
+  const [fav2, setFav2] = useState("/images/Like2.png")
+
   return (
     <div className="flex">
       <div className="flex flex-col space-y-[20px] items-start justify-between">
@@ -32,10 +38,13 @@ export default function PopularCarSection() {
               </div>
 
               <Image
-                src="/images/Like.png"
+                src={fav}
                 height={24}
                 width={24}
                 alt="Favourite"
+                className="cursor-pointer"
+                onClick={()=>{fav? setFav(fav2) : setFav2(fav) }}
+                
               />
             </div>
 

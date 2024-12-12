@@ -2,6 +2,7 @@
 import { Checkbox } from "@/components/ui/checkbox";
 import { ChevronDown } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import React, { MouseEvent, useState } from "react";
 
 const DetailCarRent = () => {
@@ -280,12 +281,15 @@ const DetailCarRent = () => {
                       $100.00
                     </div>
                   </div>
-                  <button
-                    className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] rounded h-[56px] w-[140px]"
-                  >
-                    Rent Now
-                  </button>
+
+                  <Link href="/payment">
+                    <button
+                      className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded h-[56px] w-[140px]"
+                    >
+                      Rent Now
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -497,12 +501,15 @@ const DetailCarRent = () => {
                         <span className="text-[14px] text-[#90A3BF]">day</span>
                       </div>
                     </div>
-                    <button
-                      className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] rounded min-h-[44px] w-[116px]"
-                    >
-                      Rent Now
-                    </button>
+
+                    <Link href="/payment">
+                      <button
+                        className="px-[20px] mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded h-[44px] w-[116px]"
+                      >
+                        Rent Now
+                      </button>
+                    </Link>
                   </div>
                 </div>
 
@@ -582,12 +589,15 @@ const DetailCarRent = () => {
                         $100.00
                       </div>
                     </div>
-                    <button
-                      className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] rounded min-h-[44px] w-[116px]"
-                    >
-                      Rent Now
-                    </button>
+
+                    <Link href="/payment">
+                      <button
+                        className="px-[20px] mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded h-[44px] w-[116px]"
+                      >
+                        Rent Now
+                      </button>
+                    </Link>
                   </div>
                 </div>
 
@@ -664,12 +674,15 @@ const DetailCarRent = () => {
                         <span className="text-[16px] text-[#90A3BF]">day</span>
                       </div>
                     </div>
-                    <button
-                      className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] rounded min-h-[44px] w-[116px]"
-                    >
-                      Rent Now
-                    </button>
+
+                    <Link href="/payment">
+                      <button
+                        className="px-[20px] mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded h-[44px] w-[116px]"
+                      >
+                        Rent Now
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -764,12 +777,15 @@ const DetailCarRent = () => {
                         $80.00
                       </div>
                     </div>
-                    <button
-                      className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-     text-white bg-[#3563E9] rounded min-h-[44px] w-[116px]"
-                    >
-                      Rent Now
-                    </button>
+
+                    <Link href="/payment">
+                      <button
+                        className="px-[20px] mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded h-[48px] w-[116px]"
+                      >
+                        Rent Now
+                      </button>
+                    </Link>
                   </div>
                 </div>
 
@@ -846,12 +862,15 @@ const DetailCarRent = () => {
                         <span className="text-[16px] text-[#90A3BF]">day</span>
                       </div>
                     </div>
-                    <button
-                      className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-     text-white bg-[#3563E9] rounded min-h-[44px] w-[116px]"
-                    >
-                      Rent Now
-                    </button>
+
+                    <Link href="/payment">
+                      <button
+                        className="px-[20px] mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded h-[48px] w-[116px]"
+                      >
+                        Rent Now
+                      </button>
+                    </Link>
                   </div>
                 </div>
 
@@ -928,12 +947,15 @@ const DetailCarRent = () => {
                         <span className="text-[16px] text-[#90A3BF]">day</span>
                       </div>
                     </div>
-                    <button
-                      className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-     text-white bg-[#3563E9] rounded min-h-[44px] w-[116px]"
-                    >
-                      Rent Now
-                    </button>
+
+                    <Link href="/payment">
+                      <button
+                        className="px-[20px] mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded h-[48px] w-[116px]"
+                      >
+                        Rent Now
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>

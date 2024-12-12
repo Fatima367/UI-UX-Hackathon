@@ -2,6 +2,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import Image from "next/image";
 import React from "react";
 import Footer from "../footer/page";
+import Link from "next/link";
 
 const Dashboard = () => {
   return (
@@ -28,7 +29,10 @@ const Dashboard = () => {
                 </div>
               </div>
 
-              <div className="text-[20px] font-medium flex text-[#90A3BF]">
+              <div
+                className="text-[20px] font-medium flex z-10 text-[#90A3BF]
+               hover:bg-blue-50 hover:rounded-md cursor-pointer"
+              >
                 <Image
                   src="/images/car-icon.png"
                   height={24}
@@ -39,7 +43,10 @@ const Dashboard = () => {
                 <p> Car Rent</p>
               </div>
 
-              <div className="text-[20px] font-medium flex text-[#90A3BF]">
+              <div
+                className="text-[20px] font-medium flex z-10 text-[#90A3BF]
+               hover:bg-blue-50 hover:rounded-md cursor-pointer"
+              >
                 <Image
                   src="/images/chart.png"
                   height={24}
@@ -50,7 +57,10 @@ const Dashboard = () => {
                 <p> Insight</p>
               </div>
 
-              <div className="text-[20px] font-medium flex text-[#90A3BF]">
+              <div
+                className="text-[20px] font-medium flex z-10 text-[#90A3BF]
+               hover:bg-blue-50 hover:rounded-md cursor-pointer"
+              >
                 <Image
                   src="/images/wallet.png"
                   height={24}
@@ -61,7 +71,10 @@ const Dashboard = () => {
                 <p> Reimburse</p>
               </div>
 
-              <div className="text-[20px] font-medium flex text-[#90A3BF]">
+              <div
+                className="text-[20px] font-medium flex z-10 text-[#90A3BF]
+               hover:bg-blue-50 hover:rounded-md cursor-pointer"
+              >
                 <Image
                   src="/images/message.png"
                   height={24}
@@ -72,7 +85,10 @@ const Dashboard = () => {
                 <p> Inbox</p>
               </div>
 
-              <div className="text-[20px] font-medium flex text-[#90A3BF]">
+              <div
+                className="text-[20px] font-medium flex z-10 text-[#90A3BF]
+               hover:bg-blue-50 hover:rounded-md cursor-pointer"
+              >
                 <Image
                   src="/images/calendar.png"
                   height={24}
@@ -91,7 +107,10 @@ const Dashboard = () => {
             </p>
 
             <div className="space-y-[32px]">
-              <div className="text-[20px] font-medium flex text-[#90A3BF]">
+              <div
+                className="text-[20px] font-medium flex z-10 text-[#90A3BF]
+               hover:bg-blue-50 hover:rounded-md cursor-pointer"
+              >
                 <Image
                   src="/images/setting.png"
                   height={24}
@@ -102,7 +121,10 @@ const Dashboard = () => {
                 <p>Settings</p>
               </div>
 
-              <div className="text-[20px] font-medium flex text-[#90A3BF]">
+              <div
+                className="text-[20px] font-medium flex z-10 text-[#90A3BF]
+               hover:bg-blue-50 hover:rounded-md cursor-pointer"
+              >
                 <Image
                   src="/images/info.png"
                   height={24}
@@ -113,7 +135,10 @@ const Dashboard = () => {
                 <p> Help & Center</p>
               </div>
 
-              <div className="text-[20px] font-medium flex text-[#90A3BF]">
+              <div
+                className="text-[20px] font-medium flex z-10 text-[#90A3BF]
+               hover:bg-blue-50 hover:rounded-md cursor-pointer"
+              >
                 <Image
                   src="/images/briefcase.png"
                   height={24}
@@ -122,21 +147,45 @@ const Dashboard = () => {
                   className="ml-3 mr-2"
                 />{" "}
                 <p> Dark Mode</p>
+                <div
+                  className="ml-6 bg-[#F6F7F9] rounded-full w-68px flex items-center justify-center
+                 w-[68px] h-[34px] space-x-3"
+                >
+                  <div className="rounded-full bg-[#3563E9] h-7 w-7 flex items-center justify-center">
+                    <Image
+                      src="/images/sun.png"
+                      height={16}
+                      width={16}
+                      alt="lightmode"
+                    />
+                  </div>
+                  <Image
+                    src="/images/moon.png"
+                    height={14.96}
+                    width={14.96}
+                    alt="darkmode"
+                  />
+                </div>
               </div>
             </div>
           </div>
 
           <div className="flex mt-[145px] mb-20 ml-8">
-            <div className="text-[20px] font-medium flex text-[#90A3BF]">
-              <Image
-                src="/images/logout.png"
-                height={24}
-                width={24}
-                alt="Home"
-                className="ml-3 mr-2"
-              />{" "}
-              <p>LogOut</p>
-            </div>
+            <Link href="/">
+              <div
+                className="text-[20px] font-medium flex z-10 text-[#90A3BF]
+               hover:bg-blue-50 hover:rounded-md cursor-pointer hover:w-60"
+              >
+                <Image
+                  src="/images/logout.png"
+                  height={24}
+                  width={24}
+                  alt="Home"
+                  className="ml-3 mr-2"
+                />{" "}
+                <p>LogOut</p>
+              </div>
+            </Link>
           </div>
         </div>
 
@@ -320,12 +369,15 @@ const Dashboard = () => {
                 <p className="text-[20px] font-bold text-[#1A202C]">
                   Top 5 Car Rental
                 </p>
-                <Image
-                  src="/images/more.png"
-                  height={24}
-                  width={24}
-                  alt="more"
-                />
+
+                <button>
+                  <Image
+                    src="/images/more.png"
+                    height={24}
+                    width={24}
+                    alt="more"
+                  />
+                </button>
               </div>
 
               <div className="grid md:flex mt-8 space-x-6 mb-6">
@@ -441,9 +493,12 @@ const Dashboard = () => {
                 <p className="text-[20px] font-bold text-[#1A202C]">
                   Recent Transaction
                 </p>
-                <p className="text-[#3563E9] text-[14px] font-medium">
-                  View All
-                </p>
+
+                <button>
+                  <p className="text-[#3563E9] text-[14px] font-medium">
+                    View All
+                  </p>
+                </button>
               </div>
 
               <div className="flex mt-8 md:-ml-0 -ml-4">

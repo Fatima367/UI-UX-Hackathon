@@ -1,5 +1,6 @@
 import { Checkbox } from "@/components/ui/checkbox";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Payment = () => {
@@ -557,12 +558,14 @@ text-[14px] text-[#90A3BF] selection:font-medium
               </div>
             </div>
 
-            <button
-              className="px-[20px] py-3 mt-8 text-base font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] rounded-[10px] h-[56px] w-[140px]"
-            >
-              Rent Now
-            </button>
+            <Link href="/dashboard">
+              <button
+                className="px-[20px] py-3 mt-8 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] rounded-[10px] h-[56px] w-[140px] hover:bg-blue-800"
+              >
+                Rent Now
+              </button>
+            </Link>
 
             <div className="flex flex-col space-y-4 my-8">
               <Image

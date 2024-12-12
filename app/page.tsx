@@ -1,8 +1,10 @@
 import Image from "next/image";
 import RecommendationCar from "./components/recommendation-car";
 import PopularCarSection from "./components/popular-car";
+import Link from "next/link";
 
 export default function Home() {
+
   return (
     <main
       className="bg-[#F6F7F9] w-screen font-PlusJakartaSans flex items-start 
@@ -16,7 +18,7 @@ export default function Home() {
         space-y-6 mx-auto"
         >
           <div className="rounded-[10px] object-cover md:mx-0 mx-auto
-          md:w-[620px] md:h-[320px] w-[340px] h-[400px] bg-blue-400">
+          md:w-[620px] md:h-[320px] w-[340px] h-[400px] bg-blue-400 hover:scale-105 transition">
             <Image
               src="/images/Ads 1.png"
               height={360}
@@ -33,12 +35,14 @@ export default function Home() {
                 at a low price.
               </p>
 
+              <Link href="/car-rent">
               <button
                 className="rounded space-x-2 px-5 bg-[#3563E9] text-[16px] font-medium text-white
-           h-[44px] w-[120px]"
+           h-[44px] w-[120px] hover:bg-blue-800"
               >
                 Rental Car
               </button>
+              </Link>
             </div>
 
             <Image
@@ -53,7 +57,7 @@ export default function Home() {
 
           <div
             className="rounded-[10px] object-cover md:w-[620px] md:h-[320px] 
-          w-[340px] h-[400px] bg-blue-600 md:block hidden"
+          w-[340px] h-[400px] bg-blue-600 md:block hidden hover:scale-105 transition"
           >
             <Image
               src="/images/Ads 2.png"
@@ -71,12 +75,14 @@ export default function Home() {
                 and safe and comfortable facilities.
               </p>
 
+              <Link href="/car-rent">
               <button
                 className="rounded space-x-2 px-5 bg-[#54A6FF] text-[16px] font-medium text-white
-           h-[44px] w-[120px]"
+           h-[44px] w-[120px] hover:bg-blue-300"
               >
                 Rental Car
               </button>
+              </Link>
             </div>
 
             <Image
@@ -107,7 +113,8 @@ export default function Home() {
               <h3 className="text-lg font-medium">Pick-Up</h3>
             </div>
 
-            <div className="md:flex grid-cols-3 px-[48px] md:space-x-6 mt-4 -mx-14 space-y-4">
+            <div className="md:flex grid-cols-3 px-[48px] md:space-x-6 mt-4 -mx-14 space-y-4
+            md:space-y-0">
               <div className="space-y-2">
                 <label className="text-[16px] font-bold text-[#1A202C]">
                   Locations
@@ -144,7 +151,7 @@ export default function Home() {
           {/* Swap Button */}
           <div className=" flex items-center justify-center md:ml-0 ml-8">
             <button
-              className="bg-[#3563E9] p-4 shadow-lg hover:bg-blue-600
+              className="bg-[#3563E9] p-4 shadow-lg hover:bg-blue-400
             items-center justify-center rounded-lg md:ml-0 ml-20"
             >
               <Image
@@ -167,7 +174,8 @@ export default function Home() {
               <h3 className="text-lg font-medium">Drop-Off</h3>
             </div>
 
-            <div className="md:flex grid-cols-3 px-[48px] md:space-x-6 mt-4 -mx-14 space-y-4">
+            <div className="md:flex grid-cols-3 px-[48px] md:space-x-6 mt-4 -mx-14 space-y-4
+            md:space-y-0">
               <div className="space-y-2">
                 <label className="text-[16px] font-bold text-[#1A202C]">
                   Locations
