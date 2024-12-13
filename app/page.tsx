@@ -5,10 +5,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main
-      className="bg-[#F6F7F9] font-PlusJakartaSans flex items-start 
-    justify-between mx-auto"
-    >
+    <main className="bg-[#F6F7F9] font-PlusJakartaSans flex items-start 
+                       justify-between mx-auto">
       <div className="flex flex-col items-start justify-between px-5 md:px-[34px]">
         {/*Hero Section*/}
 

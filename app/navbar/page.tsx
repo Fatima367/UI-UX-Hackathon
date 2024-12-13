@@ -8,22 +8,22 @@ export default function Navbar() {
       border-opacity-40 p-6 md:p-5 flex flex-col md:flex-row md:items-start 
       md:justify-between items-center justify-center h-auto relative"
     >
-      <div className="flex items-center justify-between space-x-10 -mb-5">
+      <div className="md:flex items-center justify-between md:space-x-10 md:-mb-5">
         {/* Logo */}
-        <div className="flex md:items-center md:space-x-0 ml-3 mt-1">
+        <div className="flex md:items-center md:space-x-0 md:ml-3 mt-1">
           <Link href="/" className="h-[44px]">
             <Image src="/images/Logo.png" width={130} height={36} alt="Logo" />
           </Link>
 
-          <button>
+          <Link href="/dashboard">
             <Image
               src="/images/Image.png"
               height={44}
               width={44}
               alt="profile"
-              className="lg:hidden block"
+              className="lg:hidden block ml-40 -mt-1"
             />
-          </button>
+          </Link>
         </div>
 
         {/* Search bar */}
