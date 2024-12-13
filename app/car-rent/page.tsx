@@ -127,7 +127,7 @@ const CarRent = () => {
                     </h3>
                   </div>
 
-                  <div className="md:space-x-3 space-x-3 flex mt-4 mx-auto">
+                  <div className="md:space-x-3 space-x-2 flex mt-4 mx-auto">
                     <div className="space-y-2 flex flex-col">
                       <label className="text-[16px] font-bold text-[#1A202C]">
                         Locations
@@ -139,11 +139,11 @@ const CarRent = () => {
                         <option>Kota Semarang</option>
                       </select>
                     </div>
-                    <div className="mx-[24px] w-[1px] bg-[#C3D4E9] opacity-40">
+                    <div className="mx-[20px] w-[1px] bg-[#C3D4E9] opacity-40">
                       {" "}
                     </div>
                     <div className="space-y-2 flex-col flex">
-                      <label className="text-[16px] font-bold text-[#1A202C]">
+                      <label className="text-[16px] font-bold text-[#1A202C] md:ml-0 ml-2">
                         Date
                       </label>
                       <select
@@ -153,11 +153,11 @@ const CarRent = () => {
                         <option>20 July 2022</option>
                       </select>
                     </div>
-                    <div className="mx-[24px] w-[1px] bg-[#C3D4E9] opacity-40">
+                    <div className="mx-[20px] w-[1px] bg-[#C3D4E9] opacity-40">
                       {" "}
                     </div>
                     <div className="space-y-2 flex-col flex">
-                      <label className="text-[16px] font-bold text-[#1A202C]">
+                      <label className="text-[16px] font-bold text-[#1A202C] md:ml-0 ml-2">
                         Time
                       </label>
                       <select
@@ -203,7 +203,7 @@ const CarRent = () => {
                     </h3>
                   </div>
 
-                  <div className="md:space-x-3 space-x-3 flex mt-4 mx-auto">
+                  <div className="md:space-x-3 space-x-2 flex mt-4 mx-auto">
                     <div className="space-y-2 flex flex-col">
                       <label className="text-[16px] font-bold text-[#1A202C]">
                         Locations
@@ -215,11 +215,11 @@ const CarRent = () => {
                         <option>Kota Semarang</option>
                       </select>
                     </div>
-                    <div className="mx-[24px] w-[1px] bg-[#C3D4E9] opacity-40">
+                    <div className="mx-[20px] w-[1px] bg-[#C3D4E9] opacity-40">
                       {" "}
                     </div>
                     <div className="space-y-2 flex-col flex">
-                      <label className="text-[16px] font-bold text-[#1A202C]">
+                      <label className="text-[16px] font-bold text-[#1A202C] md:ml-0 ml-2">
                         Date
                       </label>
                       <select
@@ -229,11 +229,11 @@ const CarRent = () => {
                         <option>21 July 2022</option>
                       </select>
                     </div>
-                    <div className="mx-[24px] w-[1px] bg-[#C3D4E9] opacity-40">
+                    <div className="mx-[20px] w-[1px] bg-[#C3D4E9] opacity-40">
                       {" "}
                     </div>
                     <div className="space-y-2 flex-col flex">
-                      <label className="text-[16px] font-bold text-[#1A202C]">
+                      <label className="text-[16px] font-bold text-[#1A202C] md:ml-0 ml-2">
                         Time
                       </label>
                       <select
