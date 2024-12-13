@@ -120,7 +120,7 @@ const CarRent = () => {
                 md:p-7 p-3 rounded-lg flex flex-col"
               >
                 <div className="flex-1 items-start justify-between">
-                  <div className="flex space-x-2 items-center justify-start">
+                  <div className="flex space-x-3 items-center justify-start md:ml-0 ml-1 mt-1 md:mt-0">
                     <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
                     <h3 className="text-[16px] font-medium text-[#1A202C]">
                       Pick-Up
@@ -129,40 +129,41 @@ const CarRent = () => {
 
                   <div className="md:space-x-3 space-x-2 flex mt-4 mx-auto">
                     <div className="space-y-2 flex flex-col">
-                      <label className="text-[16px] font-bold text-[#1A202C]">
+                      <label className="md:text-[16px] text-[14px] font-bold text-[#1A202C]
+                      md:ml-0 ml-1">
                         Locations
                       </label>
                       <select
-                        className="w-24 md:w-[126px] border-0 text-[#90A3BF] font-medium
-                   text-[12px] bg-transparent md:p-0 p-4 md:rounded-none rounded-md"
+                        className="w-20 md:w-[126px] border-0 text-[#90A3BF] font-medium
+                   text-[12px] bg-transparent md:py-0 py-4 md:rounded-none rounded-md"
                       >
                         <option>Kota Semarang</option>
                       </select>
                     </div>
-                    <div className="mx-[20px] w-[1px] bg-[#C3D4E9] opacity-40">
+                    <div className="mx-[16px] w-[1px] bg-[#C3D4E9] opacity-40">
                       {" "}
                     </div>
                     <div className="space-y-2 flex-col flex">
-                      <label className="text-[16px] font-bold text-[#1A202C] md:ml-0 ml-2">
+                      <label className="md:text-[16px] text-[14px] font-bold text-[#1A202C] md:ml-0 ml-1">
                         Date
                       </label>
                       <select
-                        className="w-24 md:w-[126px] border-0 text-[#90A3BF] font-medium
-                   text-[12px] bg-transparent md:p-0 p-4 md:rounded-none rounded-md"
+                        className="w-20 md:w-[126px] border-0 text-[#90A3BF] font-medium
+                   text-[12px] bg-transparent md:py-0 py-4 md:rounded-none rounded-md"
                       >
                         <option>20 July 2022</option>
                       </select>
                     </div>
-                    <div className="mx-[20px] w-[1px] bg-[#C3D4E9] opacity-40">
+                    <div className="mx-[16px] w-[1px] bg-[#C3D4E9] opacity-40">
                       {" "}
                     </div>
                     <div className="space-y-2 flex-col flex">
-                      <label className="text-[16px] font-bold text-[#1A202C] md:ml-0 ml-2">
+                      <label className="md:text-[16px] text-[14px] font-bold text-[#1A202C] md:ml-0 ml-1">
                         Time
                       </label>
                       <select
-                        className="w-24 md:w-[126px] border-0 text-[#90A3BF] font-medium
-                   text-[12px] bg-transparent md:p-0 p-4 md:rounded-none rounded-md"
+                        className="w-20 md:w-[126px] border-0 text-[#90A3BF] font-medium
+                   text-[12px] bg-transparent md:py-0 py-4 md:rounded-none rounded-md"
                       >
                         <option>07.00</option>
                       </select>
@@ -196,7 +197,7 @@ const CarRent = () => {
                 md:p-7 p-3 rounded-lg flex flex-col"
               >
                 <div className="flex-1 items-start justify-between">
-                  <div className="flex space-x-2 items-center justify-start">
+                  <div className="flex space-x-3 items-center justify-start md:ml-0 ml-1 mt-1 md:mt-0">
                     <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#5CAFFC] ring-opacity-30"></div>
                     <h3 className="text-[16px] font-medium text-[#1A202C]">
                       Drop-Off
@@ -205,40 +206,41 @@ const CarRent = () => {
 
                   <div className="md:space-x-3 space-x-2 flex mt-4 mx-auto">
                     <div className="space-y-2 flex flex-col">
-                      <label className="text-[16px] font-bold text-[#1A202C]">
+                      <label className="md:text-[16px] text-[14px] font-bold text-[#1A202C]
+                      md:ml-0 ml-1">
                         Locations
                       </label>
                       <select
-                        className="w-24 md:w-[126px] border-0 text-[#90A3BF] font-medium 
-                  text-[12px] bg-transparent md:p-0 p-4 md:rounded-none rounded-md"
+                        className="w-20 md:w-[126px] border-0 text-[#90A3BF] font-medium 
+                  text-[12px] bg-transparent md:py-0 py-4 md:rounded-none rounded-md"
                       >
                         <option>Kota Semarang</option>
                       </select>
                     </div>
-                    <div className="mx-[20px] w-[1px] bg-[#C3D4E9] opacity-40">
+                    <div className="mx-[16px] w-[1px] bg-[#C3D4E9] opacity-40">
                       {" "}
                     </div>
                     <div className="space-y-2 flex-col flex">
-                      <label className="text-[16px] font-bold text-[#1A202C] md:ml-0 ml-2">
+                      <label className="md:text-[16px] text-[14px] font-bold text-[#1A202C] md:ml-0 ml-1">
                         Date
                       </label>
                       <select
-                        className="w-24 md:w-[126px] border-0 text-[#90A3BF] font-medium 
-                    text-[12px] bg-transparent md:p-0 p-4 md:rounded-none rounded-md"
+                        className="w-20 md:w-[126px] border-0 text-[#90A3BF] font-medium 
+                    text-[12px] bg-transparent md:py-0 py-4 md:rounded-none rounded-md"
                       >
                         <option>21 July 2022</option>
                       </select>
                     </div>
-                    <div className="mx-[20px] w-[1px] bg-[#C3D4E9] opacity-40">
+                    <div className="mx-[16px] w-[1px] bg-[#C3D4E9] opacity-40">
                       {" "}
                     </div>
                     <div className="space-y-2 flex-col flex">
-                      <label className="text-[16px] font-bold text-[#1A202C] md:ml-0 ml-2">
+                      <label className="md:text-[16px] text-[14px] font-bold text-[#1A202C] md:ml-0 ml-1">
                         Time
                       </label>
                       <select
-                        className="w-24 md:w-[126px] border-0 text-[#90A3BF] font-medium 
-                    text-[12px] bg-transparent md:p-0 p-4 md:rounded-none rounded-md"
+                        className="w-20 md:w-[126px] border-0 text-[#90A3BF] font-medium 
+                    text-[12px] bg-transparent md:py-0 py-4 md:rounded-none rounded-md"
                       >
                         <option>01.00</option>
                       </select>
