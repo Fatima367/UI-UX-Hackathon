@@ -6,8 +6,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="bg-[#F6F7F9] font-PlusJakartaSans flex items-start 
-                       justify-between mx-auto">
-      <div className="flex flex-col items-start justify-between px-5 md:px-[34px]">
+                       justify-between">
+      <div className="flex flex-col items-start justify-between px-5 md:px-[34px] mx-auto">
         {/*Hero Section*/}
 
         <div
@@ -16,7 +16,7 @@ export default function Home() {
         >
           <div
             className="rounded-[10px] object-cover md:mx-0 mx-auto
-          md:w-[620px] md:h-[320px] w-[340px] h-[400px] bg-blue-400 hover:scale-105 transition"
+          md:w-[620px] md:h-[320px] w-[310px] h-[390px] bg-blue-400 hover:scale-105 transition"
           >
             <Image
               src="/images/Ads 1.png"
@@ -25,7 +25,7 @@ export default function Home() {
               alt="Ad 1"
             />
 
-            <div className="flex flex-col space-y-[16px] z-10 ml-6 text-white md:-mt-80 -mt-40">
+            <div className="flex flex-col space-y-[16px] z-10 md:ml-6 text-white md:-mt-80 -mt-[148px] ml-4">
               <h2 className="text-[32px] font-semibold">
                 The Best Platform <br /> for Car Rental
               </h2>
@@ -50,7 +50,7 @@ export default function Home() {
               width={340}
               alt="car-image"
               className="z-50
-              md:ml-[150px] mb-8 md:-mt-2 mt-6"
+              md:ml-[150px] mb-8 md:-mt-2 mt-8"
             />
           </div>
 
@@ -248,7 +248,7 @@ export default function Home() {
         </div>
         {/*--------------------------------------------------------------------------------------------------------*/}
       
-      
+
       </div>
     </main>
   );

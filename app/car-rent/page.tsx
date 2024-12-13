@@ -28,7 +28,7 @@ const CarRent = () => {
 
   return (
     <div className="bg-[#F6F7F9]">
-      <div className="flex flex-col items-center justify-center bg-[#F6F7F9]">
+      <div className="flex flex-col items-start justify-between mx-auto bg-[#F6F7F9]">
         <div className="flex">
           {/*Left*/}
           <div className="-ml-5 lg:flex lg:flex-col lg:visible hidden md:h-[1600px] bg-white md:w-[310px]">
@@ -117,7 +117,7 @@ const CarRent = () => {
               {/* Pick-Up */}
               <div
                 className="md:flex-1 items-start justify-between bg-white shadow-md 
-                md:p-7 p-4 rounded-lg flex flex-col"
+                md:p-7 p-3 rounded-lg flex flex-col"
               >
                 <div className="flex-1 items-start justify-between">
                   <div className="flex space-x-2 items-center justify-start">
@@ -193,7 +193,7 @@ const CarRent = () => {
               {/* Drop-Off */}
               <div
                 className="md:flex-1 items-start justify-between bg-white shadow-md
-                md:p-7 p-4 rounded-lg flex flex-col"
+                md:p-7 p-3 rounded-lg flex flex-col"
               >
                 <div className="flex-1 items-start justify-between">
                   <div className="flex space-x-2 items-center justify-start">
