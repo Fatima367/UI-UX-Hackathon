@@ -28,7 +28,7 @@ const CarRent = () => {
 
   return (
     <div className="bg-[#F6F7F9]">
-      <div className="flex flex-col items-start justify-between mx-auto bg-[#F6F7F9]">
+      <div className="flex flex-col items-center justify-between mx-auto bg-[#F6F7F9]">
         <div className="flex">
           {/*Left*/}
           <div className="-ml-5 lg:flex lg:flex-col lg:visible hidden md:h-[1600px] bg-white md:w-[310px]">
@@ -179,7 +179,7 @@ const CarRent = () => {
               >
                 <button
                   className="bg-[#3563E9] p-4 shadow-lg hover:bg-blue-400
-            items-center justify-center rounded-lg md:ml-0 ml-36"
+            items-center justify-center rounded-lg md:ml-0 ml-32"
                 >
                   <Image
                     src="/images/Swap.png"
