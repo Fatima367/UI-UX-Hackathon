@@ -117,7 +117,7 @@ const CarRent = () => {
               {/* Pick-Up */}
               <div
                 className="md:flex-1 items-start justify-between bg-white shadow-md 
-          p-7 rounded-lg flex flex-col"
+                md:p-7 p-4 rounded-lg flex flex-col"
               >
                 <div className="flex-1 items-start justify-between">
                   <div className="flex space-x-2 items-center justify-start">
@@ -178,7 +178,7 @@ const CarRent = () => {
               >
                 <button
                   className="bg-[#3563E9] p-4 shadow-lg hover:bg-blue-400
-            items-center justify-center rounded-lg md:ml-0 ml-44"
+            items-center justify-center rounded-lg md:ml-0 ml-36"
                 >
                   <Image
                     src="/images/Swap.png"
@@ -193,7 +193,7 @@ const CarRent = () => {
               {/* Drop-Off */}
               <div
                 className="md:flex-1 items-start justify-between bg-white shadow-md
-           p-7 rounded-lg flex flex-col"
+                md:p-7 p-4 rounded-lg flex flex-col"
               >
                 <div className="flex-1 items-start justify-between">
                   <div className="flex space-x-2 items-center justify-start">

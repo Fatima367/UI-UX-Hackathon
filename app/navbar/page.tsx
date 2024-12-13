@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav
       className="box-border bg-white border border-[#C3D4E9] mt-0 md:mt-16
       border-opacity-40 p-6 md:p-5 flex flex-col md:flex-row md:items-start 
-      md:justify-between items-center justify-center h-auto relative"
+      md:justify-between items-center justify-center h-auto relative border-r-0"
     >
       <div className="md:flex items-center justify-between md:space-x-10 md:-mb-5">
         {/* Logo */}
