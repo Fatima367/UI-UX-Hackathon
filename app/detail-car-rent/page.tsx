@@ -18,7 +18,7 @@ const DetailCarRent = () => {
   };
 
   return (
-    <div className="w-screen min-h-screen bg-[#F6F7F9]">
+    <div className="bg-[#F6F7F9]">
       <div className="flex flex-col items-center justify-center bg-[#F6F7F9]">
         <div className="flex">
           {/*Left*/}

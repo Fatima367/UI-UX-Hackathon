@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="lg:bg-white bg-[#F6F7F9] w-screen bottom-0">
+    <footer className="lg:bg-white bg-[#F6F7F9] bottom-0">
       <div className="lg:flex p-[80px] grid">
         <div className="space-y-[16px]">
           <Link href="/">

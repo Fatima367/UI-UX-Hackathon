@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <nav
-      className="box-border w-screen bg-white border border-[#C3D4E9] mt-0 md:mt-16
+      className="box-border bg-white border border-[#C3D4E9] mt-0 md:mt-16
       border-opacity-40 p-6 md:p-5 flex flex-col md:flex-row md:items-start 
       md:justify-between items-center justify-center h-auto relative"
     >

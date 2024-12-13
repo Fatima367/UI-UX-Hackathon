@@ -4,10 +4,9 @@ import PopularCarSection from "./components/popular-car";
 import Link from "next/link";
 
 export default function Home() {
-
   return (
     <main
-      className="bg-[#F6F7F9] w-screen font-PlusJakartaSans flex items-start 
+      className="bg-[#F6F7F9] font-PlusJakartaSans flex items-start 
     justify-between mx-auto"
     >
       <div className="flex flex-col items-start justify-between px-5 md:px-[34px]">
@@ -17,8 +16,10 @@ export default function Home() {
           className="flex md:flex-row md:space-x-[32px] items-center justify-center mt-8 flex-col md:space-y-0 
         space-y-6 mx-auto"
         >
-          <div className="rounded-[10px] object-cover md:mx-0 mx-auto
-          md:w-[620px] md:h-[320px] w-[340px] h-[400px] bg-blue-400 hover:scale-105 transition">
+          <div
+            className="rounded-[10px] object-cover md:mx-0 mx-auto
+          md:w-[620px] md:h-[320px] w-[340px] h-[400px] bg-blue-400 hover:scale-105 transition"
+          >
             <Image
               src="/images/Ads 1.png"
               height={360}
@@ -36,12 +37,12 @@ export default function Home() {
               </p>
 
               <Link href="/car-rent">
-              <button
-                className="rounded space-x-2 px-5 bg-[#3563E9] text-[16px] font-medium text-white
+                <button
+                  className="rounded space-x-2 px-5 bg-[#3563E9] text-[16px] font-medium text-white
            h-[44px] w-[120px] hover:bg-blue-800"
-              >
-                Rental Car
-              </button>
+                >
+                  Rental Car
+                </button>
               </Link>
             </div>
 
@@ -76,12 +77,12 @@ export default function Home() {
               </p>
 
               <Link href="/car-rent">
-              <button
-                className="rounded space-x-2 px-5 bg-[#54A6FF] text-[16px] font-medium text-white
+                <button
+                  className="rounded space-x-2 px-5 bg-[#54A6FF] text-[16px] font-medium text-white
            h-[44px] w-[120px] hover:bg-blue-300"
-              >
-                Rental Car
-              </button>
+                >
+                  Rental Car
+                </button>
               </Link>
             </div>
 
@@ -100,56 +101,68 @@ export default function Home() {
 
         {/*--------------*/}
         <div
-          className="flex flex-col md:flex-row md:items-center md:justify-center gap-4 mt-[68px] p-6  
-        md:space-x-[34px] mb-[36px] items-start justify-center mx-auto"
+          className="flex flex-col md:flex-row md:items-center md:justify-center gap-4 md:mt-[68px] p-6  
+        md:space-x-[34px] mb-[36px] items-start justify-center mx-auto mt-6"
         >
           {/* Pick-Up */}
           <div
             className="md:flex-1 items-start justify-between bg-white shadow-md 
-          p-7 rounded-lg flex flex-col"
+          p-8 rounded-lg flex flex-col"
           >
-            <div className="flex space-x-2 items-center justify-center">
-              <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
-              <h3 className="text-lg font-medium">Pick-Up</h3>
-            </div>
+            <div className="flex-1 items-start justify-between">
+              <div className="flex space-x-3 items-center justify-start">
+                <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
+                <h3 className="text-[18px] font-semibold text-[#1A202C]">
+                  Pick-Up
+                </h3>
+              </div>
 
-            <div className="md:flex grid-cols-3 px-[48px] md:space-x-6 mt-4 -mx-14 space-y-4
-            md:space-y-0">
-              <div className="space-y-2">
-                <label className="text-[16px] font-bold text-[#1A202C]">
-                  Locations
-                </label>
-                <select className="w-full border rounded-md p-2 px-2">
-                  <option className="text-[#90A3BF] font-medium text-[12px]">
-                    Select your city
-                  </option>
-                </select>
-              </div>
-              <div className="space-y-2">
-                <label className="text-[16px] font-bold text-[#1A202C]">
-                  Date
-                </label>
-                <select className="w-full border rounded-md p-2 px-2">
-                  <option className="text-[#90A3BF] font-medium text-[12px]">
-                    Select your date
-                  </option>
-                </select>
-              </div>
-              <div className="space-y-2">
-                <label className="text-[16px] font-bold text-[#1A202C]">
-                  Time
-                </label>
-                <select className="w-full border rounded-md p-2 px-2">
-                  <option className="text-[#90A3BF] font-medium text-[12px]">
-                    Select your time
-                  </option>
-                </select>
+              <div className="md:space-x-6 md:flex mt-4 mx-auto grid md:space-y-0 space-y-3">
+                <div className="space-y-2 flex flex-col">
+                  <label className="text-[16px] font-bold text-[#1A202C]">
+                    Locations
+                  </label>
+                  <select
+                    className="w-full md:w-[130px] border-0 text-[#90A3BF] font-medium
+                   text-[12px] bg-transparent md:p-0 p-2 md:rounded-none rounded-md"
+                  >
+                    <option>Select your city</option>
+                  </select>
+                </div>
+                <div className="mx-[24px] w-[1px] bg-[#C3D4E9] opacity-40">
+                  {" "}
+                </div>
+                <div className="space-y-2 flex-col flex">
+                  <label className="text-[16px] font-bold text-[#1A202C]">
+                    Date
+                  </label>
+                  <select
+                    className="w-full md:w-[130px] border-0 text-[#90A3BF] font-medium
+                   text-[12px] bg-transparent md:p-0 p-2 md:rounded-none rounded-md"
+                  >
+                    <option>Select your date</option>
+                  </select>
+                </div>
+                <div className="mx-[24px] w-[1px] bg-[#C3D4E9] opacity-40">
+                  {" "}
+                </div>
+                <div className="space-y-2 flex-col flex">
+                  <label className="text-[16px] font-bold text-[#1A202C]">
+                    Time
+                  </label>
+                  <select
+                    className="w-full md:w-[130px] border-0 text-[#90A3BF] font-medium
+                   text-[12px] bg-transparent md:p-0 p-2 md:rounded-none rounded-md"
+                  >
+                    <option>Select your time</option>
+                  </select>
+                </div>
               </div>
             </div>
           </div>
 
           {/* Swap Button */}
-          <div className=" flex items-center justify-center md:ml-0 ml-8">
+          <div className=" flex items-center justify-center md:ml-0 ">
             <button
               className="bg-[#3563E9] p-4 shadow-lg hover:bg-blue-400
             items-center justify-center rounded-lg md:ml-0 ml-20"
@@ -167,44 +180,56 @@ export default function Home() {
           {/* Drop-Off */}
           <div
             className="md:flex-1 items-start justify-between bg-white shadow-md
-           p-7 rounded-lg flex flex-col"
+           p-8 rounded-lg flex flex-col"
           >
-            <div className="flex space-x-2 items-center justify-center">
-              <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
-              <h3 className="text-lg font-medium">Drop-Off</h3>
-            </div>
+            <div className="flex-1 items-start justify-between">
+              <div className="flex space-x-3 items-center justify-start">
+                <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#5CAFFC] ring-opacity-30"></div>
+                <h3 className="text-[18px] font-semibold text-[#1A202C]">
+                  Drop-Off
+                </h3>
+              </div>
 
-            <div className="md:flex grid-cols-3 px-[48px] md:space-x-6 mt-4 -mx-14 space-y-4
-            md:space-y-0">
-              <div className="space-y-2">
-                <label className="text-[16px] font-bold text-[#1A202C]">
-                  Locations
-                </label>
-                <select className="w-full border rounded-md p-2 px-2">
-                  <option className="text-[#90A3BF] font-medium text-[12px]">
-                    Select your city
-                  </option>
-                </select>
-              </div>
-              <div className="space-y-2">
-                <label className="text-[16px] font-bold text-[#1A202C]">
-                  Date
-                </label>
-                <select className="w-full border rounded-md p-2 px-2">
-                  <option className="text-[#90A3BF] font-medium text-[12px]">
-                    Select your date
-                  </option>
-                </select>
-              </div>
-              <div className="space-y-2">
-                <label className="text-[16px] font-bold text-[#1A202C]">
-                  Time
-                </label>
-                <select className="w-full border rounded-md p-2 px-2">
-                  <option className="text-[#90A3BF] font-medium text-[12px]">
-                    Select your time
-                  </option>
-                </select>
+              <div className="md:space-x-6 md:flex mt-4 mx-auto grid md:space-y-0 space-y-3">
+                <div className="space-y-2 flex flex-col">
+                  <label className="text-[16px] font-bold text-[#1A202C]">
+                    Locations
+                  </label>
+                  <select
+                    className="w-full md:w-[130px] border-0 text-[#90A3BF] font-medium 
+                  text-[12px] bg-transparent md:p-0 p-2 md:rounded-none rounded-md"
+                  >
+                    <option>Select your city</option>
+                  </select>
+                </div>
+                <div className="mx-[24px] w-[1px] bg-[#C3D4E9] opacity-40">
+                  {" "}
+                </div>
+                <div className="space-y-2 flex-col flex">
+                  <label className="text-[16px] font-bold text-[#1A202C]">
+                    Date
+                  </label>
+                  <select
+                    className="w-full md:w-[130px] border-0 text-[#90A3BF] font-medium 
+                    text-[12px] bg-transparent md:p-0 p-2 md:rounded-none rounded-md"
+                  >
+                    <option>Select your date</option>
+                  </select>
+                </div>
+                <div className="mx-[24px] w-[1px] bg-[#C3D4E9] opacity-40">
+                  {" "}
+                </div>
+                <div className="space-y-2 flex-col flex">
+                  <label className="text-[16px] font-bold text-[#1A202C]">
+                    Time
+                  </label>
+                  <select
+                    className="w-full md:w-[130px] border-0 text-[#90A3BF] font-medium 
+                    text-[12px] bg-transparent md:p-0 p-2 md:rounded-none rounded-md"
+                  >
+                    <option>Select your time</option>
+                  </select>
+                </div>
               </div>
             </div>
           </div>
@@ -224,7 +249,6 @@ export default function Home() {
           <RecommendationCar />
         </div>
         {/*--------------------------------------------------------------------------------------------------------*/}
-      
       </div>
     </main>
   );

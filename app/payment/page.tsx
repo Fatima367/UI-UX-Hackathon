@@ -5,7 +5,7 @@ import React from "react";
 
 const Payment = () => {
   return (
-    <div className="w-screen bg-[#F6F7F9]">
+    <div className="bg-[#F6F7F9]">
       <div
         className="md:flex md:space-x-5 md:items-start md:justify-between md:mr-10 grid
       md:mx-0 mx-6"

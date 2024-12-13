@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Dashboard = () => {
   return (
-    <div className="w-screen bg-[#F6F7F9]">
+    <div className="bg-[#F6F7F9]">
       <div className="flex">
         {/*Left*/}
         <div className="-ml-5 lg:flex lg:flex-col lg:visible hidden md:h-[1600px] bg-white md:w-[310px]">
