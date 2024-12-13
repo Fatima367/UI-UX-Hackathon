@@ -8,12 +8,12 @@ const Payment = () => {
     <div className="bg-[#F6F7F9]">
       <div
         className="md:flex md:space-x-5 md:items-start md:justify-between md:mr-10 grid
-      md:mx-0 mx-6"
+      md:mx-0 mx-auto"
       >
         {/*For Responsive Design*/}
         <div
-          className="bg-white p-[24px] mt-[32px] rounded-[10px] mx-12
-        md:hidden block md:w-auto w-[350px]"
+          className="bg-white p-[24px] mt-[32px] rounded-[10px]
+        md:hidden block md:w-auto mx-auto w-[320px]"
         >
           <div className="flex flex-col text-left space-y-1">
             <p className="text-[20px] font-bold text-[#1A202C]">
@@ -26,11 +26,11 @@ const Payment = () => {
           </div>
 
           <div className="flex">
-            <div className="flex items-center justify-center md:flex-row mt-[32px] relative">
+            <div className="flex items-center justify-center md:flex-row mt-[24px] relative">
               <Image
                 src="/images/View.png"
                 height={108}
-                width={132}
+                width={120}
                 alt="car"
                 className="rounded-[10px]"
               />
@@ -38,24 +38,25 @@ const Payment = () => {
               <Image
                 src="/images/image 8.png"
                 height={36}
-                width={116}
+                width={110}
                 alt="car"
                 className="z-50 rounded-none mx-auto absolute"
               />
             </div>
 
             <div className="flex flex-col items-start space-y-2 mt-[50px] ml-4">
-              <h2 className="text-[20px] font-bold text-[#1A202C]">
+              <h2 className="text-[18px] font-bold text-[#1A202C]">
                 Nissan GT - R
               </h2>
-              <div className="flex space-x-2 items-center justify-center">
+              <div className="flex flex-col items-center justify-center">
                 <Image
                   src="/images/Four Star.png"
                   height={20}
-                  width={108}
+                  width={90}
                   alt="ratings"
+                  className="-ml-1"
                 />
-                <p className="text-[14px] text-[#90A3BF] font-medium">
+                <p className="text-[12px] text-[#90A3BF] font-medium mt-1">
                   440+ Reviewer
                 </p>
               </div>
@@ -66,7 +67,7 @@ const Payment = () => {
             {" "}
           </div>
 
-          <div className="flex items-stretch justify-between md:space-x-[212px] space-x-[170px]">
+          <div className="flex items-stretch justify-between md:space-x-[212px] space-x-[140px]">
             <p className="text-[16px] text-[#90A3BF] font-medium text-left">
               Subtotal
             </p>
@@ -85,12 +86,12 @@ const Payment = () => {
           </div>
 
           <div
-            className="rounded-[10px] w-[310px] md:w-[444px] h-[56px] bg-[#F6F7F9] my-[32px]
-     flex items-stretch justify-between relative md:space-x-[330px] space-x-[210px]"
+            className="rounded-[10px] w-[280px] md:w-[444px] h-[56px] bg-[#F6F7F9] my-[32px]
+     flex items-stretch justify-between relative md:space-x-[330px] space-x-[180px]"
           >
             <input
               type="text"
-              className="absolute bg-transparent w-[300px] h-[56px]
+              className="absolute bg-transparent w-[250px] h-[56px]
        placeholder:text-[14px] placeholder:text-[#90A3BF] placeholder:font-medium 
        ml-5 border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
               placeholder="Apply promo code"
@@ -103,14 +104,14 @@ const Payment = () => {
 
           <div className="flex items-start justify-between">
             <div className="flex flex-col space-y-1">
-              <p className="text-[20px] font-bold text-[#1A202C]">
+              <p className="text-[18px] font-bold text-[#1A202C]">
                 Total Rental Price
               </p>
-              <p className="text-[14px] text-[#90A3BF] font-medium">
+              <p className="text-[12px] text-[#90A3BF] font-medium">
                 Overall price and includes rental discount
               </p>
             </div>
-            <p className="md:text-[32px] text-[28px] font-bold text-[#1A202C]">
+            <p className="md:text-[32px] text-[24px] font-bold text-[#1A202C]">
               $80.00
             </p>
           </div>
@@ -119,7 +120,7 @@ const Payment = () => {
         {/*Left Form*/}
         <div className="flex flex-col items-start justify-between">
           {/*Step 1*/}
-          <div className="bg-white p-[24px] mt-[32px] mx-auto rounded-[10px] md:w-auto w-[350px]">
+          <div className="bg-white p-[24px] mt-[32px] mx-auto rounded-[10px] md:w-auto w-[320px]">
             <p className="text-[20px] font-bold text-[#1A202C] text-left">
               Billing Info
             </p>
@@ -137,7 +138,7 @@ const Payment = () => {
                 <p className="text-[16px] font-semibold text-[#1A202C]">Name</p>
 
                 <div
-                  className="rounded-[10px] w-[300px] md:w-[386px] h-[56px] bg-[#F6F7F9] my-[32px]
+                  className="rounded-[10px] w-[280px] md:w-[386px] h-[56px] bg-[#F6F7F9] my-[32px]
      flex items-stretch justify-between relative space-x-[330px]"
                 >
                   <input
@@ -156,7 +157,7 @@ const Payment = () => {
                 </p>
 
                 <div
-                  className="rounded-[10px] w-[300px] md:w-[386px] h-[56px] bg-[#F6F7F9] my-[32px]
+                  className="rounded-[10px] w-[280px] md:w-[386px] h-[56px] bg-[#F6F7F9] my-[32px]
      flex items-stretch justify-between relative space-x-[330px]"
                 >
                   <input
@@ -177,7 +178,7 @@ const Payment = () => {
                 </p>
 
                 <div
-                  className="rounded-[10px] w-[300px] md:w-[386px] h-[56px] bg-[#F6F7F9] my-[32px]
+                  className="rounded-[10px] w-[280px] md:w-[386px] h-[56px] bg-[#F6F7F9] my-[32px]
      flex items-stretch justify-between relative space-x-[330px]"
                 >
                   <input
@@ -196,7 +197,7 @@ const Payment = () => {
                 </p>
 
                 <div
-                  className="rounded-[10px] w-[300px] md:w-[386px] h-[56px] bg-[#F6F7F9] my-[32px]
+                  className="rounded-[10px] w-[280px] md:w-[386px] h-[56px] bg-[#F6F7F9] my-[32px]
      flex items-stretch justify-between relative space-x-[330px]"
                 >
                   <input
@@ -212,7 +213,7 @@ const Payment = () => {
           </div>
 
           {/*Step 2*/}
-          <div className="bg-white p-[24px] mt-[32px] mx-auto rounded-[10px] md:w-auto w-[350px]">
+          <div className="bg-white p-[24px] mt-[32px] mx-auto rounded-[10px] md:w-auto w-[320px]">
             <p className="text-[20px] font-bold text-[#1A202C] text-left">
               Rental Info
             </p>
@@ -239,7 +240,7 @@ const Payment = () => {
                 </p>
 
                 <div
-                  className="rounded-[10px] w-[300px] md:w-[386px] h-[56px] bg-[#F6F7F9] my-[32px]
+                  className="rounded-[10px] w-[280px] md:w-[386px] h-[56px] bg-[#F6F7F9] my-[32px]
 flex items-center justify-center relative space-x-[330px]"
                 >
                   <select
@@ -256,7 +257,7 @@ text-[14px] text-[#90A3BF] selection:font-medium
                 <p className="text-[16px] font-semibold text-[#1A202C]">Date</p>
 
                 <div
-                  className="rounded-[10px] w-[300px] md:w-[386px] h-[56px] bg-[#F6F7F9] my-[32px]
+                  className="rounded-[10px] w-[280px] md:w-[386px] h-[56px] bg-[#F6F7F9] my-[32px]
 flex items-center justify-center relative space-x-[330px]"
                 >
                   <select
@@ -275,7 +276,7 @@ text-[14px] text-[#90A3BF] selection:font-medium
                 <p className="text-[16px] font-semibold text-[#1A202C]">Time</p>
 
                 <div
-                  className="rounded-[10px] w-[300px] md:w-[386px] h-[56px] bg-[#F6F7F9] my-[32px]
+                  className="rounded-[10px] w-[280px] md:w-[386px] h-[56px] bg-[#F6F7F9] my-[32px]
 flex items-center justify-center relative space-x-[330px]"
                 >
                   <select
@@ -303,7 +304,7 @@ text-[14px] text-[#90A3BF] selection:font-medium
                 </p>
 
                 <div
-                  className="rounded-[10px] w-[300px] md:w-[386px] h-[56px] bg-[#F6F7F9] my-[32px]
+                  className="rounded-[10px] w-[280px] md:w-[386px] h-[56px] bg-[#F6F7F9] my-[32px]
 flex items-center justify-center relative space-x-[330px]"
                 >
                   <select
@@ -320,7 +321,7 @@ text-[14px] text-[#90A3BF] selection:font-medium
                 <p className="text-[16px] font-semibold text-[#1A202C]">Date</p>
 
                 <div
-                  className="rounded-[10px] w-[300px] md:w-[386px] h-[56px] bg-[#F6F7F9] my-[32px]
+                  className="rounded-[10px] w-[280px] md:w-[386px] h-[56px] bg-[#F6F7F9] my-[32px]
 flex items-center justify-center relative space-x-[330px]"
                 >
                   <select
@@ -339,7 +340,7 @@ text-[14px] text-[#90A3BF] selection:font-medium
                 <p className="text-[16px] font-semibold text-[#1A202C]">Time</p>
 
                 <div
-                  className="rounded-[10px] w-[300px] md:w-[386px] h-[56px] bg-[#F6F7F9] my-[32px]
+                  className="rounded-[10px] w-[280px] md:w-[386px] h-[56px] bg-[#F6F7F9] my-[32px]
                   flex items-center justify-center relative space-x-[330px]"
                 >
                   <select
@@ -355,7 +356,7 @@ text-[14px] text-[#90A3BF] selection:font-medium
           </div>
 
           {/*Step 3*/}
-          <div className="bg-white p-[24px] mt-[32px] mx-auto rounded-[10px] md:w-auto w-[350px]">
+          <div className="bg-white p-[24px] mt-[32px] mx-auto rounded-[10px] md:w-auto w-[320px]">
             <p className="text-[20px] font-bold text-[#1A202C] text-left">
               Payment Method
             </p>
@@ -368,7 +369,7 @@ text-[14px] text-[#90A3BF] selection:font-medium
               </p>
             </div>
 
-            <div className="bg-[#F6F7F9] p-[24px] rounded-[10px] mt-8 md:w-[804px] w-[310px]">
+            <div className="bg-[#F6F7F9] p-[24px] rounded-[10px] mt-8 md:w-[804px] w-[280px]">
               <div className="flex items-center justify-between">
                 <div className="flex space-x-2 items-center text-left justify-start">
                   <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
@@ -399,12 +400,12 @@ text-[14px] text-[#90A3BF] selection:font-medium
                   </p>
 
                   <div
-                    className="rounded-[10px] w-[270px] md:w-[362px] h-[56px] bg-white my-[32px]
+                    className="rounded-[10px] w-[240px] md:w-[362px] h-[56px] bg-white my-[32px]
      flex items-stretch justify-between relative space-x-[330px]"
                   >
                     <input
                       type="text"
-                      className="absolute bg-transparent w-[320px] h-[56px]
+                      className="absolute bg-transparent w-[240px] md:w-[320px] h-[56px]
        placeholder:text-[14px] placeholder:text-[#90A3BF] placeholder:font-medium 
        ml-7 border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
                       placeholder="Card number"
@@ -418,12 +419,12 @@ text-[14px] text-[#90A3BF] selection:font-medium
                   </p>
 
                   <div
-                    className="rounded-[10px] w-[270px] md:w-[362px] h-[56px] bg-white my-[32px]
+                    className="rounded-[10px] w-[240px] md:w-[362px] h-[56px] bg-white my-[32px]
      flex items-stretch justify-between relative space-x-[330px]"
                   >
                     <input
                       type="text"
-                      className="absolute bg-transparent w-[320px] h-[56px]
+                      className="absolute bg-transparent w-[240px] md:w-[320px] h-[56px]
        placeholder:text-[14px] placeholder:text-[#90A3BF] placeholder:font-medium 
        ml-7 border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
                       placeholder="DD/MM/YY"
@@ -439,12 +440,12 @@ text-[14px] text-[#90A3BF] selection:font-medium
                   </p>
 
                   <div
-                    className="rounded-[10px] w-[270px] md:w-[362px] h-[56px] bg-white my-[32px]
+                    className="rounded-[10px] w-[240px] md:w-[362px] h-[56px] bg-white my-[32px]
                    flex items-stretch justify-between relative space-x-[330px]"
                   >
                     <input
                       type="text"
-                      className="absolute bg-transparent w-[320px] h-[56px]
+                      className="absolute bg-transparent w-[240px] md:w-[320px] h-[56px]
                       placeholder:text-[14px] placeholder:text-[#90A3BF] placeholder:font-medium 
                       ml-7 border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
                       placeholder="Card holder"
@@ -458,12 +459,12 @@ text-[14px] text-[#90A3BF] selection:font-medium
                   </p>
 
                   <div
-                    className="rounded-[10px] w-[270px] md:w-[362px] h-[56px] bg-white my-[32px]
+                    className="rounded-[10px] w-[240px] md:w-[362px] h-[56px] bg-white my-[32px]
      flex items-stretch justify-between relative space-x-[330px]"
                   >
                     <input
                       type="text"
-                      className="absolute bg-transparent w-[320px] h-[56px]
+                      className="absolute bg-transparent w-[240px] md:w-[320px] h-[56px]
        placeholder:text-[14px] placeholder:text-[#90A3BF] placeholder:font-medium 
        ml-7 border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
                       placeholder="CVC"
@@ -476,9 +477,9 @@ text-[14px] text-[#90A3BF] selection:font-medium
             <div className="flex flex-col space-y-[24px] mt-6">
               <div
                 className="flex items-center justify-between bg-[#F6F7F9] rounded-[10px]
-                            h-14 md:w-[804px] w-[310px]"
+                            h-14 md:w-[804px] w-[280px]"
               >
-                <div className="flex items-center justify-center ml-10">
+                <div className="flex items-center justify-center md:ml-10 ml-5">
                   <Checkbox className="h-6 w-6 rounded-full" />
                   <p className="text-[14px] text-[#1F2544] font-semibold md:ml-5 ml-2">
                     Paypal
@@ -489,15 +490,15 @@ text-[14px] text-[#90A3BF] selection:font-medium
                   height={24}
                   width={100}
                   alt="Paypal"
-                  className="mr-10"
+                  className="md:mr-10 mr-5"
                 />
               </div>
 
               <div
                 className="flex items-center justify-between bg-[#F6F7F9] rounded-[10px]
-                            h-14 md:w-[804px] w-[310px]"
+                            h-14 md:w-[804px] w-[280px]"
               >
-                <div className="flex items-center justify-center ml-10">
+                <div className="flex items-center justify-center md:ml-10 ml-5">
                   <Checkbox className="h-6 w-6 rounded-full" />
                   <p className="text-[14px] text-[#1F2544] font-semibold md:ml-5 ml-2">
                     Bitcoin
@@ -508,19 +509,19 @@ text-[14px] text-[#90A3BF] selection:font-medium
                   height={20}
                   width={94}
                   alt="Bitcoin"
-                  className="mr-10"
+                  className="md:mr-10 mr-5"
                 />
               </div>
             </div>
           </div>
 
           {/*Step 4*/}
-          <div className="bg-white p-[24px] my-[32px] mx-auto rounded-[10px] md:w-auto w-[350px]">
+          <div className="bg-white p-[24px] my-[32px] mx-auto rounded-[10px] md:w-auto w-[320px]">
             <p className="text-[20px] font-bold text-[#1A202C] text-left">
               Confirmation
             </p>
             <div className="mt-1 flex items-stretch justify-between">
-              <p className="font-medium text-[14px] text-[#90A3BF] text-left">
+              <p className="font-medium md:text-[14px] text-[11px] text-[#90A3BF] text-left">
                 We are getting to the end. Just few clicks and your rental is
                 ready!
               </p>
@@ -532,11 +533,11 @@ text-[14px] text-[#90A3BF] selection:font-medium
             <div className="flex flex-col space-y-[24px] mt-8">
               <div
                 className="flex items-center justify-start bg-[#F6F7F9] rounded-[10px]
-                md:h-14 h-16 md:w-[804px] w-[310px]"
+                md:h-14 h-16 md:w-[804px] w-[280px]"
               >
                 <Checkbox className="h-6 w-6 md:ml-10 ml-6" />
                 <p
-                  className="md:text-[14px] text-[12px] text-[#1F2544] font-semibold 
+                  className="md:text-[14px] text-[11px] text-[#1F2544] font-semibold 
                 md:ml-5 ml-2"
                 >
                   I agree with sending an Marketing and newsletter emails. No
@@ -546,11 +547,11 @@ text-[14px] text-[#90A3BF] selection:font-medium
 
               <div
                 className="flex items-center justify-start bg-[#F6F7F9] rounded-[10px]
-                md:h-14 h-16 md:w-[804px] w-[310px]"
+                md:h-14 h-16 md:w-[804px] w-[280px]"
               >
                 <Checkbox className="h-6 w-6 md:ml-10 ml-6" />
                 <p
-                  className="md:text-[14px] text-[12px] text-[#1F2544] font-semibold 
+                  className="md:text-[14px] text-[11px] text-[#1F2544] font-semibold 
                 md:ml-5 ml-2"
                 >
                   I agree with our terms and conditions and privacy policy.

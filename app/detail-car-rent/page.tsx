@@ -252,8 +252,8 @@ const DetailCarRent = () => {
                     </div>
                   </div>
                   <div className="flex flex-col space-y-[16px]">
-                  <div className="md:space-x-[16px] space-x-28 flex">
-                  <p className="text-[#90A3BF] text-[18px] text-left">
+                    <div className="md:space-x-[16px] space-x-28 flex">
+                      <p className="text-[#90A3BF] text-[18px] text-left">
                         Capacity
                       </p>
                       <p className="text-[#596780] text-[18px] text-right">
@@ -275,7 +275,9 @@ const DetailCarRent = () => {
                   <div className="flex flex-col font-bold text-[#1A202C]">
                     <div className="md:text-[28px] text-[24px] font-bold">
                       $80.00/{" "}
-                      <span className="md:text-[16px] text-[14px] text-[#90A3BF]">days</span>
+                      <span className="md:text-[16px] text-[14px] text-[#90A3BF]">
+                        days
+                      </span>
                     </div>
                     <div className="mt-1 text-[16px] text-[#90A3BF] line-through">
                       $100.00
@@ -332,8 +334,10 @@ const DetailCarRent = () => {
                       </p>
                     </div>
 
-                    <div className="flex flex-col space-y-[8px] text-right md:ml-0 md:mt-0
-                    mt-1 ">
+                    <div
+                      className="flex flex-col space-y-[8px] text-right md:ml-0 md:mt-0
+                    mt-1 "
+                    >
                       <p className="md:text-[14px] text-[13px] text-[#90A3BF] font-medium">
                         21 July 2022
                       </p>
@@ -706,8 +710,10 @@ const DetailCarRent = () => {
 
               {/*Car Cards*/}
               <div className="flex space-x-[32px] overflow-x-auto w-[320px] md:w-auto md:overflow-hidden">
-                <div className="p-[24px] bg-white rounded-[10px] flex flex-col mx-auto
-                w-[304px] h-auto">
+                <div
+                  className="p-[24px] bg-white rounded-[10px] flex flex-col mx-auto
+                w-[304px] h-auto"
+                >
                   <div className="flex space-x-[105px] items-start">
                     <div className="flex flex-col text-left space-y-1">
                       <p className="font-bold text-[20px] text-[#1A202C]">
