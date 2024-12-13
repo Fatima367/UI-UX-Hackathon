@@ -331,7 +331,7 @@ const CarRent = () => {
                     </div>
                   </div>
 
-                  <Link href="/car-rent">
+                  <Link href="/detail-car-rent">
                     <button
                       className="px-[20px] py-3 mt-1 text-[16px] font-medium text-center space-x-[8px]
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[44px] w-[116px]"
@@ -424,7 +424,7 @@ const CarRent = () => {
                     </div>
                   </div>
 
-                  <Link href="/car-rent">
+                  <Link href="/detail-car-rent">
                     <button
                       className="px-[20px] py-3 mt-1 text-[16px] font-medium text-center space-x-[8px]
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[44px] w-[116px]"
@@ -514,7 +514,7 @@ const CarRent = () => {
                     </div>
                   </div>
 
-                  <Link href="/car-rent">
+                  <Link href="/detail-car-rent">
                     <button
                       className="px-[20px] py-3 mt-1 text-[16px] font-medium text-center space-x-[8px]
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[44px] w-[116px]"
@@ -598,8 +598,8 @@ const CarRent = () => {
                       </div>
                     </div>
 
-                    <Link href="/car-rent">
-                      <button
+                    <Link href="/detail-car-rent">
+                    <button
                         className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
                  text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
                       >
@@ -678,8 +678,8 @@ const CarRent = () => {
                       </div>
                     </div>
 
-                    <Link href="/car-rent">
-                      <button
+                    <Link href="/detail-car-rent">
+                    <button
                         className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
                  text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
                       >
@@ -758,8 +758,8 @@ const CarRent = () => {
                       </div>
                     </div>
 
-                    <Link href="/car-rent">
-                      <button
+                    <Link href="/detail-car-rent">
+                    <button
                         className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
                  text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
                       >
@@ -847,8 +847,8 @@ const CarRent = () => {
                       </div>
                     </div>
 
-                    <Link href="/car-rent">
-                      <button
+                    <Link href="/detail-car-rent">
+                    <button
                         className="px-4 py-2 sm:px-6 sm:py-3 text-[16px] font-medium text-white
                  bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[100px] sm:w-[130px]"
                       >
@@ -927,8 +927,8 @@ const CarRent = () => {
                       </div>
                     </div>
 
-                    <Link href="/car-rent">
-                      <button
+                    <Link href="/detail-car-rent">
+                    <button
                         className="px-4 py-2 sm:px-6 sm:py-3 text-[16px] font-medium 
                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[100px] sm:w-[130px]"
                       >
@@ -1007,8 +1007,8 @@ const CarRent = () => {
                       </div>
                     </div>
 
-                    <Link href="/car-rent">
-                      <button
+                    <Link href="/detail-car-rent">
+                    <button
                         className="px-4 py-2 sm:px-6 sm:py-3 text-[16px] font-medium text-white
                  bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[100px] sm:w-[130px]"
                       >
