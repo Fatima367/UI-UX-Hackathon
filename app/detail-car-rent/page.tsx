@@ -442,8 +442,8 @@ const DetailCarRent = () => {
 
               {/*Car Cards*/}
               <div
-                className="flex space-x-[32px] overflow-x-auto w-[320px] 
-              lg:w-auto lg:overflow-hidden "
+                className="grid grid-cols-4 lg:flex lg:space-x-[32px] overflow-x-auto w-[300px] 
+              lg:w-auto lg:overflow-hidden lg:gap-0 gap-[330px]"
               >
                 <div
                   className="bg-white rounded-[10px] flex flex-col
