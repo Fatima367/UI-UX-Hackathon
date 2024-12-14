@@ -321,6 +321,7 @@ const DetailCarRent = () => {
                   height={56}
                   width={56}
                   alt="Profile-Image"
+                  className="lg:w-[56px] lg:h-[56px] h-[46px] w-[46px]"
                 />
 
                 <div className="flex flex-col lg:ml-[16px] ml-[14px]">
