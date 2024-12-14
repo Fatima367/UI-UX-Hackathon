@@ -54,7 +54,7 @@ export default function RecommendationCar() {
               alt="All New Rush"
               className="self-center mt-16 max-lg:mt-10"
             />
-            <div className="flex gap-4 items-start mt-16 text-[14px] font-medium text-[#90A3BF] max-lg:mt-10">
+            <div className="flex lg:gap-4 gap-1.5 items-start mt-16 text-[14px] font-medium text-[#90A3BF] max-lg:mt-10">
               <div className="flex gap-1.5 items-start">
                 <Image
                   height={24}
@@ -83,12 +83,13 @@ export default function RecommendationCar() {
                 <div className="w-[60px]">6 People</div>
               </div>
             </div>
-            <div className="flex gap-3 mt-8 w-full items-center justify-stretch">
+            <div className="flex gap-3 mt-8 w-full">
               <div className="flex flex-col font-bold text-[#1A202C]">
                 <div className="text-[20px]">
-                  $72.00/ <span className="text-sm text-[#90A3BF]">day</span>
+                  $72.00/{" "}
+                  <span className="text-[14px] text-[#90A3BF]">day</span>
                 </div>
-                <div className="mt-1 text-sm text-[#90A3BF] line-through">
+                <div className="mt-1 text-[14px] text-[#90A3BF] line-through">
                   $80.00
                 </div>
               </div>
@@ -132,7 +133,7 @@ export default function RecommendationCar() {
               className="self-center mt-16 max-lg:mt-10"
             />
             <div
-              className="flex gap-4 items-start mt-16 text-[14px] font-medium
+              className="flex lg:gap-4 gap-1.5 items-start mt-16 text-[14px] font-medium
              text-[#90A3BF] max-lg:mt-10"
             >
               <div className="flex gap-1.5 items-start">
@@ -212,7 +213,7 @@ export default function RecommendationCar() {
               className="object-contain self-center mt-16 max-lg:mt-10"
             />
             <div
-              className="flex gap-4 items-start mt-16 text-[14px] font-medium 
+              className="flex lg:gap-4 gap-1.5 items-start mt-16 text-[14px] font-medium 
             text-[#90A3BF] max-lg:mt-10"
             >
               <div className="flex gap-1.5 items-start">
@@ -292,7 +293,7 @@ export default function RecommendationCar() {
               className="object-contain self-center mt-16 max-lg:mt-10"
             />
             <div
-              className="flex gap-4 items-start mt-16 text-[14px] font-medium
+              className="flex lg:gap-4 gap-1.5 items-start mt-16 text-[14px] font-medium
              text-[#90A3BF] max-lg:mt-10"
             >
               <div className="flex gap-1.5 items-start">
@@ -397,7 +398,7 @@ export default function RecommendationCar() {
                 />
                 <div className="w-12">Manual</div>
               </div>
-              <div className="flex gap-1.5 items-start">
+              <div className="flex gap-1 items-start">
                 <Image
                   height={24}
                   width={24}
@@ -407,7 +408,7 @@ export default function RecommendationCar() {
                 <div className="w-[60px]">4 People</div>
               </div>
             </div>
-            <div className="flex gap-3 mt-6 sm:mt-8 items-center justify-between w-full">
+            <div className="flex gap-3 lg:mt-6 mt-8 items-center justify-between w-full">
               <div className="flex flex-col font-bold text-[#1A202C]">
                 <div className="text-[18px] sm:text-[20px]">
                   $72.00/{" "}
@@ -422,8 +423,8 @@ export default function RecommendationCar() {
 
               <Link href="/car-rent">
                 <button
-                  className="px-4 py-2 sm:px-6 sm:py-3 text-[16px] font-medium text-white
-                 bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[100px] sm:w-[130px]"
+                  className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
                 >
                   Rent Now
                 </button>
@@ -502,8 +503,8 @@ export default function RecommendationCar() {
 
               <Link href="/car-rent">
                 <button
-                  className="px-4 py-2 sm:px-6 sm:py-3 text-[16px] font-medium 
-                text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[100px] sm:w-[130px]"
+                  className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
                 >
                   Rent Now
                 </button>
@@ -560,7 +561,7 @@ export default function RecommendationCar() {
                 />
                 <div className="w-12">Manual</div>
               </div>
-              <div className="flex gap-1.5 items-start">
+              <div className="flex gap-1 items-start">
                 <Image
                   height={24}
                   width={24}
@@ -571,10 +572,10 @@ export default function RecommendationCar() {
               </div>
             </div>
             <div className="flex gap-3 mt-6 sm:mt-8 items-center justify-between w-full">
-              <div className="flex flex-col font-bold text-[#1A202C]">
+              <div className="flex flex-col font-bold text-[#1A202C] lg:-mt-5">
                 <div className="text-[18px] sm:text-[20px]">
                   $74.00/{" "}
-                  <span className="text-12px sm:text-[14px] text-[#90A3BF]">
+                  <span className="text-[12px] sm:text-[14px] text-[#90A3BF]">
                     day
                   </span>
                 </div>
@@ -582,8 +583,8 @@ export default function RecommendationCar() {
 
               <Link href="/car-rent">
                 <button
-                  className="px-4 py-2 sm:px-6 sm:py-3 text-[16px] font-medium text-white
-                 bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[100px] sm:w-[130px]"
+                  className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
                 >
                   Rent Now
                 </button>
@@ -638,7 +639,7 @@ export default function RecommendationCar() {
                   src="/images/manual.png"
                   alt="Mode"
                 />
-                <div className="w-12">Auto</div>
+                <div className="w-12">Manual</div>
               </div>
               <div className="flex gap-1.5 items-start">
                 <Image
@@ -662,8 +663,8 @@ export default function RecommendationCar() {
 
               <Link href="/car-rent">
                 <button
-                  className="px-4 py-2 sm:px-6 sm:py-3 text-[16px] font-medium 
-                text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[100px] sm:w-[130px]"
+                  className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
                 >
                   Rent Now
                 </button>

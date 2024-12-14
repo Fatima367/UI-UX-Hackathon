@@ -129,8 +129,10 @@ const CarRent = () => {
 
                   <div className="lg:space-x-3 space-x-2 flex mt-4 mx-auto">
                     <div className="space-y-2 flex flex-col">
-                      <label className="lg:text-[16px] text-[14px] font-bold text-[#1A202C]
-                      lg:ml-0 ml-1">
+                      <label
+                        className="lg:text-[16px] text-[14px] font-bold text-[#1A202C]
+                      lg:ml-0 ml-1"
+                      >
                         Locations
                       </label>
                       <select
@@ -206,8 +208,10 @@ const CarRent = () => {
 
                   <div className="lg:space-x-3 space-x-2 flex mt-4 mx-auto">
                     <div className="space-y-2 flex flex-col">
-                      <label className="lg:text-[16px] text-[14px] font-bold text-[#1A202C]
-                      lg:ml-0 ml-1">
+                      <label
+                        className="lg:text-[16px] text-[14px] font-bold text-[#1A202C]
+                      lg:ml-0 ml-1"
+                      >
                         Locations
                       </label>
                       <select
@@ -599,7 +603,7 @@ const CarRent = () => {
                     </div>
 
                     <Link href="/detail-car-rent">
-                    <button
+                      <button
                         className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
                  text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
                       >
@@ -679,7 +683,7 @@ const CarRent = () => {
                     </div>
 
                     <Link href="/detail-car-rent">
-                    <button
+                      <button
                         className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
                  text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
                       >
@@ -759,7 +763,7 @@ const CarRent = () => {
                     </div>
 
                     <Link href="/detail-car-rent">
-                    <button
+                      <button
                         className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
                  text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
                       >
@@ -848,9 +852,9 @@ const CarRent = () => {
                     </div>
 
                     <Link href="/detail-car-rent">
-                    <button
-                        className="px-4 py-2 sm:px-6 sm:py-3 text-[16px] font-medium text-white
-                 bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[100px] sm:w-[130px]"
+                      <button
+                        className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
                       >
                         Rent Now
                       </button>
@@ -928,9 +932,9 @@ const CarRent = () => {
                     </div>
 
                     <Link href="/detail-car-rent">
-                    <button
-                        className="px-4 py-2 sm:px-6 sm:py-3 text-[16px] font-medium 
-                text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[100px] sm:w-[130px]"
+                      <button
+                        className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
                       >
                         Rent Now
                       </button>
@@ -1008,9 +1012,9 @@ const CarRent = () => {
                     </div>
 
                     <Link href="/detail-car-rent">
-                    <button
-                        className="px-4 py-2 sm:px-6 sm:py-3 text-[16px] font-medium text-white
-                 bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[100px] sm:w-[130px]"
+                      <button
+                        className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
                       >
                         Rent Now
                       </button>

@@ -5,10 +5,11 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <section className="bg-[#F6F7F9] font-PlusJakartaSans flex items-start 
-                       justify-between">
-      <div className="flex flex-col items-start justify-between px-5 lg:px-[34px] mx-auto
-      max-w-[1400px]">
+    <section
+      className="bg-[#F6F7F9] font-PlusJakartaSans flex items-start 
+                       justify-between"
+    >
+      <div className="flex flex-col items-start justify-between px-5 lg:px-[24px] mx-auto">
         {/*Hero Section*/}
 
         <div
@@ -161,7 +162,7 @@ export default function Home() {
           </div>
 
           {/* Swap Button */}
-          <div className=" flex items-center justify-center lg:ml-0 ">
+          <div className=" flex items-center justify-center ">
             <button
               className="bg-[#3563E9] p-4 shadow-lg hover:bg-blue-400
             items-center justify-center rounded-lg lg:ml-0 ml-20"
@@ -248,7 +249,6 @@ export default function Home() {
           <RecommendationCar />
         </div>
         {/*--------------------------------------------------------------------------------------------------------*/}
-      
       </div>
     </section>
   );
