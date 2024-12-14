@@ -17,9 +17,12 @@ const DetailCarRent = () => {
     setProgress((prev) => Math.max(prev - 10, 0));
   };
 
-  const [isFav1, setIsFav1] = useState(true); // Card 1
-  const [isFav2, setIsFav2] = useState(false); // Card 2
+  const [isFav1, setIsFav1] = useState(false); // Card 1
+  const [isFav2, setIsFav2] = useState(true); // Card 2
   const [isFav3, setIsFav3] = useState(true); // Card 3
+  const [isFav4, setIsFav4] = useState(true); // Card 3
+  const [isFav5, setIsFav5] = useState(false); // Card 3
+  const [isFav6, setIsFav6] = useState(true); // Card 3
 
   return (
     <div className="bg-[#F6F7F9]">
@@ -717,12 +720,12 @@ const DetailCarRent = () => {
         lg:w-[304px] max-w-[304px] mx-auto relative shadow-sm p-6"
           >
             <Image
-              src={isFav1 ? "/images/Like2.png" : "/images/Like.png"}
+              src={isFav4 ? "/images/Like2.png" : "/images/Like.png"}
               height={24}
               width={24}
               alt="Favourite"
               className="cursor-pointer absolute mt-0 lg:ml-60 ml-56 z-10"
-              onClick={() => setIsFav1(!isFav1)}
+              onClick={() => setIsFav4(!isFav4)}
             />
             <div className="flex gap-5 justify-between">
               <div className="flex flex-col">
@@ -797,12 +800,12 @@ const DetailCarRent = () => {
         lg:w-[304px] max-w-[304px] mx-auto relative shadow-sm"
           >
             <Image
-              src={isFav2 ? "/images/Like2.png" : "/images/Like.png"}
+              src={isFav5 ? "/images/Like2.png" : "/images/Like.png"}
               height={24}
               width={24}
               alt="Favourite"
               className="cursor-pointer absolute mt-0 lg:ml-60 ml-56 z-10"
-              onClick={() => setIsFav2(!isFav2)}
+              onClick={() => setIsFav5(!isFav5)}
             />
             <div className="flex gap-5 justify-between">
               <div className="flex flex-col">
@@ -875,12 +878,12 @@ const DetailCarRent = () => {
         lg:w-[304px] max-w-[304px] mx-auto relative shadow-sm"
           >
             <Image
-              src={isFav3 ? "/images/Like2.png" : "/images/Like.png"}
+              src={isFav6 ? "/images/Like2.png" : "/images/Like.png"}
               height={24}
               width={24}
               alt="Favourite"
               className="cursor-pointer absolute mt-0 lg:ml-60 ml-56 z-10"
-              onClick={() => setIsFav3(!isFav3)}
+              onClick={() => setIsFav6(!isFav6)}
             />
             <div className="flex gap-5 justify-between">
               <div className="flex flex-col">
