@@ -34,7 +34,7 @@ export default function RecommendationCar() {
               height={24}
               width={24}
               alt="Favourite"
-              className="cursor-pointer absolute mt-0 md:ml-60 ml-56 z-10"
+              className="cursor-pointer absolute mt-0 lg:ml-60 ml-56 z-10"
               onClick={() => setIsFav1(!isFav1)}
             />
             <div className="flex gap-5 justify-between">
@@ -52,9 +52,9 @@ export default function RecommendationCar() {
               height={100}
               src="/images/Car3.png"
               alt="All New Rush"
-              className="self-center mt-16 max-md:mt-10"
+              className="self-center mt-16 max-lg:mt-10"
             />
-            <div className="flex gap-4 items-start mt-16 text-[14px] font-medium text-[#90A3BF] max-md:mt-10">
+            <div className="flex gap-4 items-start mt-16 text-[14px] font-medium text-[#90A3BF] max-lg:mt-10">
               <div className="flex gap-1.5 items-start">
                 <Image
                   height={24}
@@ -113,7 +113,7 @@ export default function RecommendationCar() {
               height={24}
               width={24}
               alt="Favourite"
-              className="cursor-pointer absolute mt-0 md:ml-60 ml-56 z-10"
+              className="cursor-pointer absolute mt-0 lg:ml-60 ml-56 z-10"
               onClick={() => setIsFav2(!isFav2)}
             />
             <div className="flex gap-5 justify-between">
@@ -129,11 +129,11 @@ export default function RecommendationCar() {
               height={100}
               src="/images/Car4.png"
               alt="CR-V"
-              className="self-center mt-16 max-md:mt-10"
+              className="self-center mt-16 max-lg:mt-10"
             />
             <div
               className="flex gap-4 items-start mt-16 text-[14px] font-medium
-             text-[#90A3BF] max-md:mt-10"
+             text-[#90A3BF] max-lg:mt-10"
             >
               <div className="flex gap-1.5 items-start">
                 <Image
@@ -191,7 +191,7 @@ export default function RecommendationCar() {
               height={24}
               width={24}
               alt="Favourite"
-              className="cursor-pointer absolute mt-0 md:ml-60 ml-56 z-10"
+              className="cursor-pointer absolute mt-0 lg:ml-60 ml-56 z-10"
               onClick={() => setIsFav3(!isFav3)}
             />
             <div className="flex gap-5 justify-between">
@@ -209,11 +209,11 @@ export default function RecommendationCar() {
               width={224}
               src="/images/Car5.png"
               alt="All New Terios"
-              className="object-contain self-center mt-16 max-md:mt-10"
+              className="object-contain self-center mt-16 max-lg:mt-10"
             />
             <div
               className="flex gap-4 items-start mt-16 text-[14px] font-medium 
-            text-[#90A3BF] max-md:mt-10"
+            text-[#90A3BF] max-lg:mt-10"
             >
               <div className="flex gap-1.5 items-start">
                 <Image
@@ -271,7 +271,7 @@ export default function RecommendationCar() {
               height={24}
               width={24}
               alt="Favourite"
-              className="cursor-pointer absolute mt-0 md:ml-60 ml-56 z-10"
+              className="cursor-pointer absolute mt-0 lg:ml-60 ml-56 z-10"
               onClick={() => setIsFav4(!isFav4)}
             />
             <div className="flex gap-5 justify-between">
@@ -289,11 +289,11 @@ export default function RecommendationCar() {
               width={248}
               src="/images/Car6.png"
               alt="Nissan GT-R"
-              className="object-contain self-center mt-16 max-md:mt-10"
+              className="object-contain self-center mt-16 max-lg:mt-10"
             />
             <div
               className="flex gap-4 items-start mt-16 text-[14px] font-medium
-             text-[#90A3BF] max-md:mt-10"
+             text-[#90A3BF] max-lg:mt-10"
             >
               <div className="flex gap-1.5 items-start">
                 <Image
@@ -357,7 +357,7 @@ export default function RecommendationCar() {
               height={24}
               width={24}
               alt="Favourite"
-              className="cursor-pointer absolute mt-0 md:ml-60 ml-56 z-10"
+              className="cursor-pointer absolute mt-0 lg:ml-60 ml-56 z-10"
               onClick={() => setIsFav5(!isFav5)}
             />
             <div className="flex flex-col">
@@ -376,7 +376,7 @@ export default function RecommendationCar() {
               className="self-center mt-10 sm:mt-16"
             />
             <div
-              className="flex gap-4 items-start mt-8 sm:mt-16 text-[12px] md:text-[14px]
+              className="flex gap-4 items-start mt-8 sm:mt-16 text-[12px] lg:text-[14px]
             font-medium text-[#90A3BF]"
             >
               <div className="flex gap-1.5 items-start">
@@ -440,7 +440,7 @@ export default function RecommendationCar() {
               height={24}
               width={24}
               alt="Favourite"
-              className="cursor-pointer absolute mt-0 md:ml-60 ml-56 z-10"
+              className="cursor-pointer absolute mt-0 lg:ml-60 ml-56 z-10"
               onClick={() => setIsFav6(!isFav6)}
             />
             <div className="flex flex-col">
@@ -520,7 +520,7 @@ export default function RecommendationCar() {
               height={24}
               width={24}
               alt="Favourite"
-              className="cursor-pointer absolute mt-0 md:ml-60 ml-56 z-10"
+              className="cursor-pointer absolute mt-0 lg:ml-60 ml-56 z-10"
               onClick={() => setIsFav7(!isFav7)}
             />
             <div className="flex flex-col">
@@ -600,7 +600,7 @@ export default function RecommendationCar() {
               height={24}
               width={24}
               alt="Favourite"
-              className="cursor-pointer absolute mt-0 md:ml-60 ml-56 z-10"
+              className="cursor-pointer absolute mt-0 lg:ml-60 ml-56 z-10"
               onClick={() => setIsFav8(!isFav8)}
             />
             <div className="flex flex-col">

@@ -16,7 +16,7 @@ export default function PopularCarSection() {
 
           <Link href="/car-rent">
             <p
-              className="text-[16px] font-semibold text-[#3563E9] md:ml-[1080px] 
+              className="text-[16px] font-semibold text-[#3563E9] lg:ml-[1080px] 
           mr-0 ml-32"
             >
               View All
@@ -27,7 +27,7 @@ export default function PopularCarSection() {
         {/*Car Cards*/}
         <div
           className="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5 mb-8 gap-[330px]
-        overflow-x-auto w-[300px] md:w-auto md:overflow-hidden"
+        overflow-x-auto w-[300px] lg:w-auto lg:overflow-hidden"
         >
           <div
             className="bg-white rounded-[10px] flex flex-col

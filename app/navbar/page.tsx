@@ -4,13 +4,13 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <nav
-      className="box-border bg-white border border-[#C3D4E9] mt-0 md:mt-16
-      border-opacity-40 p-6 md:p-5 flex flex-col md:flex-row md:items-start 
-      md:justify-between items-center justify-center h-auto relative border-r-0"
+      className="box-border bg-white border border-[#C3D4E9] mt-0 lg:mt-16
+      border-opacity-40 p-6 lg:p-5 flex flex-col lg:flex-row lg:items-start 
+      lg:justify-between items-center justify-center h-auto relative border-r-0"
     >
-      <div className="md:flex items-center justify-between md:space-x-10 md:-mb-5">
+      <div className="lg:flex items-center justify-between lg:space-x-10 lg:-mb-5">
         {/* Logo */}
-        <div className="flex md:items-center md:space-x-0 md:ml-3 mt-1">
+        <div className="flex lg:items-center lg:space-x-0 lg:ml-3 mt-1">
           <Link href="/" className="h-[44px]">
             <Image src="/images/Logo.png" width={130} height={36} alt="Logo" />
           </Link>
@@ -27,9 +27,9 @@ export default function Navbar() {
         </div>
 
         {/* Search bar */}
-        <div className="flex items-center justify-center space-x-5 md:transform md:-mt-2 mt-4">
+        <div className="flex items-center justify-center space-x-5 lg:transform lg:-mt-2 mt-4">
           <div
-            className="flex items-center justify-between w-[280px] md:w-[420px] h-[36px]
+            className="flex items-center justify-between w-[280px] lg:w-[420px] h-[36px]
          lg:rounded-full rounded-md ring-1 ring-[#C3D4E9] ring-opacity-70 
          px-4 relative"
           >
@@ -44,7 +44,7 @@ export default function Navbar() {
 
             <input
               type="text"
-              className="absolute bg-transparent md:w-[450px] h-10
+              className="absolute bg-transparent lg:w-[450px] h-10
        placeholder:text-[14px] placeholder:text-[#596780] placeholder:font-medium placeholder:mx-4
        ml-10 border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
               placeholder="Search something here"
@@ -56,12 +56,12 @@ export default function Navbar() {
                 height={24}
                 width={24}
                 alt="filter"
-                className="hidden md:flex"
+                className="hidden lg:flex"
               />
             </button>
           </div>
           <div
-            className=" rounded-md ring-1 ring-[#C3D4E9] ring-opacity-70 md:hidden
+            className=" rounded-md ring-1 ring-[#C3D4E9] ring-opacity-70 lg:hidden
       h-10 w-9 flex items-center justify-center relative"
           >
             <button>
@@ -70,7 +70,7 @@ export default function Navbar() {
                 height={24}
                 width={24}
                 alt="filter"
-                className="block md:hidden"
+                className="block lg:hidden"
               />
             </button>
           </div>
@@ -78,7 +78,7 @@ export default function Navbar() {
       </div>
 
       {/* Profile and Notification */}
-      <div className="md:items-center gap-5 mt-4 md:mt-0 md:ml-0 ml-5 md:mr-4 md:flex hidden">
+      <div className="lg:items-center gap-5 mt-4 lg:mt-0 lg:ml-0 ml-5 lg:mr-4 lg:flex hidden">
         <Link href="/detail-car-rent">
           <div
             className="w-9 h-9 flex-none rounded-full ring-1 ring-[#C3D4E9] ring-opacity-40 

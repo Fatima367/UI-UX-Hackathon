@@ -95,7 +95,7 @@ export default function Footer() {
 
       <div
         className="flex flex-row items-stretch 
-            justify-between p-[25px] md:mx-[70px] mx-10"
+            justify-between p-[25px] lg:mx-[70px] mx-10"
       >
         <p className="text-[16px] font-semibold text-[#1A202C]">
           ©2022 MORENT. All rights reserved

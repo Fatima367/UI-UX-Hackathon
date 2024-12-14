@@ -23,8 +23,8 @@ const DetailCarRent = () => {
         <div className="flex">
           {/*Left*/}
           <div
-            className="md:ml-0 lg:flex lg:flex-col lg:visible hidden lg:h-[2016px] bg-white
-         md:w-[310px]"
+            className="lg:ml-0 lg:flex lg:flex-col lg:visible hidden lg:h-[2016px] bg-white
+         lg:w-[310px]"
           >
             <div className="flex flex-col space-y-[16px] mr-[16px] mt-[40px] ml-8">
               <p className="text-[#90A3BF] text-base">T Y P E</p>
@@ -105,14 +105,14 @@ const DetailCarRent = () => {
           {/*Right*/}
           <div className="flex flex-col items-start justify-between mx-auto mb-[32px]">
             <div
-              className="flex md:flex-row flex-col md:space-x-[32px] space-y-5 md:mx-[32px]
-        md:items-start md:justify-between items-center justify-center mx-auto"
+              className="flex lg:flex-row flex-col lg:space-x-[32px] space-y-5 lg:mx-[32px]
+        lg:items-start lg:justify-between items-center justify-center mx-auto"
             >
               {/*Left Side*/}
-              <div className="flex flex-col my-[24px] md:w-[492px]">
+              <div className="flex flex-col my-[24px] lg:w-[492px]">
                 <div
-                  className="rounded-[10px] object-cover md:w-[492px] md:h-[360px] w-[310px] 
-           h-[420px] bg-blue-600 md:mx-0 mx-auto"
+                  className="rounded-[10px] object-cover lg:w-[492px] lg:h-[360px] w-[310px] 
+           h-[420px] bg-blue-600 lg:mx-0 mx-auto"
                 >
                   <Image
                     src="/images/View.png"
@@ -123,7 +123,7 @@ const DetailCarRent = () => {
 
                   <div
                     className="flex flex-col space-y-[16px] z-10 ml-6 text-white 
-            md:-mt-[340px] -mt-52"
+            lg:-mt-[340px] -mt-52"
                   >
                     <h2 className="text-[32px] font-semibold text-left">
                       Sports car with the best <br /> design and acceleration
@@ -140,25 +140,25 @@ const DetailCarRent = () => {
                     width={380}
                     alt="car-image"
                     className="z-50
-              md:mx-auto mb-10 md:mt-8 mt-6"
+              lg:mx-auto mb-10 lg:mt-8 mt-6"
                   />
                 </div>
 
                 <div
-                  className="md:flex-row flex md:space-x-[24px] space-y-5 items-center 
+                  className="lg:flex-row flex lg:space-x-[24px] space-y-5 items-center 
           justify-center mx-auto space-x-3"
                 >
                   <div
                     className="rounded-[8px] flex items-center justify-center
             ring-2 ring-[#3563E9] ring-offset-[#F6F7F9]
-            md:flex-row flex-col mt-[24px] relative md:h-[124px] md:w-[148px] h-16 w-24"
+            lg:flex-row flex-col mt-[24px] relative lg:h-[124px] lg:w-[148px] h-16 w-24"
                   >
                     <Image
                       src="/images/View.png"
                       height={108}
                       width={132}
                       alt="car"
-                      className="rounded-[10px] md:h-[108px] md:w-[132px] h-14 w-[88px]"
+                      className="rounded-[10px] lg:h-[108px] lg:w-[132px] h-14 w-[88px]"
                     />
 
                     <Image
@@ -166,7 +166,7 @@ const DetailCarRent = () => {
                       height={36}
                       width={116}
                       alt="car"
-                      className="z-50 rounded-none mx-auto absolute  md:h-[36px] md:w-[116px] h-[26px] w-20"
+                      className="z-50 rounded-none mx-auto absolute  lg:h-[36px] lg:w-[116px] h-[26px] w-20"
                     />
                   </div>
 
@@ -175,7 +175,7 @@ const DetailCarRent = () => {
                     height={124}
                     width={148}
                     alt="car-interior"
-                    className="rounded-[10px] md:h-[124px] md:w-[148px] h-16 w-24"
+                    className="rounded-[10px] lg:h-[124px] lg:w-[148px] h-16 w-24"
                   />
 
                   <Image
@@ -183,15 +183,15 @@ const DetailCarRent = () => {
                     height={124}
                     width={148}
                     alt="car-interior"
-                    className="rounded-[10px] md:h-[124px] md:w-[148px] h-16 w-24"
+                    className="rounded-[10px] lg:h-[124px] lg:w-[148px] h-16 w-24"
                   />
                 </div>
               </div>
 
               {/*Right Side*/}
               <div
-                className="md:w-[492px] md:h-[508px] bg-white rounded-[10px] my-[24px]
-              md:mx-0 mx-auto w-[320px] h-[660px]"
+                className="lg:w-[492px] lg:h-[508px] bg-white rounded-[10px] my-[24px]
+              lg:mx-0 mx-auto w-[320px] h-[660px]"
               >
                 <div className="relative">
                   <div className="flex flex-col space-y-2 p-[24px]">
@@ -211,7 +211,7 @@ const DetailCarRent = () => {
                     </div>
                   </div>
 
-                  <div className="hidden md:flex items-end justify-end absolute md:ml-[445px] -mt-[105px]">
+                  <div className="hidden lg:flex items-end justify-end absolute lg:ml-[445px] -mt-[105px]">
                     <Image
                       src="/images/Like.png"
                       height={24}
@@ -230,11 +230,11 @@ const DetailCarRent = () => {
                 </div>
 
                 <div
-                  className="mt-[32px] md:mx-[24px] mx-6 md:flex md:space-x-[44px] 
-                items-start justify-between grid md:space-y-0 space-y-5"
+                  className="mt-[32px] lg:mx-[24px] mx-6 lg:flex lg:space-x-[44px] 
+                items-start justify-between grid lg:space-y-0 space-y-5"
                 >
                   <div className="flex flex-col space-y-[16px]">
-                    <div className="md:space-x-[16px] space-x-28 flex">
+                    <div className="lg:space-x-[16px] space-x-28 flex">
                       <p className="text-[#90A3BF] text-[18px] text-left">
                         Type Car
                       </p>
@@ -242,7 +242,7 @@ const DetailCarRent = () => {
                         Sport
                       </p>
                     </div>
-                    <div className="md:space-x-[16px] space-x-28 flex">
+                    <div className="lg:space-x-[16px] space-x-28 flex">
                       <p className="text-[#90A3BF] text-[18px] text-left">
                         Steering
                       </p>
@@ -252,7 +252,7 @@ const DetailCarRent = () => {
                     </div>
                   </div>
                   <div className="flex flex-col space-y-[16px]">
-                    <div className="md:space-x-[16px] space-x-28 flex">
+                    <div className="lg:space-x-[16px] space-x-28 flex">
                       <p className="text-[#90A3BF] text-[18px] text-left">
                         Capacity
                       </p>
@@ -260,7 +260,7 @@ const DetailCarRent = () => {
                         2 Person
                       </p>
                     </div>
-                    <div className="md:space-x-[16px] space-x-28 flex">
+                    <div className="lg:space-x-[16px] space-x-28 flex">
                       <p className="text-[#90A3BF] text-[18px] text-left">
                         Gasoline
                       </p>
@@ -273,9 +273,9 @@ const DetailCarRent = () => {
 
                 <div className="flex mt-[64px] mx-[24px] mb-[24px] items-stretch justify-between">
                   <div className="flex flex-col font-bold text-[#1A202C]">
-                    <div className="md:text-[28px] text-[24px] font-bold">
+                    <div className="lg:text-[28px] text-[24px] font-bold">
                       $80.00/{" "}
-                      <span className="md:text-[16px] text-[14px] text-[#90A3BF]">
+                      <span className="lg:text-[16px] text-[14px] text-[#90A3BF]">
                         days
                       </span>
                     </div>
@@ -286,8 +286,8 @@ const DetailCarRent = () => {
 
                   <Link href="/payment">
                     <button
-                      className="md:px-[20px] px-[14px] py-3 mt-1 text-[16px] font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] hover:bg-blue-800 rounded md:h-[56px] md:w-[140px]
+                      className="lg:px-[20px] px-[14px] py-3 mt-1 text-[16px] font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded lg:h-[56px] lg:w-[140px]
                      w-[110px]"
                     >
                       Rent Now
@@ -299,8 +299,8 @@ const DetailCarRent = () => {
 
             {/*Reviews*/}
             <div
-              className="bg-white md:w-[1016px] md:h-[452px] mx-auto rounded-[10px]
-            p-[24px] w-[320px] h-auto md:mt-0 mt-6"
+              className="bg-white lg:w-[1016px] lg:h-[452px] mx-auto rounded-[10px]
+            p-[24px] w-[320px] h-auto lg:mt-0 mt-6"
             >
               <div className="space-x-[12px] flex">
                 <p className="text-[20px] font-semibold text-[#1A202C]">
@@ -323,10 +323,10 @@ const DetailCarRent = () => {
                   alt="Profile-Image"
                 />
 
-                <div className="flex flex-col md:ml-[16px] ml-[14px]">
+                <div className="flex flex-col lg:ml-[16px] ml-[14px]">
                   <div className="flex items-stretch justify-between">
                     <div className="flex flex-col space-y-[8px] text-left">
-                      <p className="md:text-[20px] text-[18px] font-bold text-[#1A202C]">
+                      <p className="lg:text-[20px] text-[18px] font-bold text-[#1A202C]">
                         Alex Stanton
                       </p>
                       <p className="text-[14px] text-[#90A3BF] font-medium">
@@ -335,10 +335,10 @@ const DetailCarRent = () => {
                     </div>
 
                     <div
-                      className="flex flex-col space-y-[8px] text-right md:ml-0 md:mt-0
+                      className="flex flex-col space-y-[8px] text-right lg:ml-0 lg:mt-0
                     mt-1 "
                     >
-                      <p className="md:text-[14px] text-[13px] text-[#90A3BF] font-medium">
+                      <p className="lg:text-[14px] text-[13px] text-[#90A3BF] font-medium">
                         21 July 2022
                       </p>
                       <Image
@@ -346,13 +346,13 @@ const DetailCarRent = () => {
                         height={20}
                         width={108}
                         alt="ratings"
-                        className="md:w-[108px] md:h-[20px] w-[70px] h-[15px]"
+                        className="lg:w-[108px] lg:h-[20px] w-[70px] h-[15px]"
                       />
                     </div>
                   </div>
 
                   <div className="mt-[12px]">
-                    <p className="text-left md:text-[13.5px] text-[#596780] text-[11px]">
+                    <p className="text-left lg:text-[13.5px] text-[#596780] text-[11px]">
                       We are very happy with the service from the MORENT App.
                       Morent has a low price and also a large variety of cars
                       with good and comfortable
@@ -371,13 +371,13 @@ const DetailCarRent = () => {
                   height={56}
                   width={56}
                   alt="Profile-Image"
-                  className="md:w-[56px] md:h-[56px] h-[46px] w-[46px]"
+                  className="lg:w-[56px] lg:h-[56px] h-[46px] w-[46px]"
                 />
 
-                <div className="flex flex-col md:ml-[16px] ml-[14px]">
+                <div className="flex flex-col lg:ml-[16px] ml-[14px]">
                   <div className="flex items-stretch justify-between">
                     <div className="flex flex-col space-y-[8px] text-left">
-                      <p className="md:text-[20px] text-[18px] font-bold text-[#1A202C]">
+                      <p className="lg:text-[20px] text-[18px] font-bold text-[#1A202C]">
                         Skylar Dias
                       </p>
                       <p className="text-[14px] text-[#90A3BF] font-medium">
@@ -386,7 +386,7 @@ const DetailCarRent = () => {
                     </div>
 
                     <div className="flex flex-col space-y-[8px] text-right">
-                      <p className="md:text-[14px] text-[12px] text-[#90A3BF] font-medium">
+                      <p className="lg:text-[14px] text-[12px] text-[#90A3BF] font-medium">
                         20 July 2022
                       </p>
                       <Image
@@ -394,13 +394,13 @@ const DetailCarRent = () => {
                         height={20}
                         width={108}
                         alt="ratings"
-                        className="md:w-[108px] md:h-[20px] w-[70px] h-[15px]"
+                        className="lg:w-[108px] lg:h-[20px] w-[70px] h-[15px]"
                       />
                     </div>
                   </div>
 
                   <div className="mt-[12px]">
-                    <p className="text-left md:text-[14px] text-[12px] text-[#596780]">
+                    <p className="text-left lg:text-[14px] text-[12px] text-[#596780]">
                       We are greatly helped by the services of the MORENT
                       Application. Morent has low prices and also a wide variety
                       of cars with good and <br />
@@ -435,7 +435,7 @@ const DetailCarRent = () => {
               {/*Car Cards*/}
               <div
                 className="flex space-x-[32px] overflow-x-auto w-[320px] 
-              md:w-auto md:overflow-hidden "
+              lg:w-auto lg:overflow-hidden "
               >
                 <div className="p-[24px] bg-white rounded-[10px] flex flex-col mx-auto ">
                   <div className="flex space-x-[117px] items-start">
@@ -709,7 +709,7 @@ const DetailCarRent = () => {
               </div>
 
               {/*Car Cards*/}
-              <div className="flex space-x-[32px] overflow-x-auto w-[320px] md:w-auto md:overflow-hidden">
+              <div className="flex space-x-[32px] overflow-x-auto w-[320px] lg:w-auto lg:overflow-hidden">
                 <div
                   className="p-[24px] bg-white rounded-[10px] flex flex-col mx-auto
                 w-[304px] h-auto"

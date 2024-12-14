@@ -31,7 +31,7 @@ const CarRent = () => {
       <div className="flex flex-col items-center justify-between mx-auto bg-[#F6F7F9]">
         <div className="flex">
           {/*Left*/}
-          <div className="-ml-5 lg:flex lg:flex-col lg:visible hidden md:h-[1600px] bg-white md:w-[310px]">
+          <div className="-ml-5 lg:flex lg:flex-col lg:visible hidden lg:h-[1600px] bg-white lg:w-[310px]">
             <div className="flex flex-col space-y-[16px] mr-[16px] mt-[40px] ml-8">
               <p className="text-[#90A3BF] text-base">T Y P E</p>
               <p className="text-[20px] font-medium">
@@ -111,31 +111,31 @@ const CarRent = () => {
           {/*Right*/}
           <div className="flex flex-col items-start justify-between mx-auto">
             <div
-              className="flex flex-col md:flex-row md:items-center md:justify-center gap-4 mt-2 p-4 
-          mb-[36px] items-start justify-center mx-auto md:ml-5"
+              className="flex flex-col lg:flex-row lg:items-center lg:justify-center gap-4 mt-2 p-4 
+          mb-[36px] items-start justify-center mx-auto lg:ml-5"
             >
               {/* Pick-Up */}
               <div
-                className="md:flex-1 items-start justify-between bg-white shadow-md 
-                md:p-7 p-3 rounded-lg flex flex-col"
+                className="lg:flex-1 items-start justify-between bg-white shadow-md 
+                lg:p-7 p-3 rounded-lg flex flex-col"
               >
                 <div className="flex-1 items-start justify-between">
-                  <div className="flex space-x-3 items-center justify-start md:ml-0 ml-1 mt-1 md:mt-0">
+                  <div className="flex space-x-3 items-center justify-start lg:ml-0 ml-1 mt-1 lg:mt-0">
                     <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
                     <h3 className="text-[16px] font-medium text-[#1A202C]">
                       Pick-Up
                     </h3>
                   </div>
 
-                  <div className="md:space-x-3 space-x-2 flex mt-4 mx-auto">
+                  <div className="lg:space-x-3 space-x-2 flex mt-4 mx-auto">
                     <div className="space-y-2 flex flex-col">
-                      <label className="md:text-[16px] text-[14px] font-bold text-[#1A202C]
-                      md:ml-0 ml-1">
+                      <label className="lg:text-[16px] text-[14px] font-bold text-[#1A202C]
+                      lg:ml-0 ml-1">
                         Locations
                       </label>
                       <select
-                        className="w-20 md:w-[126px] border-0 text-[#90A3BF] font-medium
-                   text-[12px] bg-transparent md:py-0 py-4 md:rounded-none rounded-md"
+                        className="w-20 lg:w-[126px] border-0 text-[#90A3BF] font-medium
+                   text-[12px] bg-transparent lg:py-0 py-4 lg:rounded-none rounded-md"
                       >
                         <option>Kota Semarang</option>
                       </select>
@@ -144,12 +144,12 @@ const CarRent = () => {
                       {" "}
                     </div>
                     <div className="space-y-2 flex-col flex">
-                      <label className="md:text-[16px] text-[14px] font-bold text-[#1A202C] md:ml-0 ml-1">
+                      <label className="lg:text-[16px] text-[14px] font-bold text-[#1A202C] lg:ml-0 ml-1">
                         Date
                       </label>
                       <select
-                        className="w-20 md:w-[126px] border-0 text-[#90A3BF] font-medium
-                   text-[12px] bg-transparent md:py-0 py-4 md:rounded-none rounded-md"
+                        className="w-20 lg:w-[126px] border-0 text-[#90A3BF] font-medium
+                   text-[12px] bg-transparent lg:py-0 py-4 lg:rounded-none rounded-md"
                       >
                         <option>20 July 2022</option>
                       </select>
@@ -158,12 +158,12 @@ const CarRent = () => {
                       {" "}
                     </div>
                     <div className="space-y-2 flex-col flex">
-                      <label className="md:text-[16px] text-[14px] font-bold text-[#1A202C] md:ml-0 ml-1">
+                      <label className="lg:text-[16px] text-[14px] font-bold text-[#1A202C] lg:ml-0 ml-1">
                         Time
                       </label>
                       <select
-                        className="w-20 md:w-[126px] border-0 text-[#90A3BF] font-medium
-                   text-[12px] bg-transparent md:py-0 py-4 md:rounded-none rounded-md"
+                        className="w-20 lg:w-[126px] border-0 text-[#90A3BF] font-medium
+                   text-[12px] bg-transparent lg:py-0 py-4 lg:rounded-none rounded-md"
                       >
                         <option>07.00</option>
                       </select>
@@ -174,12 +174,12 @@ const CarRent = () => {
 
               {/* Swap Button */}
               <div
-                className=" flex items-center justify-center md:my-0 md:-mx-6
+                className=" flex items-center justify-center lg:my-0 lg:-mx-6
           -my-8 z-10"
               >
                 <button
                   className="bg-[#3563E9] p-4 shadow-lg hover:bg-blue-400
-            items-center justify-center rounded-lg md:ml-0 ml-32"
+            items-center justify-center rounded-lg lg:ml-0 ml-32"
                 >
                   <Image
                     src="/images/Swap.png"
@@ -193,26 +193,26 @@ const CarRent = () => {
 
               {/* Drop-Off */}
               <div
-                className="md:flex-1 items-start justify-between bg-white shadow-md
-                md:p-7 p-3 rounded-lg flex flex-col"
+                className="lg:flex-1 items-start justify-between bg-white shadow-md
+                lg:p-7 p-3 rounded-lg flex flex-col"
               >
                 <div className="flex-1 items-start justify-between">
-                  <div className="flex space-x-3 items-center justify-start md:ml-0 ml-1 mt-1 md:mt-0">
+                  <div className="flex space-x-3 items-center justify-start lg:ml-0 ml-1 mt-1 lg:mt-0">
                     <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#5CAFFC] ring-opacity-30"></div>
                     <h3 className="text-[16px] font-medium text-[#1A202C]">
                       Drop-Off
                     </h3>
                   </div>
 
-                  <div className="md:space-x-3 space-x-2 flex mt-4 mx-auto">
+                  <div className="lg:space-x-3 space-x-2 flex mt-4 mx-auto">
                     <div className="space-y-2 flex flex-col">
-                      <label className="md:text-[16px] text-[14px] font-bold text-[#1A202C]
-                      md:ml-0 ml-1">
+                      <label className="lg:text-[16px] text-[14px] font-bold text-[#1A202C]
+                      lg:ml-0 ml-1">
                         Locations
                       </label>
                       <select
-                        className="w-20 md:w-[126px] border-0 text-[#90A3BF] font-medium 
-                  text-[12px] bg-transparent md:py-0 py-4 md:rounded-none rounded-md"
+                        className="w-20 lg:w-[126px] border-0 text-[#90A3BF] font-medium 
+                  text-[12px] bg-transparent lg:py-0 py-4 lg:rounded-none rounded-md"
                       >
                         <option>Kota Semarang</option>
                       </select>
@@ -221,12 +221,12 @@ const CarRent = () => {
                       {" "}
                     </div>
                     <div className="space-y-2 flex-col flex">
-                      <label className="md:text-[16px] text-[14px] font-bold text-[#1A202C] md:ml-0 ml-1">
+                      <label className="lg:text-[16px] text-[14px] font-bold text-[#1A202C] lg:ml-0 ml-1">
                         Date
                       </label>
                       <select
-                        className="w-20 md:w-[126px] border-0 text-[#90A3BF] font-medium 
-                    text-[12px] bg-transparent md:py-0 py-4 md:rounded-none rounded-md"
+                        className="w-20 lg:w-[126px] border-0 text-[#90A3BF] font-medium 
+                    text-[12px] bg-transparent lg:py-0 py-4 lg:rounded-none rounded-md"
                       >
                         <option>21 July 2022</option>
                       </select>
@@ -235,12 +235,12 @@ const CarRent = () => {
                       {" "}
                     </div>
                     <div className="space-y-2 flex-col flex">
-                      <label className="md:text-[16px] text-[14px] font-bold text-[#1A202C] md:ml-0 ml-1">
+                      <label className="lg:text-[16px] text-[14px] font-bold text-[#1A202C] lg:ml-0 ml-1">
                         Time
                       </label>
                       <select
-                        className="w-20 md:w-[126px] border-0 text-[#90A3BF] font-medium 
-                    text-[12px] bg-transparent md:py-0 py-4 md:rounded-none rounded-md"
+                        className="w-20 lg:w-[126px] border-0 text-[#90A3BF] font-medium 
+                    text-[12px] bg-transparent lg:py-0 py-4 lg:rounded-none rounded-md"
                       >
                         <option>01.00</option>
                       </select>
@@ -251,7 +251,7 @@ const CarRent = () => {
             </div>
 
             {/*Row 1*/}
-            <div className="hidden md:flex md:gap-10 gap-10 ml-10 md:ml-10">
+            <div className="hidden lg:flex lg:gap-10 gap-10 ml-10 lg:ml-10">
               <div
                 className="bg-white rounded-[10px] flex flex-col
                 w-[304px] h-[388px] py-[24px] px-[24px]"
@@ -528,7 +528,7 @@ const CarRent = () => {
 
             {/*Row 2*/}
             <div className="container mx-auto px-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8 gap-10 md:ml-5 mt-5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8 gap-10 lg:ml-5 mt-5">
                 <div
                   className="flex flex-col sm:p-6 bg-white rounded-xl min-w-[280px] 
         lg:w-[304px] max-w-[304px] mx-auto relative shadow-sm p-6"
@@ -538,7 +538,7 @@ const CarRent = () => {
                     height={24}
                     width={24}
                     alt="Favourite"
-                    className="cursor-pointer absolute mt-0 md:ml-60 ml-56 z-10"
+                    className="cursor-pointer absolute mt-0 lg:ml-60 ml-56 z-10"
                     onClick={() => setIsFav4(!isFav4)}
                   />
                   <div className="flex gap-5 justify-between">
@@ -556,9 +556,9 @@ const CarRent = () => {
                     height={100}
                     src="/images/Car3.png"
                     alt="All New Rush"
-                    className="self-center mt-16 max-md:mt-10"
+                    className="self-center mt-16 max-lg:mt-10"
                   />
-                  <div className="flex gap-4 items-start mt-16 text-[14px] font-medium text-[#90A3BF] max-md:mt-10">
+                  <div className="flex gap-4 items-start mt-16 text-[14px] font-medium text-[#90A3BF] max-lg:mt-10">
                     <div className="flex gap-1.5 items-start">
                       <Image
                         height={24}
@@ -618,7 +618,7 @@ const CarRent = () => {
                     height={24}
                     width={24}
                     alt="Favourite"
-                    className="cursor-pointer absolute mt-0 md:ml-60 ml-56 z-10"
+                    className="cursor-pointer absolute mt-0 lg:ml-60 ml-56 z-10"
                     onClick={() => setIsFav5(!isFav5)}
                   />
                   <div className="flex gap-5 justify-between">
@@ -636,11 +636,11 @@ const CarRent = () => {
                     height={100}
                     src="/images/Car4.png"
                     alt="CR-V"
-                    className="self-center mt-16 max-md:mt-10"
+                    className="self-center mt-16 max-lg:mt-10"
                   />
                   <div
                     className="flex gap-4 items-start mt-16 text-[14px] font-medium
-             text-[#90A3BF] max-md:mt-10"
+             text-[#90A3BF] max-lg:mt-10"
                   >
                     <div className="flex gap-1.5 items-start">
                       <Image
@@ -698,7 +698,7 @@ const CarRent = () => {
                     height={24}
                     width={24}
                     alt="Favourite"
-                    className="cursor-pointer absolute mt-0 md:ml-60 ml-56 z-10"
+                    className="cursor-pointer absolute mt-0 lg:ml-60 ml-56 z-10"
                     onClick={() => setIsFav6(!isFav6)}
                   />
                   <div className="flex gap-5 justify-between">
@@ -716,11 +716,11 @@ const CarRent = () => {
                     width={224}
                     src="/images/Car5.png"
                     alt="All New Terios"
-                    className="object-contain self-center mt-16 max-md:mt-10"
+                    className="object-contain self-center mt-16 max-lg:mt-10"
                   />
                   <div
                     className="flex gap-4 items-start mt-16 text-[14px] font-medium 
-            text-[#90A3BF] max-md:mt-10"
+            text-[#90A3BF] max-lg:mt-10"
                   >
                     <div className="flex gap-1.5 items-start">
                       <Image
@@ -773,7 +773,7 @@ const CarRent = () => {
 
             {/*Row 3*/}
             <div className="container mx-auto px-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-7 gap-10 md:ml-5 mt-5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-7 gap-10 lg:ml-5 mt-5">
                 <div
                   className="flex flex-col p-6 sm:p-6 bg-white rounded-xl min-w-[280px] 
         lg:w-[304px] max-w-[304px] mx-auto relative shadow-sm"
@@ -784,7 +784,7 @@ const CarRent = () => {
                     height={24}
                     width={24}
                     alt="Favourite"
-                    className="cursor-pointer absolute mt-0 md:ml-60 ml-56 z-10"
+                    className="cursor-pointer absolute mt-0 lg:ml-60 ml-56 z-10"
                     onClick={() => setIsFav7(!isFav7)}
                   />
                   <div className="flex flex-col">
@@ -803,7 +803,7 @@ const CarRent = () => {
                     className="self-center mt-10 sm:mt-16"
                   />
                   <div
-                    className="flex gap-4 items-start mt-8 sm:mt-16 text-[12px] md:text-[14px]
+                    className="flex gap-4 items-start mt-8 sm:mt-16 text-[12px] lg:text-[14px]
             font-medium text-[#90A3BF]"
                   >
                     <div className="flex gap-1.5 items-start">
@@ -867,7 +867,7 @@ const CarRent = () => {
                     height={24}
                     width={24}
                     alt="Favourite"
-                    className="cursor-pointer absolute mt-0 md:ml-60 ml-56 z-10"
+                    className="cursor-pointer absolute mt-0 lg:ml-60 ml-56 z-10"
                     onClick={() => setIsFav8(!isFav8)}
                   />
                   <div className="flex flex-col">
@@ -947,7 +947,7 @@ const CarRent = () => {
                     height={24}
                     width={24}
                     alt="Favourite"
-                    className="cursor-pointer absolute mt-0 md:ml-60 ml-56 z-10"
+                    className="cursor-pointer absolute mt-0 lg:ml-60 ml-56 z-10"
                     onClick={() => setIsFav9(!isFav9)}
                   />
                   <div className="flex flex-col">
@@ -1020,7 +1020,7 @@ const CarRent = () => {
               </div>
             </div>
 
-            <div className="flex items-center justify-center mt-[64px] mb-[64px] md:ml-[480px] mx-auto">
+            <div className="flex items-center justify-center mt-[64px] mb-[64px] lg:ml-[480px] mx-auto">
               <Link href="/car-rent">
                 <button
                   className="rounded space-x-2 px-5 bg-[#3563E9] text-[16px] font-semibold text-white

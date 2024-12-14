@@ -5,18 +5,19 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="bg-[#F6F7F9] font-PlusJakartaSans flex items-start 
+    <section className="bg-[#F6F7F9] font-PlusJakartaSans flex items-start 
                        justify-between">
-      <div className="flex flex-col items-start justify-between px-5 md:px-[34px] mx-auto">
+      <div className="flex flex-col items-start justify-between px-5 lg:px-[34px] mx-auto
+      max-w-[1400px]">
         {/*Hero Section*/}
 
         <div
-          className="flex md:flex-row md:space-x-[32px] items-center justify-center mt-8 flex-col md:space-y-0 
+          className="flex lg:flex-row lg:space-x-[32px] items-center justify-center mt-8 flex-col lg:space-y-0 
         space-y-6 mx-auto"
         >
           <div
-            className="rounded-[10px] object-cover md:mx-0 mx-auto
-          md:w-[620px] md:h-[320px] w-[310px] h-[390px] bg-blue-400 hover:scale-105 transition"
+            className="rounded-[10px] object-cover lg:mx-0 mx-auto
+          lg:w-[620px] lg:h-[320px] w-[310px] h-[390px] bg-blue-400 hover:scale-105 transition"
           >
             <Image
               src="/images/Ads 1.png"
@@ -25,7 +26,7 @@ export default function Home() {
               alt="Ad 1"
             />
 
-            <div className="flex flex-col space-y-[16px] z-10 md:ml-6 text-white md:-mt-80 -mt-[148px] ml-4">
+            <div className="flex flex-col space-y-[16px] z-10 lg:ml-6 text-white lg:-mt-80 -mt-[148px] ml-4">
               <h2 className="text-[32px] font-semibold">
                 The Best Platform <br /> for Car Rental
               </h2>
@@ -50,13 +51,13 @@ export default function Home() {
               width={340}
               alt="car-image"
               className="z-50
-              md:ml-[150px] mb-8 md:-mt-2 mt-8"
+              lg:ml-[150px] mb-8 lg:-mt-2 mt-8"
             />
           </div>
 
           <div
-            className="rounded-[10px] object-cover md:w-[620px] md:h-[320px] 
-          w-[340px] h-[400px] bg-blue-600 md:block hidden hover:scale-105 transition"
+            className="rounded-[10px] object-cover lg:w-[620px] lg:h-[320px] 
+          w-[340px] h-[400px] bg-blue-600 lg:block hidden hover:scale-105 transition"
           >
             <Image
               src="/images/Ads 2.png"
@@ -65,7 +66,7 @@ export default function Home() {
               alt="Ad 2"
             />
 
-            <div className="flex flex-col space-y-[16px] z-10 ml-6 text-white md:-mt-80 -mt-40">
+            <div className="flex flex-col space-y-[16px] z-10 ml-6 text-white lg:-mt-80 -mt-40">
               <h2 className="text-[32px] font-semibold">
                 The Best Platform <br /> for Car Rental
               </h2>
@@ -90,7 +91,7 @@ export default function Home() {
               width={340}
               alt="car-image"
               className="z-50
-              md:ml-[150px] mb-10 md:-mt-4 mt-6"
+              lg:ml-[150px] mb-10 lg:-mt-4 mt-6"
             />
           </div>
         </div>
@@ -99,12 +100,12 @@ export default function Home() {
 
         {/*--------------*/}
         <div
-          className="flex flex-col md:flex-row md:items-center md:justify-center gap-4 md:mt-[68px] p-6  
-        md:space-x-[34px] mb-[36px] items-start justify-center mx-auto mt-6"
+          className="flex flex-col lg:flex-row lg:items-center lg:justify-center gap-4 lg:mt-[68px] p-6  
+        lg:space-x-[34px] mb-[36px] items-start justify-center mx-auto mt-6"
         >
           {/* Pick-Up */}
           <div
-            className="md:flex-1 items-start justify-between bg-white shadow-md 
+            className="lg:flex-1 items-start justify-between bg-white shadow-md 
           p-8 rounded-lg flex flex-col"
           >
             <div className="flex-1 items-start justify-between">
@@ -115,14 +116,14 @@ export default function Home() {
                 </h3>
               </div>
 
-              <div className="md:space-x-6 md:flex mt-4 mx-auto grid md:space-y-0 space-y-3">
+              <div className="lg:space-x-6 lg:flex mt-4 mx-auto grid lg:space-y-0 space-y-3">
                 <div className="space-y-2 flex flex-col">
                   <label className="text-[16px] font-bold text-[#1A202C]">
                     Locations
                   </label>
                   <select
-                    className="w-full md:w-[130px] border-0 text-[#90A3BF] font-medium
-                   text-[12px] bg-transparent md:p-0 p-2 md:rounded-none rounded-md"
+                    className="w-full lg:w-[130px] border-0 text-[#90A3BF] font-medium
+                   text-[12px] bg-transparent lg:p-0 p-2 lg:rounded-none rounded-md"
                   >
                     <option>Select your city</option>
                   </select>
@@ -135,8 +136,8 @@ export default function Home() {
                     Date
                   </label>
                   <select
-                    className="w-full md:w-[130px] border-0 text-[#90A3BF] font-medium
-                   text-[12px] bg-transparent md:p-0 p-2 md:rounded-none rounded-md"
+                    className="w-full lg:w-[130px] border-0 text-[#90A3BF] font-medium
+                   text-[12px] bg-transparent lg:p-0 p-2 lg:rounded-none rounded-md"
                   >
                     <option>Select your date</option>
                   </select>
@@ -149,8 +150,8 @@ export default function Home() {
                     Time
                   </label>
                   <select
-                    className="w-full md:w-[130px] border-0 text-[#90A3BF] font-medium
-                   text-[12px] bg-transparent md:p-0 p-2 md:rounded-none rounded-md"
+                    className="w-full lg:w-[130px] border-0 text-[#90A3BF] font-medium
+                   text-[12px] bg-transparent lg:p-0 p-2 lg:rounded-none rounded-md"
                   >
                     <option>Select your time</option>
                   </select>
@@ -160,10 +161,10 @@ export default function Home() {
           </div>
 
           {/* Swap Button */}
-          <div className=" flex items-center justify-center md:ml-0 ">
+          <div className=" flex items-center justify-center lg:ml-0 ">
             <button
               className="bg-[#3563E9] p-4 shadow-lg hover:bg-blue-400
-            items-center justify-center rounded-lg md:ml-0 ml-20"
+            items-center justify-center rounded-lg lg:ml-0 ml-20"
             >
               <Image
                 src="/images/Swap.png"
@@ -177,7 +178,7 @@ export default function Home() {
 
           {/* Drop-Off */}
           <div
-            className="md:flex-1 items-start justify-between bg-white shadow-md
+            className="lg:flex-1 items-start justify-between bg-white shadow-md
            p-8 rounded-lg flex flex-col"
           >
             <div className="flex-1 items-start justify-between">
@@ -188,14 +189,14 @@ export default function Home() {
                 </h3>
               </div>
 
-              <div className="md:space-x-6 md:flex mt-4 mx-auto grid md:space-y-0 space-y-3">
+              <div className="lg:space-x-6 lg:flex mt-4 mx-auto grid lg:space-y-0 space-y-3">
                 <div className="space-y-2 flex flex-col">
                   <label className="text-[16px] font-bold text-[#1A202C]">
                     Locations
                   </label>
                   <select
-                    className="w-full md:w-[130px] border-0 text-[#90A3BF] font-medium 
-                  text-[12px] bg-transparent md:p-0 p-2 md:rounded-none rounded-md"
+                    className="w-full lg:w-[130px] border-0 text-[#90A3BF] font-medium 
+                  text-[12px] bg-transparent lg:p-0 p-2 lg:rounded-none rounded-md"
                   >
                     <option>Select your city</option>
                   </select>
@@ -208,8 +209,8 @@ export default function Home() {
                     Date
                   </label>
                   <select
-                    className="w-full md:w-[130px] border-0 text-[#90A3BF] font-medium 
-                    text-[12px] bg-transparent md:p-0 p-2 md:rounded-none rounded-md"
+                    className="w-full lg:w-[130px] border-0 text-[#90A3BF] font-medium 
+                    text-[12px] bg-transparent lg:p-0 p-2 lg:rounded-none rounded-md"
                   >
                     <option>Select your date</option>
                   </select>
@@ -222,8 +223,8 @@ export default function Home() {
                     Time
                   </label>
                   <select
-                    className="w-full md:w-[130px] border-0 text-[#90A3BF] font-medium 
-                    text-[12px] bg-transparent md:p-0 p-2 md:rounded-none rounded-md"
+                    className="w-full lg:w-[130px] border-0 text-[#90A3BF] font-medium 
+                    text-[12px] bg-transparent lg:p-0 p-2 lg:rounded-none rounded-md"
                   >
                     <option>Select your time</option>
                   </select>
@@ -249,6 +250,6 @@ export default function Home() {
         {/*--------------------------------------------------------------------------------------------------------*/}
       
       </div>
-    </main>
+    </section>
   );
 }
