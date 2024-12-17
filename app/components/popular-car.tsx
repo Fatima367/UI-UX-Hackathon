@@ -10,14 +10,14 @@ export default function PopularCarSection() {
   const [isFav4, setIsFav4] = useState(true); // Card 4
   return (
     <div className="flex">
-      <div className="flex flex-col space-y-[20px] items-start justify-between">
+      <div className="flex flex-col space-y-5 items-start justify-between">
         <div className="flex items-stretch justify-between ">
           <p className="text-xl font-bold text-[#90A3BF]">Popular Car</p>
 
           <Link href="/car-rent">
             <p
               className="text-base font-semibold text-[#3563E9] lg:ml-[1080px] 
-          mr-0 ml-32 "
+          mr-0 ml-32 h-"
             >
               View All
             </p>
@@ -104,7 +104,7 @@ export default function PopularCarSection() {
 
               <Link href="/car-rent">
                 <button
-                  className="px-5 py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                  className="px-5 py-3 mt-1 text-base font-medium text-center space-x-2
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
                 >
                   Rent Now
@@ -177,7 +177,7 @@ export default function PopularCarSection() {
 
             <div
               className="flex items-stretch 
-                        justify-between mt-[20px] mb-6"
+                        justify-between mt-5 mb-6"
             >
               <div className="flex flex-col  font-bold text-[#1A202C]">
                 <div className="text-xl font-bold">
@@ -191,7 +191,7 @@ export default function PopularCarSection() {
 
               <Link href="/car-rent">
                 <button
-                  className="px-5 py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                  className="px-5 py-3 mt-1 text-base font-medium text-center space-x-2
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
                 >
                   Rent Now
@@ -275,7 +275,7 @@ export default function PopularCarSection() {
 
               <Link href="/car-rent">
                 <button
-                  className="px-5 py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                  className="px-5 py-3 mt-1 text-base font-medium text-center space-x-2
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
                 >
                   Rent Now
@@ -348,7 +348,7 @@ export default function PopularCarSection() {
 
             <div
               className="flex items-stretch 
-                        justify-between mt-[20px] mb-6"
+                        justify-between mt-5 mb-6"
             >
               <div className="flex flex-col  font-bold text-[#1A202C]">
                 <div className="text-xl font-bold">
@@ -362,7 +362,7 @@ export default function PopularCarSection() {
 
               <Link href="/car-rent">
                 <button
-                  className="px-5 py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                  className="px-5 py-3 mt-1 text-base font-medium text-center space-x-2
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
                 >
                   Rent Now

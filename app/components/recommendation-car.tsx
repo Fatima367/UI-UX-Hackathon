@@ -678,7 +678,7 @@ export default function RecommendationCar() {
         <Link href="/car-rent">
           <button
             className="rounded space-x-2 px-5 bg-[#3563E9] text-base font-semibold text-white
-           h-[44px] w-[156px] hover:bg-blue-800"
+           h-11 w-[156px] hover:bg-blue-800"
           >
             Show more car
           </button>

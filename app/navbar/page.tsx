@@ -11,7 +11,7 @@ export default function Navbar() {
       <div className="lg:flex items-center justify-between lg:space-x-10 lg:-mb-5">
         {/* Logo */}
         <div className="flex lg:items-center lg:space-x-0 lg:ml-3 mt-1">
-          <Link href="/" className="h-[44px]">
+          <Link href="/" className="h-11">
             <Image src="/images/Logo.png" width={130} height={36} alt="Logo" />
           </Link>
 

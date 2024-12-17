@@ -337,7 +337,7 @@ const CarRent = () => {
 
                   <Link href="/detail-car-rent">
                     <button
-                      className="px-5 py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                      className="px-5 py-3 mt-1 text-base font-medium text-center space-x-2
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
                     >
                       Rent Now
@@ -416,7 +416,7 @@ const CarRent = () => {
 
                 <div
                   className="flex items-stretch 
-                        justify-between mt-[20px] mb-6"
+                        justify-between mt-5 mb-6"
                 >
                   <div className="flex flex-col  font-bold text-[#1A202C]">
                     <div className="text-xl font-bold">
@@ -430,7 +430,7 @@ const CarRent = () => {
 
                   <Link href="/detail-car-rent">
                     <button
-                      className="px-5 py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                      className="px-5 py-3 mt-1 text-base font-medium text-center space-x-2
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
                     >
                       Rent Now
@@ -520,7 +520,7 @@ const CarRent = () => {
 
                   <Link href="/detail-car-rent">
                     <button
-                      className="px-5 py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                      className="px-5 py-3 mt-1 text-base font-medium text-center space-x-2
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
                     >
                       Rent Now
@@ -1028,7 +1028,7 @@ const CarRent = () => {
               <Link href="/car-rent">
                 <button
                   className="rounded space-x-2 px-5 bg-[#3563E9] text-base font-semibold text-white
-           h-[44px] w-[156px] mb-16 hover:bg-blue-800"
+           h-11 w-[156px] mb-16 hover:bg-blue-800"
                 >
                   Show more car
                 </button>

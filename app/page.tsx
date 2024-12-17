@@ -36,7 +36,7 @@ export default function Home() {
               <Link href="/car-rent">
                 <button
                   className="rounded space-x-2 px-5 bg-[#3563E9] text-base font-medium text-white
-           h-[44px] w-[120px] hover:bg-blue-800"
+           h-11 w-[120px] hover:bg-blue-800"
                 >
                   Rental Car
                 </button>
@@ -76,7 +76,7 @@ export default function Home() {
               <Link href="/car-rent">
                 <button
                   className="rounded space-x-2 px-5 bg-[#54A6FF] text-base font-medium text-white
-           h-[44px] w-[120px] hover:bg-blue-300"
+           h-11 w-[120px] hover:bg-blue-300"
                 >
                   Rental Car
                 </button>

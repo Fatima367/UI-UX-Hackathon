@@ -12,7 +12,7 @@ const Dashboard = () => {
         <div className="-ml-5 lg:flex lg:flex-col lg:visible hidden lg:h-[1600px] bg-white lg:w-[310px]">
           <div className="flex flex-col space-y-[42px] mr-4 mt-10 ml-8">
             <p className="text-[#90A3BF] text-base ml-9">M A I N M E N U</p>
-            <div className="space-y-[32px]">
+            <div className="space-y-8">
               <div
                 className="w-[254px] h-14 rounded-lg bg-[#3563E9] text-white
                relative flex items-center justify-start"
@@ -101,12 +101,12 @@ const Dashboard = () => {
             </div>
           </div>
 
-          <div className="flex flex-col space-y-[28px] mr-4 mt-14 ml-8">
+          <div className="flex flex-col space-y-7 mr-4 mt-14 ml-8">
             <p className="text-[#90A3BF] text-base ml-8">
               P R E F E R E N C E S
             </p>
 
-            <div className="space-y-[32px]">
+            <div className="space-y-8">
               <div
                 className="text-xl font-medium flex z-10 text-[#90A3BF]
                hover:bg-blue-50 hover:rounded-md cursor-pointer"
@@ -569,7 +569,7 @@ const Dashboard = () => {
                   width={110}
                   height={44}
                   alt="car"
-                  className="lg:m-[20px] m-[10px] lg:w-[110px] lg:h-[44px] w-[100px] h-10 lg:mr-auto mr-4"
+                  className="lg:m-5 m-[10px] lg:w-[110px] lg:h-11 w-[100px] h-10 lg:mr-auto mr-4"
                 />
                 <div className="flex flex-col space-y-2 text-left">
                   <p className="lg:text-base text-sm font-bold text-[#1A202C]">CR - V</p>

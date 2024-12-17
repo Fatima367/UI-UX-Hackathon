@@ -293,7 +293,7 @@ const DetailCarRent = () => {
 
                   <Link href="/payment">
                     <button
-                      className="lg:px-5 px-[14px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                      className="lg:px-5 px-[14px] py-3 mt-1 text-base font-medium text-center space-x-2
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded lg:h-14 lg:w-[140px]
                      w-[110px]"
                     >
@@ -314,7 +314,7 @@ const DetailCarRent = () => {
                   Reviews
                 </p>
                 <button
-                  className="px-5 space-x-[8px] rounded text-white bg-[#3563E9]
+                  className="px-5 space-x-2 rounded text-white bg-[#3563E9]
                     text-sm font-bold"
                 >
                   13
@@ -421,7 +421,7 @@ const DetailCarRent = () => {
 
               <div className=" flex items-center justify-center mx-auto">
                 <button
-                  className="mt-6 rounded px-5 space-x-[8px] h-[44px]
+                  className="mt-6 rounded px-5 space-x-2 h-11
                 text-base font-medium text-[#90A3BF] flex items-center justify-center"
                 >
                   Show All <ChevronDown className="h-4 w-4 ml-2" />
@@ -526,7 +526,7 @@ const DetailCarRent = () => {
 
                     <Link href="/car-rent">
                       <button
-                        className="px-5 py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                        className="px-5 py-3 mt-1 text-base font-medium text-center space-x-2
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
                       >
                         Rent Now
@@ -605,7 +605,7 @@ const DetailCarRent = () => {
 
                   <div
                     className="flex items-stretch 
-                        justify-between mt-[20px] mb-6"
+                        justify-between mt-5 mb-6"
                   >
                     <div className="flex flex-col  font-bold text-[#1A202C]">
                       <div className="text-xl font-bold">
@@ -619,7 +619,7 @@ const DetailCarRent = () => {
 
                     <Link href="/car-rent">
                       <button
-                        className="px-5 py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                        className="px-5 py-3 mt-1 text-base font-medium text-center space-x-2
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
                       >
                         Rent Now
@@ -709,7 +709,7 @@ const DetailCarRent = () => {
 
                     <Link href="/car-rent">
                       <button
-                        className="px-5 py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                        className="px-5 py-3 mt-1 text-base font-medium text-center space-x-2
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
                       >
                         Rent Now
