@@ -33,55 +33,55 @@ const DetailCarRent = () => {
             className="lg:ml-0 lg:flex lg:flex-col lg:visible hidden lg:h-[2016px] bg-white
          lg:w-[310px]"
           >
-            <div className="flex flex-col space-y-[16px] mr-[16px] mt-[40px] ml-8">
+            <div className="flex flex-col space-y-4 mr-[16px] mt-[40px] ml-8">
               <p className="text-[#90A3BF] text-base">T Y P E</p>
-              <p className="text-[20px] font-medium">
+              <p className="text-xl font-medium">
                 <Checkbox className="mr-2" checked /> Sport{" "}
                 <span className="ml-2 text-[#90A3BF] text-base">(10)</span>
               </p>
-              <p className="text-[20px] font-medium">
+              <p className="text-xl font-medium">
                 <Checkbox className="mr-2" checked /> SUV{" "}
                 <span className="ml-2 text-[#90A3BF] text-base">(12)</span>
               </p>
-              <p className="text-[20px] font-medium">
+              <p className="text-xl font-medium">
                 <Checkbox className="mr-2" /> MPV{" "}
                 <span className="ml-2 text-[#90A3BF] text-base">(16)</span>
               </p>
-              <p className="text-[20px] font-medium">
+              <p className="text-xl font-medium">
                 <Checkbox className="mr-2" /> Sedan{" "}
                 <span className="ml-2 text-[#90A3BF] text-base">(20)</span>
               </p>
-              <p className="text-[20px] font-medium">
+              <p className="text-xl font-medium">
                 <Checkbox className="mr-2" /> Cope{" "}
                 <span className="ml-2 text-[#90A3BF] text-base">(14)</span>
               </p>
-              <p className="text-[20px] font-medium">
+              <p className="text-xl font-medium">
                 <Checkbox className="mr-2" /> Hatchback{" "}
                 <span className="ml-2 text-[#90A3BF] text-base">(14)</span>
               </p>
             </div>
 
-            <div className="flex flex-col space-y-[16px] mr-[16px] mt-[56px] ml-8">
+            <div className="flex flex-col space-y-4 mr-[16px] mt-[56px] ml-8">
               <p className="text-[#90A3BF] text-base">C A P A C I T Y</p>
-              <p className="text-[20px] font-medium">
+              <p className="text-xl font-medium">
                 <Checkbox className="mr-2" checked /> 2 Person{" "}
                 <span className="ml-2 text-[#90A3BF] text-base">(10)</span>
               </p>
-              <p className="text-[20px] font-medium">
+              <p className="text-xl font-medium">
                 <Checkbox className="mr-2" /> 4 Person{" "}
                 <span className="ml-2 text-[#90A3BF] text-base">(14)</span>
               </p>
-              <p className="text-[20px] font-medium">
+              <p className="text-xl font-medium">
                 <Checkbox className="mr-2" /> 6 Person{" "}
                 <span className="ml-2 text-[#90A3BF] text-base">(12)</span>
               </p>
-              <p className="text-[20px] font-medium">
+              <p className="text-xl font-medium">
                 <Checkbox className="mr-2" checked /> 8 Person{" "}
                 <span className="ml-2 text-[#90A3BF] text-base">(16)</span>
               </p>
             </div>
 
-            <div className="flex flex-col space-y-[16px] mr-[16px] mt-[56px] ml-8">
+            <div className="flex flex-col space-y-4 mr-[16px] mt-[56px] ml-8">
               <p className="text-[#90A3BF] text-base">P R I C E</p>
 
               {/* Progress bar */}
@@ -103,22 +103,22 @@ const DetailCarRent = () => {
                 ></div>
               </div>
 
-              <p className="text-[20px] font-medium text-[#596780]">
+              <p className="text-xl font-medium text-[#596780]">
                 Max. $100.00
               </p>
             </div>
           </div>
 
           {/*Right*/}
-          <div className="flex flex-col items-start justify-between mx-auto mb-[32px]">
+          <div className="flex flex-col items-start justify-between mx-auto mb-8">
             <div
-              className="flex lg:flex-row flex-col lg:space-x-[32px] space-y-5 lg:mx-[32px]
+              className="flex lg:flex-row flex-col lg:space-x-8 space-y-5 lg:mx-[32px]
         lg:items-start lg:justify-between items-center justify-center mx-auto"
             >
               {/*Left Side*/}
               <div className="flex flex-col my-[24px] lg:w-[492px]">
                 <div
-                  className="rounded-[10px] object-cover lg:w-[492px] lg:h-[360px] w-[310px] 
+                  className="rounded-lg object-cover lg:w-[492px] lg:h-[360px] w-[310px] 
            h-[420px] bg-blue-600 lg:mx-0 mx-auto"
                 >
                   <Image
@@ -129,13 +129,13 @@ const DetailCarRent = () => {
                   />
 
                   <div
-                    className="flex flex-col space-y-[16px] z-10 ml-6 text-white 
+                    className="flex flex-col space-y-4 z-10 ml-6 text-white 
             lg:-mt-[340px] -mt-52"
                   >
                     <h2 className="text-[32px] font-semibold text-left">
                       Sports car with the best <br /> design and acceleration
                     </h2>
-                    <p className="text-[16px] font-medium text-left">
+                    <p className="text-base font-medium text-left">
                       Safety and comfort while driving a <br />
                       futuristic and elegant sports car
                     </p>
@@ -158,14 +158,14 @@ const DetailCarRent = () => {
                   <div
                     className="rounded-[8px] flex items-center justify-center
             ring-2 ring-[#3563E9] ring-offset-[#F6F7F9]
-            lg:flex-row flex-col mt-[24px] relative lg:h-[124px] lg:w-[148px] h-16 w-24"
+            lg:flex-row flex-col mt-6 relative lg:h-[124px] lg:w-[148px] h-16 w-24"
                   >
                     <Image
                       src="/images/View.png"
                       height={108}
                       width={132}
                       alt="car"
-                      className="rounded-[10px] lg:h-[108px] lg:w-[132px] h-14 w-[88px]"
+                      className="rounded-lg lg:h-[108px] lg:w-[132px] h-14 w-[88px]"
                     />
 
                     <Image
@@ -182,7 +182,7 @@ const DetailCarRent = () => {
                     height={124}
                     width={148}
                     alt="car-interior"
-                    className="rounded-[10px] lg:h-[124px] lg:w-[148px] h-16 w-24"
+                    className="rounded-lg lg:h-[124px] lg:w-[148px] h-16 w-24"
                   />
 
                   <Image
@@ -190,18 +190,18 @@ const DetailCarRent = () => {
                     height={124}
                     width={148}
                     alt="car-interior"
-                    className="rounded-[10px] lg:h-[124px] lg:w-[148px] h-16 w-24"
+                    className="rounded-lg lg:h-[124px] lg:w-[148px] h-16 w-24"
                   />
                 </div>
               </div>
 
               {/*Right Side*/}
               <div
-                className="lg:w-[492px] lg:h-[508px] bg-white rounded-[10px] my-[24px]
-              lg:mx-0 mx-auto w-[320px] h-[660px]"
+                className="lg:w-[492px] lg:h-[508px] bg-white rounded-lg my-[24px]
+              lg:mx-0 mx-auto w-80 h-[660px]"
               >
                 <div className="relative">
-                  <div className="flex flex-col space-y-2 p-[24px]">
+                  <div className="flex flex-col space-y-2 p-6">
                     <h2 className="text-[32px] font-bold text-left">
                       Nissan GT - R
                     </h2>
@@ -212,7 +212,7 @@ const DetailCarRent = () => {
                         width={108}
                         alt="ratings"
                       />
-                      <p className="text-[#596780] text-[14px] font-medium">
+                      <p className="text-[#596780] text-sm font-medium">
                         440+ Reviewer
                       </p>
                     </div>
@@ -228,8 +228,8 @@ const DetailCarRent = () => {
                   </div>
                 </div>
 
-                <div className="mx-[24px] mt-[32px] flex items-start justify-between">
-                  <p className="text-[#596780] text-[18px] text-left">
+                <div className="mx-6 mt-8 flex items-start justify-between">
+                  <p className="text-[#596780] text-lg text-left">
                     NISMO has become the embodiment of Nissan's outstanding
                     performance, inspired by the most unforgiving proving
                     ground, the "race track".
@@ -237,64 +237,64 @@ const DetailCarRent = () => {
                 </div>
 
                 <div
-                  className="mt-[32px] lg:mx-[24px] mx-6 lg:flex lg:space-x-[44px] 
+                  className="mt-8 lg:mx-6 mx-6 lg:flex lg:space-x-[44px] 
                 items-start justify-between grid lg:space-y-0 space-y-5"
                 >
-                  <div className="flex flex-col space-y-[16px]">
+                  <div className="flex flex-col space-y-4">
                     <div className="lg:space-x-[16px] space-x-28 flex">
-                      <p className="text-[#90A3BF] text-[18px] text-left">
+                      <p className="text-[#90A3BF] text-lg text-left">
                         Type Car
                       </p>
-                      <p className="text-[#596780] text-[18px] text-right">
+                      <p className="text-[#596780] text-lg text-right">
                         Sport
                       </p>
                     </div>
                     <div className="lg:space-x-[16px] space-x-28 flex">
-                      <p className="text-[#90A3BF] text-[18px] text-left">
+                      <p className="text-[#90A3BF] text-lg text-left">
                         Steering
                       </p>
-                      <p className="text-[#596780] text-[18px] text-right">
+                      <p className="text-[#596780] text-lg text-right">
                         Manual
                       </p>
                     </div>
                   </div>
-                  <div className="flex flex-col space-y-[16px]">
+                  <div className="flex flex-col space-y-4">
                     <div className="lg:space-x-[16px] space-x-28 flex">
-                      <p className="text-[#90A3BF] text-[18px] text-left">
+                      <p className="text-[#90A3BF] text-lg text-left">
                         Capacity
                       </p>
-                      <p className="text-[#596780] text-[18px] text-right">
+                      <p className="text-[#596780] text-lg text-right">
                         2 Person
                       </p>
                     </div>
                     <div className="lg:space-x-[16px] space-x-28 flex">
-                      <p className="text-[#90A3BF] text-[18px] text-left">
+                      <p className="text-[#90A3BF] text-lg text-left">
                         Gasoline
                       </p>
-                      <p className="text-[#596780] text-[18px] text-right">
+                      <p className="text-[#596780] text-lg text-right">
                         70L
                       </p>
                     </div>
                   </div>
                 </div>
 
-                <div className="flex mt-[64px] mx-[24px] mb-[24px] items-stretch justify-between">
+                <div className="flex mt-[64px] mx-6 mb-[24px] items-stretch justify-between">
                   <div className="flex flex-col font-bold text-[#1A202C]">
                     <div className="lg:text-[28px] text-[24px] font-bold">
                       $80.00/{" "}
-                      <span className="lg:text-[16px] text-[14px] text-[#90A3BF]">
+                      <span className="lg:text-base text-sm text-[#90A3BF]">
                         days
                       </span>
                     </div>
-                    <div className="mt-1 text-[16px] text-[#90A3BF] line-through">
+                    <div className="mt-1 text-base text-[#90A3BF] line-through">
                       $100.00
                     </div>
                   </div>
 
                   <Link href="/payment">
                     <button
-                      className="lg:px-[20px] px-[14px] py-3 mt-1 text-[16px] font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] hover:bg-blue-800 rounded lg:h-[56px] lg:w-[140px]
+                      className="lg:px-[20px] px-[14px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded lg:h-14 lg:w-[140px]
                      w-[110px]"
                     >
                       Rent Now
@@ -306,16 +306,16 @@ const DetailCarRent = () => {
 
             {/*Reviews*/}
             <div
-              className="bg-white lg:w-[1016px] lg:h-[452px] mx-auto rounded-[10px]
-            p-[24px] w-[320px] h-auto lg:mt-0 mt-6"
+              className="bg-white lg:w-[1016px] lg:h-[452px] mx-auto rounded-lg
+            p-6 w-80 h-auto lg:mt-0 mt-6"
             >
               <div className="space-x-[12px] flex">
-                <p className="text-[20px] font-semibold text-[#1A202C]">
+                <p className="text-xl font-semibold text-[#1A202C]">
                   Reviews
                 </p>
                 <button
                   className="px-[20px] space-x-[8px] rounded text-white bg-[#3563E9]
-                    text-[14px] font-bold"
+                    text-sm font-bold"
                 >
                   13
                 </button>
@@ -328,16 +328,16 @@ const DetailCarRent = () => {
                   height={56}
                   width={56}
                   alt="Profile-Image"
-                  className="lg:w-[56px] lg:h-[56px] h-[46px] w-[46px]"
+                  className="lg:w-[56px] lg:h-14 h-[46px] w-[46px]"
                 />
 
                 <div className="flex flex-col lg:ml-[16px] ml-[14px]">
                   <div className="flex items-stretch justify-between">
                     <div className="flex flex-col space-y-[8px] text-left">
-                      <p className="lg:text-[20px] text-[18px] font-bold text-[#1A202C]">
+                      <p className="lg:text-xl text-lg font-bold text-[#1A202C]">
                         Alex Stanton
                       </p>
-                      <p className="text-[14px] text-[#90A3BF] font-medium">
+                      <p className="text-sm text-[#90A3BF] font-medium">
                         CEO at Bukalapak
                       </p>
                     </div>
@@ -346,7 +346,7 @@ const DetailCarRent = () => {
                       className="flex flex-col space-y-[8px] text-right lg:ml-0 lg:mt-0
                     mt-1 "
                     >
-                      <p className="lg:text-[14px] text-[13px] text-[#90A3BF] font-medium">
+                      <p className="lg:text-sm text-[13px] text-[#90A3BF] font-medium">
                         21 July 2022
                       </p>
                       <Image
@@ -373,28 +373,28 @@ const DetailCarRent = () => {
               </div>
 
               {/*Review 2*/}
-              <div className="flex mt-[24px] items-start">
+              <div className="flex mt-6 items-start">
                 <Image
                   src="/images/Profile.png"
                   height={56}
                   width={56}
                   alt="Profile-Image"
-                  className="lg:w-[56px] lg:h-[56px] h-[46px] w-[46px]"
+                  className="lg:w-[56px] lg:h-14 h-[46px] w-[46px]"
                 />
 
                 <div className="flex flex-col lg:ml-[16px] ml-[14px]">
                   <div className="flex items-stretch justify-between">
                     <div className="flex flex-col space-y-[8px] text-left">
-                      <p className="lg:text-[20px] text-[18px] font-bold text-[#1A202C]">
+                      <p className="lg:text-xl text-lg font-bold text-[#1A202C]">
                         Skylar Dias
                       </p>
-                      <p className="text-[14px] text-[#90A3BF] font-medium">
+                      <p className="text-sm text-[#90A3BF] font-medium">
                         CEO at Amazon
                       </p>
                     </div>
 
                     <div className="flex flex-col space-y-[8px] text-right">
-                      <p className="lg:text-[14px] text-[12px] text-[#90A3BF] font-medium">
+                      <p className="lg:text-sm text-xs text-[#90A3BF] font-medium">
                         20 July 2022
                       </p>
                       <Image
@@ -408,7 +408,7 @@ const DetailCarRent = () => {
                   </div>
 
                   <div className="mt-[12px]">
-                    <p className="text-left lg:text-[14px] text-[12px] text-[#596780]">
+                    <p className="text-left lg:text-sm text-xs text-[#596780]">
                       We are greatly helped by the services of the MORENT
                       Application. Morent has low prices and also a wide variety
                       of cars with good and <br />
@@ -421,8 +421,8 @@ const DetailCarRent = () => {
 
               <div className=" flex items-center justify-center mx-auto">
                 <button
-                  className="mt-[24px] rounded px-[20px] space-x-[8px] h-[44px]
-                text-[16px] font-medium text-[#90A3BF] flex items-center justify-center"
+                  className="mt-6 rounded px-[20px] space-x-[8px] h-[44px]
+                text-base font-medium text-[#90A3BF] flex items-center justify-center"
                 >
                   Show All <ChevronDown className="h-4 w-4 ml-2" />
                 </button>
@@ -430,31 +430,31 @@ const DetailCarRent = () => {
             </div>
 
             {/*Recent Car Section*/}
-            <div className="flex flex-col mx-auto space-y-[16px] mt-[32px]">
+            <div className="flex flex-col mx-auto space-y-4 mt-8">
               <div className="flex items-stretch justify-between">
-                <p className="text-[16px] font-semibold text-[#90A3BF]">
+                <p className="text-base font-semibold text-[#90A3BF]">
                   Recent Car
                 </p>
-                <p className="text-[16px] font-semibold text-[#3563E9]">
+                <p className="text-base font-semibold text-[#3563E9]">
                   View All
                 </p>
               </div>
 
               {/*Car Cards*/}
               <div
-                className="grid grid-cols-4 lg:flex lg:space-x-[32px] overflow-x-auto w-[300px] 
+                className="grid grid-cols-4 lg:flex lg:space-x-8 overflow-x-auto w-[300px] 
               lg:w-auto lg:overflow-hidden lg:gap-0 gap-[330px]"
               >
                 <div
-                  className="bg-white rounded-[10px] flex flex-col
+                  className="bg-white rounded-lg flex flex-col
                 w-[304px] h-[388px] py-[24px] px-[24px]"
                 >
                   <div className="flex space-x-[104px] items-start">
                     <div className="flex flex-col text-left space-y-1">
-                      <p className="font-bold text-[20px] text-[#1A202C]">
+                      <p className="font-bold text-xl text-[#1A202C]">
                         Koenigsegg
                       </p>
-                      <p className="font-bold text-[14px] text-[#90A3BF]">
+                      <p className="font-bold text-sm text-[#90A3BF]">
                         Sport
                       </p>
                     </div>
@@ -485,7 +485,7 @@ const DetailCarRent = () => {
                         src="/images/gas-station.png"
                         alt="Gas-Station"
                       />
-                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                      <p className="text-[#90A3BF] text-sm font-medium">
                         90L
                       </p>
                     </div>
@@ -496,7 +496,7 @@ const DetailCarRent = () => {
                         src="/images/manual.png"
                         alt="Mode"
                       />
-                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                      <p className="text-[#90A3BF] text-sm font-medium">
                         Manual
                       </p>
                     </div>
@@ -507,7 +507,7 @@ const DetailCarRent = () => {
                         src="/images/profile-2user.png"
                         alt="2users-profile"
                       />
-                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                      <p className="text-[#90A3BF] text-sm font-medium">
                         2 People
                       </p>
                     </div>
@@ -515,12 +515,12 @@ const DetailCarRent = () => {
 
                   <div
                     className="flex items-stretch 
-                        justify-between mt-[24px] mb-6"
+                        justify-between mt-6 mb-6"
                   >
                     <div className="flex flex-col font-bold text-[#1A202C]">
-                      <div className="text-[20px] font-bold">
+                      <div className="text-xl font-bold">
                         $99.00/{" "}
-                        <span className="text-[14px] text-[#90A3BF]">day</span>
+                        <span className="text-sm text-[#90A3BF]">day</span>
                       </div>
                     </div>
 
@@ -536,15 +536,15 @@ const DetailCarRent = () => {
                 </div>
 
                 <div
-                  className="bg-white rounded-[10px] flex flex-col
+                  className="bg-white rounded-lg flex flex-col
                 w-[304px] h-[388px] py-[24px] px-[24px]"
                 >
                   <div className="flex space-x-[104px] items-start">
                     <div className="flex flex-col text-left space-y-1">
-                      <p className="font-bold text-[20px] text-[#1A202C]">
+                      <p className="font-bold text-xl text-[#1A202C]">
                         Nissan GT -R
                       </p>
-                      <p className="font-bold text-[14px] text-[#90A3BF]">
+                      <p className="font-bold text-sm text-[#90A3BF]">
                         Sport
                       </p>
                     </div>
@@ -575,7 +575,7 @@ const DetailCarRent = () => {
                         src="/images/gas-station.png"
                         alt="Gas-Station"
                       />
-                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                      <p className="text-[#90A3BF] text-sm font-medium">
                         80L
                       </p>
                     </div>
@@ -586,7 +586,7 @@ const DetailCarRent = () => {
                         src="/images/manual.png"
                         alt="Mode"
                       />
-                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                      <p className="text-[#90A3BF] text-sm font-medium">
                         Manual
                       </p>
                     </div>
@@ -597,7 +597,7 @@ const DetailCarRent = () => {
                         src="/images/profile-2user.png"
                         alt="2users-profile"
                       />
-                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                      <p className="text-[#90A3BF] text-sm font-medium">
                         2 People
                       </p>
                     </div>
@@ -608,11 +608,11 @@ const DetailCarRent = () => {
                         justify-between mt-[20px] mb-6"
                   >
                     <div className="flex flex-col  font-bold text-[#1A202C]">
-                      <div className="text-[20px] font-bold">
+                      <div className="text-xl font-bold">
                         $80.00/{" "}
-                        <span className="text-[14px] text-[#90A3BF]">day</span>
+                        <span className="text-sm text-[#90A3BF]">day</span>
                       </div>
-                      <div className="mt-1 text-[14px] text-[#90A3BF] line-through">
+                      <div className="mt-1 text-sm text-[#90A3BF] line-through">
                         $100.00
                       </div>
                     </div>
@@ -629,15 +629,15 @@ const DetailCarRent = () => {
                 </div>
 
                 <div
-                  className="bg-white rounded-[10px] flex flex-col
+                  className="bg-white rounded-lg flex flex-col
                 w-[304px] h-[388px] py-[24px] px-[24px]"
                 >
                   <div className="flex space-x-[104px] items-start">
                     <div className="flex flex-col text-left space-y-1">
-                      <p className="font-bold text-[20px] text-[#1A202C]">
+                      <p className="font-bold text-xl text-[#1A202C]">
                         Rolls-Royce
                       </p>
-                      <p className="font-bold text-[14px] text-[#90A3BF]">
+                      <p className="font-bold text-sm text-[#90A3BF]">
                         Sport
                       </p>
                     </div>
@@ -668,7 +668,7 @@ const DetailCarRent = () => {
                         src="/images/gas-station.png"
                         alt="Gas-Station"
                       />
-                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                      <p className="text-[#90A3BF] text-sm font-medium">
                         70L
                       </p>
                     </div>
@@ -679,7 +679,7 @@ const DetailCarRent = () => {
                         src="/images/manual.png"
                         alt="Mode"
                       />
-                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                      <p className="text-[#90A3BF] text-sm font-medium">
                         Manual
                       </p>
                     </div>
@@ -690,7 +690,7 @@ const DetailCarRent = () => {
                         src="/images/profile-2user.png"
                         alt="2users-profile"
                       />
-                      <p className="text-[#90A3BF] text-[14px] font-medium">
+                      <p className="text-[#90A3BF] text-sm font-medium">
                         4 People
                       </p>
                     </div>
@@ -698,12 +698,12 @@ const DetailCarRent = () => {
 
                   <div
                     className="flex items-stretch 
-                        justify-between mt-[24px] mb-6"
+                        justify-between mt-6 mb-6"
                   >
                     <div className="flex flex-col font-bold text-[#1A202C]">
-                      <div className="text-[20px] font-bold">
+                      <div className="text-xl font-bold">
                         $97.00/{" "}
-                        <span className="text-[14px] text-[#90A3BF]">day</span>
+                        <span className="text-sm text-[#90A3BF]">day</span>
                       </div>
                     </div>
 
@@ -721,18 +721,18 @@ const DetailCarRent = () => {
             </div>
 
             {/*Recommended Car Section*/}
-            <div className="flex flex-col mx-auto space-y-[16px] mt-[32px]">
+            <div className="flex flex-col mx-auto space-y-4 mt-8">
               <div className="flex items-stretch justify-between">
-                <p className="text-[16px] font-semibold text-[#90A3BF]">
+                <p className="text-base font-semibold text-[#90A3BF]">
                   Recomendation Car
                 </p>
-                <p className="text-[16px] font-semibold text-[#3563E9]">
+                <p className="text-base font-semibold text-[#3563E9]">
                   View All
                 </p>
               </div>
 
               {/*Car Cards*/}
-              <div className="flex space-x-[32px] overflow-x-auto w-[320px] lg:w-auto lg:overflow-hidden">
+              <div className="flex space-x-8 overflow-x-auto w-80 lg:w-auto lg:overflow-hidden">
                 <div
                   className="flex flex-col sm:p-6 bg-white rounded-xl min-w-[280px] 
         lg:w-[304px] max-w-[304px] mx-auto relative shadow-sm p-6"
@@ -747,10 +747,10 @@ const DetailCarRent = () => {
                   />
                   <div className="flex gap-5 justify-between">
                     <div className="flex flex-col">
-                      <div className="font-bold text-[20px] text-[#1A202C]">
+                      <div className="font-bold text-xl text-[#1A202C]">
                         All New Rush
                       </div>
-                      <p className="mt-1 font-semibold text-[14px] text-[#90A3BF]">
+                      <p className="mt-1 font-semibold text-sm text-[#90A3BF]">
                         SUV
                       </p>
                     </div>
@@ -762,7 +762,7 @@ const DetailCarRent = () => {
                     alt="All New Rush"
                     className="self-center mt-16 max-lg:mt-10"
                   />
-                  <div className="flex lg:gap-4 gap-1.5 items-start mt-16 text-[14px] font-medium text-[#90A3BF] max-lg:mt-10">
+                  <div className="flex lg:gap-4 gap-1.5 items-start mt-16 text-sm font-medium text-[#90A3BF] max-lg:mt-10">
                     <div className="flex gap-1.5 items-start">
                       <Image
                         height={24}
@@ -793,19 +793,19 @@ const DetailCarRent = () => {
                   </div>
                   <div className="flex gap-3 mt-8 w-full">
                     <div className="flex flex-col font-bold text-[#1A202C]">
-                      <div className="text-[20px]">
+                      <div className="text-xl">
                         $72.00/{" "}
-                        <span className="text-[14px] text-[#90A3BF]">day</span>
+                        <span className="text-sm text-[#90A3BF]">day</span>
                       </div>
-                      <div className="mt-1 text-[14px] text-[#90A3BF] line-through">
+                      <div className="mt-1 text-sm text-[#90A3BF] line-through">
                         $80.00
                       </div>
                     </div>
 
                     <Link href="/car-rent">
                       <button
-                        className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
-                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
+                        className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-32"
                       >
                         Rent Now
                       </button>
@@ -827,10 +827,10 @@ const DetailCarRent = () => {
                   />
                   <div className="flex gap-5 justify-between">
                     <div className="flex flex-col">
-                      <div className="font-bold text-[20px] text-[#1A202C]">
+                      <div className="font-bold text-xl text-[#1A202C]">
                         CR-V
                       </div>
-                      <p className="mt-1 font-semibold text-[14px] text-[#90A3BF]">
+                      <p className="mt-1 font-semibold text-sm text-[#90A3BF]">
                         SUV
                       </p>
                     </div>
@@ -843,7 +843,7 @@ const DetailCarRent = () => {
                     className="self-center mt-16 max-lg:mt-10"
                   />
                   <div
-                    className="flex lg:gap-4 gap-1.5 items-start mt-16 text-[14px] font-medium
+                    className="flex lg:gap-4 gap-1.5 items-start mt-16 text-sm font-medium
              text-[#90A3BF] max-lg:mt-10"
                   >
                     <div className="flex gap-1.5 items-start">
@@ -876,16 +876,16 @@ const DetailCarRent = () => {
                   </div>
                   <div className="flex gap-3 mt-8 w-full">
                     <div className="flex flex-col font-bold text-[#1A202C]">
-                      <div className="text-[20px]">
+                      <div className="text-xl">
                         $80.00/{" "}
-                        <span className="text-[14px] text-[#90A3BF]">day</span>
+                        <span className="text-sm text-[#90A3BF]">day</span>
                       </div>
                     </div>
 
                     <Link href="/car-rent">
                       <button
-                        className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
-                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
+                        className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-32"
                       >
                         Rent Now
                       </button>
@@ -907,10 +907,10 @@ const DetailCarRent = () => {
                   />
                   <div className="flex gap-5 justify-between">
                     <div className="flex flex-col">
-                      <div className="font-bold text-[20px] text-[#1A202C]">
+                      <div className="font-bold text-xl text-[#1A202C]">
                         All New Terios
                       </div>
-                      <p className="mt-1 font-semibold text-[14px] text-[#90A3BF]">
+                      <p className="mt-1 font-semibold text-sm text-[#90A3BF]">
                         SUV
                       </p>
                     </div>
@@ -923,7 +923,7 @@ const DetailCarRent = () => {
                     className="object-contain self-center mt-16 max-lg:mt-10"
                   />
                   <div
-                    className="flex lg:gap-4 gap-1.5 items-start mt-16 text-[14px] font-medium 
+                    className="flex lg:gap-4 gap-1.5 items-start mt-16 text-sm font-medium 
             text-[#90A3BF] max-lg:mt-10"
                   >
                     <div className="flex gap-1.5 items-start">
@@ -956,16 +956,16 @@ const DetailCarRent = () => {
                   </div>
                   <div className="flex gap-3 mt-8 w-full">
                     <div className="flex flex-col font-bold text-[#1A202C]">
-                      <div className="text-[20px]">
+                      <div className="text-xl">
                         $74.00/{" "}
-                        <span className="text-[14px] text-[#90A3BF]">day</span>
+                        <span className="text-sm text-[#90A3BF]">day</span>
                       </div>
                     </div>
 
                     <Link href="/car-rent">
                       <button
-                        className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
-                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
+                        className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-32"
                       >
                         Rent Now
                       </button>

@@ -44,8 +44,8 @@ export default function Navbar() {
 
             <input
               type="text"
-              className="absolute bg-transparent lg:w-[320px] h-10
-       placeholder:text-[14px] placeholder:text-[#596780] placeholder:font-medium placeholder:mx-4
+              className="absolute bg-transparent lg:w-80 h-10
+       placeholder:text-sm placeholder:text-[#596780] placeholder:font-medium placeholder:mx-4
        ml-10 border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
               placeholder="Search something here"
             />

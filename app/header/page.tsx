@@ -11,8 +11,8 @@ export default function Header() {
         </h2>
         </div>
         <div className="flex space-x-2">
-          <p className="text-[16px] font-medium text-[#666666]">Last Updated:</p>
-          <p className="text-[16px] font-bold -ml-10">8 Aug 2022</p>
+          <p className="text-base font-medium text-[#666666]">Last Updated:</p>
+          <p className="text-base font-bold -ml-10">8 Aug 2022</p>
         </div>
       </div>
     </header>

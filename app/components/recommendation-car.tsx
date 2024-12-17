@@ -14,7 +14,7 @@ export default function RecommendationCar() {
   const [isFav8, setIsFav8] = useState(true); // Card 8
 
   return (
-    <div className="p-[24px] flex flex-col items-start justify-between">
+    <div className="p-6 flex flex-col items-start justify-between">
       <div className="flex items-start">
         <h2 className="text-xl font-bold text-[#90A3BF] mt-6 text-left mb-8">
           Recomendation Car{" "}
@@ -39,10 +39,10 @@ export default function RecommendationCar() {
             />
             <div className="flex gap-5 justify-between">
               <div className="flex flex-col">
-                <div className="font-bold text-[20px] text-[#1A202C]">
+                <div className="font-bold text-xl text-[#1A202C]">
                   All New Rush
                 </div>
-                <p className="mt-1 font-semibold text-[14px] text-[#90A3BF]">
+                <p className="mt-1 font-semibold text-sm text-[#90A3BF]">
                   SUV
                 </p>
               </div>
@@ -54,7 +54,7 @@ export default function RecommendationCar() {
               alt="All New Rush"
               className="self-center mt-16 max-lg:mt-10"
             />
-            <div className="flex lg:gap-4 gap-1.5 items-start mt-16 text-[14px] font-medium text-[#90A3BF] max-lg:mt-10">
+            <div className="flex lg:gap-4 gap-1.5 items-start mt-16 text-sm font-medium text-[#90A3BF] max-lg:mt-10">
               <div className="flex gap-1.5 items-start">
                 <Image
                   height={24}
@@ -85,19 +85,19 @@ export default function RecommendationCar() {
             </div>
             <div className="flex gap-3 mt-8 w-full">
               <div className="flex flex-col font-bold text-[#1A202C]">
-                <div className="text-[20px]">
+                <div className="text-xl">
                   $72.00/{" "}
-                  <span className="text-[14px] text-[#90A3BF]">day</span>
+                  <span className="text-sm text-[#90A3BF]">day</span>
                 </div>
-                <div className="mt-1 text-[14px] text-[#90A3BF] line-through">
+                <div className="mt-1 text-sm text-[#90A3BF] line-through">
                   $80.00
                 </div>
               </div>
 
               <Link href="/car-rent">
                 <button
-                  className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
-                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
+                  className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-32"
                 >
                   Rent Now
                 </button>
@@ -119,8 +119,8 @@ export default function RecommendationCar() {
             />
             <div className="flex gap-5 justify-between">
               <div className="flex flex-col">
-                <div className="font-bold text-[20px] text-[#1A202C]">CR-V</div>
-                <p className="mt-1 font-semibold text-[14px] text-[#90A3BF]">
+                <div className="font-bold text-xl text-[#1A202C]">CR-V</div>
+                <p className="mt-1 font-semibold text-sm text-[#90A3BF]">
                   SUV
                 </p>
               </div>
@@ -133,7 +133,7 @@ export default function RecommendationCar() {
               className="self-center mt-16 max-lg:mt-10"
             />
             <div
-              className="flex lg:gap-4 gap-1.5 items-start mt-16 text-[14px] font-medium
+              className="flex lg:gap-4 gap-1.5 items-start mt-16 text-sm font-medium
              text-[#90A3BF] max-lg:mt-10"
             >
               <div className="flex gap-1.5 items-start">
@@ -166,16 +166,16 @@ export default function RecommendationCar() {
             </div>
             <div className="flex gap-3 mt-8 w-full">
               <div className="flex flex-col font-bold text-[#1A202C]">
-                <div className="text-[20px]">
+                <div className="text-xl">
                   $80.00/{" "}
-                  <span className="text-[14px] text-[#90A3BF]">day</span>
+                  <span className="text-sm text-[#90A3BF]">day</span>
                 </div>
               </div>
 
               <Link href="/car-rent">
                 <button
-                  className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
-                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
+                  className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-32"
                 >
                   Rent Now
                 </button>
@@ -197,10 +197,10 @@ export default function RecommendationCar() {
             />
             <div className="flex gap-5 justify-between">
               <div className="flex flex-col">
-                <div className="font-bold text-[20px] text-[#1A202C]">
+                <div className="font-bold text-xl text-[#1A202C]">
                   All New Terios
                 </div>
-                <p className="mt-1 font-semibold text-[14px] text-[#90A3BF]">
+                <p className="mt-1 font-semibold text-sm text-[#90A3BF]">
                   SUV
                 </p>
               </div>
@@ -213,7 +213,7 @@ export default function RecommendationCar() {
               className="object-contain self-center mt-16 max-lg:mt-10"
             />
             <div
-              className="flex lg:gap-4 gap-1.5 items-start mt-16 text-[14px] font-medium 
+              className="flex lg:gap-4 gap-1.5 items-start mt-16 text-sm font-medium 
             text-[#90A3BF] max-lg:mt-10"
             >
               <div className="flex gap-1.5 items-start">
@@ -246,16 +246,16 @@ export default function RecommendationCar() {
             </div>
             <div className="flex gap-3 mt-8 w-full">
               <div className="flex flex-col font-bold text-[#1A202C]">
-                <div className="text-[20px]">
+                <div className="text-xl">
                   $74.00/{" "}
-                  <span className="text-[14px] text-[#90A3BF]">day</span>
+                  <span className="text-sm text-[#90A3BF]">day</span>
                 </div>
               </div>
 
               <Link href="/car-rent">
                 <button
-                  className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
-                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
+                  className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-32"
                 >
                   Rent Now
                 </button>
@@ -277,10 +277,10 @@ export default function RecommendationCar() {
             />
             <div className="flex gap-5 justify-between">
               <div className="flex flex-col">
-                <div className="font-bold text-[20px] text-[#1A202C]">
+                <div className="font-bold text-xl text-[#1A202C]">
                   CR -V
                 </div>
-                <p className="mt-1 font-semibold text-[14px] text-[#90A3BF]">
+                <p className="mt-1 font-semibold text-sm text-[#90A3BF]">
                   SUV
                 </p>
               </div>
@@ -293,7 +293,7 @@ export default function RecommendationCar() {
               className="object-contain self-center mt-16 max-lg:mt-10"
             />
             <div
-              className="flex lg:gap-4 gap-1.5 items-start mt-16 text-[14px] font-medium
+              className="flex lg:gap-4 gap-1.5 items-start mt-16 text-sm font-medium
              text-[#90A3BF] max-lg:mt-10"
             >
               <div className="flex gap-1.5 items-start">
@@ -326,16 +326,16 @@ export default function RecommendationCar() {
             </div>
             <div className="flex gap-3 mt-8 w-full">
               <div className="flex flex-col font-bold text-[#1A202C]">
-                <div className="text-[20px]">
+                <div className="text-xl">
                   $80.00/{" "}
-                  <span className="text-[14px] text-[#90A3BF]">day</span>
+                  <span className="text-sm text-[#90A3BF]">day</span>
                 </div>
               </div>
 
               <Link href="/car-rent">
                 <button
-                  className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center 
-                text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
+                  className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center 
+                text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-32"
                 >
                   Rent Now
                 </button>
@@ -362,10 +362,10 @@ export default function RecommendationCar() {
               onClick={() => setIsFav5(!isFav5)}
             />
             <div className="flex flex-col">
-              <div className="font-bold text-[20px] text-[#1A202C]">
+              <div className="font-bold text-xl text-[#1A202C]">
                 MG ZX Exclusive
               </div>
-              <p className="mt-1 font-semibold text-[14px] text-[#90A3BF]">
+              <p className="mt-1 font-semibold text-sm text-[#90A3BF]">
                 Hatchback
               </p>
             </div>
@@ -377,7 +377,7 @@ export default function RecommendationCar() {
               className="self-center mt-10 sm:mt-16"
             />
             <div
-              className="flex gap-4 items-start mt-8 sm:mt-16 text-[12px] lg:text-[14px]
+              className="flex gap-4 items-start mt-8 sm:mt-16 text-xs lg:text-sm
             font-medium text-[#90A3BF]"
             >
               <div className="flex gap-1.5 items-start">
@@ -410,21 +410,21 @@ export default function RecommendationCar() {
             </div>
             <div className="flex gap-3 lg:mt-6 mt-8 items-center justify-between w-full">
               <div className="flex flex-col font-bold text-[#1A202C]">
-                <div className="text-[18px] sm:text-[20px]">
+                <div className="text-lg sm:text-xl">
                   $72.00/{" "}
-                  <span className="text-[12px] sm:text-[14px] text-[#90A3BF]">
+                  <span className="text-xs sm:text-sm text-[#90A3BF]">
                     day
                   </span>
                 </div>
-                <div className="mt-1 text-[12px] sm:text-[14px] text-[#90A3BF] line-through">
+                <div className="mt-1 text-xs sm:text-sm text-[#90A3BF] line-through">
                   $80.00
                 </div>
               </div>
 
               <Link href="/car-rent">
                 <button
-                  className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
-                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
+                  className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-32"
                 >
                   Rent Now
                 </button>
@@ -445,10 +445,10 @@ export default function RecommendationCar() {
               onClick={() => setIsFav6(!isFav6)}
             />
             <div className="flex flex-col">
-              <div className="font-bold text-[20px] text-[#1A202C]">
+              <div className="font-bold text-xl text-[#1A202C]">
                 New MG ZS
               </div>
-              <p className="mt-1 font-semibold text-[14px] text-[#90A3BF]">
+              <p className="mt-1 font-semibold text-sm text-[#90A3BF]">
                 SUV
               </p>
             </div>
@@ -460,7 +460,7 @@ export default function RecommendationCar() {
               className="self-center mt-10 sm:mt-16"
             />
             <div
-              className="flex gap-4 items-start mt-8 sm:mt-16 text-[12px] sm:text-[14px] 
+              className="flex gap-4 items-start mt-8 sm:mt-16 text-xs sm:text-sm 
             font-medium text-[#90A3BF]"
             >
               <div className="flex gap-1.5 items-start">
@@ -493,9 +493,9 @@ export default function RecommendationCar() {
             </div>
             <div className="flex gap-3 mt-6 sm:mt-8 items-center justify-between w-full">
               <div className="flex flex-col font-bold text-[#1A202C]">
-                <div className="text-[18px] sm:text-[20px]">
+                <div className="text-lg sm:text-xl">
                   $80.00/{" "}
-                  <span className="text-[12px] sm:text-[14px] text-[#90A3BF]">
+                  <span className="text-xs sm:text-sm text-[#90A3BF]">
                     day
                   </span>
                 </div>
@@ -503,8 +503,8 @@ export default function RecommendationCar() {
 
               <Link href="/car-rent">
                 <button
-                  className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
-                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
+                  className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-32"
                 >
                   Rent Now
                 </button>
@@ -525,10 +525,10 @@ export default function RecommendationCar() {
               onClick={() => setIsFav7(!isFav7)}
             />
             <div className="flex flex-col">
-              <div className="font-bold text-[20px] text-[#1A202C]">
+              <div className="font-bold text-xl text-[#1A202C]">
                 MG ZX Excite
               </div>
-              <p className="mt-1 font-semibold text-[14px] text-[#90A3BF]">
+              <p className="mt-1 font-semibold text-sm text-[#90A3BF]">
                 Hatchback
               </p>
             </div>
@@ -540,7 +540,7 @@ export default function RecommendationCar() {
               className="self-center mt-10 sm:mt-16"
             />
             <div
-              className="flex gap-4 items-start mt-8 sm:mt-16 text-[12px] sm:text-[14px]
+              className="flex gap-4 items-start mt-8 sm:mt-16 text-xs sm:text-sm
              font-medium text-[#90A3BF]"
             >
               <div className="flex gap-1.5 items-start">
@@ -573,9 +573,9 @@ export default function RecommendationCar() {
             </div>
             <div className="flex gap-3 mt-6 sm:mt-8 items-center justify-between w-full">
               <div className="flex flex-col font-bold text-[#1A202C] lg:-mt-5">
-                <div className="text-[18px] sm:text-[20px]">
+                <div className="text-lg sm:text-xl">
                   $74.00/{" "}
-                  <span className="text-[12px] sm:text-[14px] text-[#90A3BF]">
+                  <span className="text-xs sm:text-sm text-[#90A3BF]">
                     day
                   </span>
                 </div>
@@ -583,8 +583,8 @@ export default function RecommendationCar() {
 
               <Link href="/car-rent">
                 <button
-                  className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
-                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
+                  className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-32"
                 >
                   Rent Now
                 </button>
@@ -605,10 +605,10 @@ export default function RecommendationCar() {
               onClick={() => setIsFav8(!isFav8)}
             />
             <div className="flex flex-col">
-              <div className="font-bold text-[20px] text-[#1A202C]">
+              <div className="font-bold text-xl text-[#1A202C]">
                 MG ZS EV
               </div>
-              <p className="mt-1 font-semibold text-[14px] text-[#90A3BF]">
+              <p className="mt-1 font-semibold text-sm text-[#90A3BF]">
                 SUV
               </p>
             </div>
@@ -620,7 +620,7 @@ export default function RecommendationCar() {
               className="self-center mt-10 sm:mt-16"
             />
             <div
-              className="flex gap-4 items-start mt-8 sm:mt-16 text-[12px] sm:text-[14px] 
+              className="flex gap-4 items-start mt-8 sm:mt-16 text-xs sm:text-sm 
             font-medium text-[#90A3BF]"
             >
               <div className="flex gap-1.5 items-start">
@@ -653,9 +653,9 @@ export default function RecommendationCar() {
             </div>
             <div className="flex gap-3 mt-6 sm:mt-8 items-center justify-between w-full">
               <div className="flex flex-col font-bold text-[#1A202C]">
-                <div className="text-[18px] sm:text-[20px]">
+                <div className="text-lg sm:text-xl">
                   $90.00/{" "}
-                  <span className="text-[12px] sm:text-[14px] text-[#90A3BF]">
+                  <span className="text-xs sm:text-sm text-[#90A3BF]">
                     day
                   </span>
                 </div>
@@ -663,8 +663,8 @@ export default function RecommendationCar() {
 
               <Link href="/car-rent">
                 <button
-                  className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
-                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
+                  className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-32"
                 >
                   Rent Now
                 </button>
@@ -677,7 +677,7 @@ export default function RecommendationCar() {
       <div className="flex items-center justify-center my-[64px] mx-auto">
         <Link href="/car-rent">
           <button
-            className="rounded space-x-2 px-5 bg-[#3563E9] text-[16px] font-semibold text-white
+            className="rounded space-x-2 px-5 bg-[#3563E9] text-base font-semibold text-white
            h-[44px] w-[156px] hover:bg-blue-800"
           >
             Show more car

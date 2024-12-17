@@ -12,11 +12,11 @@ export default function PopularCarSection() {
     <div className="flex">
       <div className="flex flex-col space-y-[20px] items-start justify-between">
         <div className="flex items-stretch justify-between ">
-          <p className="text-[20px] font-bold text-[#90A3BF]">Popular Car</p>
+          <p className="text-xl font-bold text-[#90A3BF]">Popular Car</p>
 
           <Link href="/car-rent">
             <p
-              className="text-[16px] font-semibold text-[#3563E9] lg:ml-[1080px] 
+              className="text-base font-semibold text-[#3563E9] lg:ml-[1080px] 
           mr-0 ml-32"
             >
               View All
@@ -30,15 +30,15 @@ export default function PopularCarSection() {
         overflow-x-auto w-[300px] lg:w-auto lg:overflow-hidden sm:w-[650px] sm:gap-8"
         >
           <div
-            className="bg-white rounded-[10px] flex flex-col
+            className="bg-white rounded-lg flex flex-col
                 w-[304px] h-[388px] py-[24px] px-[24px]"
           >
             <div className="flex space-x-[104px] items-start">
               <div className="flex flex-col text-left space-y-1">
-                <p className="font-bold text-[20px] text-[#1A202C]">
+                <p className="font-bold text-xl text-[#1A202C]">
                   Koenigsegg
                 </p>
-                <p className="font-bold text-[14px] text-[#90A3BF]">Sport</p>
+                <p className="font-bold text-sm text-[#90A3BF]">Sport</p>
               </div>
 
               <Image
@@ -67,7 +67,7 @@ export default function PopularCarSection() {
                   src="/images/gas-station.png"
                   alt="Gas-Station"
                 />
-                <p className="text-[#90A3BF] text-[14px] font-medium">90L</p>
+                <p className="text-[#90A3BF] text-sm font-medium">90L</p>
               </div>
               <div className="flex space-x-[6px] items-center justify-center">
                 <Image
@@ -76,7 +76,7 @@ export default function PopularCarSection() {
                   src="/images/manual.png"
                   alt="Mode"
                 />
-                <p className="text-[#90A3BF] text-[14px] font-medium">Manual</p>
+                <p className="text-[#90A3BF] text-sm font-medium">Manual</p>
               </div>
               <div className="flex space-x-[6px] items-center justify-center">
                 <Image
@@ -85,7 +85,7 @@ export default function PopularCarSection() {
                   src="/images/profile-2user.png"
                   alt="2users-profile"
                 />
-                <p className="text-[#90A3BF] text-[14px] font-medium">
+                <p className="text-[#90A3BF] text-sm font-medium">
                   2 People
                 </p>
               </div>
@@ -93,12 +93,12 @@ export default function PopularCarSection() {
 
             <div
               className="flex items-stretch 
-                        justify-between mt-[24px] mb-6"
+                        justify-between mt-6 mb-6"
             >
               <div className="flex flex-col font-bold text-[#1A202C]">
-                <div className="text-[20px] font-bold">
+                <div className="text-xl font-bold">
                   $99.00/{" "}
-                  <span className="text-[14px] text-[#90A3BF]">day</span>
+                  <span className="text-sm text-[#90A3BF]">day</span>
                 </div>
               </div>
 
@@ -114,15 +114,15 @@ export default function PopularCarSection() {
           </div>
 
           <div
-            className="bg-white rounded-[10px] flex flex-col
+            className="bg-white rounded-lg flex flex-col
                 w-[304px] h-[388px] py-[24px] px-[24px]"
           >
             <div className="flex space-x-[104px] items-start">
               <div className="flex flex-col text-left space-y-1">
-                <p className="font-bold text-[20px] text-[#1A202C]">
+                <p className="font-bold text-xl text-[#1A202C]">
                   Nissan GT -R
                 </p>
-                <p className="font-bold text-[14px] text-[#90A3BF]">Sport</p>
+                <p className="font-bold text-sm text-[#90A3BF]">Sport</p>
               </div>
 
               <Image
@@ -151,7 +151,7 @@ export default function PopularCarSection() {
                   src="/images/gas-station.png"
                   alt="Gas-Station"
                 />
-                <p className="text-[#90A3BF] text-[14px] font-medium">80L</p>
+                <p className="text-[#90A3BF] text-sm font-medium">80L</p>
               </div>
               <div className="flex space-x-[6px] items-center justify-center">
                 <Image
@@ -160,7 +160,7 @@ export default function PopularCarSection() {
                   src="/images/manual.png"
                   alt="Mode"
                 />
-                <p className="text-[#90A3BF] text-[14px] font-medium">Manual</p>
+                <p className="text-[#90A3BF] text-sm font-medium">Manual</p>
               </div>
               <div className="flex space-x-[6px] items-center justify-center">
                 <Image
@@ -169,7 +169,7 @@ export default function PopularCarSection() {
                   src="/images/profile-2user.png"
                   alt="2users-profile"
                 />
-                <p className="text-[#90A3BF] text-[14px] font-medium">
+                <p className="text-[#90A3BF] text-sm font-medium">
                   2 People
                 </p>
               </div>
@@ -180,11 +180,11 @@ export default function PopularCarSection() {
                         justify-between mt-[20px] mb-6"
             >
               <div className="flex flex-col  font-bold text-[#1A202C]">
-                <div className="text-[20px] font-bold">
+                <div className="text-xl font-bold">
                   $80.00/{" "}
-                  <span className="text-[14px] text-[#90A3BF]">day</span>
+                  <span className="text-sm text-[#90A3BF]">day</span>
                 </div>
-                <div className="mt-1 text-[14px] text-[#90A3BF] line-through">
+                <div className="mt-1 text-sm text-[#90A3BF] line-through">
                   $100.00
                 </div>
               </div>
@@ -201,15 +201,15 @@ export default function PopularCarSection() {
           </div>
 
           <div
-            className="bg-white rounded-[10px] flex flex-col
+            className="bg-white rounded-lg flex flex-col
                 w-[304px] h-[388px] py-[24px] px-[24px]"
           >
             <div className="flex space-x-[104px] items-start">
               <div className="flex flex-col text-left space-y-1">
-                <p className="font-bold text-[20px] text-[#1A202C]">
+                <p className="font-bold text-xl text-[#1A202C]">
                   Rolls-Royce
                 </p>
-                <p className="font-bold text-[14px] text-[#90A3BF]">Sport</p>
+                <p className="font-bold text-sm text-[#90A3BF]">Sport</p>
               </div>
 
               <Image
@@ -238,7 +238,7 @@ export default function PopularCarSection() {
                   src="/images/gas-station.png"
                   alt="Gas-Station"
                 />
-                <p className="text-[#90A3BF] text-[14px] font-medium">70L</p>
+                <p className="text-[#90A3BF] text-sm font-medium">70L</p>
               </div>
               <div className="flex space-x-[6px] items-center justify-center">
                 <Image
@@ -247,7 +247,7 @@ export default function PopularCarSection() {
                   src="/images/manual.png"
                   alt="Mode"
                 />
-                <p className="text-[#90A3BF] text-[14px] font-medium">Manual</p>
+                <p className="text-[#90A3BF] text-sm font-medium">Manual</p>
               </div>
               <div className="flex space-x-[6px] items-center justify-center">
                 <Image
@@ -256,7 +256,7 @@ export default function PopularCarSection() {
                   src="/images/profile-2user.png"
                   alt="2users-profile"
                 />
-                <p className="text-[#90A3BF] text-[14px] font-medium">
+                <p className="text-[#90A3BF] text-sm font-medium">
                   4 People
                 </p>
               </div>
@@ -264,12 +264,12 @@ export default function PopularCarSection() {
 
             <div
               className="flex items-stretch 
-                        justify-between mt-[24px] mb-6"
+                        justify-between mt-6 mb-6"
             >
               <div className="flex flex-col font-bold text-[#1A202C]">
-                <div className="text-[20px] font-bold">
+                <div className="text-xl font-bold">
                   $97.00/{" "}
-                  <span className="text-[14px] text-[#90A3BF]">day</span>
+                  <span className="text-sm text-[#90A3BF]">day</span>
                 </div>
               </div>
 
@@ -285,15 +285,15 @@ export default function PopularCarSection() {
           </div>
 
           <div
-            className="bg-white rounded-[10px] flex flex-col
+            className="bg-white rounded-lg flex flex-col
                 w-[304px] h-[388px] py-[24px] px-[24px]"
           >
             <div className="flex space-x-[104px] items-start">
               <div className="flex flex-col text-left space-y-1">
-                <p className="font-bold text-[20px] text-[#1A202C]">
+                <p className="font-bold text-xl text-[#1A202C]">
                   Nissan GT - R
                 </p>
-                <p className="font-bold text-[14px] text-[#90A3BF]">Sport</p>
+                <p className="font-bold text-sm text-[#90A3BF]">Sport</p>
               </div>
 
               <Image
@@ -322,7 +322,7 @@ export default function PopularCarSection() {
                   src="/images/gas-station.png"
                   alt="Gas-Station"
                 />
-                <p className="text-[#90A3BF] text-[14px] font-medium">80L</p>
+                <p className="text-[#90A3BF] text-sm font-medium">80L</p>
               </div>
               <div className="flex space-x-[6px] items-center justify-center">
                 <Image
@@ -331,7 +331,7 @@ export default function PopularCarSection() {
                   src="/images/manual.png"
                   alt="Mode"
                 />
-                <p className="text-[#90A3BF] text-[14px] font-medium">Manual</p>
+                <p className="text-[#90A3BF] text-sm font-medium">Manual</p>
               </div>
               <div className="flex space-x-[6px] items-center justify-center">
                 <Image
@@ -340,7 +340,7 @@ export default function PopularCarSection() {
                   src="/images/profile-2user.png"
                   alt="2users-profile"
                 />
-                <p className="text-[#90A3BF] text-[14px] font-medium">
+                <p className="text-[#90A3BF] text-sm font-medium">
                   2 People
                 </p>
               </div>
@@ -351,11 +351,11 @@ export default function PopularCarSection() {
                         justify-between mt-[20px] mb-6"
             >
               <div className="flex flex-col  font-bold text-[#1A202C]">
-                <div className="text-[20px] font-bold">
+                <div className="text-xl font-bold">
                   $80.00/{" "}
-                  <span className="text-[14px] text-[#90A3BF]">day</span>
+                  <span className="text-sm text-[#90A3BF]">day</span>
                 </div>
-                <div className="mt-1 text-[14px] text-[#90A3BF] line-through">
+                <div className="mt-1 text-sm text-[#90A3BF] line-through">
                   $100.00
                 </div>
               </div>

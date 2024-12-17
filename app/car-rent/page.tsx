@@ -32,55 +32,55 @@ const CarRent = () => {
         <div className="flex">
           {/*Left*/}
           <div className="-ml-5 lg:flex lg:flex-col lg:visible hidden lg:h-[1600px] bg-white lg:w-[310px]">
-            <div className="flex flex-col space-y-[16px] mr-[16px] mt-[40px] ml-8">
+            <div className="flex flex-col space-y-4 mr-[16px] mt-[40px] ml-8">
               <p className="text-[#90A3BF] text-base">T Y P E</p>
-              <p className="text-[20px] font-medium">
+              <p className="text-xl font-medium">
                 <Checkbox className="mr-2" checked /> Sport{" "}
                 <span className="ml-2 text-[#90A3BF] text-base">(10)</span>
               </p>
-              <p className="text-[20px] font-medium">
+              <p className="text-xl font-medium">
                 <Checkbox className="mr-2" checked /> SUV{" "}
                 <span className="ml-2 text-[#90A3BF] text-base">(12)</span>
               </p>
-              <p className="text-[20px] font-medium">
+              <p className="text-xl font-medium">
                 <Checkbox className="mr-2" /> MPV{" "}
                 <span className="ml-2 text-[#90A3BF] text-base">(16)</span>
               </p>
-              <p className="text-[20px] font-medium">
+              <p className="text-xl font-medium">
                 <Checkbox className="mr-2" /> Sedan{" "}
                 <span className="ml-2 text-[#90A3BF] text-base">(20)</span>
               </p>
-              <p className="text-[20px] font-medium">
+              <p className="text-xl font-medium">
                 <Checkbox className="mr-2" /> Cope{" "}
                 <span className="ml-2 text-[#90A3BF] text-base">(14)</span>
               </p>
-              <p className="text-[20px] font-medium">
+              <p className="text-xl font-medium">
                 <Checkbox className="mr-2" /> Hatchback{" "}
                 <span className="ml-2 text-[#90A3BF] text-base">(14)</span>
               </p>
             </div>
 
-            <div className="flex flex-col space-y-[16px] mr-[16px] mt-[56px] ml-8">
+            <div className="flex flex-col space-y-4 mr-[16px] mt-[56px] ml-8">
               <p className="text-[#90A3BF] text-base">C A P A C I T Y</p>
-              <p className="text-[20px] font-medium">
+              <p className="text-xl font-medium">
                 <Checkbox className="mr-2" checked /> 2 Person{" "}
                 <span className="ml-2 text-[#90A3BF] text-base">(10)</span>
               </p>
-              <p className="text-[20px] font-medium">
+              <p className="text-xl font-medium">
                 <Checkbox className="mr-2" /> 4 Person{" "}
                 <span className="ml-2 text-[#90A3BF] text-base">(14)</span>
               </p>
-              <p className="text-[20px] font-medium">
+              <p className="text-xl font-medium">
                 <Checkbox className="mr-2" /> 6 Person{" "}
                 <span className="ml-2 text-[#90A3BF] text-base">(12)</span>
               </p>
-              <p className="text-[20px] font-medium">
+              <p className="text-xl font-medium">
                 <Checkbox className="mr-2" checked /> 8 Person{" "}
                 <span className="ml-2 text-[#90A3BF] text-base">(16)</span>
               </p>
             </div>
 
-            <div className="flex flex-col space-y-[16px] mr-[16px] mt-[56px] ml-8">
+            <div className="flex flex-col space-y-4 mr-[16px] mt-[56px] ml-8">
               <p className="text-[#90A3BF] text-base">P R I C E</p>
 
               {/* Progress bar */}
@@ -102,7 +102,7 @@ const CarRent = () => {
                 ></div>
               </div>
 
-              <p className="text-[20px] font-medium text-[#596780]">
+              <p className="text-xl font-medium text-[#596780]">
                 Max. $100.00
               </p>
             </div>
@@ -112,7 +112,7 @@ const CarRent = () => {
           <div className="flex flex-col items-start justify-between mx-auto">
             <div
               className="flex flex-col lg:flex-row lg:items-center lg:justify-center gap-4 mt-2 p-4 
-          mb-[36px] items-start justify-center mx-auto lg:ml-5"
+          mb-9 items-start justify-center mx-auto lg:ml-5"
             >
               {/* Pick-Up */}
               <div
@@ -122,7 +122,7 @@ const CarRent = () => {
                 <div className="flex-1 items-start justify-between">
                   <div className="flex space-x-3 items-center justify-start lg:ml-0 ml-1 mt-1 lg:mt-0">
                     <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
-                    <h3 className="text-[16px] font-medium text-[#1A202C]">
+                    <h3 className="text-base font-medium text-[#1A202C]">
                       Pick-Up
                     </h3>
                   </div>
@@ -130,14 +130,14 @@ const CarRent = () => {
                   <div className="lg:space-x-3 space-x-2 flex mt-4 mx-auto">
                     <div className="space-y-2 flex flex-col">
                       <label
-                        className="lg:text-[16px] text-[14px] font-bold text-[#1A202C]
+                        className="lg:text-base text-sm font-bold text-[#1A202C]
                       lg:ml-0 ml-1"
                       >
                         Locations
                       </label>
                       <select
                         className="w-20 lg:w-[126px] border-0 text-[#90A3BF] font-medium
-                   text-[12px] bg-transparent lg:py-0 py-4 lg:rounded-none rounded-md"
+                   text-xs bg-transparent lg:py-0 py-4 lg:rounded-none rounded-md"
                       >
                         <option>Kota Semarang</option>
                       </select>
@@ -146,12 +146,12 @@ const CarRent = () => {
                       {" "}
                     </div>
                     <div className="space-y-2 flex-col flex">
-                      <label className="lg:text-[16px] text-[14px] font-bold text-[#1A202C] lg:ml-0 ml-1">
+                      <label className="lg:text-base text-sm font-bold text-[#1A202C] lg:ml-0 ml-1">
                         Date
                       </label>
                       <select
                         className="w-20 lg:w-[126px] border-0 text-[#90A3BF] font-medium
-                   text-[12px] bg-transparent lg:py-0 py-4 lg:rounded-none rounded-md"
+                   text-xs bg-transparent lg:py-0 py-4 lg:rounded-none rounded-md"
                       >
                         <option>20 July 2022</option>
                       </select>
@@ -160,12 +160,12 @@ const CarRent = () => {
                       {" "}
                     </div>
                     <div className="space-y-2 flex-col flex">
-                      <label className="lg:text-[16px] text-[14px] font-bold text-[#1A202C] lg:ml-0 ml-1">
+                      <label className="lg:text-base text-sm font-bold text-[#1A202C] lg:ml-0 ml-1">
                         Time
                       </label>
                       <select
                         className="w-20 lg:w-[126px] border-0 text-[#90A3BF] font-medium
-                   text-[12px] bg-transparent lg:py-0 py-4 lg:rounded-none rounded-md"
+                   text-xs bg-transparent lg:py-0 py-4 lg:rounded-none rounded-md"
                       >
                         <option>07.00</option>
                       </select>
@@ -201,7 +201,7 @@ const CarRent = () => {
                 <div className="flex-1 items-start justify-between">
                   <div className="flex space-x-3 items-center justify-start lg:ml-0 ml-1 mt-1 lg:mt-0">
                     <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#5CAFFC] ring-opacity-30"></div>
-                    <h3 className="text-[16px] font-medium text-[#1A202C]">
+                    <h3 className="text-base font-medium text-[#1A202C]">
                       Drop-Off
                     </h3>
                   </div>
@@ -209,14 +209,14 @@ const CarRent = () => {
                   <div className="lg:space-x-3 space-x-2 flex mt-4 mx-auto">
                     <div className="space-y-2 flex flex-col">
                       <label
-                        className="lg:text-[16px] text-[14px] font-bold text-[#1A202C]
+                        className="lg:text-base text-sm font-bold text-[#1A202C]
                       lg:ml-0 ml-1"
                       >
                         Locations
                       </label>
                       <select
                         className="w-20 lg:w-[126px] border-0 text-[#90A3BF] font-medium 
-                  text-[12px] bg-transparent lg:py-0 py-4 lg:rounded-none rounded-md"
+                  text-xs bg-transparent lg:py-0 py-4 lg:rounded-none rounded-md"
                       >
                         <option>Kota Semarang</option>
                       </select>
@@ -225,12 +225,12 @@ const CarRent = () => {
                       {" "}
                     </div>
                     <div className="space-y-2 flex-col flex">
-                      <label className="lg:text-[16px] text-[14px] font-bold text-[#1A202C] lg:ml-0 ml-1">
+                      <label className="lg:text-base text-sm font-bold text-[#1A202C] lg:ml-0 ml-1">
                         Date
                       </label>
                       <select
                         className="w-20 lg:w-[126px] border-0 text-[#90A3BF] font-medium 
-                    text-[12px] bg-transparent lg:py-0 py-4 lg:rounded-none rounded-md"
+                    text-xs bg-transparent lg:py-0 py-4 lg:rounded-none rounded-md"
                       >
                         <option>21 July 2022</option>
                       </select>
@@ -239,12 +239,12 @@ const CarRent = () => {
                       {" "}
                     </div>
                     <div className="space-y-2 flex-col flex">
-                      <label className="lg:text-[16px] text-[14px] font-bold text-[#1A202C] lg:ml-0 ml-1">
+                      <label className="lg:text-base text-sm font-bold text-[#1A202C] lg:ml-0 ml-1">
                         Time
                       </label>
                       <select
                         className="w-20 lg:w-[126px] border-0 text-[#90A3BF] font-medium 
-                    text-[12px] bg-transparent lg:py-0 py-4 lg:rounded-none rounded-md"
+                    text-xs bg-transparent lg:py-0 py-4 lg:rounded-none rounded-md"
                       >
                         <option>01.00</option>
                       </select>
@@ -257,15 +257,15 @@ const CarRent = () => {
             {/*Row 1*/}
             <div className="hidden lg:flex lg:gap-10 gap-10 ml-10 lg:ml-10">
               <div
-                className="bg-white rounded-[10px] flex flex-col
+                className="bg-white rounded-lg flex flex-col
                 w-[304px] h-[388px] py-[24px] px-[24px]"
               >
                 <div className="flex space-x-[104px] items-start">
                   <div className="flex flex-col text-left space-y-1">
-                    <p className="font-bold text-[20px] text-[#1A202C]">
+                    <p className="font-bold text-xl text-[#1A202C]">
                       Koenigsegg
                     </p>
-                    <p className="font-bold text-[14px] text-[#90A3BF]">
+                    <p className="font-bold text-sm text-[#90A3BF]">
                       Sport
                     </p>
                   </div>
@@ -296,7 +296,7 @@ const CarRent = () => {
                       src="/images/gas-station.png"
                       alt="Gas-Station"
                     />
-                    <p className="text-[#90A3BF] text-[14px] font-medium">
+                    <p className="text-[#90A3BF] text-sm font-medium">
                       90L
                     </p>
                   </div>
@@ -307,7 +307,7 @@ const CarRent = () => {
                       src="/images/manual.png"
                       alt="Mode"
                     />
-                    <p className="text-[#90A3BF] text-[14px] font-medium">
+                    <p className="text-[#90A3BF] text-sm font-medium">
                       Manual
                     </p>
                   </div>
@@ -318,7 +318,7 @@ const CarRent = () => {
                       src="/images/profile-2user.png"
                       alt="2users-profile"
                     />
-                    <p className="text-[#90A3BF] text-[14px] font-medium">
+                    <p className="text-[#90A3BF] text-sm font-medium">
                       2 People
                     </p>
                   </div>
@@ -326,18 +326,18 @@ const CarRent = () => {
 
                 <div
                   className="flex items-stretch 
-                        justify-between mt-[24px] mb-6"
+                        justify-between mt-6 mb-6"
                 >
                   <div className="flex flex-col font-bold text-[#1A202C]">
-                    <div className="text-[20px] font-bold">
+                    <div className="text-xl font-bold">
                       $99.00/{" "}
-                      <span className="text-[14px] text-[#90A3BF]">day</span>
+                      <span className="text-sm text-[#90A3BF]">day</span>
                     </div>
                   </div>
 
                   <Link href="/detail-car-rent">
                     <button
-                      className="px-[20px] py-3 mt-1 text-[16px] font-medium text-center space-x-[8px]
+                      className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[44px] w-[116px]"
                     >
                       Rent Now
@@ -347,15 +347,15 @@ const CarRent = () => {
               </div>
 
               <div
-                className="bg-white rounded-[10px] flex flex-col
+                className="bg-white rounded-lg flex flex-col
                 w-[304px] h-[388px] py-[24px] px-[24px]"
               >
                 <div className="flex space-x-[104px] items-start">
                   <div className="flex flex-col text-left space-y-1">
-                    <p className="font-bold text-[20px] text-[#1A202C]">
+                    <p className="font-bold text-xl text-[#1A202C]">
                       Nissan GT -R
                     </p>
-                    <p className="font-bold text-[14px] text-[#90A3BF]">
+                    <p className="font-bold text-sm text-[#90A3BF]">
                       Sport
                     </p>
                   </div>
@@ -386,7 +386,7 @@ const CarRent = () => {
                       src="/images/gas-station.png"
                       alt="Gas-Station"
                     />
-                    <p className="text-[#90A3BF] text-[14px] font-medium">
+                    <p className="text-[#90A3BF] text-sm font-medium">
                       80L
                     </p>
                   </div>
@@ -397,7 +397,7 @@ const CarRent = () => {
                       src="/images/manual.png"
                       alt="Mode"
                     />
-                    <p className="text-[#90A3BF] text-[14px] font-medium">
+                    <p className="text-[#90A3BF] text-sm font-medium">
                       Manual
                     </p>
                   </div>
@@ -408,7 +408,7 @@ const CarRent = () => {
                       src="/images/profile-2user.png"
                       alt="2users-profile"
                     />
-                    <p className="text-[#90A3BF] text-[14px] font-medium">
+                    <p className="text-[#90A3BF] text-sm font-medium">
                       2 People
                     </p>
                   </div>
@@ -419,18 +419,18 @@ const CarRent = () => {
                         justify-between mt-[20px] mb-6"
                 >
                   <div className="flex flex-col  font-bold text-[#1A202C]">
-                    <div className="text-[20px] font-bold">
+                    <div className="text-xl font-bold">
                       $80.00/{" "}
-                      <span className="text-[14px] text-[#90A3BF]">day</span>
+                      <span className="text-sm text-[#90A3BF]">day</span>
                     </div>
-                    <div className="mt-1 text-[14px] text-[#90A3BF] line-through">
+                    <div className="mt-1 text-sm text-[#90A3BF] line-through">
                       $100.00
                     </div>
                   </div>
 
                   <Link href="/detail-car-rent">
                     <button
-                      className="px-[20px] py-3 mt-1 text-[16px] font-medium text-center space-x-[8px]
+                      className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[44px] w-[116px]"
                     >
                       Rent Now
@@ -440,15 +440,15 @@ const CarRent = () => {
               </div>
 
               <div
-                className="bg-white rounded-[10px] flex flex-col
+                className="bg-white rounded-lg flex flex-col
                 w-[304px] h-[388px] py-[24px] px-[24px]"
               >
                 <div className="flex space-x-[104px] items-start">
                   <div className="flex flex-col text-left space-y-1">
-                    <p className="font-bold text-[20px] text-[#1A202C]">
+                    <p className="font-bold text-xl text-[#1A202C]">
                       Rolls-Royce
                     </p>
-                    <p className="font-bold text-[14px] text-[#90A3BF]">
+                    <p className="font-bold text-sm text-[#90A3BF]">
                       Sport
                     </p>
                   </div>
@@ -479,7 +479,7 @@ const CarRent = () => {
                       src="/images/gas-station.png"
                       alt="Gas-Station"
                     />
-                    <p className="text-[#90A3BF] text-[14px] font-medium">
+                    <p className="text-[#90A3BF] text-sm font-medium">
                       70L
                     </p>
                   </div>
@@ -490,7 +490,7 @@ const CarRent = () => {
                       src="/images/manual.png"
                       alt="Mode"
                     />
-                    <p className="text-[#90A3BF] text-[14px] font-medium">
+                    <p className="text-[#90A3BF] text-sm font-medium">
                       Manual
                     </p>
                   </div>
@@ -501,7 +501,7 @@ const CarRent = () => {
                       src="/images/profile-2user.png"
                       alt="2users-profile"
                     />
-                    <p className="text-[#90A3BF] text-[14px] font-medium">
+                    <p className="text-[#90A3BF] text-sm font-medium">
                       4 People
                     </p>
                   </div>
@@ -509,18 +509,18 @@ const CarRent = () => {
 
                 <div
                   className="flex items-stretch 
-                        justify-between mt-[24px] mb-6"
+                        justify-between mt-6 mb-6"
                 >
                   <div className="flex flex-col font-bold text-[#1A202C]">
-                    <div className="text-[20px] font-bold">
+                    <div className="text-xl font-bold">
                       $97.00/{" "}
-                      <span className="text-[14px] text-[#90A3BF]">day</span>
+                      <span className="text-sm text-[#90A3BF]">day</span>
                     </div>
                   </div>
 
                   <Link href="/detail-car-rent">
                     <button
-                      className="px-[20px] py-3 mt-1 text-[16px] font-medium text-center space-x-[8px]
+                      className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[44px] w-[116px]"
                     >
                       Rent Now
@@ -547,10 +547,10 @@ const CarRent = () => {
                   />
                   <div className="flex gap-5 justify-between">
                     <div className="flex flex-col">
-                      <div className="font-bold text-[20px] text-[#1A202C]">
+                      <div className="font-bold text-xl text-[#1A202C]">
                         All New Rush
                       </div>
-                      <p className="mt-1 font-semibold text-[14px] text-[#90A3BF]">
+                      <p className="mt-1 font-semibold text-sm text-[#90A3BF]">
                         SUV
                       </p>
                     </div>
@@ -562,7 +562,7 @@ const CarRent = () => {
                     alt="All New Rush"
                     className="self-center mt-16 max-lg:mt-10"
                   />
-                  <div className="flex gap-4 items-start mt-16 text-[14px] font-medium text-[#90A3BF] max-lg:mt-10">
+                  <div className="flex gap-4 items-start mt-16 text-sm font-medium text-[#90A3BF] max-lg:mt-10">
                     <div className="flex gap-1.5 items-start">
                       <Image
                         height={24}
@@ -593,7 +593,7 @@ const CarRent = () => {
                   </div>
                   <div className="flex gap-3 mt-8 w-full items-center justify-stretch">
                     <div className="flex flex-col font-bold text-[#1A202C]">
-                      <div className="text-[20px]">
+                      <div className="text-xl">
                         $72.00/{" "}
                         <span className="text-sm text-[#90A3BF]">day</span>
                       </div>
@@ -604,8 +604,8 @@ const CarRent = () => {
 
                     <Link href="/detail-car-rent">
                       <button
-                        className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
-                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
+                        className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-32"
                       >
                         Rent Now
                       </button>
@@ -627,10 +627,10 @@ const CarRent = () => {
                   />
                   <div className="flex gap-5 justify-between">
                     <div className="flex flex-col">
-                      <div className="font-bold text-[20px] text-[#1A202C]">
+                      <div className="font-bold text-xl text-[#1A202C]">
                         CR-V
                       </div>
-                      <p className="mt-1 font-semibold text-[14px] text-[#90A3BF]">
+                      <p className="mt-1 font-semibold text-sm text-[#90A3BF]">
                         SUV
                       </p>
                     </div>
@@ -643,7 +643,7 @@ const CarRent = () => {
                     className="self-center mt-16 max-lg:mt-10"
                   />
                   <div
-                    className="flex gap-4 items-start mt-16 text-[14px] font-medium
+                    className="flex gap-4 items-start mt-16 text-sm font-medium
              text-[#90A3BF] max-lg:mt-10"
                   >
                     <div className="flex gap-1.5 items-start">
@@ -676,16 +676,16 @@ const CarRent = () => {
                   </div>
                   <div className="flex gap-3 mt-8 w-full">
                     <div className="flex flex-col font-bold text-[#1A202C]">
-                      <div className="text-[20px]">
+                      <div className="text-xl">
                         $80.00/{" "}
-                        <span className="text-[14px] text-[#90A3BF]">day</span>
+                        <span className="text-sm text-[#90A3BF]">day</span>
                       </div>
                     </div>
 
                     <Link href="/detail-car-rent">
                       <button
-                        className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
-                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
+                        className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-32"
                       >
                         Rent Now
                       </button>
@@ -707,10 +707,10 @@ const CarRent = () => {
                   />
                   <div className="flex gap-5 justify-between">
                     <div className="flex flex-col">
-                      <div className="font-bold text-[20px] text-[#1A202C]">
+                      <div className="font-bold text-xl text-[#1A202C]">
                         All New Terios
                       </div>
-                      <p className="mt-1 font-semibold text-[14px] text-[#90A3BF]">
+                      <p className="mt-1 font-semibold text-sm text-[#90A3BF]">
                         SUV
                       </p>
                     </div>
@@ -723,7 +723,7 @@ const CarRent = () => {
                     className="object-contain self-center mt-16 max-lg:mt-10"
                   />
                   <div
-                    className="flex gap-4 items-start mt-16 text-[14px] font-medium 
+                    className="flex gap-4 items-start mt-16 text-sm font-medium 
             text-[#90A3BF] max-lg:mt-10"
                   >
                     <div className="flex gap-1.5 items-start">
@@ -756,16 +756,16 @@ const CarRent = () => {
                   </div>
                   <div className="flex gap-3 mt-8 w-full">
                     <div className="flex flex-col font-bold text-[#1A202C]">
-                      <div className="text-[20px]">
+                      <div className="text-xl">
                         $74.00/{" "}
-                        <span className="text-[14px] text-[#90A3BF]">day</span>
+                        <span className="text-sm text-[#90A3BF]">day</span>
                       </div>
                     </div>
 
                     <Link href="/detail-car-rent">
                       <button
-                        className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
-                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
+                        className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-32"
                       >
                         Rent Now
                       </button>
@@ -792,10 +792,10 @@ const CarRent = () => {
                     onClick={() => setIsFav7(!isFav7)}
                   />
                   <div className="flex flex-col">
-                    <div className="font-bold text-[20px] text-[#1A202C]">
+                    <div className="font-bold text-xl text-[#1A202C]">
                       MG ZX Exclusive
                     </div>
-                    <p className="mt-1 font-semibold text-[14px] text-[#90A3BF]">
+                    <p className="mt-1 font-semibold text-sm text-[#90A3BF]">
                       Hatchback
                     </p>
                   </div>
@@ -807,7 +807,7 @@ const CarRent = () => {
                     className="self-center mt-10 sm:mt-16"
                   />
                   <div
-                    className="flex gap-4 items-start mt-8 sm:mt-16 text-[12px] lg:text-[14px]
+                    className="flex gap-4 items-start mt-8 sm:mt-16 text-xs lg:text-sm
             font-medium text-[#90A3BF]"
                   >
                     <div className="flex gap-1.5 items-start">
@@ -840,21 +840,21 @@ const CarRent = () => {
                   </div>
                   <div className="flex gap-3 mt-6 sm:mt-8 items-center justify-between w-full">
                     <div className="flex flex-col font-bold text-[#1A202C]">
-                      <div className="text-[18px] sm:text-[20px]">
+                      <div className="text-lg sm:text-xl">
                         $72.00/{" "}
-                        <span className="text-[12px] sm:text-[14px] text-[#90A3BF]">
+                        <span className="text-xs sm:text-sm text-[#90A3BF]">
                           day
                         </span>
                       </div>
-                      <div className="mt-1 text-[12px] sm:text-[14px] text-[#90A3BF] line-through">
+                      <div className="mt-1 text-xs sm:text-sm text-[#90A3BF] line-through">
                         $80.00
                       </div>
                     </div>
 
                     <Link href="/detail-car-rent">
                       <button
-                        className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
-                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
+                        className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-32"
                       >
                         Rent Now
                       </button>
@@ -875,10 +875,10 @@ const CarRent = () => {
                     onClick={() => setIsFav8(!isFav8)}
                   />
                   <div className="flex flex-col">
-                    <div className="font-bold text-[20px] text-[#1A202C]">
+                    <div className="font-bold text-xl text-[#1A202C]">
                       New MG ZS
                     </div>
-                    <p className="mt-1 font-semibold text-[14px] text-[#90A3BF]">
+                    <p className="mt-1 font-semibold text-sm text-[#90A3BF]">
                       SUV
                     </p>
                   </div>
@@ -890,7 +890,7 @@ const CarRent = () => {
                     className="self-center mt-10 sm:mt-16"
                   />
                   <div
-                    className="flex gap-4 items-start mt-8 sm:mt-16 text-[12px] sm:text-[14px] 
+                    className="flex gap-4 items-start mt-8 sm:mt-16 text-xs sm:text-sm 
             font-medium text-[#90A3BF]"
                   >
                     <div className="flex gap-1.5 items-start">
@@ -923,9 +923,9 @@ const CarRent = () => {
                   </div>
                   <div className="flex gap-3 mt-6 sm:mt-8 items-center justify-between w-full">
                     <div className="flex flex-col font-bold text-[#1A202C]">
-                      <div className="text-[18px] sm:text-[20px]">
+                      <div className="text-lg sm:text-xl">
                         $80.00/{" "}
-                        <span className="text-[12px] sm:text-[14px] text-[#90A3BF]">
+                        <span className="text-xs sm:text-sm text-[#90A3BF]">
                           day
                         </span>
                       </div>
@@ -933,8 +933,8 @@ const CarRent = () => {
 
                     <Link href="/detail-car-rent">
                       <button
-                        className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
-                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
+                        className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-32"
                       >
                         Rent Now
                       </button>
@@ -955,10 +955,10 @@ const CarRent = () => {
                     onClick={() => setIsFav9(!isFav9)}
                   />
                   <div className="flex flex-col">
-                    <div className="font-bold text-[20px] text-[#1A202C]">
+                    <div className="font-bold text-xl text-[#1A202C]">
                       MG ZX Excite
                     </div>
-                    <p className="mt-1 font-semibold text-[14px] text-[#90A3BF]">
+                    <p className="mt-1 font-semibold text-sm text-[#90A3BF]">
                       Hatchback
                     </p>
                   </div>
@@ -970,7 +970,7 @@ const CarRent = () => {
                     className="self-center mt-10 sm:mt-16"
                   />
                   <div
-                    className="flex gap-4 items-start mt-8 sm:mt-16 text-[12px] sm:text-[14px]
+                    className="flex gap-4 items-start mt-8 sm:mt-16 text-xs sm:text-sm
              font-medium text-[#90A3BF]"
                   >
                     <div className="flex gap-1.5 items-start">
@@ -1003,9 +1003,9 @@ const CarRent = () => {
                   </div>
                   <div className="flex gap-3 mt-6 sm:mt-8 items-center justify-between w-full">
                     <div className="flex flex-col font-bold text-[#1A202C]">
-                      <div className="text-[18px] sm:text-[20px]">
+                      <div className="text-lg sm:text-xl">
                         $74.00/{" "}
-                        <span className="text-12px sm:text-[14px] text-[#90A3BF]">
+                        <span className="text-12px sm:text-sm text-[#90A3BF]">
                           day
                         </span>
                       </div>
@@ -1013,8 +1013,8 @@ const CarRent = () => {
 
                     <Link href="/detail-car-rent">
                       <button
-                        className="gap-2 px-6 py-3 mt-1 text-[16px] font-medium text-center
-                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-[130px]"
+                        className="gap-2 px-6 py-3 mt-1 text-base font-medium text-center
+                 text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[10px] w-32"
                       >
                         Rent Now
                       </button>
@@ -1027,7 +1027,7 @@ const CarRent = () => {
             <div className="flex items-center justify-center mt-[64px] mb-[64px] lg:ml-[480px] mx-auto">
               <Link href="/car-rent">
                 <button
-                  className="rounded space-x-2 px-5 bg-[#3563E9] text-[16px] font-semibold text-white
+                  className="rounded space-x-2 px-5 bg-[#3563E9] text-base font-semibold text-white
            h-[44px] w-[156px] mb-16 hover:bg-blue-800"
                 >
                   Show more car
