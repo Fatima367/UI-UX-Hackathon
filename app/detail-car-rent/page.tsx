@@ -112,7 +112,7 @@ const DetailCarRent = () => {
           {/*Right*/}
           <div className="flex flex-col items-start justify-between mx-auto mb-8">
             <div
-              className="flex lg:flex-row flex-col lg:space-x-8 space-y-5 lg:mx-[32px]
+              className="flex lg:flex-row flex-col lg:space-x-8 space-y-5 lg:mx-8
         lg:items-start lg:justify-between items-center justify-center mx-auto"
             >
               {/*Left Side*/}
@@ -280,7 +280,7 @@ const DetailCarRent = () => {
 
                 <div className="flex mt-16 mx-6 mb-6 items-stretch justify-between">
                   <div className="flex flex-col font-bold text-[#1A202C]">
-                    <div className="lg:text-[28px] text-[24px] font-bold">
+                    <div className="lg:text-[28px] text-2xl font-bold">
                       $80.00/{" "}
                       <span className="lg:text-base text-sm text-[#90A3BF]">
                         days

@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="lg:bg-white bg-[#F6F7F9] bottom-0">
-      <div className="lg:flex p-[80px] grid">
+      <div className="lg:flex p-20 grid">
         <div className="space-y-4">
           <Link href="/">
             <Image src="/images/Logo.png" width={148} height={44} alt="Logo" />
@@ -16,10 +16,10 @@ export default function Footer() {
         </div>
 
         <div
-          className="lg:flex lg:flex-row lg:space-x-[80px] justify-between items-start grid grid-cols-2
+          className="lg:flex lg:flex-row lg:space-x-20 justify-between items-start grid grid-cols-2
          space-y-8 lg:space-y-0 lg:ml-80"
         >
-          <div className="flex flex-col space-y-[24px] lg:mt-0 mt-8">
+          <div className="flex flex-col space-y-6 lg:mt-0 mt-8">
             <h2 className="text-xl font-semibold text-[#1A202C] cursor-pointer">
               About
             </h2>
@@ -39,7 +39,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="flex flex-col space-y-[24px]">
+          <div className="flex flex-col space-y-6">
             <h2 className="text-xl font-semibold text-[#1A202C]">
               Community
             </h2>
@@ -59,7 +59,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="flex flex-col space-y-[24px]">
+          <div className="flex flex-col space-y-6">
             <h2 className="text-xl font-semibold text-[#1A202C]">About</h2>
             <div className="space-y-4">
               <p className="text-base font-medium text-[#131313] opacity-60">

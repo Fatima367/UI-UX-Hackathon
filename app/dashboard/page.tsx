@@ -228,7 +228,7 @@ const Dashboard = () => {
               lg:space-x-[126px]"
               >
                 <div className="flex flex-col items-start space-y-2">
-                  <h2 className="lg:text-[24px] text-lg font-bold text-[#1A202C]">
+                  <h2 className="lg:text-2xl text-lg font-bold text-[#1A202C]">
                     Nissan GT - R
                   </h2>
                   <p className="text-sm text-[#90A3BF] font-medium">
@@ -392,7 +392,7 @@ const Dashboard = () => {
                   />
                   <div className="flex flex-col space-y-1 z-10 items-center justify-center 
                   lg:-mt-36 -mt-32">
-                    <p className="text-[24px] font-bold text-[#1A202C]">
+                    <p className="text-2xl font-bold text-[#1A202C]">
                       72,030
                     </p>
                     <p className="text-sm text-[#90A3BF] font-medium">

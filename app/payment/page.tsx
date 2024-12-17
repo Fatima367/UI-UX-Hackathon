@@ -109,7 +109,7 @@ const Payment = () => {
                 Overall price and includes rental discount
               </p>
             </div>
-            <p className="lg:text-[32px] text-[24px] font-bold text-[#1A202C]">
+            <p className="lg:text-[32px] text-2xl font-bold text-[#1A202C]">
               $80.00
             </p>
           </div>
@@ -466,7 +466,7 @@ text-sm text-[#90A3BF] selection:font-medium
               </div>
             </div>
 
-            <div className="flex flex-col space-y-[24px] mt-6">
+            <div className="flex flex-col space-y-6 mt-6">
               <div
                 className="flex items-center justify-between bg-[#F6F7F9] rounded-lg
                             h-14 lg:w-[804px] w-[280px]"
@@ -522,7 +522,7 @@ text-sm text-[#90A3BF] selection:font-medium
               </p>
             </div>
 
-            <div className="flex flex-col space-y-[24px] mt-8">
+            <div className="flex flex-col space-y-6 mt-8">
               <div
                 className="flex items-center justify-start bg-[#F6F7F9] rounded-lg
                 lg:h-14 h-16 lg:w-[804px] w-[280px]"

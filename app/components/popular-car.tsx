@@ -17,7 +17,7 @@ export default function PopularCarSection() {
           <Link href="/car-rent">
             <p
               className="text-base font-semibold text-[#3563E9] lg:ml-[1080px] 
-          mr-0 ml-32 "
+          mr-0 ml-32"
             >
               View All
             </p>
