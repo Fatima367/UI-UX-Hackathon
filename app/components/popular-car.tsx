@@ -17,7 +17,7 @@ export default function PopularCarSection() {
           <Link href="/car-rent">
             <p
               className="text-base font-semibold text-[#3563E9] lg:ml-[1080px] 
-          mr-0 ml-32"
+          mr-0 ml-32 "
             >
               View All
             </p>
@@ -31,7 +31,7 @@ export default function PopularCarSection() {
         >
           <div
             className="bg-white rounded-lg flex flex-col
-                w-[304px] h-[388px] py-[24px] px-[24px]"
+                w-[304px] h-[388px] py-6 px-6"
           >
             <div className="flex space-x-[104px] items-start">
               <div className="flex flex-col text-left space-y-1">
@@ -56,10 +56,10 @@ export default function PopularCarSection() {
               width={232}
               height={72}
               alt="car-image"
-              className="mt-[64px]"
+              className="mt-16"
             />
 
-            <div className="flex space-x-[16px] mt-[64px] items-center justify-center">
+            <div className="flex space-x-4 mt-16 items-center justify-center">
               <div className="flex space-x-[6px] items-center justify-center">
                 <Image
                   height={24}
@@ -104,8 +104,8 @@ export default function PopularCarSection() {
 
               <Link href="/car-rent">
                 <button
-                  className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[44px] w-[116px]"
+                  className="px-5 py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
                 >
                   Rent Now
                 </button>
@@ -115,7 +115,7 @@ export default function PopularCarSection() {
 
           <div
             className="bg-white rounded-lg flex flex-col
-                w-[304px] h-[388px] py-[24px] px-[24px]"
+                w-[304px] h-[388px] py-6 px-6"
           >
             <div className="flex space-x-[104px] items-start">
               <div className="flex flex-col text-left space-y-1">
@@ -143,7 +143,7 @@ export default function PopularCarSection() {
               className="mt-[68px] mx-auto"
             />
 
-            <div className="flex space-x-[16px] mt-[68px] items-center justify-center">
+            <div className="flex space-x-4 mt-[68px] items-center justify-center">
               <div className="flex space-x-[6px] items-center justify-center">
                 <Image
                   height={24}
@@ -191,8 +191,8 @@ export default function PopularCarSection() {
 
               <Link href="/car-rent">
                 <button
-                  className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[44px] w-[116px]"
+                  className="px-5 py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
                 >
                   Rent Now
                 </button>
@@ -202,7 +202,7 @@ export default function PopularCarSection() {
 
           <div
             className="bg-white rounded-lg flex flex-col
-                w-[304px] h-[388px] py-[24px] px-[24px]"
+                w-[304px] h-[388px] py-6 px-6"
           >
             <div className="flex space-x-[104px] items-start">
               <div className="flex flex-col text-left space-y-1">
@@ -227,10 +227,10 @@ export default function PopularCarSection() {
               width={220}
               height={68}
               alt="car-image"
-              className="mt-[64px] mx-auto"
+              className="mt-16 mx-auto"
             />
 
-            <div className="flex space-x-[16px] mt-[68px] items-center justify-center">
+            <div className="flex space-x-4 mt-[68px] items-center justify-center">
               <div className="flex space-x-[6px] items-center justify-center">
                 <Image
                   height={24}
@@ -275,8 +275,8 @@ export default function PopularCarSection() {
 
               <Link href="/car-rent">
                 <button
-                  className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[44px] w-[116px]"
+                  className="px-5 py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
                 >
                   Rent Now
                 </button>
@@ -286,7 +286,7 @@ export default function PopularCarSection() {
 
           <div
             className="bg-white rounded-lg flex flex-col
-                w-[304px] h-[388px] py-[24px] px-[24px]"
+                w-[304px] h-[388px] py-6 px-6"
           >
             <div className="flex space-x-[104px] items-start">
               <div className="flex flex-col text-left space-y-1">
@@ -314,7 +314,7 @@ export default function PopularCarSection() {
               className="mt-[68px] mx-auto"
             />
 
-            <div className="flex space-x-[16px] mt-[68px] items-center justify-center">
+            <div className="flex space-x-4 mt-[68px] items-center justify-center">
               <div className="flex space-x-[6px] items-center justify-center">
                 <Image
                   height={24}
@@ -362,8 +362,8 @@ export default function PopularCarSection() {
 
               <Link href="/car-rent">
                 <button
-                  className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[44px] w-[116px]"
+                  className="px-5 py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
                 >
                   Rent Now
                 </button>

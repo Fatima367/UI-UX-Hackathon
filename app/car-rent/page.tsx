@@ -32,7 +32,7 @@ const CarRent = () => {
         <div className="flex">
           {/*Left*/}
           <div className="-ml-5 lg:flex lg:flex-col lg:visible hidden lg:h-[1600px] bg-white lg:w-[310px]">
-            <div className="flex flex-col space-y-4 mr-[16px] mt-[40px] ml-8">
+            <div className="flex flex-col space-y-4 mr-4 mt-10 ml-8">
               <p className="text-[#90A3BF] text-base">T Y P E</p>
               <p className="text-xl font-medium">
                 <Checkbox className="mr-2" checked /> Sport{" "}
@@ -60,7 +60,7 @@ const CarRent = () => {
               </p>
             </div>
 
-            <div className="flex flex-col space-y-4 mr-[16px] mt-[56px] ml-8">
+            <div className="flex flex-col space-y-4 mr-4 mt-14 ml-8">
               <p className="text-[#90A3BF] text-base">C A P A C I T Y</p>
               <p className="text-xl font-medium">
                 <Checkbox className="mr-2" checked /> 2 Person{" "}
@@ -80,7 +80,7 @@ const CarRent = () => {
               </p>
             </div>
 
-            <div className="flex flex-col space-y-4 mr-[16px] mt-[56px] ml-8">
+            <div className="flex flex-col space-y-4 mr-4 mt-14 ml-8">
               <p className="text-[#90A3BF] text-base">P R I C E</p>
 
               {/* Progress bar */}
@@ -142,7 +142,7 @@ const CarRent = () => {
                         <option>Kota Semarang</option>
                       </select>
                     </div>
-                    <div className="mx-[16px] w-[1px] bg-[#C3D4E9] opacity-40">
+                    <div className="mx-4 w-[1px] bg-[#C3D4E9] opacity-40">
                       {" "}
                     </div>
                     <div className="space-y-2 flex-col flex">
@@ -156,7 +156,7 @@ const CarRent = () => {
                         <option>20 July 2022</option>
                       </select>
                     </div>
-                    <div className="mx-[16px] w-[1px] bg-[#C3D4E9] opacity-40">
+                    <div className="mx-4 w-[1px] bg-[#C3D4E9] opacity-40">
                       {" "}
                     </div>
                     <div className="space-y-2 flex-col flex">
@@ -221,7 +221,7 @@ const CarRent = () => {
                         <option>Kota Semarang</option>
                       </select>
                     </div>
-                    <div className="mx-[16px] w-[1px] bg-[#C3D4E9] opacity-40">
+                    <div className="mx-4 w-[1px] bg-[#C3D4E9] opacity-40">
                       {" "}
                     </div>
                     <div className="space-y-2 flex-col flex">
@@ -235,7 +235,7 @@ const CarRent = () => {
                         <option>21 July 2022</option>
                       </select>
                     </div>
-                    <div className="mx-[16px] w-[1px] bg-[#C3D4E9] opacity-40">
+                    <div className="mx-4 w-[1px] bg-[#C3D4E9] opacity-40">
                       {" "}
                     </div>
                     <div className="space-y-2 flex-col flex">
@@ -258,7 +258,7 @@ const CarRent = () => {
             <div className="hidden lg:flex lg:gap-10 gap-10 ml-10 lg:ml-10">
               <div
                 className="bg-white rounded-lg flex flex-col
-                w-[304px] h-[388px] py-[24px] px-[24px]"
+                w-[304px] h-[388px] py-6 px-6"
               >
                 <div className="flex space-x-[104px] items-start">
                   <div className="flex flex-col text-left space-y-1">
@@ -285,10 +285,10 @@ const CarRent = () => {
                   width={232}
                   height={72}
                   alt="car-image"
-                  className="mt-[64px]"
+                  className="mt-16"
                 />
 
-                <div className="flex space-x-[16px] mt-[64px] items-center justify-center">
+                <div className="flex space-x-4 mt-16 items-center justify-center">
                   <div className="flex space-x-[6px] items-center justify-center">
                     <Image
                       height={24}
@@ -337,8 +337,8 @@ const CarRent = () => {
 
                   <Link href="/detail-car-rent">
                     <button
-                      className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[44px] w-[116px]"
+                      className="px-5 py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
                     >
                       Rent Now
                     </button>
@@ -348,7 +348,7 @@ const CarRent = () => {
 
               <div
                 className="bg-white rounded-lg flex flex-col
-                w-[304px] h-[388px] py-[24px] px-[24px]"
+                w-[304px] h-[388px] py-6 px-6"
               >
                 <div className="flex space-x-[104px] items-start">
                   <div className="flex flex-col text-left space-y-1">
@@ -378,7 +378,7 @@ const CarRent = () => {
                   className="mt-[68px] mx-auto"
                 />
 
-                <div className="flex space-x-[16px] mt-[68px] items-center justify-center">
+                <div className="flex space-x-4 mt-[68px] items-center justify-center">
                   <div className="flex space-x-[6px] items-center justify-center">
                     <Image
                       height={24}
@@ -430,8 +430,8 @@ const CarRent = () => {
 
                   <Link href="/detail-car-rent">
                     <button
-                      className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[44px] w-[116px]"
+                      className="px-5 py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
                     >
                       Rent Now
                     </button>
@@ -441,7 +441,7 @@ const CarRent = () => {
 
               <div
                 className="bg-white rounded-lg flex flex-col
-                w-[304px] h-[388px] py-[24px] px-[24px]"
+                w-[304px] h-[388px] py-6 px-6"
               >
                 <div className="flex space-x-[104px] items-start">
                   <div className="flex flex-col text-left space-y-1">
@@ -468,10 +468,10 @@ const CarRent = () => {
                   width={220}
                   height={68}
                   alt="car-image"
-                  className="mt-[64px] mx-auto"
+                  className="mt-16 mx-auto"
                 />
 
-                <div className="flex space-x-[16px] mt-[68px] items-center justify-center">
+                <div className="flex space-x-4 mt-[68px] items-center justify-center">
                   <div className="flex space-x-[6px] items-center justify-center">
                     <Image
                       height={24}
@@ -520,8 +520,8 @@ const CarRent = () => {
 
                   <Link href="/detail-car-rent">
                     <button
-                      className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[44px] w-[116px]"
+                      className="px-5 py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
                     >
                       Rent Now
                     </button>
@@ -1024,7 +1024,7 @@ const CarRent = () => {
               </div>
             </div>
 
-            <div className="flex items-center justify-center mt-[64px] mb-[64px] lg:ml-[480px] mx-auto">
+            <div className="flex items-center justify-center mt-16 mb-[64px] lg:ml-[480px] mx-auto">
               <Link href="/car-rent">
                 <button
                   className="rounded space-x-2 px-5 bg-[#3563E9] text-base font-semibold text-white

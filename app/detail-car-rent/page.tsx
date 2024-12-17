@@ -33,7 +33,7 @@ const DetailCarRent = () => {
             className="lg:ml-0 lg:flex lg:flex-col lg:visible hidden lg:h-[2016px] bg-white
          lg:w-[310px]"
           >
-            <div className="flex flex-col space-y-4 mr-[16px] mt-[40px] ml-8">
+            <div className="flex flex-col space-y-4 mr-4 mt-10 ml-8">
               <p className="text-[#90A3BF] text-base">T Y P E</p>
               <p className="text-xl font-medium">
                 <Checkbox className="mr-2" checked /> Sport{" "}
@@ -61,7 +61,7 @@ const DetailCarRent = () => {
               </p>
             </div>
 
-            <div className="flex flex-col space-y-4 mr-[16px] mt-[56px] ml-8">
+            <div className="flex flex-col space-y-4 mr-4 mt-14 ml-8">
               <p className="text-[#90A3BF] text-base">C A P A C I T Y</p>
               <p className="text-xl font-medium">
                 <Checkbox className="mr-2" checked /> 2 Person{" "}
@@ -81,7 +81,7 @@ const DetailCarRent = () => {
               </p>
             </div>
 
-            <div className="flex flex-col space-y-4 mr-[16px] mt-[56px] ml-8">
+            <div className="flex flex-col space-y-4 mr-4 mt-14 ml-8">
               <p className="text-[#90A3BF] text-base">P R I C E</p>
 
               {/* Progress bar */}
@@ -241,7 +241,7 @@ const DetailCarRent = () => {
                 items-start justify-between grid lg:space-y-0 space-y-5"
                 >
                   <div className="flex flex-col space-y-4">
-                    <div className="lg:space-x-[16px] space-x-28 flex">
+                    <div className="lg:space-x-4 space-x-28 flex">
                       <p className="text-[#90A3BF] text-lg text-left">
                         Type Car
                       </p>
@@ -249,7 +249,7 @@ const DetailCarRent = () => {
                         Sport
                       </p>
                     </div>
-                    <div className="lg:space-x-[16px] space-x-28 flex">
+                    <div className="lg:space-x-4 space-x-28 flex">
                       <p className="text-[#90A3BF] text-lg text-left">
                         Steering
                       </p>
@@ -259,7 +259,7 @@ const DetailCarRent = () => {
                     </div>
                   </div>
                   <div className="flex flex-col space-y-4">
-                    <div className="lg:space-x-[16px] space-x-28 flex">
+                    <div className="lg:space-x-4 space-x-28 flex">
                       <p className="text-[#90A3BF] text-lg text-left">
                         Capacity
                       </p>
@@ -267,7 +267,7 @@ const DetailCarRent = () => {
                         2 Person
                       </p>
                     </div>
-                    <div className="lg:space-x-[16px] space-x-28 flex">
+                    <div className="lg:space-x-4 space-x-28 flex">
                       <p className="text-[#90A3BF] text-lg text-left">
                         Gasoline
                       </p>
@@ -278,7 +278,7 @@ const DetailCarRent = () => {
                   </div>
                 </div>
 
-                <div className="flex mt-[64px] mx-6 mb-[24px] items-stretch justify-between">
+                <div className="flex mt-16 mx-6 mb-[24px] items-stretch justify-between">
                   <div className="flex flex-col font-bold text-[#1A202C]">
                     <div className="lg:text-[28px] text-[24px] font-bold">
                       $80.00/{" "}
@@ -293,7 +293,7 @@ const DetailCarRent = () => {
 
                   <Link href="/payment">
                     <button
-                      className="lg:px-[20px] px-[14px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                      className="lg:px-5 px-[14px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded lg:h-14 lg:w-[140px]
                      w-[110px]"
                     >
@@ -314,7 +314,7 @@ const DetailCarRent = () => {
                   Reviews
                 </p>
                 <button
-                  className="px-[20px] space-x-[8px] rounded text-white bg-[#3563E9]
+                  className="px-5 space-x-[8px] rounded text-white bg-[#3563E9]
                     text-sm font-bold"
                 >
                   13
@@ -421,7 +421,7 @@ const DetailCarRent = () => {
 
               <div className=" flex items-center justify-center mx-auto">
                 <button
-                  className="mt-6 rounded px-[20px] space-x-[8px] h-[44px]
+                  className="mt-6 rounded px-5 space-x-[8px] h-[44px]
                 text-base font-medium text-[#90A3BF] flex items-center justify-center"
                 >
                   Show All <ChevronDown className="h-4 w-4 ml-2" />
@@ -447,7 +447,7 @@ const DetailCarRent = () => {
               >
                 <div
                   className="bg-white rounded-lg flex flex-col
-                w-[304px] h-[388px] py-[24px] px-[24px]"
+                w-[304px] h-[388px] py-6 px-6"
                 >
                   <div className="flex space-x-[104px] items-start">
                     <div className="flex flex-col text-left space-y-1">
@@ -474,10 +474,10 @@ const DetailCarRent = () => {
                     width={232}
                     height={72}
                     alt="car-image"
-                    className="mt-[64px]"
+                    className="mt-16"
                   />
 
-                  <div className="flex space-x-[16px] mt-[64px] items-center justify-center">
+                  <div className="flex space-x-4 mt-16 items-center justify-center">
                     <div className="flex space-x-[6px] items-center justify-center">
                       <Image
                         height={24}
@@ -526,8 +526,8 @@ const DetailCarRent = () => {
 
                     <Link href="/car-rent">
                       <button
-                        className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[44px] w-[116px]"
+                        className="px-5 py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
                       >
                         Rent Now
                       </button>
@@ -537,7 +537,7 @@ const DetailCarRent = () => {
 
                 <div
                   className="bg-white rounded-lg flex flex-col
-                w-[304px] h-[388px] py-[24px] px-[24px]"
+                w-[304px] h-[388px] py-6 px-6"
                 >
                   <div className="flex space-x-[104px] items-start">
                     <div className="flex flex-col text-left space-y-1">
@@ -567,7 +567,7 @@ const DetailCarRent = () => {
                     className="mt-[68px] mx-auto"
                   />
 
-                  <div className="flex space-x-[16px] mt-[68px] items-center justify-center">
+                  <div className="flex space-x-4 mt-[68px] items-center justify-center">
                     <div className="flex space-x-[6px] items-center justify-center">
                       <Image
                         height={24}
@@ -619,8 +619,8 @@ const DetailCarRent = () => {
 
                     <Link href="/car-rent">
                       <button
-                        className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[44px] w-[116px]"
+                        className="px-5 py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
                       >
                         Rent Now
                       </button>
@@ -630,7 +630,7 @@ const DetailCarRent = () => {
 
                 <div
                   className="bg-white rounded-lg flex flex-col
-                w-[304px] h-[388px] py-[24px] px-[24px]"
+                w-[304px] h-[388px] py-6 px-6"
                 >
                   <div className="flex space-x-[104px] items-start">
                     <div className="flex flex-col text-left space-y-1">
@@ -657,10 +657,10 @@ const DetailCarRent = () => {
                     width={220}
                     height={68}
                     alt="car-image"
-                    className="mt-[64px] mx-auto"
+                    className="mt-16 mx-auto"
                   />
 
-                  <div className="flex space-x-[16px] mt-[68px] items-center justify-center">
+                  <div className="flex space-x-4 mt-[68px] items-center justify-center">
                     <div className="flex space-x-[6px] items-center justify-center">
                       <Image
                         height={24}
@@ -709,8 +709,8 @@ const DetailCarRent = () => {
 
                     <Link href="/car-rent">
                       <button
-                        className="px-[20px] py-3 mt-1 text-base font-medium text-center space-x-[8px]
-                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-[44px] w-[116px]"
+                        className="px-5 py-3 mt-1 text-base font-medium text-center space-x-[8px]
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
                       >
                         Rent Now
                       </button>

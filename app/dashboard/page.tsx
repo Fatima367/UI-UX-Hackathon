@@ -10,7 +10,7 @@ const Dashboard = () => {
       <div className="flex">
         {/*Left*/}
         <div className="-ml-5 lg:flex lg:flex-col lg:visible hidden lg:h-[1600px] bg-white lg:w-[310px]">
-          <div className="flex flex-col space-y-[42px] mr-[16px] mt-[40px] ml-8">
+          <div className="flex flex-col space-y-[42px] mr-4 mt-10 ml-8">
             <p className="text-[#90A3BF] text-base ml-9">M A I N M E N U</p>
             <div className="space-y-[32px]">
               <div
@@ -101,7 +101,7 @@ const Dashboard = () => {
             </div>
           </div>
 
-          <div className="flex flex-col space-y-[28px] mr-[16px] mt-[56px] ml-8">
+          <div className="flex flex-col space-y-[28px] mr-4 mt-14 ml-8">
             <p className="text-[#90A3BF] text-base ml-8">
               P R E F E R E N C E S
             </p>
@@ -346,7 +346,7 @@ const Dashboard = () => {
               </div>
             </div>
 
-            <div className="mt-[40px] mb-9 h-[1px] bg-[#C3D4E9] opacity-40">
+            <div className="mt-10 mb-9 h-[1px] bg-[#C3D4E9] opacity-40">
               {" "}
             </div>
 

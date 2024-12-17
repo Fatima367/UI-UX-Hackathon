@@ -553,7 +553,7 @@ text-sm text-[#90A3BF] selection:font-medium
 
             <Link href="/dashboard">
               <button
-                className="px-[20px] py-3 mt-8 text-base font-medium text-center space-x-[8px]
+                className="px-5 py-3 mt-8 text-base font-medium text-center space-x-[8px]
                      text-white bg-[#3563E9] rounded-lg h-14 w-[140px] hover:bg-blue-800"
               >
                 Rent Now
