@@ -5,11 +5,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <section
-      className="bg-[#F6F7F9] font-PlusJakartaSans flex items-start 
-                       justify-between"
-    >
-      <div className="flex flex-col items-start justify-between px-5 lg:px-[24px] mx-auto">
+    <section className="bg-[#F6F7F9] font-PlusJakartaSans relative">
+      <div className="flex flex-col items-center justify-center px-5 lg:px-6 mx-auto">
         {/*Hero Section*/}
 
         <div
@@ -238,18 +235,13 @@ export default function Home() {
         {/*--------------------------------------------------------------------------------------------------------*/}
 
         {/* Popular Car Section */}
-        <div className="flex items-center justify-center mx-auto">
-          <PopularCarSection />
-        </div>
+        <PopularCarSection />
 
         {/*--------------------------------------------------------------------------------------------------------*/}
 
         {/* Recommendation Car Section */}
-        <div className="flex items-center justify-center mx-auto">
-          <RecommendationCar />
-        </div>
+        <RecommendationCar />
         {/*--------------------------------------------------------------------------------------------------------*/}
-      
       </div>
     </section>
   );
