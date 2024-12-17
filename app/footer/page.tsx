@@ -101,7 +101,7 @@ export default function Footer() {
           ©2022 MORENT. All rights reserved
         </p>
         <div
-          className="space-x-[24px] flex items-center justify-center lg:ml-0 ml-10
+          className="space-x-6 flex items-center justify-center lg:ml-0 ml-10
         hover:cursor-pointer"
         >
           <p className="text-base font-semibold text-[#1A202C]">

@@ -116,7 +116,7 @@ const DetailCarRent = () => {
         lg:items-start lg:justify-between items-center justify-center mx-auto"
             >
               {/*Left Side*/}
-              <div className="flex flex-col my-[24px] lg:w-[492px]">
+              <div className="flex flex-col my-6 lg:w-[492px]">
                 <div
                   className="rounded-lg object-cover lg:w-[492px] lg:h-[360px] w-[310px] 
            h-[420px] bg-blue-600 lg:mx-0 mx-auto"
@@ -152,7 +152,7 @@ const DetailCarRent = () => {
                 </div>
 
                 <div
-                  className="lg:flex-row flex lg:space-x-[24px] space-y-5 items-center 
+                  className="lg:flex-row flex lg:space-x-6 space-y-5 items-center 
           justify-center mx-auto space-x-3"
                 >
                   <div
@@ -197,7 +197,7 @@ const DetailCarRent = () => {
 
               {/*Right Side*/}
               <div
-                className="lg:w-[492px] lg:h-[508px] bg-white rounded-lg my-[24px]
+                className="lg:w-[492px] lg:h-[508px] bg-white rounded-lg my-6
               lg:mx-0 mx-auto w-80 h-[660px]"
               >
                 <div className="relative">
@@ -237,7 +237,7 @@ const DetailCarRent = () => {
                 </div>
 
                 <div
-                  className="mt-8 lg:mx-6 mx-6 lg:flex lg:space-x-[44px] 
+                  className="mt-8 lg:mx-6 mx-6 lg:flex lg:space-x-11
                 items-start justify-between grid lg:space-y-0 space-y-5"
                 >
                   <div className="flex flex-col space-y-4">
@@ -278,7 +278,7 @@ const DetailCarRent = () => {
                   </div>
                 </div>
 
-                <div className="flex mt-16 mx-6 mb-[24px] items-stretch justify-between">
+                <div className="flex mt-16 mx-6 mb-6 items-stretch justify-between">
                   <div className="flex flex-col font-bold text-[#1A202C]">
                     <div className="lg:text-[28px] text-[24px] font-bold">
                       $80.00/{" "}
@@ -309,7 +309,7 @@ const DetailCarRent = () => {
               className="bg-white lg:w-[1016px] lg:h-[452px] mx-auto rounded-lg
             p-6 w-80 h-auto lg:mt-0 mt-6"
             >
-              <div className="space-x-[12px] flex">
+              <div className="space-x-3 flex">
                 <p className="text-xl font-semibold text-[#1A202C]">
                   Reviews
                 </p>
@@ -328,12 +328,12 @@ const DetailCarRent = () => {
                   height={56}
                   width={56}
                   alt="Profile-Image"
-                  className="lg:w-[56px] lg:h-14 h-[46px] w-[46px]"
+                  className="lg:w-14 lg:h-14 h-[46px] w-[46px]"
                 />
 
-                <div className="flex flex-col lg:ml-[16px] ml-[14px]">
+                <div className="flex flex-col lg:ml-4 ml-[14px]">
                   <div className="flex items-stretch justify-between">
-                    <div className="flex flex-col space-y-[8px] text-left">
+                    <div className="flex flex-col space-y-2 text-left">
                       <p className="lg:text-xl text-lg font-bold text-[#1A202C]">
                         Alex Stanton
                       </p>
@@ -343,7 +343,7 @@ const DetailCarRent = () => {
                     </div>
 
                     <div
-                      className="flex flex-col space-y-[8px] text-right lg:ml-0 lg:mt-0
+                      className="flex flex-col space-y-2 text-right lg:ml-0 lg:mt-0
                     mt-1 "
                     >
                       <p className="lg:text-sm text-[13px] text-[#90A3BF] font-medium">
@@ -359,7 +359,7 @@ const DetailCarRent = () => {
                     </div>
                   </div>
 
-                  <div className="mt-[12px]">
+                  <div className="mt-3">
                     <p className="text-left lg:text-[13.5px] text-[#596780] text-[11px]">
                       We are very happy with the service from the MORENT App.
                       Morent has a low price and also a large variety of cars
@@ -379,12 +379,12 @@ const DetailCarRent = () => {
                   height={56}
                   width={56}
                   alt="Profile-Image"
-                  className="lg:w-[56px] lg:h-14 h-[46px] w-[46px]"
+                  className="lg:w-14 lg:h-14 h-[46px] w-[46px]"
                 />
 
-                <div className="flex flex-col lg:ml-[16px] ml-[14px]">
+                <div className="flex flex-col lg:ml-4 ml-[14px]">
                   <div className="flex items-stretch justify-between">
-                    <div className="flex flex-col space-y-[8px] text-left">
+                    <div className="flex flex-col space-y-2 text-left">
                       <p className="lg:text-xl text-lg font-bold text-[#1A202C]">
                         Skylar Dias
                       </p>
@@ -393,7 +393,7 @@ const DetailCarRent = () => {
                       </p>
                     </div>
 
-                    <div className="flex flex-col space-y-[8px] text-right">
+                    <div className="flex flex-col space-y-2 text-right">
                       <p className="lg:text-sm text-xs text-[#90A3BF] font-medium">
                         20 July 2022
                       </p>
@@ -407,7 +407,7 @@ const DetailCarRent = () => {
                     </div>
                   </div>
 
-                  <div className="mt-[12px]">
+                  <div className="mt-3">
                     <p className="text-left lg:text-sm text-xs text-[#596780]">
                       We are greatly helped by the services of the MORENT
                       Application. Morent has low prices and also a wide variety
