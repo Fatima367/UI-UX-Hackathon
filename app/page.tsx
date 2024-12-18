@@ -169,7 +169,7 @@ export default function Home() {
           <div className=" flex items-center justify-center ">
             <button
               className="bg-[#3563E9] p-4 shadow-lg hover:bg-blue-400
-            items-center justify-center rounded-lg lg:ml-0 ml-20 h-14 w-14 relative"
+            items-center justify-center rounded-lg h-14 w-14 relative"
             >
               <Image
                 src="/images/Swap.png"

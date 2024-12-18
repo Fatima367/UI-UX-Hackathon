@@ -9,14 +9,14 @@ export default function PopularCarSection() {
   const [isFav3, setIsFav3] = useState(false); // Card 3
   const [isFav4, setIsFav4] = useState(true); // Card 4
   return (
-    <div className="flex">
-      <div className="flex flex-col space-y-5 items-start justify-between">
+    <div className="flex lg:max-w-[100%]">
+      <div className="flex flex-col space-y-5 items-start justify-between relative">
         <div className="flex items-stretch justify-between ">
           <p className="text-xl font-bold text-[#90A3BF]">Popular Car</p>
 
           <Link href="/car-rent">
             <p
-              className="text-base font-semibold text-[#3563E9] lg:ml-[1080px] 
+              className="text-base font-semibold text-[#3563E9] lg:absolute lg:right-5 
           mr-0 ml-32"
             >
               View All
@@ -27,17 +27,15 @@ export default function PopularCarSection() {
         {/*Car Cards*/}
         <div
           className="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5 mb-8 gap-[330px]
-        overflow-x-auto w-[300px] lg:w-auto lg:overflow-hidden sm:w-[650px] sm:gap-8"
+        overflow-x-auto w-[300px] lg:w-auto lg:overflow-hidden sm:w-[650px] sm:gap-8 relative"
         >
           <div
             className="bg-white rounded-lg flex flex-col
-                w-[304px] h-[388px] py-6 px-6"
+                w-[304px] h-[388px] py-6 px-6 relative"
           >
-            <div className="flex space-x-[104px] items-start">
+            <div className="flex items-start">
               <div className="flex flex-col text-left space-y-1">
-                <p className="font-bold text-xl text-[#1A202C]">
-                  Koenigsegg
-                </p>
+                <p className="font-bold text-xl text-[#1A202C]">Koenigsegg</p>
                 <p className="font-bold text-sm text-[#90A3BF]">Sport</p>
               </div>
 
@@ -46,7 +44,7 @@ export default function PopularCarSection() {
                 height={24}
                 width={24}
                 alt="Favourite"
-                className="cursor-pointer"
+                className="cursor-pointer absolute right-5"
                 onClick={() => setIsFav1(!isFav1)}
               />
             </div>
@@ -85,9 +83,7 @@ export default function PopularCarSection() {
                   src="/images/profile-2user.png"
                   alt="2users-profile"
                 />
-                <p className="text-[#90A3BF] text-sm font-medium">
-                  2 People
-                </p>
+                <p className="text-[#90A3BF] text-sm font-medium">2 People</p>
               </div>
             </div>
 
@@ -97,8 +93,7 @@ export default function PopularCarSection() {
             >
               <div className="flex flex-col font-bold text-[#1A202C]">
                 <div className="text-xl font-bold">
-                  $99.00/{" "}
-                  <span className="text-sm text-[#90A3BF]">day</span>
+                  $99.00/ <span className="text-sm text-[#90A3BF]">day</span>
                 </div>
               </div>
 
@@ -115,13 +110,11 @@ export default function PopularCarSection() {
 
           <div
             className="bg-white rounded-lg flex flex-col
-                w-[304px] h-[388px] py-6 px-6"
+                w-[304px] h-[388px] py-6 px-6 relative"
           >
-            <div className="flex space-x-[104px] items-start">
+            <div className="flex items-start">
               <div className="flex flex-col text-left space-y-1">
-                <p className="font-bold text-xl text-[#1A202C]">
-                  Nissan GT -R
-                </p>
+                <p className="font-bold text-xl text-[#1A202C]">Nissan GT -R</p>
                 <p className="font-bold text-sm text-[#90A3BF]">Sport</p>
               </div>
 
@@ -130,7 +123,7 @@ export default function PopularCarSection() {
                 height={24}
                 width={24}
                 alt="Favourite"
-                className="cursor-pointer"
+                className="cursor-pointer absolute right-5"
                 onClick={() => setIsFav2(!isFav2)}
               />
             </div>
@@ -169,9 +162,7 @@ export default function PopularCarSection() {
                   src="/images/profile-2user.png"
                   alt="2users-profile"
                 />
-                <p className="text-[#90A3BF] text-sm font-medium">
-                  2 People
-                </p>
+                <p className="text-[#90A3BF] text-sm font-medium">2 People</p>
               </div>
             </div>
 
@@ -181,8 +172,7 @@ export default function PopularCarSection() {
             >
               <div className="flex flex-col  font-bold text-[#1A202C]">
                 <div className="text-xl font-bold">
-                  $80.00/{" "}
-                  <span className="text-sm text-[#90A3BF]">day</span>
+                  $80.00/ <span className="text-sm text-[#90A3BF]">day</span>
                 </div>
                 <div className="mt-1 text-sm text-[#90A3BF] line-through">
                   $100.00
@@ -202,13 +192,11 @@ export default function PopularCarSection() {
 
           <div
             className="bg-white rounded-lg flex flex-col
-                w-[304px] h-[388px] py-6 px-6"
+                w-[304px] h-[388px] py-6 px-6 relative"
           >
-            <div className="flex space-x-[104px] items-start">
+            <div className="flex items-start">
               <div className="flex flex-col text-left space-y-1">
-                <p className="font-bold text-xl text-[#1A202C]">
-                  Rolls-Royce
-                </p>
+                <p className="font-bold text-xl text-[#1A202C]">Rolls-Royce</p>
                 <p className="font-bold text-sm text-[#90A3BF]">Sport</p>
               </div>
 
@@ -217,7 +205,7 @@ export default function PopularCarSection() {
                 height={24}
                 width={24}
                 alt="Favourite"
-                className="cursor-pointer"
+                className="cursor-pointer absolute right-5"
                 onClick={() => setIsFav3(!isFav3)}
               />
             </div>
@@ -256,9 +244,7 @@ export default function PopularCarSection() {
                   src="/images/profile-2user.png"
                   alt="2users-profile"
                 />
-                <p className="text-[#90A3BF] text-sm font-medium">
-                  4 People
-                </p>
+                <p className="text-[#90A3BF] text-sm font-medium">4 People</p>
               </div>
             </div>
 
@@ -268,8 +254,7 @@ export default function PopularCarSection() {
             >
               <div className="flex flex-col font-bold text-[#1A202C]">
                 <div className="text-xl font-bold">
-                  $97.00/{" "}
-                  <span className="text-sm text-[#90A3BF]">day</span>
+                  $97.00/ <span className="text-sm text-[#90A3BF]">day</span>
                 </div>
               </div>
 
@@ -286,9 +271,9 @@ export default function PopularCarSection() {
 
           <div
             className="bg-white rounded-lg flex flex-col
-                w-[304px] h-[388px] py-6 px-6"
+                w-[304px] h-[388px] py-6 px-6 relative"
           >
-            <div className="flex space-x-[104px] items-start">
+            <div className="flex items-start">
               <div className="flex flex-col text-left space-y-1">
                 <p className="font-bold text-xl text-[#1A202C]">
                   Nissan GT - R
@@ -301,7 +286,7 @@ export default function PopularCarSection() {
                 height={24}
                 width={24}
                 alt="Favourite"
-                className="cursor-pointer"
+                className="cursor-pointer absolute right-5"
                 onClick={() => setIsFav4(!isFav4)}
               />
             </div>
@@ -340,9 +325,7 @@ export default function PopularCarSection() {
                   src="/images/profile-2user.png"
                   alt="2users-profile"
                 />
-                <p className="text-[#90A3BF] text-sm font-medium">
-                  2 People
-                </p>
+                <p className="text-[#90A3BF] text-sm font-medium">2 People</p>
               </div>
             </div>
 
@@ -352,8 +335,7 @@ export default function PopularCarSection() {
             >
               <div className="flex flex-col  font-bold text-[#1A202C]">
                 <div className="text-xl font-bold">
-                  $80.00/{" "}
-                  <span className="text-sm text-[#90A3BF]">day</span>
+                  $80.00/ <span className="text-sm text-[#90A3BF]">day</span>
                 </div>
                 <div className="mt-1 text-sm text-[#90A3BF] line-through">
                   $100.00
