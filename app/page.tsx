@@ -9,6 +9,7 @@ export default function Home() {
     <section className="bg-[#F6F7F9] font-PlusJakartaSans relative">
       <Navbar />
       <NavbarMobile />
+
       <div className="flex flex-col items-center justify-center px-5 lg:px-5 mx-auto">
         {/*Hero Section*/}
 
