@@ -2,7 +2,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { Navbar, NavbarMobile2 } from "../navbar/page";
+import Navbar, { NavbarMobile2 } from "../navbar/page";
 
 const Payment = () => {
   return (

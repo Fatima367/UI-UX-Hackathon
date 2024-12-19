@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { MouseEvent, useState } from "react";
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <nav
       className="box-border bg-white border border-[#C3D4E9] mt-0 lg:mt-16
@@ -902,3 +902,5 @@ export const Navbar3 = () => {
     </nav>
   );
 };
+
+export default Navbar;
