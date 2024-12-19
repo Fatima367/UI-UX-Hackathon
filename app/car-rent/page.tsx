@@ -3,7 +3,8 @@ import { Checkbox } from "@/components/ui/checkbox";
 import Image from "next/image";
 import Link from "next/link";
 import React, { MouseEvent, useState } from "react";
-import Navbar, { Navbar2 } from "../navbar/page";
+import Navbar from "../navbar/Navbar";
+import Navbar2 from "../navbar/Navbar2";
 
 const CarRent = () => {
   const [isFav1, setIsFav1] = useState(false); // Card 1

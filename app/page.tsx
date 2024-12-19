@@ -2,7 +2,8 @@ import Image from "next/image";
 import RecommendationCar from "./components/recommendation-car";
 import PopularCarSection from "./components/popular-car";
 import Link from "next/link";
-import Navbar, { NavbarMobile } from "./navbar/page";
+import Navbar from "./navbar/Navbar";
+import NavbarMobile from "./navbar/NavbarMobile";
 
 export default function Home() {
   return (

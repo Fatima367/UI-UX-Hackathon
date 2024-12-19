@@ -2,7 +2,8 @@ import { Checkbox } from "@/components/ui/checkbox";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-import  Navbar, { Navbar3 } from "../navbar/page";
+import Navbar from "../navbar/Navbar";
+import Navbar3 from "../navbar/Navbar3";
 
 const Dashboard = () => {
   return (
