@@ -155,7 +155,7 @@ const Navbar = () => {
   );
 };
 
-export const NavbarMobile = () => {
+const NavbarMobile = () => {
   return (
     <nav
       className="box-border bg-white border border-[#C3D4E9] mt-0 lg:mt-16
@@ -305,7 +305,7 @@ export const NavbarMobile = () => {
   );
 };
 
-export const NavbarMobile2 = () => {
+const NavbarMobile2 = () => {
   return (
     <nav
       className="box-border bg-white border border-[#C3D4E9] mt-0 lg:mt-16
@@ -332,7 +332,8 @@ export const NavbarMobile2 = () => {
   );
 };
 
-export const Navbar2 = () => {
+
+const Navbar2 = () => {
   const [showNav, setShowNav] = useState(false);
   const [showFilter, setShowFilter] = useState(false);
 
@@ -572,7 +573,7 @@ export const Navbar2 = () => {
   );
 };
 
-export const Navbar3 = () => {
+const Navbar3 = () => {
   const [showNav, setShowNav] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
 
@@ -904,3 +905,5 @@ export const Navbar3 = () => {
 };
 
 export default Navbar;
+
+export { NavbarMobile, NavbarMobile2, Navbar2, Navbar3 };
