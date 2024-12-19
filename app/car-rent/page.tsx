@@ -28,10 +28,10 @@ const CarRent = () => {
 
   return (
     <div className="bg-[#F6F7F9]">
-      <div className="flex flex-col items-center justify-between mx-auto bg-[#F6F7F9]">
+      <div className="">
         <div className="flex">
           {/*Left*/}
-          <div className="-ml-5 lg:flex lg:flex-col lg:visible hidden lg:h-[1600px] bg-white lg:w-[310px]">
+          <div className="left-0 lg:flex lg:flex-col lg:visible hidden lg:h-[1600px] bg-white lg:w-80 relative">
             <div className="flex flex-col space-y-4 mr-4 mt-10 ml-8">
               <p className="text-[#90A3BF] text-base">T Y P E</p>
               <p className="text-xl font-medium">

@@ -26,8 +26,8 @@ export default function PopularCarSection() {
 
         {/*Car Cards*/}
         <div
-          className="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5 mb-8 gap-[330px]
-        overflow-x-auto w-[300px] lg:w-auto lg:overflow-hidden sm:w-[650px] sm:gap-8 relative"
+          className="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5 mb-8 gap-80
+        overflow-x-auto w-80 lg:w-auto lg:overflow-hidden relative"
         >
           <div
             className="bg-white rounded-lg flex flex-col
