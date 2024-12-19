@@ -2,10 +2,13 @@ import Image from "next/image";
 import RecommendationCar from "./components/recommendation-car";
 import PopularCarSection from "./components/popular-car";
 import Link from "next/link";
+import { Navbar, NavbarMobile } from "./navbar/page";
 
 export default function Home() {
   return (
     <section className="bg-[#F6F7F9] font-PlusJakartaSans relative">
+      <Navbar />
+      <NavbarMobile />
       <div className="flex flex-col items-center justify-center px-5 lg:px-5 mx-auto">
         {/*Hero Section*/}
 

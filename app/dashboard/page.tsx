@@ -1,12 +1,14 @@
 import { Checkbox } from "@/components/ui/checkbox";
 import Image from "next/image";
 import React from "react";
-import Footer from "../footer/page";
 import Link from "next/link";
+import { Navbar, Navbar3 } from "../navbar/page";
 
 const Dashboard = () => {
   return (
     <div className="bg-[#F6F7F9]">
+      <Navbar />
+      <Navbar3 />
       <div className="flex">
         {/*Left*/}
         <div className="-ml-5 lg:flex lg:flex-col lg:visible hidden lg:h-[1600px] bg-white lg:w-[310px]">

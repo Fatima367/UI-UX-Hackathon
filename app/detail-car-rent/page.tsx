@@ -4,6 +4,7 @@ import { ChevronDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React, { MouseEvent, useState } from "react";
+import { Navbar, Navbar2 } from "../navbar/page";
 
 const DetailCarRent = () => {
   const [progress, setProgress] = useState(70);
@@ -26,6 +27,8 @@ const DetailCarRent = () => {
 
   return (
     <div className="bg-[#F6F7F9]">
+      <Navbar />
+      <Navbar2 />
       <div className="flex relative">
         {/*Left*/}
         <div
@@ -144,7 +147,7 @@ const DetailCarRent = () => {
                     height={120}
                     width={380}
                     alt="car-image"
-                    className="z-50 lg:absolute lg:bottom-0 lg:top-48
+                    className="z-30 lg:absolute lg:bottom-0 lg:top-48
               lg:mx-auto mb-10 lg:mt-8 mt-6"
                   />
                 </div>

@@ -2,10 +2,13 @@ import { Checkbox } from "@/components/ui/checkbox";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { Navbar, NavbarMobile2 } from "../navbar/page";
 
 const Payment = () => {
   return (
     <div className="bg-[#F6F7F9]">
+      <Navbar />
+      <NavbarMobile2 />
       <div
         className="lg:flex lg:space-x-5 lg:items-start lg:justify-between lg:mr-10 grid
       lg:mx-0 mx-auto"
