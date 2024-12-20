@@ -10,41 +10,32 @@ export default function PopularCarSection() {
   const [isFav4, setIsFav4] = useState(true); // Card 4
   return (
     <div className="flex lg:max-w-[100%]">
-      <div className="flex flex-col space-y-5 items-start justify-between relative">
-        <div className="flex items-stretch justify-between ">
+      <div className="flex flex-col space-y-5 relative">
+        <div className="flex items-start justify-between">
           <p className="text-xl font-bold text-[#90A3BF]">Popular Car</p>
 
           <Link href="/car-rent">
-            <p
-              className="text-base font-semibold text-[#3563E9] lg:absolute lg:right-5 
-          mr-0 ml-32"
-            >
-              View All
-            </p>
+            <p className="text-base font-semibold text-[#3563E9] ">View All</p>
           </Link>
         </div>
 
         {/*Car Cards*/}
         <div
-          className="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5 mb-8 gap-80
+          className="flex sm:grid-cols-2 lg:flex lg:gap-5 mb-8 gap-8 sm:grid
         overflow-x-auto w-80 lg:w-auto lg:overflow-hidden relative"
         >
-          <div
-            className="bg-white rounded-lg flex flex-col
-                w-[304px] h-[388px] py-6 px-6 relative"
-          >
-            <div className="flex items-start">
+          <div className="bg-white rounded-lg flex flex-col p-6 relative">
+            <div className="flex items-start justify-between">
               <div className="flex flex-col text-left space-y-1">
                 <p className="font-bold text-xl text-[#1A202C]">Koenigsegg</p>
                 <p className="font-bold text-sm text-[#90A3BF]">Sport</p>
               </div>
-
               <Image
                 src={isFav1 ? "/images/Like2.png" : "/images/Like.png"}
                 height={24}
                 width={24}
                 alt="Favourite"
-                className="cursor-pointer absolute right-5"
+                className="cursor-pointer"
                 onClick={() => setIsFav1(!isFav1)}
               />
             </div>
@@ -58,7 +49,7 @@ export default function PopularCarSection() {
             />
 
             <div className="flex space-x-4 mt-16 items-center justify-center">
-              <div className="flex space-x-[6px] items-center justify-center">
+              <div className="flex space-x-1 items-center justify-center">
                 <Image
                   height={24}
                   width={24}
@@ -67,7 +58,7 @@ export default function PopularCarSection() {
                 />
                 <p className="text-[#90A3BF] text-sm font-medium">90L</p>
               </div>
-              <div className="flex space-x-[6px] items-center justify-center">
+              <div className="flex space-x-1 items-center justify-center">
                 <Image
                   height={24}
                   width={24}
@@ -76,7 +67,7 @@ export default function PopularCarSection() {
                 />
                 <p className="text-[#90A3BF] text-sm font-medium">Manual</p>
               </div>
-              <div className="flex space-x-[6px] items-center justify-center">
+              <div className="flex space-x-1 items-center justify-center">
                 <Image
                   height={24}
                   width={24}
@@ -89,7 +80,7 @@ export default function PopularCarSection() {
 
             <div
               className="flex items-stretch 
-                        justify-between mt-6 mb-6"
+                        justify-between mt-6"
             >
               <div className="flex flex-col font-bold text-[#1A202C]">
                 <div className="text-xl font-bold">
@@ -100,7 +91,7 @@ export default function PopularCarSection() {
               <Link href="/car-rent">
                 <button
                   className="px-5 py-3 mt-1 text-base font-medium text-center space-x-2
-                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11"
                 >
                   Rent Now
                 </button>
@@ -108,11 +99,8 @@ export default function PopularCarSection() {
             </div>
           </div>
 
-          <div
-            className="bg-white rounded-lg flex flex-col
-                w-[304px] h-[388px] py-6 px-6 relative"
-          >
-            <div className="flex items-start">
+          <div className="bg-white rounded-lg flex flex-col p-6 relative">
+            <div className="flex items-start justify-between">
               <div className="flex flex-col text-left space-y-1">
                 <p className="font-bold text-xl text-[#1A202C]">Nissan GT -R</p>
                 <p className="font-bold text-sm text-[#90A3BF]">Sport</p>
@@ -123,7 +111,7 @@ export default function PopularCarSection() {
                 height={24}
                 width={24}
                 alt="Favourite"
-                className="cursor-pointer absolute right-5"
+                className="cursor-pointer"
                 onClick={() => setIsFav2(!isFav2)}
               />
             </div>
@@ -133,11 +121,11 @@ export default function PopularCarSection() {
               width={204}
               height={64}
               alt="car-image"
-              className="mt-[68px] mx-auto"
+              className="mt-16 mx-auto"
             />
 
-            <div className="flex space-x-4 mt-[68px] items-center justify-center">
-              <div className="flex space-x-[6px] items-center justify-center">
+            <div className="flex space-x-4 mt-16 items-center justify-center">
+              <div className="flex space-x-1 items-center justify-center">
                 <Image
                   height={24}
                   width={24}
@@ -146,7 +134,7 @@ export default function PopularCarSection() {
                 />
                 <p className="text-[#90A3BF] text-sm font-medium">80L</p>
               </div>
-              <div className="flex space-x-[6px] items-center justify-center">
+              <div className="flex space-x-1 items-center justify-center">
                 <Image
                   height={24}
                   width={24}
@@ -155,7 +143,7 @@ export default function PopularCarSection() {
                 />
                 <p className="text-[#90A3BF] text-sm font-medium">Manual</p>
               </div>
-              <div className="flex space-x-[6px] items-center justify-center">
+              <div className="flex space-x-1 items-center justify-center">
                 <Image
                   height={24}
                   width={24}
@@ -168,9 +156,9 @@ export default function PopularCarSection() {
 
             <div
               className="flex items-stretch 
-                        justify-between mt-5 mb-6"
+                        justify-between mt-6"
             >
-              <div className="flex flex-col  font-bold text-[#1A202C]">
+              <div className="flex flex-col font-bold text-[#1A202C]">
                 <div className="text-xl font-bold">
                   $80.00/ <span className="text-sm text-[#90A3BF]">day</span>
                 </div>
@@ -182,7 +170,7 @@ export default function PopularCarSection() {
               <Link href="/car-rent">
                 <button
                   className="px-5 py-3 mt-1 text-base font-medium text-center space-x-2
-                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11"
                 >
                   Rent Now
                 </button>
@@ -190,11 +178,8 @@ export default function PopularCarSection() {
             </div>
           </div>
 
-          <div
-            className="bg-white rounded-lg flex flex-col
-                w-[304px] h-[388px] py-6 px-6 relative"
-          >
-            <div className="flex items-start">
+          <div className="bg-white rounded-lg flex flex-col p-6 relative">
+            <div className="flex items-start justify-between">
               <div className="flex flex-col text-left space-y-1">
                 <p className="font-bold text-xl text-[#1A202C]">Rolls-Royce</p>
                 <p className="font-bold text-sm text-[#90A3BF]">Sport</p>
@@ -205,7 +190,7 @@ export default function PopularCarSection() {
                 height={24}
                 width={24}
                 alt="Favourite"
-                className="cursor-pointer absolute right-5"
+                className="cursor-pointer"
                 onClick={() => setIsFav3(!isFav3)}
               />
             </div>
@@ -218,8 +203,8 @@ export default function PopularCarSection() {
               className="mt-16 mx-auto"
             />
 
-            <div className="flex space-x-4 mt-[68px] items-center justify-center">
-              <div className="flex space-x-[6px] items-center justify-center">
+            <div className="flex space-x-4 mt-16 items-center justify-center">
+              <div className="flex space-x-1 items-center justify-center">
                 <Image
                   height={24}
                   width={24}
@@ -228,7 +213,7 @@ export default function PopularCarSection() {
                 />
                 <p className="text-[#90A3BF] text-sm font-medium">70L</p>
               </div>
-              <div className="flex space-x-[6px] items-center justify-center">
+              <div className="flex space-x-1 items-center justify-center">
                 <Image
                   height={24}
                   width={24}
@@ -237,7 +222,7 @@ export default function PopularCarSection() {
                 />
                 <p className="text-[#90A3BF] text-sm font-medium">Manual</p>
               </div>
-              <div className="flex space-x-[6px] items-center justify-center">
+              <div className="flex space-x-1 items-center justify-center">
                 <Image
                   height={24}
                   width={24}
@@ -250,7 +235,7 @@ export default function PopularCarSection() {
 
             <div
               className="flex items-stretch 
-                        justify-between mt-6 mb-6"
+                        justify-between mt-6"
             >
               <div className="flex flex-col font-bold text-[#1A202C]">
                 <div className="text-xl font-bold">
@@ -261,7 +246,7 @@ export default function PopularCarSection() {
               <Link href="/car-rent">
                 <button
                   className="px-5 py-3 mt-1 text-base font-medium text-center space-x-2
-                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11"
                 >
                   Rent Now
                 </button>
@@ -269,11 +254,8 @@ export default function PopularCarSection() {
             </div>
           </div>
 
-          <div
-            className="bg-white rounded-lg flex flex-col
-                w-[304px] h-[388px] py-6 px-6 relative"
-          >
-            <div className="flex items-start">
+          <div className="bg-white rounded-lg flex flex-col p-6 relative">
+            <div className="flex items-start justify-between">
               <div className="flex flex-col text-left space-y-1">
                 <p className="font-bold text-xl text-[#1A202C]">
                   Nissan GT - R
@@ -286,7 +268,7 @@ export default function PopularCarSection() {
                 height={24}
                 width={24}
                 alt="Favourite"
-                className="cursor-pointer absolute right-5"
+                className="cursor-pointer"
                 onClick={() => setIsFav4(!isFav4)}
               />
             </div>
@@ -296,11 +278,11 @@ export default function PopularCarSection() {
               width={204}
               height={64}
               alt="car-image"
-              className="mt-[68px] mx-auto"
+              className="mt-16 mx-auto"
             />
 
-            <div className="flex space-x-4 mt-[68px] items-center justify-center">
-              <div className="flex space-x-[6px] items-center justify-center">
+            <div className="flex space-x-4 mt-16 items-center justify-center">
+              <div className="flex space-x-1 items-center justify-center">
                 <Image
                   height={24}
                   width={24}
@@ -309,7 +291,7 @@ export default function PopularCarSection() {
                 />
                 <p className="text-[#90A3BF] text-sm font-medium">80L</p>
               </div>
-              <div className="flex space-x-[6px] items-center justify-center">
+              <div className="flex space-x-1 items-center justify-center">
                 <Image
                   height={24}
                   width={24}
@@ -318,7 +300,7 @@ export default function PopularCarSection() {
                 />
                 <p className="text-[#90A3BF] text-sm font-medium">Manual</p>
               </div>
-              <div className="flex space-x-[6px] items-center justify-center">
+              <div className="flex space-x-1 items-center justify-center">
                 <Image
                   height={24}
                   width={24}
@@ -331,9 +313,9 @@ export default function PopularCarSection() {
 
             <div
               className="flex items-stretch 
-                        justify-between mt-5 mb-6"
+                        justify-between mt-6"
             >
-              <div className="flex flex-col  font-bold text-[#1A202C]">
+              <div className="flex flex-col font-bold text-[#1A202C]">
                 <div className="text-xl font-bold">
                   $80.00/ <span className="text-sm text-[#90A3BF]">day</span>
                 </div>
@@ -345,7 +327,7 @@ export default function PopularCarSection() {
               <Link href="/car-rent">
                 <button
                   className="px-5 py-3 mt-1 text-base font-medium text-center space-x-2
-                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11 w-[116px]"
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11"
                 >
                   Rent Now
                 </button>
