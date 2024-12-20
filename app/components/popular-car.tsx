@@ -9,7 +9,7 @@ export default function PopularCarSection() {
   const [isFav3, setIsFav3] = useState(false); // Card 3
   const [isFav4, setIsFav4] = useState(true); // Card 4
   return (
-    <div className="flex lg:max-w-[100%]">
+    <div className="max-w-[1440px] px-4 py-8 mx-auto">
       <div className="flex flex-col space-y-5 relative">
         <div className="flex items-start justify-between">
           <p className="text-xl font-bold text-[#90A3BF]">Popular Car</p>
@@ -21,10 +21,11 @@ export default function PopularCarSection() {
 
         {/*Car Cards*/}
         <div
-          className="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5 mb-8 gap-8
-        overflow-x-auto w-80 lg:w-auto lg:overflow-hidden relative"
+          className="relative flex sm:grid-cols-2 lg:grid-cols-4 md:grid md:grid-cols-2 gap-6
+           overflow-x-auto lg:overflow-visible mb-8 scrollbar-hide"
         >
-          <div className="bg-white rounded-lg flex flex-col p-6 relative">
+          <div className="bg-white rounded-lg flex flex-col py-6 px-5 relative flex-shrink-0 lg:flex-shrink
+          w-[304px] md:w-full lg:w-auto">
             <div className="flex items-start justify-between">
               <div className="flex flex-col text-left space-y-1">
                 <p className="font-bold text-xl text-[#1A202C]">Koenigsegg</p>
@@ -45,10 +46,10 @@ export default function PopularCarSection() {
               width={232}
               height={72}
               alt="car-image"
-              className="mt-16"
+              className="mt-16 w-full h-auto object-cover"
             />
 
-            <div className="flex space-x-4 mt-16 items-center justify-center">
+            <div className="flex space-x-4 sm:flex-row mt-16 items-center justify-center -mx-2">
               <div className="flex space-x-1 items-center justify-center">
                 <Image
                   height={24}
@@ -79,8 +80,7 @@ export default function PopularCarSection() {
             </div>
 
             <div
-              className="flex items-stretch 
-                        justify-between mt-6"
+              className="flex items-start justify-between mt-6 gap-2"
             >
               <div className="flex flex-col font-bold text-[#1A202C]">
                 <div className="text-xl font-bold">
@@ -90,8 +90,8 @@ export default function PopularCarSection() {
 
               <Link href="/car-rent">
                 <button
-                  className="px-5 py-3 mt-1 text-base font-medium text-center space-x-2
-                     text-white bg-[#3563E9] hover:bg-blue-800 rounded min-h-11"
+                  className="text-base font-medium text-center gap-2 h-11 w-28
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded"
                 >
                   Rent Now
                 </button>
@@ -99,7 +99,8 @@ export default function PopularCarSection() {
             </div>
           </div>
 
-          <div className="bg-white rounded-lg flex flex-col p-6 relative">
+          <div className="bg-white rounded-lg flex flex-col p-6 relative flex-shrink-0 lg:flex-shrink
+          w-[304px] md:w-full lg:w-auto">            
             <div className="flex items-start justify-between">
               <div className="flex flex-col text-left space-y-1">
                 <p className="font-bold text-xl text-[#1A202C]">Nissan GT -R</p>
@@ -178,7 +179,8 @@ export default function PopularCarSection() {
             </div>
           </div>
 
-          <div className="bg-white rounded-lg flex flex-col p-6 relative">
+          <div className="bg-white rounded-lg flex flex-col p-6 relative flex-shrink-0 lg:flex-shrink
+          w-[304px] md:w-full lg:w-auto">            
             <div className="flex items-start justify-between">
               <div className="flex flex-col text-left space-y-1">
                 <p className="font-bold text-xl text-[#1A202C]">Rolls-Royce</p>
@@ -254,7 +256,8 @@ export default function PopularCarSection() {
             </div>
           </div>
 
-          <div className="bg-white rounded-lg flex flex-col p-6 relative">
+          <div className="bg-white rounded-lg flex flex-col p-6 relative flex-shrink-0 lg:flex-shrink
+          w-[304px] md:w-full lg:w-auto">            
             <div className="flex items-start justify-between">
               <div className="flex flex-col text-left space-y-1">
                 <p className="font-bold text-xl text-[#1A202C]">
