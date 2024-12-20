@@ -14,9 +14,10 @@ export default function RecommendationCar() {
   const [isFav8, setIsFav8] = useState(true); // Card 8
 
   return (
-    <div className="flex flex-col lg:max-w-[100%]">
-      <div className="flex items-start relative">
-        <h2 className="text-xl font-bold text-[#90A3BF] mt-6 text-left mb-8">
+    <div className="flex lg:max-w-[100%]">
+    <div className="flex flex-col mt-6 relative">
+      <div className="flex">
+        <h2 className="text-xl font-bold text-[#90A3BF] text-left mb-8">
           Recomendation Car{" "}
         </h2>
       </div>
@@ -25,7 +26,7 @@ export default function RecommendationCar() {
       {/*Row 1*/}
       <div>
         <div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5 mb-8 gap-10
+          className="grid sm:grid-cols-2 lg:flex lg:gap-5 mb-8 gap-10
         relative"
         >
           <div
@@ -653,6 +654,7 @@ export default function RecommendationCar() {
           </button>
         </Link>
       </div>
+    </div>
     </div>
   );
 }
