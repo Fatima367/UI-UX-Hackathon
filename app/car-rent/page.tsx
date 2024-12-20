@@ -32,59 +32,48 @@ const CarRent = () => {
     <div className="bg-[#F6F7F9]">
       <Navbar />
       <Navbar2 />
-      <div className="">
         <div className="flex">
           {/*Left*/}
-          <div className="left-0 lg:flex lg:flex-col lg:visible hidden lg:h-[1600px] bg-white lg:w-80 relative">
-            <div className="flex flex-col space-y-4 mr-4 mt-10 ml-8">
+          <div className="left-0 lg:flex lg:flex-col lg:visible hidden lg:h-[1800px] bg-white relative lg:px-5">
+            <div className="flex flex-col space-y-4 mr-4 mt-10 ml-5">
               <p className="text-[#90A3BF] text-base">T Y P E</p>
               <p className="text-xl font-medium">
-                <Checkbox className="mr-2" checked /> Sport{" "}
-                <span className="ml-2 text-[#90A3BF] text-base">(10)</span>
+                <Checkbox className="mr-2" checked /> Sport<span className="ml-2 text-[#90A3BF] text-base">(10)</span>
               </p>
               <p className="text-xl font-medium">
-                <Checkbox className="mr-2" checked /> SUV{" "}
-                <span className="ml-2 text-[#90A3BF] text-base">(12)</span>
+                <Checkbox className="mr-2" checked /> SUV <span className="ml-2 text-[#90A3BF] text-base">(12)</span>
               </p>
               <p className="text-xl font-medium">
-                <Checkbox className="mr-2" /> MPV{" "}
-                <span className="ml-2 text-[#90A3BF] text-base">(16)</span>
+                <Checkbox className="mr-2" /> MPV<span className="ml-2 text-[#90A3BF] text-base">(16)</span>
               </p>
               <p className="text-xl font-medium">
-                <Checkbox className="mr-2" /> Sedan{" "}
-                <span className="ml-2 text-[#90A3BF] text-base">(20)</span>
+                <Checkbox className="mr-2" /> Sedan<span className="ml-2 text-[#90A3BF] text-base">(20)</span>
               </p>
               <p className="text-xl font-medium">
-                <Checkbox className="mr-2" /> Cope{" "}
-                <span className="ml-2 text-[#90A3BF] text-base">(14)</span>
+                <Checkbox className="mr-2" /> Cope<span className="ml-2 text-[#90A3BF] text-base">(14)</span>
               </p>
               <p className="text-xl font-medium">
-                <Checkbox className="mr-2" /> Hatchback{" "}
-                <span className="ml-2 text-[#90A3BF] text-base">(14)</span>
+                <Checkbox className="mr-2" /> Hatchback<span className="ml-2 text-[#90A3BF] text-base">(14)</span>
               </p>
             </div>
 
-            <div className="flex flex-col space-y-4 mr-4 mt-14 ml-8">
+            <div className="flex flex-col space-y-4 mr-4 mt-14 ml-5">
               <p className="text-[#90A3BF] text-base">C A P A C I T Y</p>
               <p className="text-xl font-medium">
-                <Checkbox className="mr-2" checked /> 2 Person{" "}
-                <span className="ml-2 text-[#90A3BF] text-base">(10)</span>
+                <Checkbox className="mr-2" checked /> 2 Person<span className="ml-2 text-[#90A3BF] text-base">(10)</span>
               </p>
               <p className="text-xl font-medium">
-                <Checkbox className="mr-2" /> 4 Person{" "}
-                <span className="ml-2 text-[#90A3BF] text-base">(14)</span>
+                <Checkbox className="mr-2" /> 4 Person<span className="ml-2 text-[#90A3BF] text-base">(14)</span>
               </p>
               <p className="text-xl font-medium">
-                <Checkbox className="mr-2" /> 6 Person{" "}
-                <span className="ml-2 text-[#90A3BF] text-base">(12)</span>
+                <Checkbox className="mr-2" /> 6 Person<span className="ml-2 text-[#90A3BF] text-base">(12)</span>
               </p>
               <p className="text-xl font-medium">
-                <Checkbox className="mr-2" checked /> 8 Person{" "}
-                <span className="ml-2 text-[#90A3BF] text-base">(16)</span>
+                <Checkbox className="mr-2" checked /> 8 Person<span className="ml-2 text-[#90A3BF] text-base">(16)</span>
               </p>
             </div>
 
-            <div className="flex flex-col space-y-4 mr-4 mt-14 ml-8">
+            <div className="flex flex-col space-y-4 mr-4 mt-14 ml-5">
               <p className="text-[#90A3BF] text-base">P R I C E</p>
 
               {/* Progress bar */}
@@ -116,7 +105,7 @@ const CarRent = () => {
           <div className="flex flex-col items-start justify-between mx-auto">
             <div
               className="flex flex-col lg:flex-row lg:items-center lg:justify-center gap-4 mt-2 p-4 
-          mb-9 items-start justify-center mx-auto lg:ml-5"
+          mb-9 items-start justify-center mx-auto"
             >
               {/* Pick-Up */}
               <div
@@ -259,7 +248,7 @@ const CarRent = () => {
             </div>
 
             {/*Row 1*/}
-            <div className="hidden lg:flex lg:gap-10 gap-10 ml-10 lg:ml-10">
+            <div className="hidden lg:flex lg:gap-10 gap-10 ml-10 lg:ml-0">
               <div
                 className="bg-white rounded-lg flex flex-col
                 w-[304px] h-[388px] py-6 px-6"
@@ -535,8 +524,8 @@ const CarRent = () => {
             </div>
 
             {/*Row 2*/}
-            <div className="container mx-auto px-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8 gap-10 lg:ml-5 mt-5">
+            <div className="container mx-auto">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8 gap-10 mt-5">
                 <div
                   className="flex flex-col sm:p-6 bg-white rounded-xl min-w-[280px] 
         lg:w-[304px] max-w-[304px] mx-auto relative shadow-sm p-6"
@@ -780,8 +769,8 @@ const CarRent = () => {
             </div>
 
             {/*Row 3*/}
-            <div className="container mx-auto px-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-7 gap-10 lg:ml-5 mt-5">
+            <div className="container mx-auto">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-7 gap-10 mt-5">
                 <div
                   className="flex flex-col p-6 sm:p-6 bg-white rounded-xl min-w-[280px] 
         lg:w-[304px] max-w-[304px] mx-auto relative shadow-sm"
@@ -1028,7 +1017,7 @@ const CarRent = () => {
               </div>
             </div>
 
-            <div className="flex items-center justify-center mt-16 mb-[64px] lg:ml-[480px] mx-auto">
+            <div className="flex items-center justify-center mt-16 mb-16 mx-auto">
               <Link href="/car-rent">
                 <button
                   className="rounded space-x-2 px-5 bg-[#3563E9] text-base font-semibold text-white
@@ -1040,7 +1029,6 @@ const CarRent = () => {
             </div>
           </div>
         </div>
-      </div>
     </div>
   );
 };
