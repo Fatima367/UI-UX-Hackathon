@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Navbar () {
+export default function Navbar() {
   return (
     <nav
       className="box-border bg-white border border-[#C3D4E9] mt-0 lg:mt-16
@@ -82,7 +82,7 @@ export default function Navbar () {
         <Link href="/detail-car-rent">
           <div
             className="w-9 h-9 flex-none rounded-full ring-1 ring-[#C3D4E9] ring-opacity-40 
-          flex items-center justify-center"
+          flex items-center justify-center hover:bg-[#e7eef7]"
           >
             <button>
               <Image
@@ -98,7 +98,7 @@ export default function Navbar () {
         <Link href="/">
           <div
             className="w-9 h-9 flex-none rounded-full ring-1 ring-[#C3D4E9] ring-opacity-40 
-          flex items-center justify-center relative"
+          flex items-center justify-center relative hover:bg-[#e7eef7]"
           >
             <button>
               <Image
@@ -118,7 +118,7 @@ export default function Navbar () {
         <Link href="/">
           <div
             className="w-9 h-9 flex-none rounded-full ring-1 ring-[#C3D4E9] ring-opacity-40 
-          flex items-center justify-center"
+          flex items-center justify-center hover:bg-[#e7eef7]"
           >
             <button>
               <Image
@@ -149,4 +149,4 @@ export default function Navbar () {
       </div>
     </nav>
   );
-};
+}

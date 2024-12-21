@@ -9,7 +9,7 @@ export default function PopularCarSection() {
   const [isFav3, setIsFav3] = useState(false); // Card 3
   const [isFav4, setIsFav4] = useState(true); // Card 4
   return (
-    <div className="max-w-[1440px] px-4 py-8 mx-auto flex justify-between">
+    <div className="max-w-[1440px] lg:px-4 py-8 mx-auto flex justify-between">
       <div className="flex flex-col space-y-5 relative">
         <div className="flex items-start justify-between">
           <p className="text-xl font-bold text-[#90A3BF]">Popular Car</p>
@@ -22,10 +22,12 @@ export default function PopularCarSection() {
         {/*Car Cards*/}
         <div
           className="relative flex sm:grid-cols-2 lg:grid-cols-4 md:grid md:grid-cols-2 gap-6
-           overflow-x-auto lg:overflow-visible mb-8 scrollbar-hide"
+           overflow-x-auto lg:overflow-visible mb-8 lg:w-auto w-80"
         >
-          <div className="bg-white rounded-lg flex flex-col py-6 px-5 relative flex-shrink-0 lg:flex-shrink
-          w-[304px] md:w-full lg:w-auto">
+          <div
+            className="bg-white rounded-lg flex flex-col py-6 px-5 relative flex-shrink-0 lg:flex-shrink
+          w-[304px] md:w-full lg:w-auto"
+          >
             <div className="flex items-start justify-between">
               <div className="flex flex-col text-left space-y-1">
                 <p className="font-bold text-xl text-[#1A202C]">Koenigsegg</p>
@@ -79,9 +81,7 @@ export default function PopularCarSection() {
               </div>
             </div>
 
-            <div
-              className="flex items-start justify-between mt-6 gap-2"
-            >
+            <div className="flex items-start justify-between mt-6 gap-2">
               <div className="flex flex-col font-bold text-[#1A202C]">
                 <div className="text-xl font-bold">
                   $99.00/ <span className="text-sm text-[#90A3BF]">day</span>
@@ -99,8 +99,10 @@ export default function PopularCarSection() {
             </div>
           </div>
 
-          <div className="bg-white rounded-lg flex flex-col py-6 px-5 relative flex-shrink-0 lg:flex-shrink
-          w-[304px] md:w-full lg:w-auto">            
+          <div
+            className="bg-white rounded-lg flex flex-col py-6 px-5 relative flex-shrink-0 lg:flex-shrink
+          w-[304px] md:w-full lg:w-auto"
+          >
             <div className="flex items-start justify-between">
               <div className="flex flex-col text-left space-y-1">
                 <p className="font-bold text-xl text-[#1A202C]">Nissan GT -R</p>
@@ -155,9 +157,7 @@ export default function PopularCarSection() {
               </div>
             </div>
 
-            <div
-              className="flex items-start justify-between mt-6 gap-2"
-            >
+            <div className="flex items-start justify-between mt-6 gap-2">
               <div className="flex flex-col font-bold text-[#1A202C]">
                 <div className="text-xl font-bold">
                   $80.00/ <span className="text-sm text-[#90A3BF]">day</span>
@@ -178,8 +178,10 @@ export default function PopularCarSection() {
             </div>
           </div>
 
-          <div className="bg-white rounded-lg flex flex-col py-6 px-5 relative flex-shrink-0 lg:flex-shrink
-          w-[304px] md:w-full lg:w-auto">            
+          <div
+            className="bg-white rounded-lg flex flex-col py-6 px-5 relative flex-shrink-0 lg:flex-shrink
+          w-[304px] md:w-full lg:w-auto"
+          >
             <div className="flex items-start justify-between">
               <div className="flex flex-col text-left space-y-1">
                 <p className="font-bold text-xl text-[#1A202C]">Rolls-Royce</p>
@@ -234,9 +236,7 @@ export default function PopularCarSection() {
               </div>
             </div>
 
-            <div
-              className="flex items-start justify-between mt-6 gap-2"
-            >
+            <div className="flex items-start justify-between mt-6 gap-2">
               <div className="flex flex-col font-bold text-[#1A202C]">
                 <div className="text-xl font-bold">
                   $97.00/ <span className="text-sm text-[#90A3BF]">day</span>
@@ -254,8 +254,10 @@ export default function PopularCarSection() {
             </div>
           </div>
 
-          <div className="bg-white rounded-lg flex flex-col py-6 px-5 relative flex-shrink-0 lg:flex-shrink
-          w-[304px] md:w-full lg:w-auto">            
+          <div
+            className="bg-white rounded-lg flex flex-col py-6 px-5 relative flex-shrink-0 lg:flex-shrink
+          w-[304px] md:w-full lg:w-auto"
+          >
             <div className="flex items-start justify-between">
               <div className="flex flex-col text-left space-y-1">
                 <p className="font-bold text-xl text-[#1A202C]">
@@ -312,9 +314,7 @@ export default function PopularCarSection() {
               </div>
             </div>
 
-            <div
-              className="flex items-start justify-between mt-6 gap-2"
-            >
+            <div className="flex items-start justify-between mt-6 gap-2">
               <div className="flex flex-col font-bold text-[#1A202C]">
                 <div className="text-xl font-bold">
                   $80.00/ <span className="text-sm text-[#90A3BF]">day</span>
