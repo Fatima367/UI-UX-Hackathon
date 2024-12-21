@@ -11,7 +11,7 @@ export default function Home() {
       <Navbar />
       <NavbarMobile />
 
-      <div className="flex flex-col items-center justify-center px-5 lg:px-5 mx-auto">
+      <div className="flex flex-col items-center justify-center px-5 lg:px-4 mx-auto">
         {/*Hero Section*/}
 
         <div
@@ -111,13 +111,13 @@ export default function Home() {
 
         {/*--------------*/}
         <div
-          className="flex flex-col lg:flex-row lg:items-center lg:justify-center gap-4 lg:mt-16  
-        lg:space-x-6 mb-9 items-center justify-center mt-6 mx-auto relative lg:max-w-[100%]"
+          className="flex flex-col lg:flex-row lg:items-center lg:gap-x-4 lg:mt-16 lg:-space-y-0
+        lg:space-x-6 mb-9 items-center justify-center mt-6 mx-auto relative lg:max-w-[100%] -space-y-2"
         >
           {/* Pick-Up */}
           <div
             className="lg:flex-1 items-start justify-between bg-white shadow-md 
-          p-8 rounded-lg flex flex-col relative lg:h-40 lg:w-[36rem]"
+           lg:p-8 p-6 rounded-lg flex flex-col relative lg:h-40 lg:w-[36rem] w-[20rem]"
           >
             <div className="flex-1 items-start justify-between">
               <div className="flex space-x-3 items-center justify-start lg:absolute lg:top-6 lg:left-8">
@@ -128,7 +128,7 @@ export default function Home() {
               </div>
 
               <div
-                className="lg:space-x-4 lg:flex mt-4 mx-auto grid lg:space-y-0 space-y-3
+                className="lg:space-x-4 space-x-2 flex mt-4 mx-auto
               lg:absolute lg:top-14 lg:left-8"
               >
                 <div className="space-y-2 flex flex-col">
@@ -144,7 +144,7 @@ export default function Home() {
                 </div>
                 <div className="mx-5 w-[1px] bg-[#C3D4E9] opacity-40"> </div>
                 <div className="space-y-2 flex-col flex">
-                  <label className="text-base font-bold text-[#1A202C]">
+                  <label className="text-base font-bold text-[#1A202C] lg:ml-0 ml-1">
                     Date
                   </label>
                   <select
@@ -156,7 +156,7 @@ export default function Home() {
                 </div>
                 <div className="mx-5 w-[1px] bg-[#C3D4E9] opacity-40"> </div>
                 <div className="space-y-2 flex-col flex">
-                  <label className="text-base font-bold text-[#1A202C]">
+                  <label className="text-base font-bold text-[#1A202C] lg:ml-0 ml-1">
                     Time
                   </label>
                   <select
@@ -171,10 +171,10 @@ export default function Home() {
           </div>
 
           {/* Swap Button */}
-          <div className=" flex items-center justify-center ">
+          <div className=" flex items-center justify-center">
             <button
               className="bg-[#3563E9] p-4 shadow-lg hover:bg-blue-400
-            items-center justify-center rounded-lg h-14 w-14 relative"
+            items-center justify-center rounded-lg h-14 w-14 relative z-10"
             >
               <Image
                 src="/images/Swap.png"
@@ -189,7 +189,7 @@ export default function Home() {
           {/* Drop-Off */}
           <div
             className="lg:flex-1 items-start justify-between bg-white shadow-md
-           p-8 rounded-lg flex flex-col relative lg:h-40 lg:w-[36rem]"
+           lg:p-8 p-6 rounded-lg flex flex-col relative lg:h-40 lg:w-[36rem] w-[20rem]"
           >
             <div className="flex-1 items-start justify-between">
               <div className="flex space-x-3 items-center justify-start lg:absolute lg:top-6 lg:left-8">
@@ -200,7 +200,7 @@ export default function Home() {
               </div>
 
               <div
-                className="lg:space-x-4 lg:flex mt-4 mx-auto grid lg:space-y-0 space-y-3
+                className="lg:space-x-4 space-x-2 flex mt-4 mx-auto
               lg:absolute lg:top-14 lg:left-8"
               >
                 <div className="space-y-2 flex flex-col">
@@ -216,7 +216,7 @@ export default function Home() {
                 </div>
                 <div className="mx-6 w-[1px] bg-[#C3D4E9] opacity-40"> </div>
                 <div className="space-y-2 flex-col flex">
-                  <label className="text-base font-bold text-[#1A202C]">
+                  <label className="text-base font-bold text-[#1A202C] lg:ml-0 ml-1">
                     Date
                   </label>
                   <select
@@ -228,7 +228,7 @@ export default function Home() {
                 </div>
                 <div className="mx-6 w-[1px] bg-[#C3D4E9] opacity-40"> </div>
                 <div className="space-y-2 flex-col flex">
-                  <label className="text-base font-bold text-[#1A202C]">
+                  <label className="text-base font-bold text-[#1A202C] lg:ml-0 ml-1">
                     Time
                   </label>
                   <select
