@@ -40,9 +40,7 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col space-y-6">
-            <h2 className="text-xl font-semibold text-[#1A202C]">
-              Community
-            </h2>
+            <h2 className="text-xl font-semibold text-[#1A202C]">Community</h2>
             <div className="space-y-4">
               <p className="text-base font-medium text-[#131313] opacity-60 cursor-pointer">
                 Events
