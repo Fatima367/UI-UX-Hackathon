@@ -123,12 +123,12 @@ const Payment = () => {
         {/*Left Form*/}
         <div
           className="flex flex-col items-start mx-auto
-           lg:min-w-[45rem] lg:max-w-[50rem]"
+           lg:min-w-[45rem]"
         >
           {/*Step 1*/}
           <div
             className="bg-white p-6 mt-8 mx-auto rounded-lg
-            w-80 md:w-full lg:min-w-[45rem]"
+            w-80 md:min-w-[53rem] lg:min-w-[45rem]"
           >
             <div className="flex items-start justify-between">
               <div className="flex flex-col text-left">
