@@ -11,13 +11,14 @@ const Payment = () => {
       <Navbar />
       <NavbarMobile2 />
       <div
-        className="lg:flex lg:space-x-5 lg:items-start lg:justify-between lg:mr-10 grid
-      lg:mx-0 mx-auto"
+        className="lg:flex-row lg:space-x-6 lg:items-start lg:justify-center lg:px-2 flex flex-col justify-center
+        mx-auto md:px-5"
       >
         {/*For Responsive Design*/}
         <div
           className="bg-white p-6 mt-8 rounded-lg
-        lg:hidden block lg:w-auto mx-auto w-80"
+        lg:hidden block flex-shrink-0 lg:flex-shrink
+             w-80 md:w-full lg:w-auto mx-auto"
         >
           <div className="flex flex-col text-left space-y-1">
             <p className="text-xl font-bold text-[#1A202C]">Rental Summary</p>
@@ -88,8 +89,8 @@ const Payment = () => {
           </div>
 
           <div
-            className="rounded-lg w-[280px] lg:w-[444px] h-14 bg-[#F6F7F9] my-8
-     flex items-stretch justify-between relative lg:space-x-[330px] space-x-[180px]"
+            className="rounded-lg w-[280px] lg:w-[444px] h-14 bg-[#F6F7F9] my-8 md:w-full
+     flex items-center justify-between relative"
           >
             <input
               type="text"
@@ -99,7 +100,7 @@ const Payment = () => {
               placeholder="Apply promo code"
             />
 
-            <button className="text-base font-semibold text-[#1A202C]">
+            <button className="text-base font-semibold text-[#1A202C] absolute right-6">
               Apply Now
             </button>
           </div>
@@ -120,34 +121,42 @@ const Payment = () => {
         </div>
 
         {/*Left Form*/}
-        <div className="flex flex-col items-start justify-between">
+        <div
+          className="flex flex-col items-start mx-auto
+           lg:min-w-[45rem] lg:max-w-[50rem]"
+        >
           {/*Step 1*/}
-          <div className="bg-white p-6 mt-8 mx-auto rounded-lg lg:w-auto w-80">
-            <p className="text-xl font-bold text-[#1A202C] text-left">
-              Billing Info
-            </p>
-            <div className="mt-1 flex items-stretch justify-between">
-              <p className="font-medium text-sm text-[#90A3BF] text-left">
-                Please enter your billing info
-              </p>
-              <p className="font-medium text-sm text-[#90A3BF] text-right">
+          <div
+            className="bg-white p-6 mt-8 mx-auto rounded-lg
+            w-80 md:w-full lg:min-w-[45rem]"
+          >
+            <div className="flex items-start justify-between">
+              <div className="flex flex-col text-left">
+                <p className="text-xl font-bold text-[#1A202C] text-left lg:mt-0">
+                  Billing Info
+                </p>
+                <p className="mt-2 font-medium text-sm text-[#90A3BF] text-left">
+                  Please enter your billing info
+                </p>
+              </div>
+              <p className="font-medium text-sm text-[#90A3BF] text-right lg:mt-8">
                 Step 1 of 4
               </p>
             </div>
 
-            <div className="lg:flex lg:space-x-8 mt-8 grid space-y-4 lg:space-y-0">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
               <div className="flex flex-col text-left space-y-4">
                 <p className="text-base font-semibold text-[#1A202C]">Name</p>
 
                 <div
-                  className="rounded-lg w-[280px] lg:w-[386px] h-14 bg-[#F6F7F9] my-8
-     flex items-stretch justify-between relative space-x-[330px]"
+                  className="rounded-lg w-full lg:min-w-[20rem] h-14 bg-[#F6F7F9] my-8
+                             flex items-stretch justify-between relative"
                 >
                   <input
                     type="text"
-                    className="absolute bg-transparent w-80 h-14
-       placeholder:text-sm placeholder:text-[#90A3BF] placeholder:font-medium 
-       ml-7 border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
+                    className="absolute bg-transparent w-56 md:w-full lg:w-80 h-14
+                    placeholder:text-sm placeholder:text-[#90A3BF] placeholder:font-medium 
+                    ml-7 border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
                     placeholder="Your name"
                   />
                 </div>
@@ -159,35 +168,35 @@ const Payment = () => {
                 </p>
 
                 <div
-                  className="rounded-lg w-[280px] lg:w-[386px] h-14 bg-[#F6F7F9] my-8
-     flex items-stretch justify-between relative space-x-[330px]"
+                  className="rounded-lg w-full lg:min-w-[20rem] h-14 bg-[#F6F7F9] my-8
+                             flex items-stretch justify-between relative"
                 >
                   <input
                     type="text"
-                    className="absolute bg-transparent w-80 h-14
-       placeholder:text-sm placeholder:text-[#90A3BF] placeholder:font-medium 
-       ml-7 border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
+                    className="absolute bg-transparent lg:w-80 w-56 md:w-full h-14
+                    placeholder:text-sm placeholder:text-[#90A3BF] placeholder:font-medium 
+                    ml-7 border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
                     placeholder="Phone number"
                   />
                 </div>
               </div>
             </div>
 
-            <div className="lg:flex lg:space-x-8 mt-8 grid space-y-4 lg:space-y-0">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
               <div className="flex flex-col text-left space-y-4">
                 <p className="text-base font-semibold text-[#1A202C]">
                   Address
                 </p>
 
                 <div
-                  className="rounded-lg w-[280px] lg:w-[386px] h-14 bg-[#F6F7F9] my-8
-     flex items-stretch justify-between relative space-x-[330px]"
+                  className="rounded-lg w-full lg:min-w-[20rem] h-14 bg-[#F6F7F9] my-8
+                             flex items-stretch justify-between relative"
                 >
                   <input
                     type="text"
-                    className="absolute bg-transparent w-80 h-14
-       placeholder:text-sm placeholder:text-[#90A3BF] placeholder:font-medium 
-       ml-7 border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
+                    className="absolute bg-transparent lg:w-80 w-56 md:w-full h-14
+                    placeholder:text-sm placeholder:text-[#90A3BF] placeholder:font-medium 
+                    ml-7 border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
                     placeholder="Address"
                   />
                 </div>
@@ -199,14 +208,14 @@ const Payment = () => {
                 </p>
 
                 <div
-                  className="rounded-lg w-[280px] lg:w-[386px] h-14 bg-[#F6F7F9] my-8
-     flex items-stretch justify-between relative space-x-[330px]"
+                  className="rounded-lg w-full lg:min-w-[20rem] h-14 bg-[#F6F7F9] my-8
+                             flex items-stretch justify-between relative"
                 >
                   <input
                     type="text"
-                    className="absolute bg-transparent w-80 h-14
-       placeholder:text-sm placeholder:text-[#90A3BF] placeholder:font-medium 
-       ml-7 border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
+                    className="absolute bg-transparent lg:w-80 w-56 md:w-full h-14
+                     placeholder:text-sm placeholder:text-[#90A3BF] placeholder:font-medium 
+                     ml-7 border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
                     placeholder="Town or city"
                   />
                 </div>
@@ -215,15 +224,20 @@ const Payment = () => {
           </div>
 
           {/*Step 2*/}
-          <div className="bg-white p-6 mt-8 mx-auto rounded-lg lg:w-auto w-80">
-            <p className="text-xl font-bold text-[#1A202C] text-left">
-              Rental Info
-            </p>
-            <div className="mt-1 flex items-stretch justify-between">
-              <p className="font-medium text-sm text-[#90A3BF] text-left">
-                Please select your rental date
-              </p>
-              <p className="font-medium text-sm text-[#90A3BF] text-right">
+          <div
+            className="bg-white p-6 mt-8 mx-auto rounded-lg
+             w-80 md:w-full lg:min-w-[45rem]"
+          >
+            <div className=" flex items-start justify-between">
+              <div className="flex flex-col">
+                <p className="text-xl font-bold text-[#1A202C] text-left">
+                  Rental Info
+                </p>
+                <p className="mt-2 font-medium text-sm text-[#90A3BF] text-left">
+                  Please select your rental date
+                </p>
+              </div>
+              <p className="font-medium text-sm text-[#90A3BF] text-right lg:mt-8">
                 Step 2 of 4
               </p>
             </div>
@@ -233,20 +247,20 @@ const Payment = () => {
               <h3 className="text-base font-medium text-[#1A202C]">Pick-Up</h3>
             </div>
 
-            <div className="lg:flex lg:space-x-8 mt-8 grid space-y-4 lg:space-y-0">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
               <div className="flex flex-col text-left space-y-4">
                 <p className="text-base font-semibold text-[#1A202C]">
                   Locations
                 </p>
 
                 <div
-                  className="rounded-lg w-[280px] lg:w-[386px] h-14 bg-[#F6F7F9] my-8
-flex items-center justify-center relative space-x-[330px]"
+                  className="rounded-lg w-full lg:min-w-[20rem] h-14 bg-[#F6F7F9] my-8
+                            flex items-center justify-start relative pl-5"
                 >
                   <select
-                    className="absolute bg-transparent w-[280px] lg:w-[340px] h-14
-text-sm text-[#90A3BF] selection:font-medium 
- border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
+                    className="absolute bg-transparent w-[15rem] md:w-auto lg:min-w-[18rem] h-14
+                              text-sm text-[#90A3BF] selection:font-medium border-0 border-transparent 
+                               focus-visible:outline-none focus-visible:ring-0"
                   >
                     <option>Select your city</option>
                   </select>
@@ -257,13 +271,13 @@ text-sm text-[#90A3BF] selection:font-medium
                 <p className="text-base font-semibold text-[#1A202C]">Date</p>
 
                 <div
-                  className="rounded-lg w-[280px] lg:w-[386px] h-14 bg-[#F6F7F9] my-8
-flex items-center justify-center relative space-x-[330px]"
+                  className="rounded-lg w-full lg:min-w-[20rem] h-14 bg-[#F6F7F9] my-8
+                             flex items-center justify-start relative pl-5"
                 >
                   <select
-                    className="absolute bg-transparent w-[280px] lg:w-[340px] h-14
-text-sm text-[#90A3BF] selection:font-medium 
- border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
+                    className="absolute bg-transparent w-[15rem] md:w-auto lg:min-w-[18rem] h-14
+                               text-sm text-[#90A3BF] selection:font-medium border-0 border-transparent
+                               focus-visible:outline-none focus-visible:ring-0"
                   >
                     <option>Select your date</option>
                   </select>
@@ -271,18 +285,18 @@ text-sm text-[#90A3BF] selection:font-medium
               </div>
             </div>
 
-            <div className="lg:flex lg:space-x-8 mt-8 grid space-y-4 lg:space-y-0">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
               <div className="flex flex-col text-left space-y-4">
                 <p className="text-base font-semibold text-[#1A202C]">Time</p>
 
                 <div
-                  className="rounded-lg w-[280px] lg:w-[386px] h-14 bg-[#F6F7F9] my-8
-flex items-center justify-center relative space-x-[330px]"
+                  className="rounded-lg w-full lg:min-w-[20rem] h-14 bg-[#F6F7F9] my-8
+                            flex items-center justify-start relative pl-5"
                 >
                   <select
-                    className="absolute bg-transparent w-[280px] lg:w-[340px] h-14
-text-sm text-[#90A3BF] selection:font-medium 
- border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
+                    className="absolute bg-transparent w-[15rem] md:w-auto lg:min-w-[18rem] h-14
+                               text-sm text-[#90A3BF] selection:font-medium border-0 border-transparent 
+                               focus-visible:outline-none focus-visible:ring-0"
                   >
                     <option>Select your time</option>
                   </select>
@@ -295,20 +309,20 @@ text-sm text-[#90A3BF] selection:font-medium
               <h3 className="text-base font-medium text-[#1A202C]">Drop-Off</h3>
             </div>
 
-            <div className="lg:flex lg:space-x-8 mt-8 grid space-y-4 lg:space-y-0">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
               <div className="flex flex-col text-left space-y-4">
                 <p className="text-base font-semibold text-[#1A202C]">
                   Locations
                 </p>
 
                 <div
-                  className="rounded-lg w-[280px] lg:w-[386px] h-14 bg-[#F6F7F9] my-8
-flex items-center justify-center relative space-x-[330px]"
+                  className="rounded-lg w-full lg:min-w-[20rem] h-14 bg-[#F6F7F9] my-8
+                             flex items-center justify-start relative pl-5"
                 >
                   <select
-                    className="absolute bg-transparent w-[280px] lg:w-[340px] h-14
-text-sm text-[#90A3BF] selection:font-medium 
- border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
+                    className="absolute bg-transparent w-[15rem] md:w-auto lg:min-w-[18rem] h-14
+                               text-sm text-[#90A3BF] selection:font-medium border-0 border-transparent 
+                               focus-visible:outline-none focus-visible:ring-0"
                   >
                     <option>Select your city</option>
                   </select>
@@ -319,13 +333,13 @@ text-sm text-[#90A3BF] selection:font-medium
                 <p className="text-base font-semibold text-[#1A202C]">Date</p>
 
                 <div
-                  className="rounded-lg w-[280px] lg:w-[386px] h-14 bg-[#F6F7F9] my-8
-flex items-center justify-center relative space-x-[330px]"
+                  className="rounded-lg w-full lg:min-w-[20rem] h-14 bg-[#F6F7F9] my-8
+                            flex items-center justify-start relative pl-5"
                 >
                   <select
-                    className="absolute bg-transparent w-[280px] lg:w-[340px] h-14
-text-sm text-[#90A3BF] selection:font-medium 
- border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
+                    className="absolute bg-transparent w-[15rem] md:w-auto lg:min-w-[18rem] h-14
+                               text-sm text-[#90A3BF] selection:font-medium border-0 border-transparent
+                               focus-visible:outline-none focus-visible:ring-0"
                   >
                     <option>Select your date</option>
                   </select>
@@ -333,16 +347,16 @@ text-sm text-[#90A3BF] selection:font-medium
               </div>
             </div>
 
-            <div className="lg:flex lg:space-x-8 mt-8 grid space-y-4 lg:space-y-0">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
               <div className="flex flex-col text-left space-y-4">
                 <p className="text-base font-semibold text-[#1A202C]">Time</p>
 
                 <div
-                  className="rounded-lg w-[280px] lg:w-[386px] h-14 bg-[#F6F7F9] my-8
-                  flex items-center justify-center relative space-x-[330px]"
+                  className="rounded-lg w-full lg:min-w-[20rem] h-14 bg-[#F6F7F9] my-8
+                  flex items-center justify-start relative pl-5"
                 >
                   <select
-                    className="absolute bg-transparent w-[280px] lg:w-[340px] h-14
+                    className="absolute bg-transparent w-[15rem] md:w-auto lg:min-w-[18rem] h-14
                        text-sm text-[#90A3BF] selection:font-medium 
                   border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
                   >
@@ -354,20 +368,25 @@ text-sm text-[#90A3BF] selection:font-medium
           </div>
 
           {/*Step 3*/}
-          <div className="bg-white p-6 mt-8 mx-auto rounded-lg lg:w-auto w-80">
-            <p className="text-xl font-bold text-[#1A202C] text-left">
-              Payment Method
-            </p>
-            <div className="mt-1 flex items-stretch justify-between">
-              <p className="font-medium text-sm text-[#90A3BF] text-left">
-                Please enter your payment method
-              </p>
-              <p className="font-medium text-sm text-[#90A3BF] text-right">
+          <div
+            className="bg-white p-6 mt-8 mx-auto rounded-lg 
+             w-80 md:w-full lg:min-w-[45rem]"
+          >
+            <div className="flex items-start justify-between">
+              <div className="flex flex-col">
+                <p className="text-xl font-bold text-[#1A202C] text-left">
+                  Payment Method
+                </p>
+                <p className="mt-2 font-medium text-sm text-[#90A3BF] text-left">
+                  Please enter your payment method
+                </p>
+              </div>
+              <p className="font-medium text-sm text-[#90A3BF] text-right lg:mt-8">
                 Step 3 of 4
               </p>
             </div>
 
-            <div className="bg-[#F6F7F9] p-6 rounded-lg mt-8 lg:w-[804px] w-[280px]">
+            <div className="bg-[#F6F7F9] p-6 rounded-lg mt-8 lg:w-full md:w-full w-[17rem]">
               <div className="flex items-center justify-between">
                 <div className="flex space-x-2 items-center text-left justify-start">
                   <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
@@ -391,19 +410,19 @@ text-sm text-[#90A3BF] selection:font-medium
                 </div>
               </div>
 
-              <div className="lg:flex lg:space-x-8 mt-8 grid space-y-4 lg:space-y-0">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
                 <div className="flex flex-col text-left space-y-4">
                   <p className="text-base font-semibold text-[#1A202C]">
                     Card Number
                   </p>
 
                   <div
-                    className="rounded-lg w-[240px] lg:w-[362px] h-14 bg-white my-8
-     flex items-stretch justify-between relative space-x-[330px]"
+                    className="rounded-lg w-full lg:min-w-[19rem] h-14 bg-white my-8
+     flex items-center justify-between relative"
                   >
                     <input
                       type="text"
-                      className="absolute bg-transparent w-[240px] lg:w-80 h-14
+                      className="absolute bg-transparent w-[15rem] md:w-full lg:w-72 h-14
        placeholder:text-sm placeholder:text-[#90A3BF] placeholder:font-medium 
        ml-7 border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
                       placeholder="Card number"
@@ -417,12 +436,12 @@ text-sm text-[#90A3BF] selection:font-medium
                   </p>
 
                   <div
-                    className="rounded-lg w-[240px] lg:w-[362px] h-14 bg-white my-8
-     flex items-stretch justify-between relative space-x-[330px]"
+                    className="rounded-lg w-full lg:min-w-[19rem] h-14 bg-white my-8
+     flex items-center justify-between relative"
                   >
                     <input
                       type="text"
-                      className="absolute bg-transparent w-[240px] lg:w-80 h-14
+                      className="absolute bg-transparent w-[15rem] md:w-full lg:w-72 h-14
        placeholder:text-sm placeholder:text-[#90A3BF] placeholder:font-medium 
        ml-7 border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
                       placeholder="DD/MM/YY"
@@ -431,19 +450,19 @@ text-sm text-[#90A3BF] selection:font-medium
                 </div>
               </div>
 
-              <div className="lg:flex lg:space-x-8 mt-8 grid space-y-4 lg:space-y-0">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
                 <div className="flex flex-col text-left space-y-4">
                   <p className="text-base font-semibold text-[#1A202C]">
                     Card Holder
                   </p>
 
                   <div
-                    className="rounded-lg w-[240px] lg:w-[362px] h-14 bg-white my-8
-                   flex items-stretch justify-between relative space-x-[330px]"
+                    className="rounded-lg w-full lg:min-w-[19rem] h-14 bg-white my-8
+                   flex items-center justify-between relative"
                   >
                     <input
                       type="text"
-                      className="absolute bg-transparent w-[240px] lg:w-80 h-14
+                      className="absolute bg-transparent w-[15rem] md:w-full lg:w-72 h-14
                       placeholder:text-sm placeholder:text-[#90A3BF] placeholder:font-medium 
                       ml-7 border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
                       placeholder="Card holder"
@@ -455,12 +474,12 @@ text-sm text-[#90A3BF] selection:font-medium
                   <p className="text-base font-semibold text-[#1A202C]">CVC</p>
 
                   <div
-                    className="rounded-lg w-[240px] lg:w-[362px] h-14 bg-white my-8
-     flex items-stretch justify-between relative space-x-[330px]"
+                    className="rounded-lg w-full lg:min-w-[19rem] h-14 bg-white my-8
+     flex items-center justify-between relative"
                   >
                     <input
                       type="text"
-                      className="absolute bg-transparent w-[240px] lg:w-80 h-14
+                      className="absolute bg-transparent w-[15rem] md:w-full lg:w-72 h-14
        placeholder:text-sm placeholder:text-[#90A3BF] placeholder:font-medium 
        ml-7 border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
                       placeholder="CVC"
@@ -473,7 +492,7 @@ text-sm text-[#90A3BF] selection:font-medium
             <div className="flex flex-col space-y-6 mt-6">
               <div
                 className="flex items-center justify-between bg-[#F6F7F9] rounded-lg
-                            h-14 lg:w-[804px] w-[280px]"
+                            h-14 w-full"
               >
                 <div className="flex items-center justify-center lg:ml-10 ml-5">
                   <Checkbox className="h-6 w-6 rounded-full" />
@@ -492,7 +511,7 @@ text-sm text-[#90A3BF] selection:font-medium
 
               <div
                 className="flex items-center justify-between bg-[#F6F7F9] rounded-lg
-                            h-14 lg:w-[804px] w-[280px]"
+                            h-14 w-full"
               >
                 <div className="flex items-center justify-center lg:ml-10 ml-5">
                   <Checkbox className="h-6 w-6 rounded-full" />
@@ -512,16 +531,21 @@ text-sm text-[#90A3BF] selection:font-medium
           </div>
 
           {/*Step 4*/}
-          <div className="bg-white p-6 my-8 mx-auto rounded-lg lg:w-auto w-80">
-            <p className="text-xl font-bold text-[#1A202C] text-left">
-              Confirmation
-            </p>
-            <div className="mt-1 flex items-stretch justify-between">
-              <p className="font-medium lg:text-sm text-[11px] text-[#90A3BF] text-left">
-                We are getting to the end. Just few clicks and your rental is
-                ready!
-              </p>
-              <p className="font-medium text-sm text-[#90A3BF] text-right">
+          <div
+            className="bg-white p-6 my-8 mx-auto rounded-lg 
+             w-80 md:w-full lg:min-w-[45rem]"
+          >
+            <div className="flex items-start justify-between">
+              <div className="flex flex-col">
+                <p className="text-xl font-bold text-[#1A202C] text-left">
+                  Confirmation
+                </p>
+                <p className="mt-2 font-medium text-sm text-[#90A3BF] text-left">
+                  We are getting to the end. Just few clicks and your rental is
+                  ready!
+                </p>
+              </div>
+              <p className="font-medium text-sm text-[#90A3BF] text-right lg:mt-8">
                 Step 4 of 4
               </p>
             </div>
@@ -529,7 +553,7 @@ text-sm text-[#90A3BF] selection:font-medium
             <div className="flex flex-col space-y-6 mt-8">
               <div
                 className="flex items-center justify-start bg-[#F6F7F9] rounded-lg
-                lg:h-14 h-16 lg:w-[804px] w-[280px]"
+                lg:h-14 h-16 w-full"
               >
                 <Checkbox className="h-6 w-6 lg:ml-10 ml-6" />
                 <p
@@ -543,7 +567,7 @@ text-sm text-[#90A3BF] selection:font-medium
 
               <div
                 className="flex items-center justify-start bg-[#F6F7F9] rounded-lg
-                lg:h-14 h-16 lg:w-[804px] w-[280px]"
+                lg:h-14 h-16 w-full"
               >
                 <Checkbox className="h-6 w-6 lg:ml-10 ml-6" />
                 <p
@@ -557,8 +581,8 @@ text-sm text-[#90A3BF] selection:font-medium
 
             <Link href="/dashboard">
               <button
-                className="px-5 py-3 mt-8 text-base font-medium text-center space-x-2
-                     text-white bg-[#3563E9] rounded-lg h-14 w-[140px] hover:bg-blue-800"
+                className="mt-8 text-base font-medium text-center gap-2
+                     text-white bg-[#3563E9] rounded-lg h-14 w-36 hover:bg-blue-800"
               >
                 Rent Now
               </button>
@@ -583,7 +607,7 @@ text-sm text-[#90A3BF] selection:font-medium
         </div>
 
         {/*Right Card*/}
-        <div className="bg-white p-6 mt-8 rounded-lg lg:block hidden w-[480px]">
+        <div className="bg-white p-6 mt-8 rounded-lg lg:block hidden mx-auto">
           <div className="flex flex-col text-left space-y-1">
             <p className="text-xl font-bold text-[#1A202C]">Rental Summary</p>
             <p className="text-sm text-[#90A3BF] font-medium">
@@ -611,7 +635,7 @@ text-sm text-[#90A3BF] selection:font-medium
               />
             </div>
 
-            <div className="flex flex-col items-start space-y-2 mt-[50px] ml-4">
+            <div className="flex flex-col items-start space-y-2 mt-12 ml-4">
               <h2 className="text-xl font-bold text-[#1A202C]">
                 Nissan GT - R
               </h2>
@@ -633,7 +657,7 @@ text-sm text-[#90A3BF] selection:font-medium
             {" "}
           </div>
 
-          <div className="flex items-stretch justify-between space-x-[212px]">
+          <div className="flex items-center justify-between">
             <p className="text-base text-[#90A3BF] font-medium text-left">
               Subtotal
             </p>
@@ -642,7 +666,7 @@ text-sm text-[#90A3BF] selection:font-medium
             </p>
           </div>
 
-          <div className="flex items-stretch justify-between space-x-[212px] mt-6">
+          <div className="flex items-center justify-between mt-6">
             <p className="text-base text-[#90A3BF] font-medium text-left">
               Tax
             </p>
@@ -652,18 +676,18 @@ text-sm text-[#90A3BF] selection:font-medium
           </div>
 
           <div
-            className="rounded-lg w-[444px] h-14 bg-[#F6F7F9] my-8
-     flex items-stretch justify-between relative space-x-[330px]"
+            className="rounded-lg w-full h-14 bg-[#F6F7F9] my-8
+     flex items-center justify-between relative"
           >
             <input
               type="text"
-              className="absolute bg-transparent w-[300px] h-14
+              className="absolute bg-transparent w-full h-14
        placeholder:text-sm placeholder:text-[#90A3BF] placeholder:font-medium 
        ml-5 border-0 border-transparent focus-visible:outline-none focus-visible:ring-0"
               placeholder="Apply promo code"
             />
 
-            <button className="text-base font-semibold text-[#1A202C]">
+            <button className="text-base font-semibold text-[#1A202C] right-3 absolute">
               Apply Now
             </button>
           </div>
