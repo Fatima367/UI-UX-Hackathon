@@ -10,17 +10,17 @@ const Dashboard = () => {
     <div className="bg-[#F6F7F9]">
       <Navbar />
       <Navbar3 />
-      <div className="flex">
+      <div className="flex relative">
         {/*Left*/}
-        <div className="-ml-5 lg:flex lg:flex-col lg:visible hidden lg:h-[1600px] bg-white lg:w-[310px]">
-          <div className="flex flex-col space-y-[42px] mr-4 mt-10 ml-8">
-            <p className="text-[#90A3BF] text-base ml-9">M A I N M E N U</p>
+        <div className="left-0 lg:flex lg:flex-col lg:visible hidden lg:h-[1600px] bg-white lg:w-[18rem] px-5">
+          <div className="flex flex-col space-y-10 mt-10">
+            <p className="text-[#90A3BF] text-base ml-2">M A I N M E N U</p>
             <div className="space-y-8">
               <div
-                className="w-[254px] h-14 rounded-lg bg-[#3563E9] text-white
+                className="w-60 h-14 rounded-lg bg-[#3563E9] text-white
                relative flex items-center justify-start"
               >
-                <div className="text-xl font-medium z-10 absolute flex">
+                <div className="text-xl font-medium z-10 absolute flex items-center">
                   <Image
                     src="/images/home.png"
                     height={24}
@@ -33,7 +33,7 @@ const Dashboard = () => {
               </div>
 
               <div
-                className="text-xl font-medium flex z-10 text-[#90A3BF]
+                className="text-xl font-medium flex z-10 text-[#90A3BF] items-center
                hover:bg-blue-50 hover:rounded-md cursor-pointer"
               >
                 <Image
@@ -47,7 +47,7 @@ const Dashboard = () => {
               </div>
 
               <div
-                className="text-xl font-medium flex z-10 text-[#90A3BF]
+                className="text-xl font-medium flex z-10 text-[#90A3BF] items-center
                hover:bg-blue-50 hover:rounded-md cursor-pointer"
               >
                 <Image
@@ -61,7 +61,7 @@ const Dashboard = () => {
               </div>
 
               <div
-                className="text-xl font-medium flex z-10 text-[#90A3BF]
+                className="text-xl font-medium flex z-10 text-[#90A3BF] items-center
                hover:bg-blue-50 hover:rounded-md cursor-pointer"
               >
                 <Image
@@ -75,7 +75,7 @@ const Dashboard = () => {
               </div>
 
               <div
-                className="text-xl font-medium flex z-10 text-[#90A3BF]
+                className="text-xl font-medium flex z-10 text-[#90A3BF] items-center
                hover:bg-blue-50 hover:rounded-md cursor-pointer"
               >
                 <Image
@@ -89,7 +89,7 @@ const Dashboard = () => {
               </div>
 
               <div
-                className="text-xl font-medium flex z-10 text-[#90A3BF]
+                className="text-xl font-medium flex z-10 text-[#90A3BF] items-center
                hover:bg-blue-50 hover:rounded-md cursor-pointer"
               >
                 <Image
@@ -104,14 +104,14 @@ const Dashboard = () => {
             </div>
           </div>
 
-          <div className="flex flex-col space-y-7 mr-4 mt-14 ml-8">
-            <p className="text-[#90A3BF] text-base ml-8">
+          <div className="flex flex-col space-y-7 mt-14">
+            <p className="text-[#90A3BF] text-base ml-2">
               P R E F E R E N C E S
             </p>
 
             <div className="space-y-8">
               <div
-                className="text-xl font-medium flex z-10 text-[#90A3BF]
+                className="text-xl font-medium flex z-10 text-[#90A3BF] items-center
                hover:bg-blue-50 hover:rounded-md cursor-pointer"
               >
                 <Image
@@ -125,7 +125,7 @@ const Dashboard = () => {
               </div>
 
               <div
-                className="text-xl font-medium flex z-10 text-[#90A3BF]
+                className="text-xl font-medium flex z-10 text-[#90A3BF] items-center
                hover:bg-blue-50 hover:rounded-md cursor-pointer"
               >
                 <Image
@@ -139,7 +139,7 @@ const Dashboard = () => {
               </div>
 
               <div
-                className="text-xl font-medium flex z-10 text-[#90A3BF]
+                className="text-xl font-medium flex z-10 text-[#90A3BF] items-center
                hover:bg-blue-50 hover:rounded-md cursor-pointer"
               >
                 <Image
@@ -173,7 +173,7 @@ const Dashboard = () => {
             </div>
           </div>
 
-          <div className="flex mt-[145px] mb-20 ml-8">
+          <div className="flex mt-36 mb-20">
             <Link href="/">
               <div
                 className="text-xl font-medium flex z-10 text-[#90A3BF]

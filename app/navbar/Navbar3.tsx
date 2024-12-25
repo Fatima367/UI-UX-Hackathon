@@ -104,14 +104,14 @@ export default function Navbar3() {
       )}
       {showMenu && (
         <ul className="flex flex-col bg-white rounded-md shadow-md p-5 z-20">
-          <li className="flex flex-col space-y-[42px] mt-5">
-            <p className="text-[#90A3BF] text-base ml-9">M A I N M E N U</p>
+          <li className="flex flex-col space-y-10 mt-5">
+            <p className="text-[#90A3BF] text-base ml-2">M A I N M E N U</p>
             <div className="space-y-8">
               <div
-                className="w-[254px] h-14 rounded-lg bg-[#3563E9] text-white
+                className="w-60 h-14 rounded-lg bg-[#3563E9] text-white
                        relative flex items-center justify-start"
               >
-                <div className="text-xl font-medium z-10 absolute flex">
+                <div className="text-xl font-medium z-10 absolute flex items-center">
                   <Image
                     src="/images/home.png"
                     height={24}
@@ -124,7 +124,7 @@ export default function Navbar3() {
               </div>
 
               <div
-                className="text-xl font-medium flex z-10 text-[#90A3BF]
+                className="text-xl font-medium flex z-10 text-[#90A3BF] items-center
                        hover:bg-blue-50 hover:rounded-md cursor-pointer"
               >
                 <Image
@@ -138,7 +138,7 @@ export default function Navbar3() {
               </div>
 
               <div
-                className="text-xl font-medium flex z-10 text-[#90A3BF]
+                className="text-xl font-medium flex z-10 text-[#90A3BF] items-center
                        hover:bg-blue-50 hover:rounded-md cursor-pointer"
               >
                 <Image
@@ -152,7 +152,7 @@ export default function Navbar3() {
               </div>
 
               <div
-                className="text-xl font-medium flex z-10 text-[#90A3BF]
+                className="text-xl font-medium flex z-10 text-[#90A3BF] items-center
                        hover:bg-blue-50 hover:rounded-md cursor-pointer"
               >
                 <Image
@@ -166,7 +166,7 @@ export default function Navbar3() {
               </div>
 
               <div
-                className="text-xl font-medium flex z-10 text-[#90A3BF]
+                className="text-xl font-medium flex z-10 text-[#90A3BF] items-center
                        hover:bg-blue-50 hover:rounded-md cursor-pointer"
               >
                 <Image
@@ -180,7 +180,7 @@ export default function Navbar3() {
               </div>
 
               <div
-                className="text-xl font-medium flex z-10 text-[#90A3BF]
+                className="text-xl font-medium flex z-10 text-[#90A3BF] items-center
                        hover:bg-blue-50 hover:rounded-md cursor-pointer"
               >
                 <Image
@@ -196,13 +196,13 @@ export default function Navbar3() {
           </li>
 
           <li className="flex flex-col space-y-7 mt-10">
-            <p className="text-[#90A3BF] text-base ml-8">
+            <p className="text-[#90A3BF] text-base ml-2">
               P R E F E R E N C E S
             </p>
 
             <div className="space-y-8">
               <div
-                className="text-xl font-medium flex z-10 text-[#90A3BF]
+                className="text-xl font-medium flex z-10 text-[#90A3BF] items-center
                        hover:bg-blue-50 hover:rounded-md cursor-pointer"
               >
                 <Image
@@ -216,7 +216,7 @@ export default function Navbar3() {
               </div>
 
               <div
-                className="text-xl font-medium flex z-10 text-[#90A3BF]
+                className="text-xl font-medium flex z-10 text-[#90A3BF] items-center
                        hover:bg-blue-50 hover:rounded-md cursor-pointer"
               >
                 <Image
@@ -230,7 +230,7 @@ export default function Navbar3() {
               </div>
 
               <div
-                className="text-xl font-medium flex z-10 text-[#90A3BF]
+                className="text-xl font-medium flex z-10 text-[#90A3BF] items-center
                        hover:bg-blue-50 hover:rounded-md cursor-pointer"
               >
                 <Image
@@ -267,7 +267,7 @@ export default function Navbar3() {
           <li className="flex mt-10 mb-6">
             <Link href="/">
               <div
-                className="text-xl font-medium flex z-10 text-[#90A3BF]
+                className="text-xl font-medium flex z-10 text-[#90A3BF] items-center
                        hover:bg-blue-50 hover:rounded-md cursor-pointer hover:w-60"
               >
                 <Image
