@@ -313,7 +313,7 @@ const CarRent = () => {
                     </div>
                   </div>
 
-                  <Link href="/car-rent">
+                  <Link href="/detail-car-rent">
                     <button
                       className="text-base font-medium text-center gap-2 h-11 w-28
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded"
@@ -397,7 +397,7 @@ const CarRent = () => {
                     </div>
                   </div>
 
-                  <Link href="/car-rent">
+                  <Link href="/detail-car-rent">
                     <button
                       className="text-base font-medium text-center gap-2 h-11 w-28
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded"
@@ -478,7 +478,7 @@ const CarRent = () => {
                     </div>
                   </div>
 
-                  <Link href="/car-rent">
+                  <Link href="/detail-car-rent">
                     <button
                       className="text-base font-medium text-center gap-2 h-11 w-28
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded"
@@ -561,7 +561,7 @@ const CarRent = () => {
                     </div>
                   </div>
 
-                  <Link href="/car-rent">
+                  <Link href="/detail-car-rent">
                     <button
                       className="text-base font-medium text-center gap-2 h-11 w-28
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded"
@@ -636,7 +636,7 @@ const CarRent = () => {
                     </div>
                   </div>
 
-                  <Link href="/car-rent">
+                  <Link href="/detail-car-rent">
                     <button
                       className="text-base font-medium text-center gap-2 h-11 w-28
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded"
@@ -716,7 +716,7 @@ const CarRent = () => {
                     </div>
                   </div>
 
-                  <Link href="/car-rent">
+                  <Link href="/detail-car-rent">
                     <button
                       className="text-base font-medium text-center gap-2 h-11 w-28
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded"
@@ -805,7 +805,7 @@ const CarRent = () => {
                     </div>
                   </div>
 
-                  <Link href="/car-rent">
+                  <Link href="/detail-car-rent">
                     <button
                       className="text-base font-medium text-center gap-2 h-11 w-28
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded"
@@ -887,7 +887,7 @@ const CarRent = () => {
                     </div>
                   </div>
 
-                  <Link href="/car-rent">
+                  <Link href="/detail-car-rent">
                     <button
                       className="text-base font-medium text-center gap-2 h-11 w-28
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded"
@@ -969,7 +969,7 @@ const CarRent = () => {
                     </div>
                   </div>
 
-                  <Link href="/car-rent">
+                  <Link href="/detail-car-rent">
                     <button
                       className="text-base font-medium text-center gap-2 h-11 w-28
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded"

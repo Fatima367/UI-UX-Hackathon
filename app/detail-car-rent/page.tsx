@@ -117,8 +117,10 @@ const DetailCarRent = () => {
                 lg:items-start lg:justify-between items-center justify-center"
           >
             {/*Left Side*/}
-            <div className="flex flex-col mt-6 relative items-center justify-center
-            flex-shrink-0 lg:flex-shrink w-80 md:w-full lg:w-auto">
+            <div
+              className="flex flex-col mt-6 relative items-center justify-center
+            flex-shrink-0 lg:flex-shrink w-80 md:w-full lg:w-auto"
+            >
               <div
                 className="rounded-lg object-cover lg:w-[31rem] lg:h-[22rem] w-[310px] 
            h-[420px] bg-blue-600 lg:mx-0 mx-auto relative"
@@ -206,92 +208,101 @@ const DetailCarRent = () => {
              w-80 md:w-full lg:w-auto p-6"
             >
               <div className="flex flex-col">
-              <div className="">
-                <div className="flex flex-col space-y-2">
-                  <h2 className="text-[32px] font-bold text-left">
-                    Nissan GT - R
-                  </h2>
-                  <div className="flex space-x-2 items-start justify-start">
+                <div className="">
+                  <div className="flex flex-col space-y-2">
+                    <h2 className="text-[32px] font-bold text-left">
+                      Nissan GT - R
+                    </h2>
+                    <div className="flex space-x-2 items-start justify-start">
+                      <Image
+                        src="/images/Four Star.png"
+                        height={20}
+                        width={108}
+                        alt="ratings"
+                      />
+                      <p className="text-[#596780] text-sm font-medium">
+                        440+ Reviewer
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="hidden lg:flex absolute lg:right-5 top-5">
                     <Image
-                      src="/images/Four Star.png"
-                      height={20}
-                      width={108}
-                      alt="ratings"
+                      src="/images/Like.png"
+                      height={24}
+                      width={24}
+                      alt="favourite"
+                      className="cursor-pointer"
                     />
-                    <p className="text-[#596780] text-sm font-medium">
-                      440+ Reviewer
-                    </p>
                   </div>
                 </div>
 
-                <div className="hidden lg:flex absolute lg:right-5 top-5">
-                  <Image
-                    src="/images/Like.png"
-                    height={24}
-                    width={24}
-                    alt="favourite"
-                    className="cursor-pointer"
-                  />
+                <div className="mt-8 flex items-start justify-between">
+                  <p className="text-[#596780] text-lg text-left">
+                    NISMO has become the embodiment of Nissan's outstanding
+                    performance, inspired by the most unforgiving proving
+                    ground, the "race track".
+                  </p>
                 </div>
-              </div>
 
-              <div className="mt-8 flex items-start justify-between">
-                <p className="text-[#596780] text-lg text-left">
-                  NISMO has become the embodiment of Nissan's outstanding
-                  performance, inspired by the most unforgiving proving ground,
-                  the "race track".
-                </p>
-              </div>
-
-              <div
-                className="mt-8 lg:grid lg:grid-cols-2 grid lg:space-y-0 space-y-5"
-              >
-                <div className="grid gap-4">
-                  <div className="lg:space-x-4 space-x-28 flex">
-                    <p className="text-[#90A3BF] text-lg text-left">Type Car</p>
-                    <p className="text-[#596780] text-lg text-right">Sport</p>
+                <div className="mt-8 lg:grid lg:grid-cols-2 grid lg:space-y-0 space-y-5">
+                  <div className="grid gap-4">
+                    <div className="lg:space-x-4 space-x-28 flex">
+                      <p className="text-[#90A3BF] text-lg text-left">
+                        Type Car
+                      </p>
+                      <p className="text-[#596780] text-lg text-right">Sport</p>
+                    </div>
+                    <div className="lg:space-x-4 space-x-28 flex">
+                      <p className="text-[#90A3BF] text-lg text-left">
+                        Steering
+                      </p>
+                      <p className="text-[#596780] text-lg text-right">
+                        Manual
+                      </p>
+                    </div>
                   </div>
-                  <div className="lg:space-x-4 space-x-28 flex">
-                    <p className="text-[#90A3BF] text-lg text-left">Steering</p>
-                    <p className="text-[#596780] text-lg text-right">Manual</p>
-                  </div>
-                </div>
-                <div className="grid gap-4">
-                  <div className="lg:space-x-4 space-x-28 flex">
-                    <p className="text-[#90A3BF] text-lg text-left">Capacity</p>
-                    <p className="text-[#596780] text-lg text-right">
-                      2 Person
-                    </p>
-                  </div>
-                  <div className="lg:space-x-4 space-x-28 flex">
-                    <p className="text-[#90A3BF] text-lg text-left">Gasoline</p>
-                    <p className="text-[#596780] text-lg text-right">70L</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex lg:mt-auto mt-16 items-center justify-between">
-                <div className="flex flex-col font-bold text-[#1A202C] lg:absolute lg:bottom-5 lg:left-6">
-                  <div className="lg:text-[28px] text-2xl font-bold">
-                    $80.00/<span className="lg:text-base text-sm text-[#90A3BF]">
-                      days
-                    </span>
-                  </div>
-                  <div className="mt-1 text-base text-[#90A3BF] line-through">
-                    $100.00
+                  <div className="grid gap-4">
+                    <div className="lg:space-x-4 space-x-28 flex">
+                      <p className="text-[#90A3BF] text-lg text-left">
+                        Capacity
+                      </p>
+                      <p className="text-[#596780] text-lg text-right">
+                        2 Person
+                      </p>
+                    </div>
+                    <div className="lg:space-x-4 space-x-28 flex">
+                      <p className="text-[#90A3BF] text-lg text-left">
+                        Gasoline
+                      </p>
+                      <p className="text-[#596780] text-lg text-right">70L</p>
+                    </div>
                   </div>
                 </div>
 
-                <Link href="/payment">
-                  <button
-                    className="lg:px-8 px-5 mt-1 text-base font-medium text-center gap-2
+                <div className="flex lg:mt-auto mt-16 items-center justify-between">
+                  <div className="flex flex-col font-bold text-[#1A202C] lg:absolute lg:bottom-5 lg:left-6">
+                    <div className="lg:text-[28px] text-2xl font-bold">
+                      $80.00/
+                      <span className="lg:text-base text-sm text-[#90A3BF]">
+                        days
+                      </span>
+                    </div>
+                    <div className="mt-1 text-base text-[#90A3BF] line-through">
+                      $100.00
+                    </div>
+                  </div>
+
+                  <Link href="/payment">
+                    <button
+                      className="lg:px-8 px-5 mt-1 text-base font-medium text-center gap-2
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded lg:h-14 h-11
                      lg:absolute lg:bottom-5 lg:right-6"
-                  >
-                    Rent Now
-                  </button>
-                </Link>
-              </div>
+                    >
+                      Rent Now
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -425,247 +436,259 @@ const DetailCarRent = () => {
               <p className="text-base font-semibold text-[#90A3BF]">
                 Recent Car
               </p>
-              <p className="text-base font-semibold text-[#3563E9]">
-                View All
-              </p>
+              <p className="text-base font-semibold text-[#3563E9]">View All</p>
             </div>
 
             {/*Car Cards*/}
             <div
-          className="relative flex sm:grid-cols-2 lg:grid-cols-3 md:grid md:grid-cols-2 gap-6
+              className="relative flex sm:grid-cols-2 lg:grid-cols-3 md:grid md:grid-cols-2 gap-6
            overflow-x-auto lg:overflow-visible mb-8 lg:w-full w-80 md:w-[680px]"
-        >
-          <div
-            className="bg-white rounded-lg flex flex-col py-6 px-5 relative flex-shrink-0 lg:flex-shrink
+            >
+              <div
+                className="bg-white rounded-lg flex flex-col py-6 px-5 relative flex-shrink-0 lg:flex-shrink
           w-[304px] md:w-full lg:w-auto"
-          >
-            <div className="flex items-start justify-between">
-              <div className="flex flex-col text-left space-y-1">
-                <p className="font-bold text-xl text-[#1A202C]">Koenigsegg</p>
-                <p className="font-bold text-sm text-[#90A3BF]">Sport</p>
-              </div>
-              <Image
-                src={isFav1 ? "/images/Like2.png" : "/images/Like.png"}
-                height={24}
-                width={24}
-                alt="Favourite"
-                className="cursor-pointer"
-                onClick={() => setIsFav1(!isFav1)}
-              />
-            </div>
+              >
+                <div className="flex items-start justify-between">
+                  <div className="flex flex-col text-left space-y-1">
+                    <p className="font-bold text-xl text-[#1A202C]">
+                      Koenigsegg
+                    </p>
+                    <p className="font-bold text-sm text-[#90A3BF]">Sport</p>
+                  </div>
+                  <Image
+                    src={isFav1 ? "/images/Like2.png" : "/images/Like.png"}
+                    height={24}
+                    width={24}
+                    alt="Favourite"
+                    className="cursor-pointer"
+                    onClick={() => setIsFav1(!isFav1)}
+                  />
+                </div>
 
-            <Image
-              src="/images/image 7.png"
-              width={232}
-              height={80}
-              alt="car-image"
-              className="mt-16 w-full h-auto object-cover mx-auto"
-            />
+                <Image
+                  src="/images/image 7.png"
+                  width={232}
+                  height={80}
+                  alt="car-image"
+                  className="mt-16 w-full h-auto object-cover mx-auto"
+                />
 
-            <div className="flex space-x-4 sm:flex-row mt-16 items-center justify-center -mx-2">
-              <div className="flex space-x-1 items-center justify-center">
-                <Image
-                  height={24}
-                  width={24}
-                  src="/images/gas-station.png"
-                  alt="Gas-Station"
-                />
-                <p className="text-[#90A3BF] text-sm font-medium">90L</p>
-              </div>
-              <div className="flex space-x-1 items-center justify-center">
-                <Image
-                  height={24}
-                  width={24}
-                  src="/images/manual.png"
-                  alt="Mode"
-                />
-                <p className="text-[#90A3BF] text-sm font-medium">Manual</p>
-              </div>
-              <div className="flex space-x-1 items-center justify-center">
-                <Image
-                  height={24}
-                  width={24}
-                  src="/images/profile-2user.png"
-                  alt="2users-profile"
-                />
-                <p className="text-[#90A3BF] text-sm font-medium">2 People</p>
-              </div>
-            </div>
+                <div className="flex space-x-4 sm:flex-row mt-16 items-center justify-center -mx-2">
+                  <div className="flex space-x-1 items-center justify-center">
+                    <Image
+                      height={24}
+                      width={24}
+                      src="/images/gas-station.png"
+                      alt="Gas-Station"
+                    />
+                    <p className="text-[#90A3BF] text-sm font-medium">90L</p>
+                  </div>
+                  <div className="flex space-x-1 items-center justify-center">
+                    <Image
+                      height={24}
+                      width={24}
+                      src="/images/manual.png"
+                      alt="Mode"
+                    />
+                    <p className="text-[#90A3BF] text-sm font-medium">Manual</p>
+                  </div>
+                  <div className="flex space-x-1 items-center justify-center">
+                    <Image
+                      height={24}
+                      width={24}
+                      src="/images/profile-2user.png"
+                      alt="2users-profile"
+                    />
+                    <p className="text-[#90A3BF] text-sm font-medium">
+                      2 People
+                    </p>
+                  </div>
+                </div>
 
-            <div className="flex items-start justify-between mt-6 gap-2">
-              <div className="flex flex-col font-bold text-[#1A202C]">
-                <div className="text-xl font-bold">
-                  $99.00/ <span className="text-sm text-[#90A3BF]">day</span>
+                <div className="flex items-start justify-between mt-6 gap-2">
+                  <div className="flex flex-col font-bold text-[#1A202C]">
+                    <div className="text-xl font-bold">
+                      $99.00/{" "}
+                      <span className="text-sm text-[#90A3BF]">day</span>
+                    </div>
+                  </div>
+
+                  <Link href="/car-rent">
+                    <button
+                      className="text-base font-medium text-center gap-2 h-11 w-28
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded"
+                    >
+                      Rent Now
+                    </button>
+                  </Link>
                 </div>
               </div>
 
-              <Link href="/car-rent">
-                <button
-                  className="text-base font-medium text-center gap-2 h-11 w-28
-                     text-white bg-[#3563E9] hover:bg-blue-800 rounded"
-                >
-                  Rent Now
-                </button>
-              </Link>
-            </div>
-          </div>
-
-          <div
-            className="bg-white rounded-lg flex flex-col py-6 px-5 relative flex-shrink-0 lg:flex-shrink
+              <div
+                className="bg-white rounded-lg flex flex-col py-6 px-5 relative flex-shrink-0 lg:flex-shrink
           w-[304px] md:w-full lg:w-auto"
-          >
-            <div className="flex items-start justify-between">
-              <div className="flex flex-col text-left space-y-1">
-                <p className="font-bold text-xl text-[#1A202C]">Nissan GT -R</p>
-                <p className="font-bold text-sm text-[#90A3BF]">Sport</p>
-              </div>
+              >
+                <div className="flex items-start justify-between">
+                  <div className="flex flex-col text-left space-y-1">
+                    <p className="font-bold text-xl text-[#1A202C]">
+                      Nissan GT -R
+                    </p>
+                    <p className="font-bold text-sm text-[#90A3BF]">Sport</p>
+                  </div>
 
-              <Image
-                src={isFav2 ? "/images/Like2.png" : "/images/Like.png"}
-                height={24}
-                width={24}
-                alt="Favourite"
-                className="cursor-pointer"
-                onClick={() => setIsFav2(!isFav2)}
-              />
-            </div>
-
-            <Image
-              src="/images/image 8.png"
-              width={204}
-              height={64}
-              alt="car-image"
-              className="mt-16 w-full h-auto object-cover mx-auto"
-            />
-
-            <div className="flex space-x-4 sm:flex-row mt-16 items-center justify-center -mx-2">
-              <div className="flex space-x-1 items-center justify-center">
-                <Image
-                  height={24}
-                  width={24}
-                  src="/images/gas-station.png"
-                  alt="Gas-Station"
-                />
-                <p className="text-[#90A3BF] text-sm font-medium">80L</p>
-              </div>
-              <div className="flex space-x-1 items-center justify-center">
-                <Image
-                  height={24}
-                  width={24}
-                  src="/images/manual.png"
-                  alt="Mode"
-                />
-                <p className="text-[#90A3BF] text-sm font-medium">Manual</p>
-              </div>
-              <div className="flex space-x-1 items-center justify-center">
-                <Image
-                  height={24}
-                  width={24}
-                  src="/images/profile-2user.png"
-                  alt="2users-profile"
-                />
-                <p className="text-[#90A3BF] text-sm font-medium">2 People</p>
-              </div>
-            </div>
-
-            <div className="flex items-start justify-between mt-6 gap-2">
-              <div className="flex flex-col font-bold text-[#1A202C]">
-                <div className="text-xl font-bold">
-                  $80.00/ <span className="text-sm text-[#90A3BF]">day</span>
+                  <Image
+                    src={isFav2 ? "/images/Like2.png" : "/images/Like.png"}
+                    height={24}
+                    width={24}
+                    alt="Favourite"
+                    className="cursor-pointer"
+                    onClick={() => setIsFav2(!isFav2)}
+                  />
                 </div>
-                <div className="mt-1 text-sm text-[#90A3BF] line-through">
-                  $100.00
-                </div>
-              </div>
 
-              <Link href="/car-rent">
-                <button
-                  className="text-base font-medium text-center gap-2 h-11 w-28
+                <Image
+                  src="/images/image 8.png"
+                  width={204}
+                  height={64}
+                  alt="car-image"
+                  className="mt-16 w-full h-auto object-cover mx-auto"
+                />
+
+                <div className="flex space-x-4 sm:flex-row mt-16 items-center justify-center -mx-2">
+                  <div className="flex space-x-1 items-center justify-center">
+                    <Image
+                      height={24}
+                      width={24}
+                      src="/images/gas-station.png"
+                      alt="Gas-Station"
+                    />
+                    <p className="text-[#90A3BF] text-sm font-medium">80L</p>
+                  </div>
+                  <div className="flex space-x-1 items-center justify-center">
+                    <Image
+                      height={24}
+                      width={24}
+                      src="/images/manual.png"
+                      alt="Mode"
+                    />
+                    <p className="text-[#90A3BF] text-sm font-medium">Manual</p>
+                  </div>
+                  <div className="flex space-x-1 items-center justify-center">
+                    <Image
+                      height={24}
+                      width={24}
+                      src="/images/profile-2user.png"
+                      alt="2users-profile"
+                    />
+                    <p className="text-[#90A3BF] text-sm font-medium">
+                      2 People
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start justify-between mt-6 gap-2">
+                  <div className="flex flex-col font-bold text-[#1A202C]">
+                    <div className="text-xl font-bold">
+                      $80.00/{" "}
+                      <span className="text-sm text-[#90A3BF]">day</span>
+                    </div>
+                    <div className="mt-1 text-sm text-[#90A3BF] line-through">
+                      $100.00
+                    </div>
+                  </div>
+
+                  <Link href="/car-rent">
+                    <button
+                      className="text-base font-medium text-center gap-2 h-11 w-28
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded"
-                >
-                  Rent Now
-                </button>
-              </Link>
-            </div>
-          </div>
+                    >
+                      Rent Now
+                    </button>
+                  </Link>
+                </div>
+              </div>
 
-          <div
-            className="bg-white rounded-lg flex flex-col py-6 px-5 relative flex-shrink-0 lg:flex-shrink
+              <div
+                className="bg-white rounded-lg flex flex-col py-6 px-5 relative flex-shrink-0 lg:flex-shrink
           w-[304px] md:w-full lg:w-auto"
-          >
-            <div className="flex items-start justify-between">
-              <div className="flex flex-col text-left space-y-1">
-                <p className="font-bold text-xl text-[#1A202C]">Rolls-Royce</p>
-                <p className="font-bold text-sm text-[#90A3BF]">Sport</p>
-              </div>
+              >
+                <div className="flex items-start justify-between">
+                  <div className="flex flex-col text-left space-y-1">
+                    <p className="font-bold text-xl text-[#1A202C]">
+                      Rolls-Royce
+                    </p>
+                    <p className="font-bold text-sm text-[#90A3BF]">Sport</p>
+                  </div>
 
-              <Image
-                src={isFav3 ? "/images/Like2.png" : "/images/Like.png"}
-                height={24}
-                width={24}
-                alt="Favourite"
-                className="cursor-pointer"
-                onClick={() => setIsFav3(!isFav3)}
-              />
-            </div>
+                  <Image
+                    src={isFav3 ? "/images/Like2.png" : "/images/Like.png"}
+                    height={24}
+                    width={24}
+                    alt="Favourite"
+                    className="cursor-pointer"
+                    onClick={() => setIsFav3(!isFav3)}
+                  />
+                </div>
 
-            <Image
-              src="/images/Car (1).png"
-              width={220}
-              height={68}
-              alt="car-image"
-              className="mt-16 w-full h-auto object-cover mx-auto"
-            />
-
-            <div className="flex space-x-4 sm:flex-row mt-16 items-center justify-center -mx-2">
-              <div className="flex space-x-1 items-center justify-center">
                 <Image
-                  height={24}
-                  width={24}
-                  src="/images/gas-station.png"
-                  alt="Gas-Station"
+                  src="/images/Car (1).png"
+                  width={220}
+                  height={68}
+                  alt="car-image"
+                  className="mt-16 w-full h-auto object-cover mx-auto"
                 />
-                <p className="text-[#90A3BF] text-sm font-medium">70L</p>
-              </div>
-              <div className="flex space-x-1 items-center justify-center">
-                <Image
-                  height={24}
-                  width={24}
-                  src="/images/manual.png"
-                  alt="Mode"
-                />
-                <p className="text-[#90A3BF] text-sm font-medium">Manual</p>
-              </div>
-              <div className="flex space-x-1 items-center justify-center">
-                <Image
-                  height={24}
-                  width={24}
-                  src="/images/profile-2user.png"
-                  alt="2users-profile"
-                />
-                <p className="text-[#90A3BF] text-sm font-medium">4 People</p>
-              </div>
-            </div>
 
-            <div className="flex items-start justify-between mt-6 gap-2">
-              <div className="flex flex-col font-bold text-[#1A202C]">
-                <div className="text-xl font-bold">
-                  $97.00/ <span className="text-sm text-[#90A3BF]">day</span>
+                <div className="flex space-x-4 sm:flex-row mt-16 items-center justify-center -mx-2">
+                  <div className="flex space-x-1 items-center justify-center">
+                    <Image
+                      height={24}
+                      width={24}
+                      src="/images/gas-station.png"
+                      alt="Gas-Station"
+                    />
+                    <p className="text-[#90A3BF] text-sm font-medium">70L</p>
+                  </div>
+                  <div className="flex space-x-1 items-center justify-center">
+                    <Image
+                      height={24}
+                      width={24}
+                      src="/images/manual.png"
+                      alt="Mode"
+                    />
+                    <p className="text-[#90A3BF] text-sm font-medium">Manual</p>
+                  </div>
+                  <div className="flex space-x-1 items-center justify-center">
+                    <Image
+                      height={24}
+                      width={24}
+                      src="/images/profile-2user.png"
+                      alt="2users-profile"
+                    />
+                    <p className="text-[#90A3BF] text-sm font-medium">
+                      4 People
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start justify-between mt-6 gap-2">
+                  <div className="flex flex-col font-bold text-[#1A202C]">
+                    <div className="text-xl font-bold">
+                      $97.00/{" "}
+                      <span className="text-sm text-[#90A3BF]">day</span>
+                    </div>
+                  </div>
+
+                  <Link href="/car-rent">
+                    <button
+                      className="text-base font-medium text-center gap-2 h-11 w-28
+                     text-white bg-[#3563E9] hover:bg-blue-800 rounded"
+                    >
+                      Rent Now
+                    </button>
+                  </Link>
                 </div>
               </div>
-
-              <Link href="/car-rent">
-                <button
-                  className="text-base font-medium text-center gap-2 h-11 w-28
-                     text-white bg-[#3563E9] hover:bg-blue-800 rounded"
-                >
-                  Rent Now
-                </button>
-              </Link>
             </div>
-          </div>
-
-        </div>
           </div>
 
           {/*Recommended Car Section*/}
@@ -680,13 +703,14 @@ const DetailCarRent = () => {
             </div>
 
             {/*Car Cards*/}
-            <div className="relative flex sm:grid-cols-2 lg:grid-cols-3 md:grid md:grid-cols-2 gap-6
-           overflow-x-auto lg:overflow-visible mb-8 lg:w-full w-80 md:w-[680px]">
+            <div
+              className="relative flex sm:grid-cols-2 lg:grid-cols-3 md:grid md:grid-cols-2 gap-6
+           overflow-x-auto lg:overflow-visible mb-8 lg:w-full w-80 md:w-[680px]"
+            >
               <div
                 className="bg-white rounded-lg flex flex-col py-6 px-5 relative flex-shrink-0 lg:flex-shrink
           w-[304px] md:w-full lg:w-auto"
               >
-
                 <div className="flex items-start justify-between">
                   <div className="flex flex-col">
                     <div className="font-bold text-xl text-[#1A202C]">
@@ -697,13 +721,13 @@ const DetailCarRent = () => {
                     </p>
                   </div>
                   <Image
-                  src={isFav4 ? "/images/Like2.png" : "/images/Like.png"}
-                  height={24}
-                  width={24}
-                  alt="Favourite"
-                  className="cursor-pointer"
-                  onClick={() => setIsFav4(!isFav4)}
-                />
+                    src={isFav4 ? "/images/Like2.png" : "/images/Like.png"}
+                    height={24}
+                    width={24}
+                    alt="Favourite"
+                    className="cursor-pointer"
+                    onClick={() => setIsFav4(!isFav4)}
+                  />
                 </div>
                 <Image
                   width={224}
@@ -767,7 +791,6 @@ const DetailCarRent = () => {
                 className="bg-white rounded-lg flex flex-col py-6 px-5 relative flex-shrink-0 lg:flex-shrink
           w-[304px] md:w-full lg:w-auto"
               >
-  
                 <div className="flex items-start justify-between">
                   <div className="flex flex-col">
                     <div className="font-bold text-xl text-[#1A202C]">CR-V</div>
@@ -776,13 +799,13 @@ const DetailCarRent = () => {
                     </p>
                   </div>
                   <Image
-                  src={isFav5 ? "/images/Like2.png" : "/images/Like.png"}
-                  height={24}
-                  width={24}
-                  alt="Favourite"
-                  className="cursor-pointer"
-                  onClick={() => setIsFav5(!isFav5)}
-                />
+                    src={isFav5 ? "/images/Like2.png" : "/images/Like.png"}
+                    height={24}
+                    width={24}
+                    alt="Favourite"
+                    className="cursor-pointer"
+                    onClick={() => setIsFav5(!isFav5)}
+                  />
                 </div>
                 <Image
                   width={248}
@@ -846,7 +869,6 @@ const DetailCarRent = () => {
                 className="bg-white rounded-lg flex flex-col py-6 px-5 relative flex-shrink-0 lg:flex-shrink
           w-[304px] md:w-full lg:w-auto"
               >
-
                 <div className="flex items-start justify-between">
                   <div className="flex flex-col">
                     <div className="font-bold text-xl text-[#1A202C]">
@@ -857,13 +879,13 @@ const DetailCarRent = () => {
                     </p>
                   </div>
                   <Image
-                  src={isFav6 ? "/images/Like2.png" : "/images/Like.png"}
-                  height={24}
-                  width={24}
-                  alt="Favourite"
-                  className="cursor-pointer"
-                  onClick={() => setIsFav6(!isFav6)}
-                />
+                    src={isFav6 ? "/images/Like2.png" : "/images/Like.png"}
+                    height={24}
+                    width={24}
+                    alt="Favourite"
+                    className="cursor-pointer"
+                    onClick={() => setIsFav6(!isFav6)}
+                  />
                 </div>
                 <Image
                   height={100}
