@@ -17,7 +17,7 @@ export default function Navbar3() {
       <div className="flex w-full items-center justify-between mb-2">
         <button
           className=" absolute cursor-pointer top-6 
-                    left-2 w-[2rem] h-[1rem]"
+                    left-3 md:left-5 w-[2rem] h-[1rem]"
           onClick={() => setShowNav(!showNav)}
         >
           {showNav ? (
@@ -35,7 +35,7 @@ export default function Navbar3() {
           >
             {showMenu ? (
               <XMarkIcon
-                className="text-2xl text-[#596780] absolute right-5 top-5"
+                className="text-2xl text-[#596780] absolute right-4 top-5"
                 height={24}
                 width={24}
               />
@@ -45,7 +45,7 @@ export default function Navbar3() {
                 height={44}
                 width={44}
                 alt="profile"
-                className="absolute right-3 top-5"
+                className="absolute right-3 top-5 md:right-5"
               />
             )}
           </button>
@@ -103,7 +103,10 @@ export default function Navbar3() {
         </div>
       )}
       {showMenu && (
-        <ul className="flex flex-col bg-white rounded-md shadow-md p-5 z-20">
+        <ul
+          className="flex flex-col bg-white rounded-md shadow-md p-5 z-20 absolute md:right-5 right-3
+        md:top-11 top-10"
+        >
           <li className="flex flex-col space-y-10 mt-5">
             <p className="text-[#90A3BF] text-base ml-2">M A I N M E N U</p>
             <div className="space-y-8">
@@ -284,10 +287,13 @@ export default function Navbar3() {
         </ul>
       )}
 
-      <div className="lg:flex items-center justify-between lg:space-x-10 lg:-mb-5 mt-5">
+      <div
+        className="lg:flex md:flex md:justify-between md:w-full items-center justify-between 
+      lg:space-x-10 lg:-mb-5 mt-5"
+      >
         {/* Logo */}
-        <div className="flex lg:items-center lg:space-x-0 lg:ml-3 mt-1">
-          <Link href="/" className="h-11">
+        <div className="flex lg:items-center lg:space-x-0 lg:ml-3 ml-1 mt-1">
+          <Link href="/" className="h-11 md:h-auto">
             <Image src="/images/Logo.png" width={130} height={36} alt="Logo" />
           </Link>
         </div>

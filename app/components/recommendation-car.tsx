@@ -14,7 +14,7 @@ export default function RecommendationCar() {
   const [isFav8, setIsFav8] = useState(true); // Card 8
 
   return (
-    <div className="lg:py-8 mx-auto flex relative max-w-[1260px]">
+    <div className="lg:py-8 mx-auto flex relative max-w-[1260px] md:py-8">
       <div className="flex flex-col relative">
         <div className="flex items-start justify-between">
           <h2 className="text-xl font-bold text-[#90A3BF] text-left mb-8">

@@ -20,7 +20,7 @@ export default function Home() {
         >
           <div
             className="rounded-lg object-cover lg:mx-0 mx-auto relative
-          lg:w-[48%] lg:h-80 w-80 h-96 bg-blue-400 hover:scale-105 transition"
+          lg:w-[48%] md:w-full md:h-80 lg:h-80 w-80 h-96 bg-blue-400 hover:scale-105 transition"
           >
             <Image
               src="/images/Ads 1.png"
@@ -57,7 +57,7 @@ export default function Home() {
                 height={118}
                 width={340}
                 alt="car-image"
-                className="z-50 absolute lg:top-60 lg:my-auto lg:bottom-auto bottom-4"
+                className="z-20 absolute lg:top-60 md:top-60 lg:my-auto lg:bottom-auto bottom-4"
               />
             </div>
           </div>
@@ -111,8 +111,9 @@ export default function Home() {
 
         {/*--------------*/}
         <div
-          className="flex flex-col lg:flex-row lg:items-center lg:gap-x-4 lg:mt-16 lg:-space-y-0
-        lg:space-x-6 mb-9 items-center justify-center mt-6 mx-auto relative lg:max-w-[100%] -space-y-2"
+          className="flex flex-col lg:flex-row lg:items-center lg:gap-x-4 lg:-space-y-0
+        lg:space-x-6 mb-9 items-center justify-center mx-auto relative lg:max-w-[100%] 
+        -space-y-2 md:flex-row lg:mt-16 md:mt-20 mt-6"
         >
           {/* Pick-Up */}
           <div

@@ -198,7 +198,7 @@ const Dashboard = () => {
         <div className="mt-8 mx-auto">
           <div
             className="lg:flex lg:flex-row lg:flex-wrap sm:flex sm:flex-row flex-col justify-center
-        lg:gap-5 lg:px-0 px-5 sm:items-start sm:gap-6 sm:justify-center"
+        lg:gap-5 lg:px-0 px-5 sm:items-start sm:gap-10 sm:justify-center"
           >
             <div className="bg-white p-6 rounded-lg lg:w-auto w-80 lg:ml-4 lg:mx-0 mx-auto">
               <p className="text-xl font-bold text-[#1A202C]">Details Rental</p>

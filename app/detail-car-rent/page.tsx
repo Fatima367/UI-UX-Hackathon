@@ -111,18 +111,19 @@ const DetailCarRent = () => {
         </div>
 
         {/*Right*/}
-        <div className="flex flex-col items-center justify-center mb-8 relative lg:px-6 mx-auto gap-8">
+        <div className="flex flex-col items-center justify-center mb-8 relative lg:px-6 md:px-4 mx-auto gap-8">
           <div
-            className="flex lg:flex-row flex-col lg:space-x-8 space-y-5 relative lg:w-[100%]
-                lg:items-start lg:justify-between items-center justify-center"
+            className="flex lg:flex-row md:flex-row flex-col lg:space-x-8 space-y-5 relative lg:w-[100%]
+                lg:items-start lg:justify-between items-center justify-center md:space-x-8
+                md:w-[50%] md:items-start md:justify-center"
           >
             {/*Left Side*/}
             <div
               className="flex flex-col mt-6 relative items-center justify-center
-            flex-shrink-0 lg:flex-shrink w-80 md:w-full lg:w-auto"
+            flex-shrink-0 lg:flex-shrink w-80 md:w-auto lg:w-auto"
             >
               <div
-                className="rounded-lg object-cover lg:w-[31rem] lg:h-[22rem] w-[310px] 
+                className="rounded-lg object-cover lg:w-[30.6rem] lg:h-[22rem] w-[310px] 
            h-[420px] bg-blue-600 lg:mx-0 mx-auto relative"
               >
                 <Image
@@ -203,9 +204,9 @@ const DetailCarRent = () => {
 
             {/*Right Side*/}
             <div
-              className="lg:h-[31rem] bg-white rounded-lg my-6 
+              className="lg:h-[31rem] bg-white rounded-lg my-6
               lg:mx-0 h-auto relative flex-shrink-0 lg:flex-shrink
-             w-80 md:w-full lg:w-auto p-6"
+             w-80 md:w-full lg:w-auto p-6 md:h-[32rem]"
             >
               <div className="flex flex-col">
                 <div className="">
@@ -237,15 +238,15 @@ const DetailCarRent = () => {
                   </div>
                 </div>
 
-                <div className="mt-8 flex items-start justify-between">
-                  <p className="text-[#596780] text-lg text-left">
+                <div className="mt-8 md:mt-4 lg:mt-8 flex items-start justify-between">
+                  <p className="text-[#596780] lg:text-lg text-lg md:text-base text-left">
                     NISMO has become the embodiment of Nissan's outstanding
                     performance, inspired by the most unforgiving proving
                     ground, the "race track".
                   </p>
                 </div>
 
-                <div className="mt-8 lg:grid lg:grid-cols-2 grid lg:space-y-0 space-y-5">
+                <div className="mt-8 md:mt-4 lg:mt-8 lg:grid lg:grid-cols-2 grid lg:space-y-0 space-y-5">
                   <div className="grid gap-4">
                     <div className="lg:space-x-4 space-x-28 flex">
                       <p className="text-[#90A3BF] text-lg text-left">
@@ -268,7 +269,7 @@ const DetailCarRent = () => {
                         Capacity
                       </p>
                       <p className="text-[#596780] text-lg text-right">
-                        2 Person
+                        2 People
                       </p>
                     </div>
                     <div className="lg:space-x-4 space-x-28 flex">
@@ -280,8 +281,11 @@ const DetailCarRent = () => {
                   </div>
                 </div>
 
-                <div className="flex lg:mt-auto mt-16 items-center justify-between">
-                  <div className="flex flex-col font-bold text-[#1A202C] lg:absolute lg:bottom-5 lg:left-6">
+                <div className="flex lg:mt-auto mt-16 md:mt-9 md:mb-2 items-center justify-between">
+                  <div
+                    className="flex flex-col font-bold text-[#1A202C] lg:absolute lg:bottom-5 lg:left-6
+                  md:absolute md:bottom-5"
+                  >
                     <div className="lg:text-[28px] text-2xl font-bold">
                       $80.00/
                       <span className="lg:text-base text-sm text-[#90A3BF]">
@@ -297,7 +301,7 @@ const DetailCarRent = () => {
                     <button
                       className="lg:px-8 px-5 mt-1 text-base font-medium text-center gap-2
                      text-white bg-[#3563E9] hover:bg-blue-800 rounded lg:h-14 h-11
-                     lg:absolute lg:bottom-5 lg:right-6"
+                     lg:absolute lg:bottom-5 lg:right-6 md:absolute md:bottom-5 md:right-5"
                     >
                       Rent Now
                     </button>

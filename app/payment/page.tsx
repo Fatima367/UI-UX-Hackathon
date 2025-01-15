@@ -12,7 +12,7 @@ const Payment = () => {
       <NavbarMobile2 />
       <div
         className="lg:flex-row lg:space-x-6 lg:items-start lg:justify-center lg:px-2 flex flex-col justify-center
-        mx-auto md:px-5"
+        mx-auto md:px-8"
       >
         {/*For Responsive Design*/}
         <div
@@ -122,13 +122,13 @@ const Payment = () => {
 
         {/*Left Form*/}
         <div
-          className="flex flex-col items-start mx-auto
-           lg:min-w-[45rem]"
+          className="flex flex-col items-start mx-auto my-8 sm:w-full lg:w-[45rem]
+        space-y-8"
         >
           {/*Step 1*/}
           <div
-            className="bg-white p-6 mt-8 mx-auto rounded-lg
-            w-80 md:min-w-[53rem] lg:min-w-[45rem]"
+            className="bg-white p-6 mx-auto rounded-lg
+            w-80 md:w-full lg:min-w-[45rem]"
           >
             <div className="flex items-start justify-between">
               <div className="flex flex-col text-left">
@@ -144,12 +144,12 @@ const Payment = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
               <div className="flex flex-col text-left space-y-4">
                 <p className="text-base font-semibold text-[#1A202C]">Name</p>
 
                 <div
-                  className="rounded-lg w-full lg:min-w-[20rem] h-14 bg-[#F6F7F9] my-8
+                  className="rounded-lg w-full md:min-w-[20rem] lg:min-w-[20rem] h-14 bg-[#F6F7F9] my-8
                              flex items-stretch justify-between relative"
                 >
                   <input
@@ -182,14 +182,14 @@ const Payment = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
               <div className="flex flex-col text-left space-y-4">
                 <p className="text-base font-semibold text-[#1A202C]">
                   Address
                 </p>
 
                 <div
-                  className="rounded-lg w-full lg:min-w-[20rem] h-14 bg-[#F6F7F9] my-8
+                  className="rounded-lg w-full md:min-w-[20rem] lg:min-w-[20rem] h-14 bg-[#F6F7F9] my-8
                              flex items-stretch justify-between relative"
                 >
                   <input
@@ -208,7 +208,7 @@ const Payment = () => {
                 </p>
 
                 <div
-                  className="rounded-lg w-full lg:min-w-[20rem] h-14 bg-[#F6F7F9] my-8
+                  className="rounded-lg w-full md:min-w-[20rem] lg:min-w-[20rem] h-14 bg-[#F6F7F9] my-8
                              flex items-stretch justify-between relative"
                 >
                   <input
@@ -247,7 +247,7 @@ const Payment = () => {
               <h3 className="text-base font-medium text-[#1A202C]">Pick-Up</h3>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
               <div className="flex flex-col text-left space-y-4">
                 <p className="text-base font-semibold text-[#1A202C]">
                   Locations
@@ -285,7 +285,7 @@ const Payment = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
               <div className="flex flex-col text-left space-y-4">
                 <p className="text-base font-semibold text-[#1A202C]">Time</p>
 
@@ -309,7 +309,7 @@ const Payment = () => {
               <h3 className="text-base font-medium text-[#1A202C]">Drop-Off</h3>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
               <div className="flex flex-col text-left space-y-4">
                 <p className="text-base font-semibold text-[#1A202C]">
                   Locations
@@ -347,7 +347,7 @@ const Payment = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
               <div className="flex flex-col text-left space-y-4">
                 <p className="text-base font-semibold text-[#1A202C]">Time</p>
 
@@ -389,7 +389,12 @@ const Payment = () => {
             <div className="bg-[#F6F7F9] p-6 rounded-lg mt-8 lg:w-full md:w-full w-[17rem]">
               <div className="flex items-center justify-between">
                 <div className="flex space-x-2 items-center text-left justify-start">
-                  <div className="rounded-full h-2 w-2 bg-[#3563E9] ring-4 ring-[#3563E9] ring-opacity-30"></div>
+                  <input
+                    type="radio"
+                    name="paymentMethod"
+                    className="h-5 w-5 rounded-full"
+                    defaultChecked
+                  />
                   <h3 className="text-base font-medium text-[#1A202C]">
                     Credit Card
                   </h3>
@@ -410,7 +415,7 @@ const Payment = () => {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
                 <div className="flex flex-col text-left space-y-4">
                   <p className="text-base font-semibold text-[#1A202C]">
                     Card Number
@@ -450,7 +455,7 @@ const Payment = () => {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-8 gap-y-4 mt-8">
                 <div className="flex flex-col text-left space-y-4">
                   <p className="text-base font-semibold text-[#1A202C]">
                     Card Holder
@@ -495,7 +500,11 @@ const Payment = () => {
                             h-14 w-full"
               >
                 <div className="flex items-center justify-center lg:ml-10 ml-5">
-                  <Checkbox className="h-6 w-6 rounded-full" />
+                  <input
+                    type="radio"
+                    name="paymentMethod"
+                    className="h-6 w-6 rounded-full"
+                  />
                   <p className="text-sm text-[#1F2544] font-semibold lg:ml-5 ml-2">
                     Paypal
                   </p>
@@ -514,7 +523,11 @@ const Payment = () => {
                             h-14 w-full"
               >
                 <div className="flex items-center justify-center lg:ml-10 ml-5">
-                  <Checkbox className="h-6 w-6 rounded-full" />
+                  <input
+                    type="radio"
+                    name="paymentMethod"
+                    className="h-6 w-6 rounded-full"
+                  />
                   <p className="text-sm text-[#1F2544] font-semibold lg:ml-5 ml-2">
                     Bitcoin
                   </p>
@@ -532,7 +545,7 @@ const Payment = () => {
 
           {/*Step 4*/}
           <div
-            className="bg-white p-6 my-8 mx-auto rounded-lg 
+            className="bg-white p-6 mx-auto rounded-lg 
              w-80 md:w-full lg:min-w-[45rem]"
           >
             <div className="flex items-start justify-between">
@@ -555,7 +568,7 @@ const Payment = () => {
                 className="flex items-center justify-start bg-[#F6F7F9] rounded-lg
                 lg:h-14 h-16 w-full"
               >
-                <Checkbox className="h-6 w-6 lg:ml-10 ml-6" />
+                <Checkbox className="h-6 w-6 lg:ml-10 ml-6" required />
                 <p
                   className="lg:text-sm text-[11px] text-[#1F2544] font-semibold 
                 lg:ml-5 ml-2"
@@ -569,7 +582,7 @@ const Payment = () => {
                 className="flex items-center justify-start bg-[#F6F7F9] rounded-lg
                 lg:h-14 h-16 w-full"
               >
-                <Checkbox className="h-6 w-6 lg:ml-10 ml-6" />
+                <Checkbox className="h-6 w-6 lg:ml-10 ml-6" required />
                 <p
                   className="lg:text-sm text-[11px] text-[#1F2544] font-semibold 
                 lg:ml-5 ml-2"

@@ -116,7 +116,7 @@ const CarRent = () => {
         <div className="flex flex-col items-center justify-center mx-auto lg:px-6 relative lg:w-[83%]">
           <div
             className="flex flex-col lg:flex-row lg:items-center lg:gap-x-4 lg:-space-y-0 lg:-space-x-6
-         mb-9 items-center justify-center mt-5 mx-auto relative lg:max-w-[100%] -space-y-2"
+         mb-9 items-center justify-center mt-5 mx-auto relative lg:max-w-[100%] -space-y-2 md:flex-row"
           >
             {/* Pick-Up */}
             <div
@@ -241,7 +241,7 @@ const CarRent = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center justify-between lg:space-y-8 space-y-4">
+          <div className="flex flex-col lg:space-y-8 space-y-4 mx-auto">
             {/*Row 1*/}
             <div className="hidden sm:grid-cols-2 lg:grid-cols-3 gap-7 lg:grid sm:grid">
               <div

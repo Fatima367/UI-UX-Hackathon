@@ -5,14 +5,20 @@ export default function NavbarMobile() {
   return (
     <nav
       className="box-border bg-white border border-[#C3D4E9] mt-0 lg:mt-16
-        border-opacity-40 p-6 lg:p-5 flex flex-col lg:items-start 
+        border-opacity-40 p-6 flex flex-col
         lg:justify-between items-center justify-center h-auto relative border-r-0 lg:hidden"
     >
-      <div className="lg:flex items-center justify-between lg:space-x-10 lg:-mb-5">
+      <div className="lg:flex md:flex items-center justify-between lg:space-x-10 lg:-mb-5">
         {/* Logo */}
         <div className="flex lg:items-center lg:space-x-0 lg:ml-3 mt-1">
           <Link href="/" className="h-11">
-            <Image src="/images/Logo.png" width={130} height={36} alt="Logo" />
+            <Image
+              src="/images/Logo.png"
+              width={130}
+              height={36}
+              alt="Logo"
+              className="absolute md:left-8 left-4"
+            />
           </Link>
 
           <Link href="/dashboard">
@@ -21,13 +27,16 @@ export default function NavbarMobile() {
               height={44}
               width={44}
               alt="profile"
-              className="lg:hidden block ml-40 -mt-1"
+              className="lg:hidden block ml-40 -mt-1 absolute md:right-8 right-2"
             />
           </Link>
         </div>
 
         {/* Search bar */}
-        <div className="flex items-center justify-center space-x-5 lg:transform lg:-mt-2 mt-4">
+        <div
+          className="flex items-center justify-center space-x-5 lg:transform lg:-mt-2 mt-4
+        md:mt-0"
+        >
           <div
             className="flex items-center justify-between w-[280px] lg:w-[420px] h-[36px]
            lg:rounded-full rounded-md ring-1 ring-[#C3D4E9] ring-opacity-70 

@@ -29,7 +29,7 @@ export default function Navbar2() {
       <div className="flex w-full items-center justify-between mb-2">
         <button
           className=" absolute cursor-pointer top-6 
-                    left-2 w-[2rem] h-[1rem]"
+                    left-2 md:left-4 w-[2rem] h-[1rem]"
           onClick={() => setShowNav(!showNav)}
         >
           {showNav ? (
@@ -46,13 +46,13 @@ export default function Navbar2() {
               height={44}
               width={44}
               alt="profile"
-              className="lg:hidden block -mt-1 right-2 absolute "
+              className="lg:hidden block -mt-1 right-2 md:right-4 absolute "
             />
           </Link>
         </div>
       </div>
       {showNav && (
-        <div className="absolute left-2 mt-5 bg-white rounded-md shadow-md p-4 z-20">
+        <div className="absolute left-2 md:left-6 mt-5 md:mt-16 bg-white rounded-md shadow-md p-4 z-20">
           <ul className="space-y-2 flex flex-col">
             <Link href="/detail-car-rent">
               <li className="flex space-x-3">
@@ -102,16 +102,28 @@ export default function Navbar2() {
           </ul>
         </div>
       )}
-      <div className="lg:flex items-center justify-between lg:space-x-10 lg:-mb-5 mt-10">
+      <div
+        className="lg:flex items-center justify-between lg:space-x-10 lg:-mb-5 mt-12
+      md:flex md:mt-0 md:mb-0 md:items-center md:justify-between md:w-full"
+      >
         {/* Logo */}
         <div className="flex lg:items-center lg:space-x-0 lg:ml-3 mt-1">
-          <Link href="/" className="h-11">
-            <Image src="/images/Logo.png" width={130} height={36} alt="Logo" />
+          <Link href="/" className="h-11 md:h-auto">
+            <Image
+              src="/images/Logo.png"
+              width={130}
+              height={36}
+              alt="Logo"
+              className="md:absolute md:left-6 md:mt-2"
+            />
           </Link>
         </div>
 
         {/* Search bar */}
-        <div className="flex items-center justify-center space-x-5 lg:transform lg:-mt-2 mt-4">
+        <div
+          className="flex items-center justify-center space-x-5 lg:transform lg:-mt-2 mt-4
+         md:mt-14"
+        >
           <div
             className="flex items-center justify-between w-[280px] lg:w-[420px] h-[36px]
            lg:rounded-full rounded-md ring-1 ring-[#C3D4E9] ring-opacity-70 
@@ -161,7 +173,7 @@ export default function Navbar2() {
           {showFilter && (
             <ul
               className="right-4 flex flex-col bg-white absolute py-4 z-50 shadow-md rounded-md
-                        top-44 px-6"
+                        top-44 px-6 md:top-32 md:right-6"
             >
               <li className="flex flex-col space-y-4 mt-5">
                 <p className="text-[#90A3BF] text-base">T Y P E</p>
@@ -194,19 +206,19 @@ export default function Navbar2() {
               <li className="flex flex-col space-y-4 mt-10">
                 <p className="text-[#90A3BF] text-base">C A P A C I T Y</p>
                 <p className="text-xl font-medium">
-                  <Checkbox className="mr-2" checked /> 2 Person{" "}
+                  <Checkbox className="mr-2" checked /> 2 People{" "}
                   <span className="ml-2 text-[#90A3BF] text-base">(10)</span>
                 </p>
                 <p className="text-xl font-medium">
-                  <Checkbox className="mr-2" /> 4 Person{" "}
+                  <Checkbox className="mr-2" /> 4 People{" "}
                   <span className="ml-2 text-[#90A3BF] text-base">(14)</span>
                 </p>
                 <p className="text-xl font-medium">
-                  <Checkbox className="mr-2" /> 6 Person{" "}
+                  <Checkbox className="mr-2" /> 6 People{" "}
                   <span className="ml-2 text-[#90A3BF] text-base">(12)</span>
                 </p>
                 <p className="text-xl font-medium">
-                  <Checkbox className="mr-2" checked /> 8 Person{" "}
+                  <Checkbox className="mr-2" checked /> 8 People{" "}
                   <span className="ml-2 text-[#90A3BF] text-base">(16)</span>
                 </p>
               </li>
