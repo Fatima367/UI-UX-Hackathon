@@ -1,4 +1,3 @@
-import { Checkbox } from "@/components/ui/checkbox";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
