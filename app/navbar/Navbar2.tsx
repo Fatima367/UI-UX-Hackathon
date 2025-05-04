@@ -11,11 +11,11 @@ export default function Navbar2() {
 
   const [progress, setProgress] = useState(70);
 
-  const increaseProgress = (e: MouseEvent<HTMLDivElement>) => {
+  const increaseProgress = (e: React.MouseEvent<HTMLDivElement> | React.KeyboardEvent<HTMLDivElement>) => {
     setProgress((prev) => Math.min(prev + 10, 100));
   };
 
-  const decreaseProgress = (e: MouseEvent<HTMLDivElement>) => {
+  const decreaseProgress = (e: React.MouseEvent<HTMLDivElement> | React.KeyboardEvent<HTMLDivElement>) => {
     e.stopPropagation(); // Prevent triggering the parent click
     setProgress((prev) => Math.max(prev - 10, 0));
   };
@@ -231,6 +231,15 @@ export default function Navbar2() {
                   className="relative w-full h-2 bg-gray-300 rounded overflow-hidden
                           hover:cursor-pointer"
                   onClick={increaseProgress}
+                  onKeyDown={(e) => {
+                    // Trigger the same click action if Enter or Space is pressed
+                    if (e.key === "Enter" || e.key === "ArrowUp") {
+                      increaseProgress(e);
+                    }
+                  }}
+                  tabIndex={0} // Makes the div focusable with Tab
+                  role="button" // Explicitly defines the div as a button (for screen readers)
+                  aria-label="Increase progress" // Adds an accessible label for screen readers
                 >
                   <div
                     className="h-full bg-blue-500 transition-all duration-300"
@@ -242,6 +251,15 @@ export default function Navbar2() {
                                ring-white z-50 top-0 "
                     style={{ left: `${progress}%` }}
                     onClick={decreaseProgress}
+                    onKeyDown={(e) => {
+                      // Trigger the same click action if Enter or Space is pressed
+                      if (e.key === "Enter" || e.key === "ArrowDown") {
+                        decreaseProgress(e);
+                      }
+                    }}
+                    tabIndex={0} // Makes the div focusable with Tab
+                    role="button" // Explicitly defines the div as a button (for screen readers)
+                    aria-label="Decrease progress" // Adds an accessible label for screen readers
                   ></div>
                 </div>
 
