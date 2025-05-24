@@ -3,7 +3,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { XMarkIcon } from "@heroicons/react/16/solid";
 import Image from "next/image";
 import Link from "next/link";
-import { MouseEvent, useState } from "react";
+import { useState } from "react";
 
 export default function Navbar2() {
   const [showNav, setShowNav] = useState(false);

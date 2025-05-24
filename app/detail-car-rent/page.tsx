@@ -3,7 +3,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { ChevronDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import React, { MouseEvent, useState } from "react";
+import React, { useState } from "react";
 import Navbar from "../navbar/Navbar";
 import Navbar2 from "../navbar/Navbar2";
 
