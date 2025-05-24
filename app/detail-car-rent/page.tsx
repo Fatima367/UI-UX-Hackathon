@@ -305,10 +305,7 @@ const DetailCarRent = () => {
                   md:absolute md:bottom-5"
                   >
                     <div className="lg:text-[28px] text-2xl font-bold">
-                      $80.00/
-                      <span className="lg:text-base text-sm text-[#90A3BF]">
-                        days
-                      </span>
+                      $80.00/<span className="lg:text-base text-sm text-[#90A3BF]"> day</span>
                     </div>
                     <div className="mt-1 text-base text-[#90A3BF] line-through">
                       $100.00
