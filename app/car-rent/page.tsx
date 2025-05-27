@@ -5,6 +5,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Navbar from "../navbar/Navbar";
 import Navbar2 from "../navbar/Navbar2";
+import { Slider } from "@/components/ui/slider";
 
 const CarRent = () => {
   const [isFav1, setIsFav1] = useState(false); // Card 1
@@ -17,16 +18,6 @@ const CarRent = () => {
   const [isFav8, setIsFav8] = useState(true); // Card 8
   const [isFav9, setIsFav9] = useState(false); // Card 9
 
-  const [progress, setProgress] = useState(70);
-
-  const increaseProgress = (e: React.MouseEvent<HTMLDivElement> | React.KeyboardEvent<HTMLDivElement>) => {
-    setProgress((prev) => Math.min(prev + 10, 100));
-  };
-
-  const decreaseProgress = (e: React.MouseEvent<HTMLDivElement> | React.KeyboardEvent<HTMLDivElement>) => {
-    e.stopPropagation(); // Prevent triggering the parent click
-    setProgress((prev) => Math.max(prev - 10, 0));
-  };
 
   return (
     <div className="bg-[#F6F7F9]">
@@ -89,42 +80,8 @@ const CarRent = () => {
           <div className="flex flex-col space-y-4 mt-14 ml-2">
             <p className="text-[#90A3BF] text-base">P R I C E</p>
 
-            {/* Progress bar */}
-            <div
-              className="relative w-full h-2 bg-gray-300 rounded overflow-hidden
-              hover:cursor-pointer"
-              onClick={increaseProgress}
-              onKeyDown={(e) => {
-                // Trigger the same click action if Enter or Space is pressed
-                if (e.key === "Enter" || e.key === "ArrowUp") {
-                  increaseProgress(e);
-                }
-              }}
-              tabIndex={0} // Makes the div focusable with Tab
-              role="button" // Explicitly defines the div as a button (for screen readers)
-              aria-label="Increase progress" // Adds an accessible label for screen readers
-            >
-              <div
-                className="h-full bg-blue-500 transition-all duration-300"
-                style={{ width: `${progress}%` }}
-              ></div>
-
-              <div
-                className="absolute -right-2 w-4 h-4 bg-blue-500 rounded-full ring-4
-                   ring-white z-50 top-0"
-                style={{ left: `${progress}%` }}
-                onClick={decreaseProgress}
-                onKeyDown={(e) => {
-                  // Trigger the same click action if Enter or Space is pressed
-                  if (e.key === "Enter" || e.key === "ArrowDown") {
-                    decreaseProgress(e);
-                  }
-                }}
-                tabIndex={0} // Makes the div focusable with Tab
-                role="button" // Explicitly defines the div as a button (for screen readers)
-                aria-label="Decrease progress" // Adds an accessible label for screen readers
-              ></div>
-            </div>
+            {/* Slider bar */}
+            <Slider defaultValue={[70]} max={100} step={1} className="hover:cursor-pointer" />
 
             <p className="text-xl font-medium text-[#596780]">Max. $100.00</p>
           </div>
