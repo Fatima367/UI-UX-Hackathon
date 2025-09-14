@@ -108,10 +108,13 @@ const CarRent = () => {
 
                 <div className="lg:space-x-4 space-x-2 flex mt-4 mx-auto">
                   <div className="space-y-2 flex flex-col">
-                    <label className="text-base font-bold text-[#1A202C]">
+                    <label 
+                    htmlFor="pickup-location-select"
+                    className="text-base font-bold text-[#1A202C]">
                       Locations
                     </label>
                     <select
+                    id="pickup-location-select"
                       className="w-full lg:w-[110%] border-0 text-[#90A3BF] font-medium
                    text-xs bg-transparent lg:p-0 p-2 lg:rounded-none rounded-md"
                     >
@@ -120,10 +123,13 @@ const CarRent = () => {
                   </div>
                   <div className="mx-5 w-[1px] bg-[#C3D4E9] opacity-40"> </div>
                   <div className="space-y-2 flex-col flex">
-                    <label className="text-base font-bold text-[#1A202C] lg:ml-0 ml-1">
+                    <label 
+                    htmlFor="pickup-date-select"
+                    className="text-base font-bold text-[#1A202C] lg:ml-0 ml-1">
                       Date
                     </label>
                     <select
+                    id="pickup-date-select"
                       className="w-full lg:w-[110%] border-0 text-[#90A3BF] font-medium
                    text-xs bg-transparent lg:p-0 p-2 lg:rounded-none rounded-md"
                     >
@@ -132,10 +138,13 @@ const CarRent = () => {
                   </div>
                   <div className="mx-5 w-[1px] bg-[#C3D4E9] opacity-40"> </div>
                   <div className="space-y-2 flex-col flex">
-                    <label className="text-base font-bold text-[#1A202C] lg:ml-0 ml-1">
+                    <label 
+                    htmlFor="pickup-time-select"
+                    className="text-base font-bold text-[#1A202C] lg:ml-0 ml-1">
                       Time
                     </label>
                     <select
+                    id="pickup-time-select"
                       className="w-full lg:w-[110%] border-0 text-[#90A3BF] font-medium
                    text-xs bg-transparent lg:p-0 p-2 lg:rounded-none rounded-md"
                     >
@@ -177,10 +186,13 @@ const CarRent = () => {
 
                 <div className="lg:space-x-4 space-x-2 flex mt-4 mx-auto">
                   <div className="space-y-2 flex flex-col">
-                    <label className="text-base font-bold text-[#1A202C]">
+                    <label 
+                    htmlFor="dropoff-location-select"
+                    className="text-base font-bold text-[#1A202C]">
                       Locations
                     </label>
                     <select
+                    id="dropoff-location-select"
                       className="w-full lg:w-[110%] border-0 text-[#90A3BF] font-medium 
                   text-xs bg-transparent lg:p-0 p-2 lg:rounded-none rounded-md"
                     >
@@ -189,10 +201,13 @@ const CarRent = () => {
                   </div>
                   <div className="mx-6 w-[1px] bg-[#C3D4E9] opacity-40"> </div>
                   <div className="space-y-2 flex-col flex">
-                    <label className="text-base font-bold text-[#1A202C] lg:ml-0 ml-1">
+                    <label 
+                    htmlFor="dropoff-date-select"
+                    className="text-base font-bold text-[#1A202C] lg:ml-0 ml-1">
                       Date
                     </label>
                     <select
+                    id="dropoff-date-select"
                       className="w-full lg:w-[110%] border-0 text-[#90A3BF] font-medium 
                     text-xs bg-transparent lg:p-0 p-2 lg:rounded-none rounded-md"
                     >
@@ -201,10 +216,13 @@ const CarRent = () => {
                   </div>
                   <div className="mx-6 w-[1px] bg-[#C3D4E9] opacity-40"> </div>
                   <div className="space-y-2 flex-col flex">
-                    <label className="text-base font-bold text-[#1A202C] lg:ml-0 ml-1">
+                    <label
+                    htmlFor="dropoff-time-select" 
+                    className="text-base font-bold text-[#1A202C] lg:ml-0 ml-1">
                       Time
                     </label>
                     <select
+                    id="dropoff-time-select"
                       className="w-full lg:w-[110%] border-0 text-[#90A3BF] font-medium 
                     text-xs bg-transparent lg:p-0 p-2 lg:rounded-none rounded-md"
                     >
