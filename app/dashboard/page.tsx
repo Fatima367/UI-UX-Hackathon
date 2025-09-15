@@ -275,7 +275,7 @@ const Dashboard = () => {
                   <div className="mx-6 w-[1px] bg-[#C3D4E9] opacity-40"> </div>
                   <div className="space-y-2 flex-col flex">
                     <label
-                      id="pickup-date-select"
+                      htmlFor="pickup-date-select"
                       className="text-base font-bold text-[#1A202C]"
                     >
                       Date
